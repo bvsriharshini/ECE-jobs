@@ -6,54 +6,64 @@
 <title>Harshini's ECE Job Tracker – 2026</title>
 <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'DM Sans',sans-serif;background:#f4f6f9;color:#1a1a1a;min-height:100vh}
-.hero{background:#fff;border-bottom:1px solid #e5e7eb;padding:2rem 2rem 0;position:relative;overflow:hidden}
-.hero-grid{position:absolute;inset:0;background-image:linear-gradient(#e5e7eb 1px,transparent 1px),linear-gradient(90deg,#e5e7eb 1px,transparent 1px);background-size:32px 32px;opacity:0.5}
-.hero-content{position:relative;z-index:1}
-.badge-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1rem}
-.badge{font-family:'Space Mono',monospace;font-size:10px;padding:3px 10px;border-radius:100px;letter-spacing:0.05em;border:1px solid}
-.badge-blue{background:#E6F1FB;color:#0C447C;border-color:#85B7EB}
-.badge-green{background:#E1F5EE;color:#085041;border-color:#5DCAA5}
-.badge-amber{background:#FAEEDA;color:#633806;border-color:#EF9F27}
-h1{font-family:'Space Mono',monospace;font-size:clamp(1.1rem,3vw,1.6rem);font-weight:700;color:#111;line-height:1.3;margin-bottom:0.5rem}
-h1 span{color:#378ADD}
-.hero-sub{font-size:13px;color:#555;line-height:1.6;max-width:700px;margin-bottom:1.5rem}
-.stats-bar{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid #e5e7eb;margin-top:0}
-.stat{background:#fff;padding:1rem 1.25rem;text-align:center;border-right:1px solid #e5e7eb}
-.stat:last-child{border-right:none}
-.stat-num{font-family:'Space Mono',monospace;font-size:1.4rem;font-weight:700;color:#378ADD;display:block}
-.stat-label{font-size:11px;color:#888;text-transform:uppercase;letter-spacing:0.08em;margin-top:2px}
-.tips-bar{background:#fff;border-bottom:1px solid #e5e7eb;padding:0.75rem 2rem;display:flex;align-items:center;gap:1rem;overflow-x:auto;flex-wrap:wrap}
-.tips-label{font-family:'Space Mono',monospace;font-size:10px;color:#aaa;text-transform:uppercase;letter-spacing:0.1em;white-space:nowrap}
-.tip-chip{font-size:12px;color:#555;background:#f9fafb;border:1px solid #e5e7eb;border-radius:8px;padding:3px 10px;white-space:nowrap}
-.tip-chip strong{color:#111;font-weight:500}
-.main{padding:1.5rem 2rem;max-width:1300px;margin:0 auto}
-.section{margin-bottom:2rem;animation:fadeUp 0.4s ease both}
-@keyframes fadeUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
-.section:nth-child(1){animation-delay:0.05s}
-.section:nth-child(2){animation-delay:0.1s}
-.section:nth-child(3){animation-delay:0.15s}
-.section:nth-child(4){animation-delay:0.2s}
-.section:nth-child(5){animation-delay:0.25s}
-.section:nth-child(6){animation-delay:0.3s}
-.section-header{display:flex;align-items:center;gap:10px;margin-bottom:0.75rem}
-.section-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
-.section-title{font-family:'Space Mono',monospace;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:#555}
-.section-count{font-family:'Space Mono',monospace;font-size:10px;color:#aaa;margin-left:auto}
-.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px}
-.card{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:1rem 1.1rem;transition:border-color 0.15s,transform 0.15s,box-shadow 0.15s}
-.card:hover{border-color:#c0c7d0;transform:translateY(-2px);box-shadow:0 4px 16px rgba(0,0,0,0.07)}
-.card-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6px}
-.card-company{font-weight:600;font-size:13px;color:#111}
-.card-posted{font-family:'Space Mono',monospace;font-size:10px;color:#aaa;white-space:nowrap;margin-left:8px}
-.card-role{font-size:13px;color:#555;line-height:1.4;margin-bottom:10px}
-.card-footer{display:flex;align-items:center;justify-content:space-between;gap:8px}
-.card-location{font-size:11px;color:#aaa;display:flex;align-items:center;gap:4px}
-.apply-btn{font-family:'Space Mono',monospace;font-size:10px;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;padding:5px 12px;border-radius:8px;text-decoration:none;border:1px solid;transition:all 0.15s;white-space:nowrap}
-.apply-btn:hover{opacity:0.85;transform:scale(1.03)}
-.footer{text-align:center;padding:1.5rem;font-family:'Space Mono',monospace;font-size:10px;color:#aaa;letter-spacing:0.05em;border-top:1px solid #e5e7eb;margin-top:1rem}
-.footer a{color:#378ADD;text-decoration:none}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'DM Sans', sans-serif; background: #f4f6f9; color: #1a1a1a; min-height: 100vh; }
+
+.hero { background: #fff; border-bottom: 1px solid #e5e7eb; padding: 2rem 2rem 0; position: relative; overflow: hidden; }
+.hero-grid { position: absolute; inset: 0; background-image: linear-gradient(#e5e7eb 1px, transparent 1px), linear-gradient(90deg, #e5e7eb 1px, transparent 1px); background-size: 32px 32px; opacity: 0.5; }
+.hero-content { position: relative; z-index: 1; }
+.badge-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 1rem; }
+.badge { font-family: 'Space Mono', monospace; font-size: 10px; padding: 3px 10px; border-radius: 100px; letter-spacing: 0.05em; border: 1px solid; }
+.badge-blue { background: #E6F1FB; color: #0C447C; border-color: #85B7EB; }
+.badge-green { background: #E1F5EE; color: #085041; border-color: #5DCAA5; }
+.badge-amber { background: #FAEEDA; color: #633806; border-color: #EF9F27; }
+h1 { font-family: 'Space Mono', monospace; font-size: clamp(1.1rem, 3vw, 1.55rem); font-weight: 700; color: #111; line-height: 1.3; margin-bottom: 0.5rem; }
+h1 span { color: #378ADD; }
+.hero-sub { font-size: 13px; color: #555; line-height: 1.6; max-width: 700px; margin-bottom: 1.5rem; }
+
+.stats-bar { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid #e5e7eb; }
+.stat { background: #fff; padding: 1rem 1.25rem; text-align: center; border-right: 1px solid #e5e7eb; }
+.stat:last-child { border-right: none; }
+.stat-num { font-family: 'Space Mono', monospace; font-size: 1.4rem; font-weight: 700; color: #378ADD; display: block; }
+.stat-label { font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 0.08em; margin-top: 2px; }
+
+.tips-bar { background: #fff; border-bottom: 1px solid #e5e7eb; padding: 0.75rem 2rem; display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
+.tips-label { font-family: 'Space Mono', monospace; font-size: 10px; color: #aaa; text-transform: uppercase; letter-spacing: 0.1em; white-space: nowrap; }
+.tip-chip { font-size: 12px; color: #555; background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 8px; padding: 3px 10px; white-space: nowrap; }
+.tip-chip strong { color: #111; font-weight: 500; }
+
+.main { padding: 1.5rem 2rem; max-width: 1200px; margin: 0 auto; }
+
+.section { margin-bottom: 2.5rem; animation: fadeUp 0.4s ease both; }
+.section:nth-child(1) { animation-delay: 0.05s; }
+.section:nth-child(2) { animation-delay: 0.1s; }
+.section:nth-child(3) { animation-delay: 0.15s; }
+.section:nth-child(4) { animation-delay: 0.2s; }
+.section:nth-child(5) { animation-delay: 0.25s; }
+.section:nth-child(6) { animation-delay: 0.3s; }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+.section-header { display: flex; align-items: center; gap: 10px; margin-bottom: 0.6rem; }
+.section-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+.section-title { font-family: 'Space Mono', monospace; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #444; }
+.section-count { font-family: 'Space Mono', monospace; font-size: 10px; color: #aaa; margin-left: auto; }
+
+.table-wrap { border-radius: 10px; border: 1px solid #e5e7eb; overflow: hidden; background: #fff; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+thead tr { background: #f9fafb; }
+th { padding: 10px 14px; text-align: left; font-size: 11px; font-weight: 600; color: #888; text-transform: uppercase; letter-spacing: 0.06em; border-bottom: 1px solid #e5e7eb; }
+td { padding: 11px 14px; border-bottom: 1px solid #f0f0f0; vertical-align: middle; }
+tbody tr:last-child td { border-bottom: none; }
+tbody tr:hover { background: #fafbfc; }
+
+.td-company { font-weight: 500; color: #111; white-space: nowrap; }
+.td-role a { color: #2563eb; text-decoration: none; font-weight: 400; }
+.td-role a:hover { text-decoration: underline; }
+.td-location { color: #777; font-size: 12px; }
+.td-posted { font-family: 'Space Mono', monospace; font-size: 11px; color: #aaa; white-space: nowrap; }
+
+.footer { text-align: center; padding: 1.5rem; font-family: 'Space Mono', monospace; font-size: 10px; color: #aaa; letter-spacing: 0.05em; border-top: 1px solid #e5e7eb; margin-top: 1rem; }
+.footer a { color: #378ADD; text-decoration: none; }
 </style>
 </head>
 <body>
@@ -73,7 +83,7 @@ h1 span{color:#378ADD}
     <div class="stat"><span class="stat-num">75</span><span class="stat-label">Jobs</span></div>
     <div class="stat"><span class="stat-num">33</span><span class="stat-label">Companies</span></div>
     <div class="stat"><span class="stat-num">6</span><span class="stat-label">Categories</span></div>
-    <div class="stat"><span class="stat-num" style="font-size:1rem;">6h</span><span class="stat-label">Refresh rate</span></div>
+    <div class="stat"><span class="stat-num" style="font-size:1rem">6h</span><span class="stat-label">Refresh rate</span></div>
   </div>
 </div>
 
@@ -93,161 +103,85 @@ h1 span{color:#378ADD}
         <span class="section-title">Design Verification / SOC / GPU DV</span>
         <span class="section-count">11 roles</span>
       </div>
-      <div class="cards">
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Intel</span>
-            <span class="card-posted">5d</span>
-          </div>
-          <div class="card-role">CPU Verification Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              2 Locations
-            </span>
-            <a class="apply-btn" href="https://intel.wd1.myworkdayjobs.com/External/job/US-Texas-Austin/CPU-Verification-Engineer_JR0278559" target="_blank" style="background:#E6F1FB;color:#0C447C;border-color:#85B7EB;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Etched</span>
-            <span class="card-posted">27m</span>
-          </div>
-          <div class="card-role">Design Verification Engineer - SoC</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              San Jose
-            </span>
-            <a class="apply-btn" href="https://jobs.ashbyhq.com/etched/a99318bd-b433-44b7-9600-2ee9533c90a1/application" target="_blank" style="background:#E6F1FB;color:#0C447C;border-color:#85B7EB;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Waymo</span>
-            <span class="card-posted">4d</span>
-          </div>
-          <div class="card-role">ASIC Design Verification Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Mountain View, CA
-            </span>
-            <a class="apply-btn" href="https://careers.withwaymo.com/jobs?gh_jid=7656843" target="_blank" style="background:#E6F1FB;color:#0C447C;border-color:#85B7EB;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Cisco</span>
-            <span class="card-posted">5d</span>
-          </div>
-          <div class="card-role">ASIC Design Verification Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              San Jose, US
-            </span>
-            <a class="apply-btn" href="https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/ASIC-Engineer_2006690" target="_blank" style="background:#E6F1FB;color:#0C447C;border-color:#85B7EB;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">SpaceX</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">SOC Design Verification Engineer (Silicon Engineering)</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Sunnyvale, CA
-            </span>
-            <a class="apply-btn" href="https://boards.greenhouse.io/spacex/jobs/8358340002?gh_jid=8358340002" target="_blank" style="background:#E6F1FB;color:#0C447C;border-color:#85B7EB;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Sandisk</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">Technologist, ASIC Verification Engineering</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Milpitas, CA
-            </span>
-            <a class="apply-btn" href="https://jobs.smartrecruiters.com/Sandisk/744000112531362" target="_blank" style="background:#E6F1FB;color:#0C447C;border-color:#85B7EB;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Etched</span>
-            <span class="card-posted">27m</span>
-          </div>
-          <div class="card-role">Design Verification Engineer - SoC</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              San Jose
-            </span>
-            <a class="apply-btn" href="https://jobs.ashbyhq.com/etched/a99318bd-b433-44b7-9600-2ee9533c90a1/application" target="_blank" style="background:#E6F1FB;color:#0C447C;border-color:#85B7EB;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Waymo</span>
-            <span class="card-posted">4d</span>
-          </div>
-          <div class="card-role">ASIC Design Verification Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Mountain View, CA
-            </span>
-            <a class="apply-btn" href="https://careers.withwaymo.com/jobs?gh_jid=7656843" target="_blank" style="background:#E6F1FB;color:#0C447C;border-color:#85B7EB;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Cisco</span>
-            <span class="card-posted">5d</span>
-          </div>
-          <div class="card-role">ASIC Design Verification Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              San Jose, US
-            </span>
-            <a class="apply-btn" href="https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/ASIC-Engineer_2006690" target="_blank" style="background:#E6F1FB;color:#0C447C;border-color:#85B7EB;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">SpaceX</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">SOC Design Verification Engineer (Silicon Engineering)</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Sunnyvale, CA
-            </span>
-            <a class="apply-btn" href="https://boards.greenhouse.io/spacex/jobs/8358340002?gh_jid=8358340002" target="_blank" style="background:#E6F1FB;color:#0C447C;border-color:#85B7EB;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Sandisk</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">Technologist, ASIC Verification Engineering</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Milpitas, CA
-            </span>
-            <a class="apply-btn" href="https://jobs.smartrecruiters.com/Sandisk/744000112531362" target="_blank" style="background:#E6F1FB;color:#0C447C;border-color:#85B7EB;">Apply →</a>
-          </div>
-        </div></div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th style="width:160px">Company</th>
+              <th>Role</th>
+              <th style="width:160px">Location</th>
+              <th style="width:70px">Posted</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr>
+          <td class="td-company">Intel</td>
+          <td class="td-role"><a href="https://intel.wd1.myworkdayjobs.com/External/job/US-Texas-Austin/CPU-Verification-Engineer_JR0278559" target="_blank">CPU Verification Engineer</a></td>
+          <td class="td-location">2 Locations</td>
+          <td class="td-posted">5d</td>
+        </tr>
+        <tr>
+          <td class="td-company">Etched</td>
+          <td class="td-role"><a href="https://jobs.ashbyhq.com/etched/a99318bd-b433-44b7-9600-2ee9533c90a1/application" target="_blank">Design Verification Engineer - SoC</a></td>
+          <td class="td-location">San Jose</td>
+          <td class="td-posted">27m</td>
+        </tr>
+        <tr>
+          <td class="td-company">Waymo</td>
+          <td class="td-role"><a href="https://careers.withwaymo.com/jobs?gh_jid=7656843" target="_blank">ASIC Design Verification Engineer</a></td>
+          <td class="td-location">Mountain View, CA</td>
+          <td class="td-posted">4d</td>
+        </tr>
+        <tr>
+          <td class="td-company">Cisco</td>
+          <td class="td-role"><a href="https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/ASIC-Engineer_2006690" target="_blank">ASIC Design Verification Engineer</a></td>
+          <td class="td-location">San Jose, US</td>
+          <td class="td-posted">5d</td>
+        </tr>
+        <tr>
+          <td class="td-company">SpaceX</td>
+          <td class="td-role"><a href="https://boards.greenhouse.io/spacex/jobs/8358340002?gh_jid=8358340002" target="_blank">SOC Design Verification Engineer (Silicon Engineering)</a></td>
+          <td class="td-location">Sunnyvale, CA</td>
+          <td class="td-posted">1w</td>
+        </tr>
+        <tr>
+          <td class="td-company">Sandisk</td>
+          <td class="td-role"><a href="https://jobs.smartrecruiters.com/Sandisk/744000112531362" target="_blank">Technologist, ASIC Verification Engineering</a></td>
+          <td class="td-location">Milpitas, CA</td>
+          <td class="td-posted">1w</td>
+        </tr>
+        <tr>
+          <td class="td-company">Etched</td>
+          <td class="td-role"><a href="https://jobs.ashbyhq.com/etched/a99318bd-b433-44b7-9600-2ee9533c90a1/application" target="_blank">Design Verification Engineer - SoC</a></td>
+          <td class="td-location">San Jose</td>
+          <td class="td-posted">27m</td>
+        </tr>
+        <tr>
+          <td class="td-company">Waymo</td>
+          <td class="td-role"><a href="https://careers.withwaymo.com/jobs?gh_jid=7656843" target="_blank">ASIC Design Verification Engineer</a></td>
+          <td class="td-location">Mountain View, CA</td>
+          <td class="td-posted">4d</td>
+        </tr>
+        <tr>
+          <td class="td-company">Cisco</td>
+          <td class="td-role"><a href="https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/ASIC-Engineer_2006690" target="_blank">ASIC Design Verification Engineer</a></td>
+          <td class="td-location">San Jose, US</td>
+          <td class="td-posted">5d</td>
+        </tr>
+        <tr>
+          <td class="td-company">SpaceX</td>
+          <td class="td-role"><a href="https://boards.greenhouse.io/spacex/jobs/8358340002?gh_jid=8358340002" target="_blank">SOC Design Verification Engineer (Silicon Engineering)</a></td>
+          <td class="td-location">Sunnyvale, CA</td>
+          <td class="td-posted">1w</td>
+        </tr>
+        <tr>
+          <td class="td-company">Sandisk</td>
+          <td class="td-role"><a href="https://jobs.smartrecruiters.com/Sandisk/744000112531362" target="_blank">Technologist, ASIC Verification Engineering</a></td>
+          <td class="td-location">Milpitas, CA</td>
+          <td class="td-posted">1w</td>
+        </tr></tbody>
+        </table>
+      </div>
     </div>
     <div class="section">
       <div class="section-header">
@@ -255,413 +189,193 @@ h1 span{color:#378ADD}
         <span class="section-title">ASIC / FPGA / Physical Design / RTL</span>
         <span class="section-count">29 roles</span>
       </div>
-      <div class="cards">
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">OpenAI</span>
-            <span class="card-posted">27m</span>
-          </div>
-          <div class="card-role">RTL & Co-design Engineer (junior)</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              San Francisco
-            </span>
-            <a class="apply-btn" href="https://jobs.ashbyhq.com/openai/77b815de-b7c5-4b87-8582-e8c752aea849/application" target="_blank" style="background:#E1F5EE;color:#085041;border-color:#5DCAA5;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Broadcom</span>
-            <span class="card-posted">4d</span>
-          </div>
-          <div class="card-role">Physical Design Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Colorado-Colorado...
-            </span>
-            <a class="apply-btn" href="https://broadcom.wd1.myworkdayjobs.com/External_Career/job/USA-Colorado-Colorado-Springs-4420-Arrowswest-Drive/RTL-Synthesis-IC-Design-Engineer_R024693" target="_blank" style="background:#E1F5EE;color:#085041;border-color:#5DCAA5;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">NVIDIA</span>
-            <span class="card-posted">5d</span>
-          </div>
-          <div class="card-role">PCB Design Layout Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              US, CA
-            </span>
-            <a class="apply-btn" href="https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PCB-Design-Layout-Engineer_JR2011740" target="_blank" style="background:#E1F5EE;color:#085041;border-color:#5DCAA5;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">SpaceX</span>
-            <span class="card-posted">1h</span>
-          </div>
-          <div class="card-role">RTL Design Engineer (Silicon Engineering)</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Irvine, CA
-            </span>
-            <a class="apply-btn" href="https://boards.greenhouse.io/spacex/jobs/8466346002?gh_jid=8466346002" target="_blank" style="background:#E1F5EE;color:#085041;border-color:#5DCAA5;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">SpaceX</span>
-            <span class="card-posted">4d</span>
-          </div>
-          <div class="card-role">FPGA/ASIC Design Engineer (Silicon Engineering)</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Bastrop, TX
-            </span>
-            <a class="apply-btn" href="https://boards.greenhouse.io/spacex/jobs/8461514002?gh_jid=8461514002" target="_blank" style="background:#E1F5EE;color:#085041;border-color:#5DCAA5;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">NVIDIA</span>
-            <span class="card-posted">5d</span>
-          </div>
-          <div class="card-role">ASIC Timing Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              US, CA
-            </span>
-            <a class="apply-btn" href="https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/ASIC-Physical-Design-and-Timing-Engineer_JR2012182" target="_blank" style="background:#E1F5EE;color:#085041;border-color:#5DCAA5;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">IMC Trading</span>
-            <span class="card-posted">5d</span>
-          </div>
-          <div class="card-role">2026 ISFPGA Conference</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              United States
-            </span>
-            <a class="apply-btn" href="https://job-boards.eu.greenhouse.io/imc/jobs/4784514101" target="_blank" style="background:#E1F5EE;color:#085041;border-color:#5DCAA5;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">RTX</span>
-            <span class="card-posted">5d</span>
-          </div>
-          <div class="card-role">P3 Firmware/FPGA Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              MA-CAMBRIDGE-BBN0...
-            </span>
-            <a class="apply-btn" href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-CAMBRIDGE-BBN01--10--50-Moulton-St--MOULTON-B2/P3-Firmware-FPGA-Engineer_01830314" target="_blank" style="background:#E1F5EE;color:#085041;border-color:#5DCAA5;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Cisco</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">ASIC Design Engineer, STA</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              San Jose, US
-            </span>
-            <a class="apply-btn" href="https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/ASIC-Design-Engineer--STA_2009921-1" target="_blank" style="background:#E1F5EE;color:#085041;border-color:#5DCAA5;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Jane Street</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">FPGA Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              New York
-            </span>
-            <a class="apply-btn" href="https://job-boards.greenhouse.io/janestreet/jobs/8062455002" target="_blank" style="background:#E1F5EE;color:#085041;border-color:#5DCAA5;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">NVIDIA</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">ASIC Design Engineer, Hardware Tools and Methodology Development</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              US, TX
-            </span>
-            <a class="apply-btn" href="https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-TX-Austin/ASIC-Design-Engineer--Hardware-Tools-and-Methodology-Development_JR2008177" target="_blank" style="background:#E1F5EE;color:#085041;border-color:#5DCAA5;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Intel</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">CPU RTL Design Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              2 Locations
-            </span>
-            <a class="apply-btn" href="https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/CPU-RTL-Design-Engineer_JR0281533" target="_blank" style="background:#E1F5EE;color:#085041;border-color:#5DCAA5;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">The MITRE Corporation</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">Associate FPGA / ASIC Design Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Bedford
-            </span>
-            <a class="apply-btn" href="https://careers.mitre.org/us/en/job/R115626/Associate-FPGA-ASIC-Design-Engineer" target="_blank" style="background:#E1F5EE;color:#085041;border-color:#5DCAA5;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Arrow Electronics</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">FPGA Design Engineer (eInfochips an Arrow company)</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              TX-Texas (Remote ...
-            </span>
-            <a class="apply-btn" href="https://arrow.wd1.myworkdayjobs.com/AC/job/US-TX-Texas-Remote-Employees-Mountain-Time-Zone/FPGA-Design-Engineer--eInfochips-an-Arrow-company-_R242354" target="_blank" style="background:#E1F5EE;color:#085041;border-color:#5DCAA5;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">CACI</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">FPGA Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              US NY Rochester
-            </span>
-            <a class="apply-btn" href="https://caci.wd1.myworkdayjobs.com/External/job/US-NY-Rochester/FPGA-Engineer_322844" target="_blank" style="background:#E1F5EE;color:#085041;border-color:#5DCAA5;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Marvell</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">ASIC Design Engineer: DFT-IP</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Morrisville, NC
-            </span>
-            <a class="apply-btn" href="https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Morrisville-NC/ASIC-Design-Engineer--DFT-IP_2600512" target="_blank" style="background:#E1F5EE;color:#085041;border-color:#5DCAA5;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">SpaceX</span>
-            <span class="card-posted">1h</span>
-          </div>
-          <div class="card-role">RTL Design Engineer (Silicon Engineering)</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Irvine, CA
-            </span>
-            <a class="apply-btn" href="https://boards.greenhouse.io/spacex/jobs/8466346002?gh_jid=8466346002" target="_blank" style="background:#E1F5EE;color:#085041;border-color:#5DCAA5;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">SpaceX</span>
-            <span class="card-posted">4d</span>
-          </div>
-          <div class="card-role">FPGA/ASIC Design Engineer (Silicon Engineering)</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Bastrop, TX
-            </span>
-            <a class="apply-btn" href="https://boards.greenhouse.io/spacex/jobs/8461514002?gh_jid=8461514002" target="_blank" style="background:#E1F5EE;color:#085041;border-color:#5DCAA5;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">NVIDIA</span>
-            <span class="card-posted">5d</span>
-          </div>
-          <div class="card-role">ASIC Timing Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              US, CA
-            </span>
-            <a class="apply-btn" href="https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/ASIC-Physical-Design-and-Timing-Engineer_JR2012182" target="_blank" style="background:#E1F5EE;color:#085041;border-color:#5DCAA5;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">IMC Trading</span>
-            <span class="card-posted">5d</span>
-          </div>
-          <div class="card-role">2026 ISFPGA Conference</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              United States
-            </span>
-            <a class="apply-btn" href="https://job-boards.eu.greenhouse.io/imc/jobs/4784514101" target="_blank" style="background:#E1F5EE;color:#085041;border-color:#5DCAA5;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">RTX</span>
-            <span class="card-posted">5d</span>
-          </div>
-          <div class="card-role">P3 Firmware/FPGA Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              MA-CAMBRIDGE-BBN0...
-            </span>
-            <a class="apply-btn" href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-CAMBRIDGE-BBN01--10--50-Moulton-St--MOULTON-B2/P3-Firmware-FPGA-Engineer_01830314" target="_blank" style="background:#E1F5EE;color:#085041;border-color:#5DCAA5;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Cisco</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">ASIC Design Engineer, STA</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              San Jose, US
-            </span>
-            <a class="apply-btn" href="https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/ASIC-Design-Engineer--STA_2009921-1" target="_blank" style="background:#E1F5EE;color:#085041;border-color:#5DCAA5;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Jane Street</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">FPGA Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              New York
-            </span>
-            <a class="apply-btn" href="https://job-boards.greenhouse.io/janestreet/jobs/8062455002" target="_blank" style="background:#E1F5EE;color:#085041;border-color:#5DCAA5;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">NVIDIA</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">ASIC Design Engineer, Hardware Tools and Methodology Development</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              US, TX
-            </span>
-            <a class="apply-btn" href="https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-TX-Austin/ASIC-Design-Engineer--Hardware-Tools-and-Methodology-Development_JR2008177" target="_blank" style="background:#E1F5EE;color:#085041;border-color:#5DCAA5;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Intel</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">CPU RTL Design Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              2 Locations
-            </span>
-            <a class="apply-btn" href="https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/CPU-RTL-Design-Engineer_JR0281533" target="_blank" style="background:#E1F5EE;color:#085041;border-color:#5DCAA5;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">The MITRE Corporation</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">Associate FPGA / ASIC Design Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Bedford
-            </span>
-            <a class="apply-btn" href="https://careers.mitre.org/us/en/job/R115626/Associate-FPGA-ASIC-Design-Engineer" target="_blank" style="background:#E1F5EE;color:#085041;border-color:#5DCAA5;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Arrow Electronics</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">FPGA Design Engineer (eInfochips an Arrow company)</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              TX-Texas (Remote ...
-            </span>
-            <a class="apply-btn" href="https://arrow.wd1.myworkdayjobs.com/AC/job/US-TX-Texas-Remote-Employees-Mountain-Time-Zone/FPGA-Design-Engineer--eInfochips-an-Arrow-company-_R242354" target="_blank" style="background:#E1F5EE;color:#085041;border-color:#5DCAA5;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">CACI</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">FPGA Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              US NY Rochester
-            </span>
-            <a class="apply-btn" href="https://caci.wd1.myworkdayjobs.com/External/job/US-NY-Rochester/FPGA-Engineer_322844" target="_blank" style="background:#E1F5EE;color:#085041;border-color:#5DCAA5;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Marvell</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">ASIC Design Engineer: DFT-IP</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Morrisville, NC
-            </span>
-            <a class="apply-btn" href="https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Morrisville-NC/ASIC-Design-Engineer--DFT-IP_2600512" target="_blank" style="background:#E1F5EE;color:#085041;border-color:#5DCAA5;">Apply →</a>
-          </div>
-        </div></div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th style="width:160px">Company</th>
+              <th>Role</th>
+              <th style="width:160px">Location</th>
+              <th style="width:70px">Posted</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr>
+          <td class="td-company">OpenAI</td>
+          <td class="td-role"><a href="https://jobs.ashbyhq.com/openai/77b815de-b7c5-4b87-8582-e8c752aea849/application" target="_blank">RTL & Co-design Engineer (junior)</a></td>
+          <td class="td-location">San Francisco</td>
+          <td class="td-posted">27m</td>
+        </tr>
+        <tr>
+          <td class="td-company">Broadcom</td>
+          <td class="td-role"><a href="https://broadcom.wd1.myworkdayjobs.com/External_Career/job/USA-Colorado-Colorado-Springs-4420-Arrowswest-Drive/RTL-Synthesis-IC-Design-Engineer_R024693" target="_blank">Physical Design Engineer</a></td>
+          <td class="td-location">Colorado-Colorado...</td>
+          <td class="td-posted">4d</td>
+        </tr>
+        <tr>
+          <td class="td-company">NVIDIA</td>
+          <td class="td-role"><a href="https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/PCB-Design-Layout-Engineer_JR2011740" target="_blank">PCB Design Layout Engineer</a></td>
+          <td class="td-location">US, CA</td>
+          <td class="td-posted">5d</td>
+        </tr>
+        <tr>
+          <td class="td-company">SpaceX</td>
+          <td class="td-role"><a href="https://boards.greenhouse.io/spacex/jobs/8466346002?gh_jid=8466346002" target="_blank">RTL Design Engineer (Silicon Engineering)</a></td>
+          <td class="td-location">Irvine, CA</td>
+          <td class="td-posted">1h</td>
+        </tr>
+        <tr>
+          <td class="td-company">SpaceX</td>
+          <td class="td-role"><a href="https://boards.greenhouse.io/spacex/jobs/8461514002?gh_jid=8461514002" target="_blank">FPGA/ASIC Design Engineer (Silicon Engineering)</a></td>
+          <td class="td-location">Bastrop, TX</td>
+          <td class="td-posted">4d</td>
+        </tr>
+        <tr>
+          <td class="td-company">NVIDIA</td>
+          <td class="td-role"><a href="https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/ASIC-Physical-Design-and-Timing-Engineer_JR2012182" target="_blank">ASIC Timing Engineer</a></td>
+          <td class="td-location">US, CA</td>
+          <td class="td-posted">5d</td>
+        </tr>
+        <tr>
+          <td class="td-company">IMC Trading</td>
+          <td class="td-role"><a href="https://job-boards.eu.greenhouse.io/imc/jobs/4784514101" target="_blank">2026 ISFPGA Conference</a></td>
+          <td class="td-location">United States</td>
+          <td class="td-posted">5d</td>
+        </tr>
+        <tr>
+          <td class="td-company">RTX</td>
+          <td class="td-role"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-CAMBRIDGE-BBN01--10--50-Moulton-St--MOULTON-B2/P3-Firmware-FPGA-Engineer_01830314" target="_blank">P3 Firmware/FPGA Engineer</a></td>
+          <td class="td-location">MA-CAMBRIDGE-BBN0...</td>
+          <td class="td-posted">5d</td>
+        </tr>
+        <tr>
+          <td class="td-company">Cisco</td>
+          <td class="td-role"><a href="https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/ASIC-Design-Engineer--STA_2009921-1" target="_blank">ASIC Design Engineer, STA</a></td>
+          <td class="td-location">San Jose, US</td>
+          <td class="td-posted">1w</td>
+        </tr>
+        <tr>
+          <td class="td-company">Jane Street</td>
+          <td class="td-role"><a href="https://job-boards.greenhouse.io/janestreet/jobs/8062455002" target="_blank">FPGA Engineer</a></td>
+          <td class="td-location">New York</td>
+          <td class="td-posted">1w</td>
+        </tr>
+        <tr>
+          <td class="td-company">NVIDIA</td>
+          <td class="td-role"><a href="https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-TX-Austin/ASIC-Design-Engineer--Hardware-Tools-and-Methodology-Development_JR2008177" target="_blank">ASIC Design Engineer, Hardware Tools and Methodology Development</a></td>
+          <td class="td-location">US, TX</td>
+          <td class="td-posted">1w</td>
+        </tr>
+        <tr>
+          <td class="td-company">Intel</td>
+          <td class="td-role"><a href="https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/CPU-RTL-Design-Engineer_JR0281533" target="_blank">CPU RTL Design Engineer</a></td>
+          <td class="td-location">2 Locations</td>
+          <td class="td-posted">1w</td>
+        </tr>
+        <tr>
+          <td class="td-company">The MITRE Corporation</td>
+          <td class="td-role"><a href="https://careers.mitre.org/us/en/job/R115626/Associate-FPGA-ASIC-Design-Engineer" target="_blank">Associate FPGA / ASIC Design Engineer</a></td>
+          <td class="td-location">Bedford</td>
+          <td class="td-posted">1w</td>
+        </tr>
+        <tr>
+          <td class="td-company">Arrow Electronics</td>
+          <td class="td-role"><a href="https://arrow.wd1.myworkdayjobs.com/AC/job/US-TX-Texas-Remote-Employees-Mountain-Time-Zone/FPGA-Design-Engineer--eInfochips-an-Arrow-company-_R242354" target="_blank">FPGA Design Engineer (eInfochips an Arrow company)</a></td>
+          <td class="td-location">TX-Texas (Remote ...</td>
+          <td class="td-posted">1w</td>
+        </tr>
+        <tr>
+          <td class="td-company">CACI</td>
+          <td class="td-role"><a href="https://caci.wd1.myworkdayjobs.com/External/job/US-NY-Rochester/FPGA-Engineer_322844" target="_blank">FPGA Engineer</a></td>
+          <td class="td-location">US NY Rochester</td>
+          <td class="td-posted">1w</td>
+        </tr>
+        <tr>
+          <td class="td-company">Marvell</td>
+          <td class="td-role"><a href="https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Morrisville-NC/ASIC-Design-Engineer--DFT-IP_2600512" target="_blank">ASIC Design Engineer: DFT-IP</a></td>
+          <td class="td-location">Morrisville, NC</td>
+          <td class="td-posted">1w</td>
+        </tr>
+        <tr>
+          <td class="td-company">SpaceX</td>
+          <td class="td-role"><a href="https://boards.greenhouse.io/spacex/jobs/8466346002?gh_jid=8466346002" target="_blank">RTL Design Engineer (Silicon Engineering)</a></td>
+          <td class="td-location">Irvine, CA</td>
+          <td class="td-posted">1h</td>
+        </tr>
+        <tr>
+          <td class="td-company">SpaceX</td>
+          <td class="td-role"><a href="https://boards.greenhouse.io/spacex/jobs/8461514002?gh_jid=8461514002" target="_blank">FPGA/ASIC Design Engineer (Silicon Engineering)</a></td>
+          <td class="td-location">Bastrop, TX</td>
+          <td class="td-posted">4d</td>
+        </tr>
+        <tr>
+          <td class="td-company">NVIDIA</td>
+          <td class="td-role"><a href="https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/ASIC-Physical-Design-and-Timing-Engineer_JR2012182" target="_blank">ASIC Timing Engineer</a></td>
+          <td class="td-location">US, CA</td>
+          <td class="td-posted">5d</td>
+        </tr>
+        <tr>
+          <td class="td-company">IMC Trading</td>
+          <td class="td-role"><a href="https://job-boards.eu.greenhouse.io/imc/jobs/4784514101" target="_blank">2026 ISFPGA Conference</a></td>
+          <td class="td-location">United States</td>
+          <td class="td-posted">5d</td>
+        </tr>
+        <tr>
+          <td class="td-company">RTX</td>
+          <td class="td-role"><a href="https://globalhr.wd5.myworkdayjobs.com/rec_rtx_ext_gateway/job/US-MA-CAMBRIDGE-BBN01--10--50-Moulton-St--MOULTON-B2/P3-Firmware-FPGA-Engineer_01830314" target="_blank">P3 Firmware/FPGA Engineer</a></td>
+          <td class="td-location">MA-CAMBRIDGE-BBN0...</td>
+          <td class="td-posted">5d</td>
+        </tr>
+        <tr>
+          <td class="td-company">Cisco</td>
+          <td class="td-role"><a href="https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/ASIC-Design-Engineer--STA_2009921-1" target="_blank">ASIC Design Engineer, STA</a></td>
+          <td class="td-location">San Jose, US</td>
+          <td class="td-posted">1w</td>
+        </tr>
+        <tr>
+          <td class="td-company">Jane Street</td>
+          <td class="td-role"><a href="https://job-boards.greenhouse.io/janestreet/jobs/8062455002" target="_blank">FPGA Engineer</a></td>
+          <td class="td-location">New York</td>
+          <td class="td-posted">1w</td>
+        </tr>
+        <tr>
+          <td class="td-company">NVIDIA</td>
+          <td class="td-role"><a href="https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-TX-Austin/ASIC-Design-Engineer--Hardware-Tools-and-Methodology-Development_JR2008177" target="_blank">ASIC Design Engineer, Hardware Tools and Methodology Development</a></td>
+          <td class="td-location">US, TX</td>
+          <td class="td-posted">1w</td>
+        </tr>
+        <tr>
+          <td class="td-company">Intel</td>
+          <td class="td-role"><a href="https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/CPU-RTL-Design-Engineer_JR0281533" target="_blank">CPU RTL Design Engineer</a></td>
+          <td class="td-location">2 Locations</td>
+          <td class="td-posted">1w</td>
+        </tr>
+        <tr>
+          <td class="td-company">The MITRE Corporation</td>
+          <td class="td-role"><a href="https://careers.mitre.org/us/en/job/R115626/Associate-FPGA-ASIC-Design-Engineer" target="_blank">Associate FPGA / ASIC Design Engineer</a></td>
+          <td class="td-location">Bedford</td>
+          <td class="td-posted">1w</td>
+        </tr>
+        <tr>
+          <td class="td-company">Arrow Electronics</td>
+          <td class="td-role"><a href="https://arrow.wd1.myworkdayjobs.com/AC/job/US-TX-Texas-Remote-Employees-Mountain-Time-Zone/FPGA-Design-Engineer--eInfochips-an-Arrow-company-_R242354" target="_blank">FPGA Design Engineer (eInfochips an Arrow company)</a></td>
+          <td class="td-location">TX-Texas (Remote ...</td>
+          <td class="td-posted">1w</td>
+        </tr>
+        <tr>
+          <td class="td-company">CACI</td>
+          <td class="td-role"><a href="https://caci.wd1.myworkdayjobs.com/External/job/US-NY-Rochester/FPGA-Engineer_322844" target="_blank">FPGA Engineer</a></td>
+          <td class="td-location">US NY Rochester</td>
+          <td class="td-posted">1w</td>
+        </tr>
+        <tr>
+          <td class="td-company">Marvell</td>
+          <td class="td-role"><a href="https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Morrisville-NC/ASIC-Design-Engineer--DFT-IP_2600512" target="_blank">ASIC Design Engineer: DFT-IP</a></td>
+          <td class="td-location">Morrisville, NC</td>
+          <td class="td-posted">1w</td>
+        </tr></tbody>
+        </table>
+      </div>
     </div>
     <div class="section">
       <div class="section-header">
@@ -669,21 +383,25 @@ h1 span{color:#378ADD}
         <span class="section-title">Analog & Mixed-Signal / Memory</span>
         <span class="section-count">1 roles</span>
       </div>
-      <div class="cards">
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Northwood Space</span>
-            <span class="card-posted">26m</span>
-          </div>
-          <div class="card-role">Electrical Engineer (High Speed, Mixed Signal Electronics)</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Torrance, CA
-            </span>
-            <a class="apply-btn" href="https://jobs.ashbyhq.com/northwoodspace/af609880-1e6c-4f89-8594-3c593f6eba0f/application" target="_blank" style="background:#FAEEDA;color:#633806;border-color:#EF9F27;">Apply →</a>
-          </div>
-        </div></div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th style="width:160px">Company</th>
+              <th>Role</th>
+              <th style="width:160px">Location</th>
+              <th style="width:70px">Posted</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr>
+          <td class="td-company">Northwood Space</td>
+          <td class="td-role"><a href="https://jobs.ashbyhq.com/northwoodspace/af609880-1e6c-4f89-8594-3c593f6eba0f/application" target="_blank">Electrical Engineer (High Speed, Mixed Signal Electronics)</a></td>
+          <td class="td-location">Torrance, CA</td>
+          <td class="td-posted">26m</td>
+        </tr></tbody>
+        </table>
+      </div>
     </div>
     <div class="section">
       <div class="section-header">
@@ -691,119 +409,67 @@ h1 span{color:#378ADD}
         <span class="section-title">Board Bring-up / Hardware Engineer</span>
         <span class="section-count">8 roles</span>
       </div>
-      <div class="cards">
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">CoreWeave</span>
-            <span class="card-posted">1d</span>
-          </div>
-          <div class="card-role">Hardware Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              New York, NY
-            </span>
-            <a class="apply-btn" href="https://coreweave.com/careers/job?4644828006&board=coreweave&gh_jid=4644828006" target="_blank" style="background:#FBEAF0;color:#4B1528;border-color:#ED93B1;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">CoreWeave</span>
-            <span class="card-posted">1d</span>
-          </div>
-          <div class="card-role">Hardware Engineer - Liquid Cooling</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              New York, NY
-            </span>
-            <a class="apply-btn" href="https://coreweave.com/careers/job?4617112006&board=coreweave&gh_jid=4617112006" target="_blank" style="background:#FBEAF0;color:#4B1528;border-color:#ED93B1;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Freeform</span>
-            <span class="card-posted">3d</span>
-          </div>
-          <div class="card-role">Electrical Engineer (Hardware Design)</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Los Angeles, CA
-            </span>
-            <a class="apply-btn" href="https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7645357003" target="_blank" style="background:#FBEAF0;color:#4B1528;border-color:#ED93B1;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Cisco</span>
-            <span class="card-posted">4d</span>
-          </div>
-          <div class="card-role">Signal Integrity Hardware Engineer (Onsite)</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              San Jose, US
-            </span>
-            <a class="apply-btn" href="https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer_2007173" target="_blank" style="background:#FBEAF0;color:#4B1528;border-color:#ED93B1;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Atomic Semi</span>
-            <span class="card-posted">4d</span>
-          </div>
-          <div class="card-role">Hardware Design Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              San Francisco Office
-            </span>
-            <a class="apply-btn" href="https://jobs.ashbyhq.com/atomicsemi/7b8a8ba1-4529-43e8-ad52-220f192378fb/application" target="_blank" style="background:#FBEAF0;color:#4B1528;border-color:#ED93B1;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">GE Vernova</span>
-            <span class="card-posted">5d</span>
-          </div>
-          <div class="card-role">Hardware Engineer - (Circuit Design, Industrialization, Wireless, ECAD)</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Rochester
-            </span>
-            <a class="apply-btn" href="https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Rochester/Hardware-Engineer_R5022726-2" target="_blank" style="background:#FBEAF0;color:#4B1528;border-color:#ED93B1;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Marvell</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">Firmware Engineer -PCIe post silicon bring up, function validations, protocol</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Santa Clara, CA
-            </span>
-            <a class="apply-btn" href="https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Firmware-Engineer--PCIe-post-silicon-bring-up--function-validations--protocol_2600531" target="_blank" style="background:#FBEAF0;color:#4B1528;border-color:#ED93B1;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Marvell</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">Firmware Engineer -PCIe post silicon bring up, function validations, protocol</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Santa Clara, CA
-            </span>
-            <a class="apply-btn" href="https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Firmware-Engineer--PCIe-post-silicon-bring-up--function-validations--protocol_2600531" target="_blank" style="background:#FBEAF0;color:#4B1528;border-color:#ED93B1;">Apply →</a>
-          </div>
-        </div></div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th style="width:160px">Company</th>
+              <th>Role</th>
+              <th style="width:160px">Location</th>
+              <th style="width:70px">Posted</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr>
+          <td class="td-company">CoreWeave</td>
+          <td class="td-role"><a href="https://coreweave.com/careers/job?4644828006&board=coreweave&gh_jid=4644828006" target="_blank">Hardware Engineer</a></td>
+          <td class="td-location">New York, NY</td>
+          <td class="td-posted">1d</td>
+        </tr>
+        <tr>
+          <td class="td-company">CoreWeave</td>
+          <td class="td-role"><a href="https://coreweave.com/careers/job?4617112006&board=coreweave&gh_jid=4617112006" target="_blank">Hardware Engineer - Liquid Cooling</a></td>
+          <td class="td-location">New York, NY</td>
+          <td class="td-posted">1d</td>
+        </tr>
+        <tr>
+          <td class="td-company">Freeform</td>
+          <td class="td-role"><a href="https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7645357003" target="_blank">Electrical Engineer (Hardware Design)</a></td>
+          <td class="td-location">Los Angeles, CA</td>
+          <td class="td-posted">3d</td>
+        </tr>
+        <tr>
+          <td class="td-company">Cisco</td>
+          <td class="td-role"><a href="https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer_2007173" target="_blank">Signal Integrity Hardware Engineer (Onsite)</a></td>
+          <td class="td-location">San Jose, US</td>
+          <td class="td-posted">4d</td>
+        </tr>
+        <tr>
+          <td class="td-company">Atomic Semi</td>
+          <td class="td-role"><a href="https://jobs.ashbyhq.com/atomicsemi/7b8a8ba1-4529-43e8-ad52-220f192378fb/application" target="_blank">Hardware Design Engineer</a></td>
+          <td class="td-location">San Francisco Office</td>
+          <td class="td-posted">4d</td>
+        </tr>
+        <tr>
+          <td class="td-company">GE Vernova</td>
+          <td class="td-role"><a href="https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Rochester/Hardware-Engineer_R5022726-2" target="_blank">Hardware Engineer - (Circuit Design, Industrialization, Wireless, ECAD)</a></td>
+          <td class="td-location">Rochester</td>
+          <td class="td-posted">5d</td>
+        </tr>
+        <tr>
+          <td class="td-company">Marvell</td>
+          <td class="td-role"><a href="https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Firmware-Engineer--PCIe-post-silicon-bring-up--function-validations--protocol_2600531" target="_blank">Firmware Engineer -PCIe post silicon bring up, function validations, protocol</a></td>
+          <td class="td-location">Santa Clara, CA</td>
+          <td class="td-posted">1w</td>
+        </tr>
+        <tr>
+          <td class="td-company">Marvell</td>
+          <td class="td-role"><a href="https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Firmware-Engineer--PCIe-post-silicon-bring-up--function-validations--protocol_2600531" target="_blank">Firmware Engineer -PCIe post silicon bring up, function validations, protocol</a></td>
+          <td class="td-location">Santa Clara, CA</td>
+          <td class="td-posted">1w</td>
+        </tr></tbody>
+        </table>
+      </div>
     </div>
     <div class="section">
       <div class="section-header">
@@ -811,91 +477,55 @@ h1 span{color:#378ADD}
         <span class="section-title">Application / Field / Product Engineer</span>
         <span class="section-count">6 roles</span>
       </div>
-      <div class="cards">
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Snowflake</span>
-            <span class="card-posted">26m</span>
-          </div>
-          <div class="card-role">Software Application Engineer - Migrations</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              CR-San Jose
-            </span>
-            <a class="apply-btn" href="https://jobs.ashbyhq.com/snowflake/0fd8cb45-cc23-4632-ae02-32471f45bbc0/application" target="_blank" style="background:#EEEDFE;color:#26215C;border-color:#AFA9EC;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">WeRide</span>
-            <span class="card-posted">27m</span>
-          </div>
-          <div class="card-role">Application Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              San Jose, CA
-            </span>
-            <a class="apply-btn" href="https://jobs.lever.co/weride/82955de9-485d-4db0-8fd9-1c018489fc8d/apply" target="_blank" style="background:#EEEDFE;color:#26215C;border-color:#AFA9EC;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Tenstorrent</span>
-            <span class="card-posted">1d</span>
-          </div>
-          <div class="card-role">Field Application Engineer,  AI Systems & Solutions</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Austin
-            </span>
-            <a class="apply-btn" href="https://job-boards.greenhouse.io/tenstorrent/jobs/4629571007" target="_blank" style="background:#EEEDFE;color:#26215C;border-color:#AFA9EC;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">ASML</span>
-            <span class="card-posted">4d</span>
-          </div>
-          <div class="card-role">Field Applications Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Boise, ID
-            </span>
-            <a class="apply-btn" href="https://asml.wd3.myworkdayjobs.com/asmlext1/job/Boise-ID-USA/Field-Applications-Engineer_J-00334353-1" target="_blank" style="background:#EEEDFE;color:#26215C;border-color:#AFA9EC;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">BlackRock</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">Associate, Application Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              New York, NY
-            </span>
-            <a class="apply-btn" href="https://blackrock.wd1.myworkdayjobs.com/blackrock_professional/job/New-York-NY/Associate--Application-Engineer_R260569" target="_blank" style="background:#EEEDFE;color:#26215C;border-color:#AFA9EC;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">BlackRock</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">Associate, Application Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              New York, NY
-            </span>
-            <a class="apply-btn" href="https://blackrock.wd1.myworkdayjobs.com/blackrock_professional/job/New-York-NY/Associate--Application-Engineer_R260569" target="_blank" style="background:#EEEDFE;color:#26215C;border-color:#AFA9EC;">Apply →</a>
-          </div>
-        </div></div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th style="width:160px">Company</th>
+              <th>Role</th>
+              <th style="width:160px">Location</th>
+              <th style="width:70px">Posted</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr>
+          <td class="td-company">Snowflake</td>
+          <td class="td-role"><a href="https://jobs.ashbyhq.com/snowflake/0fd8cb45-cc23-4632-ae02-32471f45bbc0/application" target="_blank">Software Application Engineer - Migrations</a></td>
+          <td class="td-location">CR-San Jose</td>
+          <td class="td-posted">26m</td>
+        </tr>
+        <tr>
+          <td class="td-company">WeRide</td>
+          <td class="td-role"><a href="https://jobs.lever.co/weride/82955de9-485d-4db0-8fd9-1c018489fc8d/apply" target="_blank">Application Engineer</a></td>
+          <td class="td-location">San Jose, CA</td>
+          <td class="td-posted">27m</td>
+        </tr>
+        <tr>
+          <td class="td-company">Tenstorrent</td>
+          <td class="td-role"><a href="https://job-boards.greenhouse.io/tenstorrent/jobs/4629571007" target="_blank">Field Application Engineer,  AI Systems & Solutions</a></td>
+          <td class="td-location">Austin</td>
+          <td class="td-posted">1d</td>
+        </tr>
+        <tr>
+          <td class="td-company">ASML</td>
+          <td class="td-role"><a href="https://asml.wd3.myworkdayjobs.com/asmlext1/job/Boise-ID-USA/Field-Applications-Engineer_J-00334353-1" target="_blank">Field Applications Engineer</a></td>
+          <td class="td-location">Boise, ID</td>
+          <td class="td-posted">4d</td>
+        </tr>
+        <tr>
+          <td class="td-company">BlackRock</td>
+          <td class="td-role"><a href="https://blackrock.wd1.myworkdayjobs.com/blackrock_professional/job/New-York-NY/Associate--Application-Engineer_R260569" target="_blank">Associate, Application Engineer</a></td>
+          <td class="td-location">New York, NY</td>
+          <td class="td-posted">1w</td>
+        </tr>
+        <tr>
+          <td class="td-company">BlackRock</td>
+          <td class="td-role"><a href="https://blackrock.wd1.myworkdayjobs.com/blackrock_professional/job/New-York-NY/Associate--Application-Engineer_R260569" target="_blank">Associate, Application Engineer</a></td>
+          <td class="td-location">New York, NY</td>
+          <td class="td-posted">1w</td>
+        </tr></tbody>
+        </table>
+      </div>
     </div>
     <div class="section">
       <div class="section-header">
@@ -903,292 +533,144 @@ h1 span{color:#378ADD}
         <span class="section-title">Other Relevant Roles</span>
         <span class="section-count">20 roles</span>
       </div>
-      <div class="cards">
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Amentum</span>
-            <span class="card-posted">1d</span>
-          </div>
-          <div class="card-role">Entry Level Electrical Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Arlington
-            </span>
-            <a class="apply-btn" href="https://www.amentumcareers.com/jobs/entry-level-electrical-engineer-arlington-virginia-united-states" target="_blank" style="background:#F1EFE8;color:#2C2C2A;border-color:#B4B2A9;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">BeaconFire Inc.</span>
-            <span class="card-posted">3d</span>
-          </div>
-          <div class="card-role">Embedded Systems Engineer – Entry Level (Visa Sponsorship)</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              New York
-            </span>
-            <a class="apply-btn" href="https://www.jobleads.com/us/job/embedded-systems-engineer-entry-level-visa-sponsorship--new-york--e6ab5620a5434058e22443b87c315e5a5" target="_blank" style="background:#F1EFE8;color:#2C2C2A;border-color:#B4B2A9;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Freeform</span>
-            <span class="card-posted">3d</span>
-          </div>
-          <div class="card-role">Electrical Engineer (New Grad Summer 2026)</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Los Angeles, CA
-            </span>
-            <a class="apply-btn" href="https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7631560003" target="_blank" style="background:#F1EFE8;color:#2C2C2A;border-color:#B4B2A9;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Naval Nuclear Laboratory</span>
-            <span class="card-posted">4d</span>
-          </div>
-          <div class="card-role">Computer & Electrical Engineer Software Entry Level</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              West Mifflin
-            </span>
-            <a class="apply-btn" href="https://www.jobleads.com/us/job/computer-electrical-engineer-software-entry-level--west-mifflin--e6979acf2e8bf90a0890be4640fc7854f" target="_blank" style="background:#F1EFE8;color:#2C2C2A;border-color:#B4B2A9;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Tenstorrent</span>
-            <span class="card-posted">1d</span>
-          </div>
-          <div class="card-role">ASIC Networking Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              United States
-            </span>
-            <a class="apply-btn" href="https://job-boards.greenhouse.io/tenstorrent/jobs/5062896007" target="_blank" style="background:#F1EFE8;color:#2C2C2A;border-color:#B4B2A9;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Tenstorrent</span>
-            <span class="card-posted">1d</span>
-          </div>
-          <div class="card-role">SOC Emulation Engineer - Hardware Emulation Infrastructure</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Austin
-            </span>
-            <a class="apply-btn" href="https://job-boards.greenhouse.io/tenstorrent/jobs/5070207007" target="_blank" style="background:#F1EFE8;color:#2C2C2A;border-color:#B4B2A9;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Northrop Grumman</span>
-            <span class="card-posted">6d</span>
-          </div>
-          <div class="card-role">Associate Manufacturing Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              California-Palmdale
-            </span>
-            <a class="apply-btn" href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Palmdale/Associate-Manufacturing-Engineer_R10225382" target="_blank" style="background:#F1EFE8;color:#2C2C2A;border-color:#B4B2A9;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Northrop Grumman</span>
-            <span class="card-posted">6d</span>
-          </div>
-          <div class="card-role">Associate Antenna Test Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Maryland-Baltimore
-            </span>
-            <a class="apply-btn" href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Associate-Antenna-Test-Engineer_R10225581-1" target="_blank" style="background:#F1EFE8;color:#2C2C2A;border-color:#B4B2A9;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Moog</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">Associate Design Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Buffalo, NY
-            </span>
-            <a class="apply-btn" href="https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Associate-Design-Engineer_R-26-16412" target="_blank" style="background:#F1EFE8;color:#2C2C2A;border-color:#B4B2A9;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Jane Street</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">ASIC Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              New York
-            </span>
-            <a class="apply-btn" href="https://job-boards.greenhouse.io/janestreet/jobs/8213653002" target="_blank" style="background:#F1EFE8;color:#2C2C2A;border-color:#B4B2A9;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Lockheed Martin</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">Program Quality Engineer Associate - Early Career</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Titusville
-            </span>
-            <a class="apply-btn" href="https://www.lockheedmartinjobs.com/job/titusville/program-quality-engineer-associate-early-career/694/92576061056" target="_blank" style="background:#F1EFE8;color:#2C2C2A;border-color:#B4B2A9;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Ferring Pharmaceuticals Inc.</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">Associate Engineer, Industrial Automation</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Parsippany-Troy H...
-            </span>
-            <a class="apply-btn" href="https://www.careeronestop.org/Toolkit/Jobs/find-jobs-details.aspx?keyword=computer%2Bscience&sortcolumn=dateacquired&sortdirection=desc&curPage=1&pagesize=250&lang=en&fc=1&jvid=3a6027f4c1884363928a75c9f9dd4bad8003&detailpage=true" target="_blank" style="background:#F1EFE8;color:#2C2C2A;border-color:#B4B2A9;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Tenstorrent</span>
-            <span class="card-posted">1d</span>
-          </div>
-          <div class="card-role">ASIC Networking Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              United States
-            </span>
-            <a class="apply-btn" href="https://job-boards.greenhouse.io/tenstorrent/jobs/5062896007" target="_blank" style="background:#F1EFE8;color:#2C2C2A;border-color:#B4B2A9;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Tenstorrent</span>
-            <span class="card-posted">1d</span>
-          </div>
-          <div class="card-role">SOC Emulation Engineer - Hardware Emulation Infrastructure</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Austin
-            </span>
-            <a class="apply-btn" href="https://job-boards.greenhouse.io/tenstorrent/jobs/5070207007" target="_blank" style="background:#F1EFE8;color:#2C2C2A;border-color:#B4B2A9;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Northrop Grumman</span>
-            <span class="card-posted">6d</span>
-          </div>
-          <div class="card-role">Associate Manufacturing Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              California-Palmdale
-            </span>
-            <a class="apply-btn" href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Palmdale/Associate-Manufacturing-Engineer_R10225382" target="_blank" style="background:#F1EFE8;color:#2C2C2A;border-color:#B4B2A9;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Northrop Grumman</span>
-            <span class="card-posted">6d</span>
-          </div>
-          <div class="card-role">Associate Antenna Test Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Maryland-Baltimore
-            </span>
-            <a class="apply-btn" href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Associate-Antenna-Test-Engineer_R10225581-1" target="_blank" style="background:#F1EFE8;color:#2C2C2A;border-color:#B4B2A9;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Moog</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">Associate Design Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Buffalo, NY
-            </span>
-            <a class="apply-btn" href="https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Associate-Design-Engineer_R-26-16412" target="_blank" style="background:#F1EFE8;color:#2C2C2A;border-color:#B4B2A9;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Jane Street</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">ASIC Engineer</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              New York
-            </span>
-            <a class="apply-btn" href="https://job-boards.greenhouse.io/janestreet/jobs/8213653002" target="_blank" style="background:#F1EFE8;color:#2C2C2A;border-color:#B4B2A9;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Lockheed Martin</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">Program Quality Engineer Associate - Early Career</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Titusville
-            </span>
-            <a class="apply-btn" href="https://www.lockheedmartinjobs.com/job/titusville/program-quality-engineer-associate-early-career/694/92576061056" target="_blank" style="background:#F1EFE8;color:#2C2C2A;border-color:#B4B2A9;">Apply →</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">Ferring Pharmaceuticals Inc.</span>
-            <span class="card-posted">1w</span>
-          </div>
-          <div class="card-role">Associate Engineer, Industrial Automation</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              Parsippany-Troy H...
-            </span>
-            <a class="apply-btn" href="https://www.careeronestop.org/Toolkit/Jobs/find-jobs-details.aspx?keyword=computer%2Bscience&sortcolumn=dateacquired&sortdirection=desc&curPage=1&pagesize=250&lang=en&fc=1&jvid=3a6027f4c1884363928a75c9f9dd4bad8003&detailpage=true" target="_blank" style="background:#F1EFE8;color:#2C2C2A;border-color:#B4B2A9;">Apply →</a>
-          </div>
-        </div></div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th style="width:160px">Company</th>
+              <th>Role</th>
+              <th style="width:160px">Location</th>
+              <th style="width:70px">Posted</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr>
+          <td class="td-company">Amentum</td>
+          <td class="td-role"><a href="https://www.amentumcareers.com/jobs/entry-level-electrical-engineer-arlington-virginia-united-states" target="_blank">Entry Level Electrical Engineer</a></td>
+          <td class="td-location">Arlington</td>
+          <td class="td-posted">1d</td>
+        </tr>
+        <tr>
+          <td class="td-company">BeaconFire Inc.</td>
+          <td class="td-role"><a href="https://www.jobleads.com/us/job/embedded-systems-engineer-entry-level-visa-sponsorship--new-york--e6ab5620a5434058e22443b87c315e5a5" target="_blank">Embedded Systems Engineer – Entry Level (Visa Sponsorship)</a></td>
+          <td class="td-location">New York</td>
+          <td class="td-posted">3d</td>
+        </tr>
+        <tr>
+          <td class="td-company">Freeform</td>
+          <td class="td-role"><a href="https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7631560003" target="_blank">Electrical Engineer (New Grad Summer 2026)</a></td>
+          <td class="td-location">Los Angeles, CA</td>
+          <td class="td-posted">3d</td>
+        </tr>
+        <tr>
+          <td class="td-company">Naval Nuclear Laboratory</td>
+          <td class="td-role"><a href="https://www.jobleads.com/us/job/computer-electrical-engineer-software-entry-level--west-mifflin--e6979acf2e8bf90a0890be4640fc7854f" target="_blank">Computer & Electrical Engineer Software Entry Level</a></td>
+          <td class="td-location">West Mifflin</td>
+          <td class="td-posted">4d</td>
+        </tr>
+        <tr>
+          <td class="td-company">Tenstorrent</td>
+          <td class="td-role"><a href="https://job-boards.greenhouse.io/tenstorrent/jobs/5062896007" target="_blank">ASIC Networking Engineer</a></td>
+          <td class="td-location">United States</td>
+          <td class="td-posted">1d</td>
+        </tr>
+        <tr>
+          <td class="td-company">Tenstorrent</td>
+          <td class="td-role"><a href="https://job-boards.greenhouse.io/tenstorrent/jobs/5070207007" target="_blank">SOC Emulation Engineer - Hardware Emulation Infrastructure</a></td>
+          <td class="td-location">Austin</td>
+          <td class="td-posted">1d</td>
+        </tr>
+        <tr>
+          <td class="td-company">Northrop Grumman</td>
+          <td class="td-role"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Palmdale/Associate-Manufacturing-Engineer_R10225382" target="_blank">Associate Manufacturing Engineer</a></td>
+          <td class="td-location">California-Palmdale</td>
+          <td class="td-posted">6d</td>
+        </tr>
+        <tr>
+          <td class="td-company">Northrop Grumman</td>
+          <td class="td-role"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Associate-Antenna-Test-Engineer_R10225581-1" target="_blank">Associate Antenna Test Engineer</a></td>
+          <td class="td-location">Maryland-Baltimore</td>
+          <td class="td-posted">6d</td>
+        </tr>
+        <tr>
+          <td class="td-company">Moog</td>
+          <td class="td-role"><a href="https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Associate-Design-Engineer_R-26-16412" target="_blank">Associate Design Engineer</a></td>
+          <td class="td-location">Buffalo, NY</td>
+          <td class="td-posted">1w</td>
+        </tr>
+        <tr>
+          <td class="td-company">Jane Street</td>
+          <td class="td-role"><a href="https://job-boards.greenhouse.io/janestreet/jobs/8213653002" target="_blank">ASIC Engineer</a></td>
+          <td class="td-location">New York</td>
+          <td class="td-posted">1w</td>
+        </tr>
+        <tr>
+          <td class="td-company">Lockheed Martin</td>
+          <td class="td-role"><a href="https://www.lockheedmartinjobs.com/job/titusville/program-quality-engineer-associate-early-career/694/92576061056" target="_blank">Program Quality Engineer Associate - Early Career</a></td>
+          <td class="td-location">Titusville</td>
+          <td class="td-posted">1w</td>
+        </tr>
+        <tr>
+          <td class="td-company">Ferring Pharmaceuticals Inc.</td>
+          <td class="td-role"><a href="https://www.careeronestop.org/Toolkit/Jobs/find-jobs-details.aspx?keyword=computer%2Bscience&sortcolumn=dateacquired&sortdirection=desc&curPage=1&pagesize=250&lang=en&fc=1&jvid=3a6027f4c1884363928a75c9f9dd4bad8003&detailpage=true" target="_blank">Associate Engineer, Industrial Automation</a></td>
+          <td class="td-location">Parsippany-Troy H...</td>
+          <td class="td-posted">1w</td>
+        </tr>
+        <tr>
+          <td class="td-company">Tenstorrent</td>
+          <td class="td-role"><a href="https://job-boards.greenhouse.io/tenstorrent/jobs/5062896007" target="_blank">ASIC Networking Engineer</a></td>
+          <td class="td-location">United States</td>
+          <td class="td-posted">1d</td>
+        </tr>
+        <tr>
+          <td class="td-company">Tenstorrent</td>
+          <td class="td-role"><a href="https://job-boards.greenhouse.io/tenstorrent/jobs/5070207007" target="_blank">SOC Emulation Engineer - Hardware Emulation Infrastructure</a></td>
+          <td class="td-location">Austin</td>
+          <td class="td-posted">1d</td>
+        </tr>
+        <tr>
+          <td class="td-company">Northrop Grumman</td>
+          <td class="td-role"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-California-Palmdale/Associate-Manufacturing-Engineer_R10225382" target="_blank">Associate Manufacturing Engineer</a></td>
+          <td class="td-location">California-Palmdale</td>
+          <td class="td-posted">6d</td>
+        </tr>
+        <tr>
+          <td class="td-company">Northrop Grumman</td>
+          <td class="td-role"><a href="https://ngc.wd1.myworkdayjobs.com/Northrop_Grumman_External_Site/job/United-States-Maryland-Baltimore/Associate-Antenna-Test-Engineer_R10225581-1" target="_blank">Associate Antenna Test Engineer</a></td>
+          <td class="td-location">Maryland-Baltimore</td>
+          <td class="td-posted">6d</td>
+        </tr>
+        <tr>
+          <td class="td-company">Moog</td>
+          <td class="td-role"><a href="https://moog.wd5.myworkdayjobs.com/moog_external_career_site/job/Buffalo-NY/Associate-Design-Engineer_R-26-16412" target="_blank">Associate Design Engineer</a></td>
+          <td class="td-location">Buffalo, NY</td>
+          <td class="td-posted">1w</td>
+        </tr>
+        <tr>
+          <td class="td-company">Jane Street</td>
+          <td class="td-role"><a href="https://job-boards.greenhouse.io/janestreet/jobs/8213653002" target="_blank">ASIC Engineer</a></td>
+          <td class="td-location">New York</td>
+          <td class="td-posted">1w</td>
+        </tr>
+        <tr>
+          <td class="td-company">Lockheed Martin</td>
+          <td class="td-role"><a href="https://www.lockheedmartinjobs.com/job/titusville/program-quality-engineer-associate-early-career/694/92576061056" target="_blank">Program Quality Engineer Associate - Early Career</a></td>
+          <td class="td-location">Titusville</td>
+          <td class="td-posted">1w</td>
+        </tr>
+        <tr>
+          <td class="td-company">Ferring Pharmaceuticals Inc.</td>
+          <td class="td-role"><a href="https://www.careeronestop.org/Toolkit/Jobs/find-jobs-details.aspx?keyword=computer%2Bscience&sortcolumn=dateacquired&sortdirection=desc&curPage=1&pagesize=250&lang=en&fc=1&jvid=3a6027f4c1884363928a75c9f9dd4bad8003&detailpage=true" target="_blank">Associate Engineer, Industrial Automation</a></td>
+          <td class="td-location">Parsippany-Troy H...</td>
+          <td class="td-posted">1w</td>
+        </tr></tbody>
+        </table>
+      </div>
     </div>
 </div>
 
 <div class="footer">
-  Last updated: 2026-03-17 21:22 UTC · Source: <a href="https://github.com/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026">zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026</a>
+  Last updated: 2026-03-17 21:27 UTC · Source: <a href="https://github.com/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026">zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026</a>
 </div>
 
 </body>
