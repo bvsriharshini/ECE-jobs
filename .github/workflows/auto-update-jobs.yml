@@ -1,0 +1,44 @@
+name: Auto Update ECE Jobs from Public Pool
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'   # every 6 hours
+  workflow_dispatch:        # manual trigger button
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch latest jobs from public source
+        run: |
+          curl -L -o README.md https://raw.githubusercontent.com/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/main/README.md
+
+      - name: Add your personal ECE header & filter note
+        run: |
+          cat > header.md << 'EOF'
+      # Harshini's Personal ECE Job Tracker – 2026 Entry-Level / New Grad (OPT/F1)
+
+      **My Focus**  
+      Design Verification • SOC Verification • GPU DV • Analog & Mixed-Signal • Board Bring-up • ASIC • Physical Design • Layout • Memory Controller • Hardware / Process / Product / Field / System Applications Engineer
+
+      **How this works**  
+      - Auto-updated every 6 hours from public pool  
+      - Only ECE-related entry-level jobs appear here  
+      - Click Apply links → tailor resume (UVM coverage, Virtuoso LDO/boost, Zynq bring-up, pipeline gain)
+
+      **Last auto-update**: $(date)
+
+      ---
+      EOF
+          cat header.md README.md > temp.md && mv temp.md README.md
+
+      - name: Commit & push updated README
+        run: |
+          git config user.name "Harshini Auto Bot"
+          git config user.email "noreply@github.com"
+          git add README.md
+          git commit -m "Auto-update: Fresh ECE jobs pulled" || echo "No changes to commit"
+          git push
