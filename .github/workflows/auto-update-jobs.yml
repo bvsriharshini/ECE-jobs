@@ -11,29 +11,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Fetch public jobs
-        run: curl -L -o public.md https://raw.githubusercontent.com/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/main/README.md
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
 
-      - name: Add header and keep jobs
-        run: |
-          echo "# Harshini's Personal ECE Job Tracker – 2026 Entry-Level / New Grad (OPT/F1)" > new.md
-          echo "" >> new.md
-          echo "**My Focus**" >> new.md
-          echo "Entry-level roles in US (no citizenship/clearance)." >> new.md
-          echo "Target: DV • SOC • GPU • Analog • Board Bring-up • ASIC • Physical • Memory • Hardware" >> new.md
-          echo "" >> new.md
-          echo "**Auto-update**: Every ~6 hours" >> new.md
-          echo "" >> new.md
-          echo "---" >> new.md
-          echo "" >> new.md
-          cat public.md >> new.md
-          mv new.md README.md
+      - name: Fetch and filter jobs
+        run: python filter_jobs.py
 
-      - name: Commit changes (force)
+      - name: Commit changes
         run: |
           git config user.name "Harshini Bot"
           git config user.email "bot@github.com"
           git add README.md
-          git commit --allow-empty -m "Auto-update: Fresh jobs (forced)" || echo "Commit skipped"
+          git commit --allow-empty -m "Auto-update: $(date -u '+%Y-%m-%d %H:%M UTC')" || echo "Nothing to commit"
           git push || echo "Push skipped"
-  
