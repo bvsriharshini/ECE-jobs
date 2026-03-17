@@ -1,5 +1,15 @@
 # Harshini's Personal ECE Job Tracker – 2026 Entry-Level / New Grad (OPT/F1)
+## Latest Design Verification / SOC / GPU DV Jobs
+| Company | Role | Location | Posted | Apply Link | Why It Fits Me |
+|---------|------|----------|--------|------------|----------------|
+| NVIDIA | ASIC Design Verification Engineer - New Grad 2026 | Austin, TX | Recent | [Apply](https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/ASIC-Design-Verification-Engineer---New-College-Grad-2026_JR2010391) | UVM/SV – matches my FIFO project (100% coverage) |
+| Etched | Design Verification Engineer - SoC | San Jose, CA | Recent | [Apply](https://etched.ai/careers) | SOC DV |
+| Waymo | ASIC Design Verification Engineer | Mountain View, CA | Recent | [Apply](https://waymo.com/careers) | ASIC verification |
 
+## Analog & Mixed-Signal / Memory Jobs
+(Add rows here as you find them)
+
+(Refresh page after auto-update for more)
 **My Focus**  
 Entry-level / new college grad roles in US (no citizenship/clearance required).  
 Target: Design Verification • SOC Verification • GPU DV • Analog/Mixed-Signal • Board Bring-up • ASIC/Physical Design/Layout • Memory Controller • Hardware/Process/Product/Field/System Applications Engineer
