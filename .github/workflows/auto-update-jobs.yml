@@ -25,6 +25,6 @@ jobs:
         run: |
           git config user.name "Harshini Bot"
           git config user.email "bot@github.com"
-          git add README.md
+          git add index.html
           git commit --allow-empty -m "Auto-update: $(date -u '+%Y-%m-%d %H:%M UTC')" || echo "Nothing to commit"
           git push || echo "Push skipped"
