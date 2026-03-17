@@ -36,42 +36,42 @@ CATEGORIES = [
         "key": "dv",
         "title": "Design Verification / SOC / GPU DV",
         "color": "#378ADD",
-        "btn_bg": "#E6F1FB", "btn_color": "#0C447C", "btn_border": "#85B7EB",
+        "light": "#E6F1FB",
         "keywords": ["verification", "asic verif", "soc verif"],
     },
     {
         "key": "asic_fpga",
         "title": "ASIC / FPGA / Physical Design / RTL",
         "color": "#1D9E75",
-        "btn_bg": "#E1F5EE", "btn_color": "#085041", "btn_border": "#5DCAA5",
+        "light": "#E1F5EE",
         "keywords": ["fpga", "rtl", "asic design", "timing", "physical design", "layout"],
     },
     {
         "key": "analog",
         "title": "Analog & Mixed-Signal / Memory",
         "color": "#BA7517",
-        "btn_bg": "#FAEEDA", "btn_color": "#633806", "btn_border": "#EF9F27",
+        "light": "#FAEEDA",
         "keywords": ["analog", "mixed", "memory design", "memory controller"],
     },
     {
         "key": "board",
         "title": "Board Bring-up / Hardware Engineer",
         "color": "#D4537E",
-        "btn_bg": "#FBEAF0", "btn_color": "#4B1528", "btn_border": "#ED93B1",
+        "light": "#FBEAF0",
         "keywords": ["board", "bring", "hardware design", "hardware engineer", "avionics hardware"],
     },
     {
         "key": "app",
         "title": "Application / Field / Product Engineer",
         "color": "#7F77DD",
-        "btn_bg": "#EEEDFE", "btn_color": "#26215C", "btn_border": "#AFA9EC",
+        "light": "#EEEDFE",
         "keywords": ["application engineer", "field application", "product engineer"],
     },
     {
         "key": "other",
         "title": "Other Relevant Roles",
         "color": "#888780",
-        "btn_bg": "#F1EFE8", "btn_color": "#2C2C2A", "btn_border": "#B4B2A9",
+        "light": "#F1EFE8",
         "keywords": [],
     },
 ]
@@ -139,28 +139,18 @@ def categorize(jobs):
             result["other"].append(job)
     return result
 
-def card_html(job, cat):
-    company, role, location, posted, url = job
-    return f"""
-        <div class="card">
-          <div class="card-top">
-            <span class="card-company">{company}</span>
-            <span class="card-posted">{posted}</span>
-          </div>
-          <div class="card-role">{role}</div>
-          <div class="card-footer">
-            <span class="card-location">
-              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              {location}
-            </span>
-            <a class="apply-btn" href="{url}" target="_blank" style="background:{cat['btn_bg']};color:{cat['btn_color']};border-color:{cat['btn_border']};">Apply →</a>
-          </div>
-        </div>"""
-
 def section_html(cat, jobs):
     if not jobs:
         return ""
-    cards = "".join(card_html(j, cat) for j in jobs)
+    rows = ""
+    for company, role, location, posted, url in jobs:
+        rows += f"""
+        <tr>
+          <td class="td-company">{company}</td>
+          <td class="td-role"><a href="{url}" target="_blank">{role}</a></td>
+          <td class="td-location">{location}</td>
+          <td class="td-posted">{posted}</td>
+        </tr>"""
     return f"""
     <div class="section">
       <div class="section-header">
@@ -168,7 +158,19 @@ def section_html(cat, jobs):
         <span class="section-title">{cat['title']}</span>
         <span class="section-count">{len(jobs)} roles</span>
       </div>
-      <div class="cards">{cards}</div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th style="width:160px">Company</th>
+              <th>Role</th>
+              <th style="width:160px">Location</th>
+              <th style="width:70px">Posted</th>
+            </tr>
+          </thead>
+          <tbody>{rows}</tbody>
+        </table>
+      </div>
     </div>"""
 
 def build_html(categorized, total, companies, now):
@@ -176,6 +178,8 @@ def build_html(categorized, total, companies, now):
         section_html(cat, categorized[cat["key"]])
         for cat in CATEGORIES
     )
+    num_cats = len([c for c in CATEGORIES if categorized[c["key"]]])
+
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -184,54 +188,64 @@ def build_html(categorized, total, companies, now):
 <title>Harshini's ECE Job Tracker – 2026</title>
 <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
-*{{box-sizing:border-box;margin:0;padding:0}}
-body{{font-family:'DM Sans',sans-serif;background:#f4f6f9;color:#1a1a1a;min-height:100vh}}
-.hero{{background:#fff;border-bottom:1px solid #e5e7eb;padding:2rem 2rem 0;position:relative;overflow:hidden}}
-.hero-grid{{position:absolute;inset:0;background-image:linear-gradient(#e5e7eb 1px,transparent 1px),linear-gradient(90deg,#e5e7eb 1px,transparent 1px);background-size:32px 32px;opacity:0.5}}
-.hero-content{{position:relative;z-index:1}}
-.badge-row{{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1rem}}
-.badge{{font-family:'Space Mono',monospace;font-size:10px;padding:3px 10px;border-radius:100px;letter-spacing:0.05em;border:1px solid}}
-.badge-blue{{background:#E6F1FB;color:#0C447C;border-color:#85B7EB}}
-.badge-green{{background:#E1F5EE;color:#085041;border-color:#5DCAA5}}
-.badge-amber{{background:#FAEEDA;color:#633806;border-color:#EF9F27}}
-h1{{font-family:'Space Mono',monospace;font-size:clamp(1.1rem,3vw,1.6rem);font-weight:700;color:#111;line-height:1.3;margin-bottom:0.5rem}}
-h1 span{{color:#378ADD}}
-.hero-sub{{font-size:13px;color:#555;line-height:1.6;max-width:700px;margin-bottom:1.5rem}}
-.stats-bar{{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid #e5e7eb;margin-top:0}}
-.stat{{background:#fff;padding:1rem 1.25rem;text-align:center;border-right:1px solid #e5e7eb}}
-.stat:last-child{{border-right:none}}
-.stat-num{{font-family:'Space Mono',monospace;font-size:1.4rem;font-weight:700;color:#378ADD;display:block}}
-.stat-label{{font-size:11px;color:#888;text-transform:uppercase;letter-spacing:0.08em;margin-top:2px}}
-.tips-bar{{background:#fff;border-bottom:1px solid #e5e7eb;padding:0.75rem 2rem;display:flex;align-items:center;gap:1rem;overflow-x:auto;flex-wrap:wrap}}
-.tips-label{{font-family:'Space Mono',monospace;font-size:10px;color:#aaa;text-transform:uppercase;letter-spacing:0.1em;white-space:nowrap}}
-.tip-chip{{font-size:12px;color:#555;background:#f9fafb;border:1px solid #e5e7eb;border-radius:8px;padding:3px 10px;white-space:nowrap}}
-.tip-chip strong{{color:#111;font-weight:500}}
-.main{{padding:1.5rem 2rem;max-width:1300px;margin:0 auto}}
-.section{{margin-bottom:2rem;animation:fadeUp 0.4s ease both}}
-@keyframes fadeUp{{from{{opacity:0;transform:translateY(12px)}}to{{opacity:1;transform:translateY(0)}}}}
-.section:nth-child(1){{animation-delay:0.05s}}
-.section:nth-child(2){{animation-delay:0.1s}}
-.section:nth-child(3){{animation-delay:0.15s}}
-.section:nth-child(4){{animation-delay:0.2s}}
-.section:nth-child(5){{animation-delay:0.25s}}
-.section:nth-child(6){{animation-delay:0.3s}}
-.section-header{{display:flex;align-items:center;gap:10px;margin-bottom:0.75rem}}
-.section-dot{{width:8px;height:8px;border-radius:50%;flex-shrink:0}}
-.section-title{{font-family:'Space Mono',monospace;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:#555}}
-.section-count{{font-family:'Space Mono',monospace;font-size:10px;color:#aaa;margin-left:auto}}
-.cards{{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px}}
-.card{{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:1rem 1.1rem;transition:border-color 0.15s,transform 0.15s,box-shadow 0.15s}}
-.card:hover{{border-color:#c0c7d0;transform:translateY(-2px);box-shadow:0 4px 16px rgba(0,0,0,0.07)}}
-.card-top{{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6px}}
-.card-company{{font-weight:600;font-size:13px;color:#111}}
-.card-posted{{font-family:'Space Mono',monospace;font-size:10px;color:#aaa;white-space:nowrap;margin-left:8px}}
-.card-role{{font-size:13px;color:#555;line-height:1.4;margin-bottom:10px}}
-.card-footer{{display:flex;align-items:center;justify-content:space-between;gap:8px}}
-.card-location{{font-size:11px;color:#aaa;display:flex;align-items:center;gap:4px}}
-.apply-btn{{font-family:'Space Mono',monospace;font-size:10px;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;padding:5px 12px;border-radius:8px;text-decoration:none;border:1px solid;transition:all 0.15s;white-space:nowrap}}
-.apply-btn:hover{{opacity:0.85;transform:scale(1.03)}}
-.footer{{text-align:center;padding:1.5rem;font-family:'Space Mono',monospace;font-size:10px;color:#aaa;letter-spacing:0.05em;border-top:1px solid #e5e7eb;margin-top:1rem}}
-.footer a{{color:#378ADD;text-decoration:none}}
+* {{ box-sizing: border-box; margin: 0; padding: 0; }}
+body {{ font-family: 'DM Sans', sans-serif; background: #f4f6f9; color: #1a1a1a; min-height: 100vh; }}
+
+.hero {{ background: #fff; border-bottom: 1px solid #e5e7eb; padding: 2rem 2rem 0; position: relative; overflow: hidden; }}
+.hero-grid {{ position: absolute; inset: 0; background-image: linear-gradient(#e5e7eb 1px, transparent 1px), linear-gradient(90deg, #e5e7eb 1px, transparent 1px); background-size: 32px 32px; opacity: 0.5; }}
+.hero-content {{ position: relative; z-index: 1; }}
+.badge-row {{ display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 1rem; }}
+.badge {{ font-family: 'Space Mono', monospace; font-size: 10px; padding: 3px 10px; border-radius: 100px; letter-spacing: 0.05em; border: 1px solid; }}
+.badge-blue {{ background: #E6F1FB; color: #0C447C; border-color: #85B7EB; }}
+.badge-green {{ background: #E1F5EE; color: #085041; border-color: #5DCAA5; }}
+.badge-amber {{ background: #FAEEDA; color: #633806; border-color: #EF9F27; }}
+h1 {{ font-family: 'Space Mono', monospace; font-size: clamp(1.1rem, 3vw, 1.55rem); font-weight: 700; color: #111; line-height: 1.3; margin-bottom: 0.5rem; }}
+h1 span {{ color: #378ADD; }}
+.hero-sub {{ font-size: 13px; color: #555; line-height: 1.6; max-width: 700px; margin-bottom: 1.5rem; }}
+
+.stats-bar {{ display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid #e5e7eb; }}
+.stat {{ background: #fff; padding: 1rem 1.25rem; text-align: center; border-right: 1px solid #e5e7eb; }}
+.stat:last-child {{ border-right: none; }}
+.stat-num {{ font-family: 'Space Mono', monospace; font-size: 1.4rem; font-weight: 700; color: #378ADD; display: block; }}
+.stat-label {{ font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 0.08em; margin-top: 2px; }}
+
+.tips-bar {{ background: #fff; border-bottom: 1px solid #e5e7eb; padding: 0.75rem 2rem; display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }}
+.tips-label {{ font-family: 'Space Mono', monospace; font-size: 10px; color: #aaa; text-transform: uppercase; letter-spacing: 0.1em; white-space: nowrap; }}
+.tip-chip {{ font-size: 12px; color: #555; background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 8px; padding: 3px 10px; white-space: nowrap; }}
+.tip-chip strong {{ color: #111; font-weight: 500; }}
+
+.main {{ padding: 1.5rem 2rem; max-width: 1200px; margin: 0 auto; }}
+
+.section {{ margin-bottom: 2.5rem; animation: fadeUp 0.4s ease both; }}
+.section:nth-child(1) {{ animation-delay: 0.05s; }}
+.section:nth-child(2) {{ animation-delay: 0.1s; }}
+.section:nth-child(3) {{ animation-delay: 0.15s; }}
+.section:nth-child(4) {{ animation-delay: 0.2s; }}
+.section:nth-child(5) {{ animation-delay: 0.25s; }}
+.section:nth-child(6) {{ animation-delay: 0.3s; }}
+@keyframes fadeUp {{ from {{ opacity: 0; transform: translateY(10px); }} to {{ opacity: 1; transform: translateY(0); }} }}
+
+.section-header {{ display: flex; align-items: center; gap: 10px; margin-bottom: 0.6rem; }}
+.section-dot {{ width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }}
+.section-title {{ font-family: 'Space Mono', monospace; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #444; }}
+.section-count {{ font-family: 'Space Mono', monospace; font-size: 10px; color: #aaa; margin-left: auto; }}
+
+.table-wrap {{ border-radius: 10px; border: 1px solid #e5e7eb; overflow: hidden; background: #fff; }}
+table {{ width: 100%; border-collapse: collapse; font-size: 13px; }}
+thead tr {{ background: #f9fafb; }}
+th {{ padding: 10px 14px; text-align: left; font-size: 11px; font-weight: 600; color: #888; text-transform: uppercase; letter-spacing: 0.06em; border-bottom: 1px solid #e5e7eb; }}
+td {{ padding: 11px 14px; border-bottom: 1px solid #f0f0f0; vertical-align: middle; }}
+tbody tr:last-child td {{ border-bottom: none; }}
+tbody tr:hover {{ background: #fafbfc; }}
+
+.td-company {{ font-weight: 500; color: #111; white-space: nowrap; }}
+.td-role a {{ color: #2563eb; text-decoration: none; font-weight: 400; }}
+.td-role a:hover {{ text-decoration: underline; }}
+.td-location {{ color: #777; font-size: 12px; }}
+.td-posted {{ font-family: 'Space Mono', monospace; font-size: 11px; color: #aaa; white-space: nowrap; }}
+
+.footer {{ text-align: center; padding: 1.5rem; font-family: 'Space Mono', monospace; font-size: 10px; color: #aaa; letter-spacing: 0.05em; border-top: 1px solid #e5e7eb; margin-top: 1rem; }}
+.footer a {{ color: #378ADD; text-decoration: none; }}
 </style>
 </head>
 <body>
@@ -250,8 +264,8 @@ h1 span{{color:#378ADD}}
   <div class="stats-bar">
     <div class="stat"><span class="stat-num">{total}</span><span class="stat-label">Jobs</span></div>
     <div class="stat"><span class="stat-num">{companies}</span><span class="stat-label">Companies</span></div>
-    <div class="stat"><span class="stat-num">{len([c for c in CATEGORIES if categorized[c['key']]])}</span><span class="stat-label">Categories</span></div>
-    <div class="stat"><span class="stat-num" style="font-size:1rem;">6h</span><span class="stat-label">Refresh rate</span></div>
+    <div class="stat"><span class="stat-num">{num_cats}</span><span class="stat-label">Categories</span></div>
+    <div class="stat"><span class="stat-num" style="font-size:1rem">6h</span><span class="stat-label">Refresh rate</span></div>
   </div>
 </div>
 
