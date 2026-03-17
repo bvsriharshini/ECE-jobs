@@ -36,7 +36,6 @@ Bookmark: https://bvsriharshini.github.io/ECE-jobs/
   - Zynq-7000 bring-up: rails, JTAG, AXI
 
 **Latest Jobs**  
-## Latest Jobs (Auto-Updated – Refresh for Newer)
 
 ## Latest Jobs (Starter – Auto Will Add More)
 
