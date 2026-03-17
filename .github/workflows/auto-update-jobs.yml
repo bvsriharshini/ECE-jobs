@@ -8,6 +8,8 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write        # ← THIS is what's probably missing
     steps:
       - uses: actions/checkout@v4
 
