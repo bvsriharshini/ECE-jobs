@@ -29,10 +29,11 @@ jobs:
           cat public.md >> new.md
           mv new.md README.md
 
-      - name: Commit changes
+      - name: Commit changes (force)
         run: |
           git config user.name "Harshini Bot"
           git config user.email "bot@github.com"
           git add README.md
-          git commit -m "Auto-update: Fresh jobs" || echo "No change"
+          git commit --allow-empty -m "Auto-update: Fresh jobs (forced)" || echo "Commit skipped"
           git push || echo "Push skipped"
+  
