@@ -9,7 +9,6 @@
   a { color: #2563eb; text-decoration: none; font-weight: 500; }
   a:hover { text-decoration: underline; color: #1d4ed8; }
   .tips { background: #fefce8; padding: 16px; border-left: 4px solid #ca8a04; margin: 20px 0; border-radius: 4px; }
-  ul { padding-left: 20px; margin: 10px 0; }
 </style>
 
 # Harshini's Personal ECE Job Tracker – 2026 Entry-Level / New Grad (OPT/F1)
