@@ -1,27 +1,21 @@
-name: Auto Update ECE Jobs from Public Pool
+name: Auto Update ECE Jobs
 
 on:
   schedule:
-    - cron: '0 */6 * * *'   # every 6 hours
-  workflow_dispatch:        # manual trigger button
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
 
 jobs:
-  update-readme:
+  update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Fetch latest jobs from public source
-        run: |
-          curl -L -o README.md https://raw.githubusercontent.com/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/main/README.md
+      - name: Fetch latest public README
+        run: curl -L -o public-readme.md https://raw.githubusercontent.com/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/main/README.md
 
-      - name: Add your personal ECE header & filter note
-        run: |
-          cat > header.md << 'EOF'
-      # Harshini's Personal ECE Job Tracker – 2026 Entry-Level / New Grad (OPT/F1)
-
-            - name: Prepend personal header to public content
+      - name: Prepend personal header
         run: |
           echo "# Harshini's Personal ECE Job Tracker – 2026 Entry-Level / New Grad (OPT/F1)" > header.md
           echo "" >> header.md
@@ -37,16 +31,11 @@ jobs:
           echo "" >> header.md
           cat header.md public-readme.md > README.md
           rm header.md public-readme.md
-      **Last auto-update**: $(date)
 
-      ---
-      EOF
-          cat header.md README.md > temp.md && mv temp.md README.md
-
-      - name: Commit & push updated README
+      - name: Commit and push changes
         run: |
-          git config user.name "Harshini Auto Bot"
+          git config user.name "Harshini Bot"
           git config user.email "noreply@github.com"
           git add README.md
-          git commit -m "Auto-update: Fresh ECE jobs pulled" || echo "No changes to commit"
-          git push
+          git commit -m "Auto-update: Fresh ECE jobs + header" || echo "No changes to commit"
+          git push || echo "Push skipped"
