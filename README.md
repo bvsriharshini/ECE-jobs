@@ -26,6 +26,23 @@ Bookmark: https://bvsriharshini.github.io/ECE-jobs/
   - Zynq-7000 bring-up: rails, JTAG, AXI
 
 **Latest Jobs**  
+## Latest Jobs (Auto-Updated – Refresh for Newer)
+
+### Design Verification / SOC / GPU DV
+| Company | Role | Location | Posted | Apply Link | Notes |
+|---------|------|----------|--------|------------|-------|
+| NVIDIA | ASIC Design Verification Engineer - New College Grad 2026 | Austin, TX | Recent | [Apply](https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/ASIC-Design-Verification-Engineer---New-College-Grad-2026_JR2010391) | UVM/SV heavy – matches my FIFO project |
+| Etched | Design Verification Engineer - SoC | San Jose, CA | Recent | [Apply](https://etched.ai/careers) | SoC verification |
+| Waymo | ASIC Design Verification Engineer | Mountain View, CA | Recent | [Apply](https://waymo.com/careers) | ASIC DV |
+| Cisco | ASIC Design Verification Engineer | San Jose | Recent | [Apply](https://jobs.cisco.com) | Verification role |
+
+### Analog / Mixed-Signal / Hardware Bring-up
+| Company | Role | Location | Posted | Apply Link | Notes |
+|---------|------|----------|--------|------------|-------|
+| Cirrus Logic | Entry Level Digital Design Engineer | Austin, TX | Recent | [Apply](https://www.cirrus.com/careers/jobs) | Mixed-signal RTL – matches Virtuoso projects |
+| SpaceX | FPGA/ASIC Design Engineer | Bastrop, TX | Recent | [Apply](https://www.spacex.com/careers) | FPGA bring-up – Zynq experience fit |
+
+(Refresh page after workflow run for more auto-added jobs)
 (Tables auto-update via workflow – refresh page)
 
 **Source**  
