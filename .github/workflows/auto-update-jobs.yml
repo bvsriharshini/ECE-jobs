@@ -21,14 +21,22 @@ jobs:
           cat > header.md << 'EOF'
       # Harshini's Personal ECE Job Tracker – 2026 Entry-Level / New Grad (OPT/F1)
 
-      **My Focus**  
-      Design Verification • SOC Verification • GPU DV • Analog & Mixed-Signal • Board Bring-up • ASIC • Physical Design • Layout • Memory Controller • Hardware / Process / Product / Field / System Applications Engineer
-
-      **How this works**  
-      - Auto-updated every 6 hours from public pool  
-      - Only ECE-related entry-level jobs appear here  
-      - Click Apply links → tailor resume (UVM coverage, Virtuoso LDO/boost, Zynq bring-up, pipeline gain)
-
+            - name: Prepend personal header to public content
+        run: |
+          echo "# Harshini's Personal ECE Job Tracker – 2026 Entry-Level / New Grad (OPT/F1)" > header.md
+          echo "" >> header.md
+          echo "**My Focus**" >> header.md
+          echo "Entry-level / new college grad roles in US (no citizenship/clearance required)." >> header.md
+          echo "Target: Design Verification • SOC Verification • GPU DV • Analog/Mixed-Signal • Board Bring-up • ASIC • Physical Design • Layout • Memory Controller • Hardware/Process/Product/Field/System Applications Engineer" >> header.md
+          echo "" >> header.md
+          echo "**Auto-update**: Refreshes every ~6 hours. Bookmark: https://bvsriharshini.github.io/ECE-jobs/" >> header.md
+          echo "" >> header.md
+          echo "**Quick Tips**: Use resume highlights (UVM 100% coverage, Virtuoso LDO/boost, Zynq bring-up, pipeline 156% gain)" >> header.md
+          echo "" >> header.md
+          echo "---" >> header.md
+          echo "" >> header.md
+          cat header.md public-readme.md > README.md
+          rm header.md public-readme.md
       **Last auto-update**: $(date)
 
       ---
