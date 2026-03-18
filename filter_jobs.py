@@ -26,9 +26,17 @@ EXCLUDE_KEYWORDS = [
     "propulsion", "aero", "turbomachinery", "thermal engineer",
     "gmp", "clinical", "pharma", "medical",
     "compressor", "facilities.*mechanical",
-    "cnc", "tooling", "US citizenship", "Security Clearance","Defence"
+    "cnc", "tooling", "US citizenship", "Security Clearance","Defense", "itar", "secret clearance", "top secret", "security clearance",
+    "us citizen", "u\.s\. citizen", "clearance required",
+    "green card", "permanent resident.*required",
+    "must be.*citizen", "citizenship required",
 ]
-
+EXCLUDE_COMPANIES = [
+    "spacex", "anduril", "northrop grumman", "lockheed martin",
+    "rtx", "raytheon", "l3harris", "boeing", "leidos",
+    "booz allen", "caci", "saic", "general dynamics", "bae systems",
+    "blue origin", "shield ai", "palantir",
+]
 TARGET_SECTIONS = ["Hardware Engineer", "FPGA/ASIC", "Embedded Systems"]
 
 CATEGORIES = [
@@ -119,7 +127,7 @@ def filter_rows(rows):
     SENIORITY_EXCLUDE = [
         r"\bsenior\b", r"\bstaff\b", r"\bprincipal\b", r"\blead\b",
         r"\bmanager\b", r"\bdirector\b", r"\bvp\b", r"\bhead of\b",
-        r"\b\d{4,}\+?\s*years?\b",   # 4+ digit years (10+ years etc)
+        r"\b\d{3,}\+?\s*years?\b",   # 3+ digit years (10+ years etc)
         r"\b[5-9]\+\s*years?\b",      # 5+ to 9+ years
         r"\b[5-9]\s*\+\s*yr",         # 5+ yr variants
         r"minimum\s+[5-9]\s+years?",
@@ -138,7 +146,9 @@ def filter_rows(rows):
         if key in seen:
             continue
         seen.add(key)
-
+         # Skip defense/ITAR companies
+        if any(exc in company.lower() for exc in EXCLUDE_COMPANIES):
+            continue
         # Skip excluded roles
         if matches(role, EXCLUDE_KEYWORDS):
             continue
