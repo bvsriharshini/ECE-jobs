@@ -26,7 +26,7 @@ EXCLUDE_KEYWORDS = [
     "propulsion", "aero", "turbomachinery", "thermal engineer",
     "gmp", "clinical", "pharma", "medical",
     "compressor", "facilities.*mechanical",
-    "cnc", "tooling",
+    "cnc", "tooling", "US citizenship", "Security Clearance","Defence"
 ]
 
 TARGET_SECTIONS = ["Hardware Engineer", "FPGA/ASIC", "Embedded Systems"]
