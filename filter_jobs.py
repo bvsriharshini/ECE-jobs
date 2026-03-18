@@ -113,15 +113,44 @@ def parse_row(row):
 
 def filter_rows(rows):
     kept = []
+    seen = set()
+
+    # Skip roles that imply too much experience
+    SENIORITY_EXCLUDE = [
+        r"\bsenior\b", r"\bstaff\b", r"\bprincipal\b", r"\blead\b",
+        r"\bmanager\b", r"\bdirector\b", r"\bvp\b", r"\bhead of\b",
+        r"\b\d{4,}\+?\s*years?\b",   # 4+ digit years (10+ years etc)
+        r"\b[5-9]\+\s*years?\b",      # 5+ to 9+ years
+        r"\b[5-9]\s*\+\s*yr",         # 5+ yr variants
+        r"minimum\s+[5-9]\s+years?",
+        r"minimum\s+1[0-9]\s+years?",
+        r"\bexperienced\b",
+    ]
+
     for row in rows:
         parsed = parse_row(row)
         if not parsed:
             continue
-        _, role, _, _, _ = parsed
+        company, role, location, posted, url = parsed
+
+        # Dedup by company + role
+        key = (company.lower().strip(), role.lower().strip())
+        if key in seen:
+            continue
+        seen.add(key)
+
+        # Skip excluded roles
         if matches(role, EXCLUDE_KEYWORDS):
             continue
+
+        # Skip senior/experienced roles
+        if matches(role, SENIORITY_EXCLUDE):
+            continue
+
+        # Must match target keywords
         if matches(role, INCLUDE_KEYWORDS):
             kept.append(parsed)
+
     return kept
 
 def categorize(jobs):
