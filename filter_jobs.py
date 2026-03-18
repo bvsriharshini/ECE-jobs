@@ -32,10 +32,21 @@ EXCLUDE_KEYWORDS = [
     "must be.*citizen", "citizenship required",
 ]
 EXCLUDE_COMPANIES = [
+    # Defense / Aerospace / ITAR
     "spacex", "anduril", "northrop grumman", "lockheed martin",
     "rtx", "raytheon", "l3harris", "boeing", "leidos",
     "booz allen", "caci", "saic", "general dynamics", "bae systems",
-    "blue origin", "shield ai", "palantir",
+    "blue origin", "shield ai", "palantir", "northwood space",
+    "muon space", "astranis", "rocket lab", "relativity space",
+    "hermeus", "radiant industries", "kbr", "amentum",
+    "naval nuclear laboratory", "mitre", "the mitre corporation",
+    "draper", "charles stark draper", "applied signal technology",
+    "sierra nevada", "textron", "curtiss-wright", "moog",
+    "cubic", "mercury systems", "kratos", "parsons",
+    "peraton", "maxar", "planet labs", "spire global",
+
+    # Usually require clearance even if not defense
+    "cia", "nsa", "nga", "nro", "dod", "darpa",
 ]
 TARGET_SECTIONS = ["Hardware Engineer", "FPGA/ASIC", "Embedded Systems"]
 
