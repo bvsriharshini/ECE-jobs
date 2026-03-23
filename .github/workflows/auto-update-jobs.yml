@@ -1,15 +1,16 @@
-name: Auto Update ECE Jobs
+name: Sync ECE Jobs
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
-  workflow_dispatch:
+    - cron: '0 */4 * * *'   # every 4 hours
+  workflow_dispatch:          # lets you trigger it manually too
 
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write        # ← THIS is what's probably missing
+      contents: write
+
     steps:
       - uses: actions/checkout@v4
 
@@ -18,13 +19,16 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Fetch and filter jobs
-        run: python filter_jobs.py
+      - name: Install dependencies
+        run: pip install requests
 
-      - name: Commit changes
+      - name: Fetch and filter jobs
+        run: python scripts/fetch_jobs.py
+
+      - name: Commit and push if changed
         run: |
-          git config user.name "Harshini Bot"
-          git config user.email "bot@github.com"
-          git add index.html
-          git commit --allow-empty -m "Auto-update: $(date -u '+%Y-%m-%d %H:%M UTC')" || echo "Nothing to commit"
-          git push || echo "Push skipped"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "Auto-update ECE jobs [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git push
