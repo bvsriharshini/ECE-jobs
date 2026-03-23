@@ -16,66 +16,68 @@ jobs:
 
       - name: Fetch and filter jobs
         run: |
-          python3 - <<'EOF'
+          python3 - <<'PYEOF'
           import requests, re
           from datetime import datetime, timezone
 
           SOURCE_URL = "https://raw.githubusercontent.com/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/main/README.md"
 
           KEEP = ["verification","asic","fpga","soc","embedded","firmware",
-                  "analog","mixed.signal","electrical","signal integrity","layout",
-                  "physical design","dft","bring.up","hardware engineer","circuit design",
-                  "rtl","vlsi","memory","dsp","rf design","pcb"]
+                  "analog","mixed signal","electrical engineer","signal integrity",
+                  "physical design","dft","hardware engineer","circuit design",
+                  "rtl","vlsi","dsp","rf design","pcb design"]
 
           DROP = ["hvac","fitness","graphic designer","supply chain","facilities",
                   "manufacturing tech","civil","cosmoquick","medical","dental",
-                  "site reliability engineer","clerical","accounting","quality engineer",
-                  "structural","administrative"]
+                  "site reliability","clerical","accounting","structural","administrative",
+                  "quality engineer","field service"]
 
           def matches(text):
               t = text.lower()
-              if any(re.search(k, t) for k in DROP): return False
-              return any(re.search(k, t) for k in KEEP)
+              if any(k in t for k in DROP):
+                  return False
+              return any(k in t for k in KEEP)
 
           r = requests.get(SOURCE_URL, timeout=30)
           r.raise_for_status()
+          lines = r.text.splitlines()
 
-          # Debug: print first few table rows to see actual format
-          all_rows = [l for l in r.text.splitlines() if "| **" in l and "[Apply]" in l]
-          print(f"DEBUG: Total raw job rows found: {len(all_rows)}")
-          if all_rows:
-              print(f"DEBUG: Sample row: {repr(all_rows[0][:120])}")
+          rows = []
+          for line in lines:
+              if "Apply" in line and "|" in line and "**" in line:
+                  if matches(line):
+                      rows.append(line)
 
-          rows = [l for l in all_rows if matches(l)]
-          print(f"DEBUG: After filtering: {len(rows)} ECE jobs")
+          print("Found " + str(len(rows)) + " ECE jobs")
 
           now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
-          readme = f"""# Harshini's ECE Job Board – Auto-Updated
-
-**OPT/F1 Friendly | Entry-Level & New Grad | DV · ASIC · FPGA · Analog · Embedded**
-
-🕐 Last updated: **{now}** &nbsp;|&nbsp; 📌 Source: [zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026](https://github.com/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026)
-
----
-
-> **My resume highlights:** UVM FIFO (100% coverage, 2000+ transactions) · Pipeline CPI 2.23→0.87 · Cadence Virtuoso LDO · Zynq-7000 bring-up
-
-## 🔄 Latest ECE Jobs — {len(rows)} filtered
-
-| Company | Role | Location | Posted | Apply |
-|---------|------|----------|--------|-------|
-{chr(10).join(rows)}
-
----
-_Auto-refreshes every 4 hours. Filtered for: DV, ASIC, FPGA, Embedded, Analog, RF, Physical Design._
-"""
+          out = []
+          out.append("# Harshini's ECE Job Board")
+          out.append("")
+          out.append("**OPT/F1 Friendly | Entry-Level & New Grad | DV, ASIC, FPGA, Analog, Embedded**")
+          out.append("")
+          out.append("Last updated: " + now)
+          out.append("")
+          out.append("Source: [zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026](https://github.com/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026)")
+          out.append("")
+          out.append("---")
+          out.append("")
+          out.append("## Latest ECE Jobs (" + str(len(rows)) + " filtered)")
+          out.append("")
+          out.append("| Company | Role | Location | Posted | Apply |")
+          out.append("|---------|------|----------|--------|-------|")
+          for row in rows:
+              out.append(row)
+          out.append("")
+          out.append("---")
+          out.append("_Auto-refreshes every 4 hours._")
 
           with open("README.md", "w", encoding="utf-8") as f:
-              f.write(readme)
+              f.write("\n".join(out))
 
-          print(f"Done! Wrote {len(rows)} jobs.")
-          EOF
+          print("Done!")
+          PYEOF
 
       - name: Commit and push if changed
         run: |
