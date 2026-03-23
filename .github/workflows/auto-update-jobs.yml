@@ -25,11 +25,12 @@ jobs:
           KEEP = ["verification","asic","fpga","soc","embedded","firmware",
                   "analog","mixed.signal","electrical","signal integrity","layout",
                   "physical design","dft","bring.up","hardware engineer","circuit design",
-                  "rtl","vlsi","memory","dsp","rf","pcb"]
+                  "rtl","vlsi","memory","dsp","rf design","pcb"]
 
           DROP = ["hvac","fitness","graphic designer","supply chain","facilities",
                   "manufacturing tech","civil","cosmoquick","medical","dental",
-                  "site reliability engineer","clerical","accounting"]
+                  "site reliability engineer","clerical","accounting","quality engineer",
+                  "structural","administrative"]
 
           def matches(text):
               t = text.lower()
@@ -38,36 +39,42 @@ jobs:
 
           r = requests.get(SOURCE_URL, timeout=30)
           r.raise_for_status()
-          rows = [l for l in r.text.splitlines() if l.startswith("| 🏢") and "[Apply]" in l and matches(l)]
+
+          # Debug: print first few table rows to see actual format
+          all_rows = [l for l in r.text.splitlines() if "| **" in l and "[Apply]" in l]
+          print(f"DEBUG: Total raw job rows found: {len(all_rows)}")
+          if all_rows:
+              print(f"DEBUG: Sample row: {repr(all_rows[0][:120])}")
+
+          rows = [l for l in all_rows if matches(l)]
+          print(f"DEBUG: After filtering: {len(rows)} ECE jobs")
 
           now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-          content = f"""<style>
-          body {{ font-family: Arial; max-width: 1100px; margin: 0 auto; padding: 30px; background: #f9fbfd; color: #333; }}
-          h1 {{ color: #1e40af; }} h2 {{ color: #1e3a8a; border-bottom: 2px solid #ddd; padding-bottom: 8px; }}
-          table {{ border-collapse: collapse; width: 100%; margin: 20px 0; background: white; }}
-          th, td {{ border: 1px solid #ddd; padding: 12px; text-align: left; }}
-          th {{ background: #eff6ff; font-weight: bold; }}
-          a {{ color: #2563eb; text-decoration: none; }}
-          </style>
 
-          # Harshini's ECE Job Board – Auto-Updated
-          **OPT/F1 Friendly | Entry-Level & New Grad | DV · ASIC · FPGA · Analog · Embedded**
+          readme = f"""# Harshini's ECE Job Board – Auto-Updated
 
-          🕐 Last updated: **{now}**
-          📌 Source: [zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026](https://github.com/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026)
+**OPT/F1 Friendly | Entry-Level & New Grad | DV · ASIC · FPGA · Analog · Embedded**
 
-          ---
+🕐 Last updated: **{now}** &nbsp;|&nbsp; 📌 Source: [zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026](https://github.com/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026)
 
-          ## 🔄 Latest ECE Jobs ({len(rows)} filtered)
+---
 
-          | Company | Role | Location | Posted | Apply |
-          |---------|------|----------|--------|-------|
-          """ + "\n".join(rows) + "\n\n---\n_Auto-refreshes every 4 hours._\n"
+> **My resume highlights:** UVM FIFO (100% coverage, 2000+ transactions) · Pipeline CPI 2.23→0.87 · Cadence Virtuoso LDO · Zynq-7000 bring-up
 
-          with open("README.md", "w") as f:
-              f.write(content)
+## 🔄 Latest ECE Jobs — {len(rows)} filtered
 
-          print(f"✅ Wrote {len(rows)} jobs to README.md")
+| Company | Role | Location | Posted | Apply |
+|---------|------|----------|--------|-------|
+{chr(10).join(rows)}
+
+---
+_Auto-refreshes every 4 hours. Filtered for: DV, ASIC, FPGA, Embedded, Analog, RF, Physical Design._
+"""
+
+          with open("README.md", "w", encoding="utf-8") as f:
+              f.write(readme)
+
+          print(f"Done! Wrote {len(rows)} jobs.")
           EOF
 
       - name: Commit and push if changed
