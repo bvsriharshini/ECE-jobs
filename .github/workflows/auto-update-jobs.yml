@@ -27,14 +27,35 @@ jobs:
                   "physical design","dft","hardware engineer","circuit design",
                   "rtl","vlsi","dsp","rf design","pcb design"]
 
-          DROP = ["hvac","fitness","graphic designer","supply chain","facilities",
-                  "manufacturing tech","civil","cosmoquick","medical","dental",
-                  "site reliability","clerical","accounting","structural","administrative",
-                  "quality engineer","field service"]
+          DROP = [
+              # noise roles
+              "hvac","fitness","graphic designer","supply chain","facilities",
+              "manufacturing tech","civil","cosmoquick","medical","dental",
+              "site reliability","clerical","accounting","structural","administrative",
+              "quality engineer","field service",
+              # clearance / citizenship required companies
+              "northrop grumman","lockheed martin","raytheon","rtx","bae systems",
+              "booz allen","l3harris","general dynamics","leidos","saic","caci",
+              "mitre","kbr","boeing","moog","collins aerospace","ball aerospace",
+              "sierra nevada","textron","dynetics","peraton","parsons","amentum",
+              "mantech","cubic","vectrus","engility","unison","dxc","csra",
+              "huntington ingalls","booz","leidox","bah","ngc","gd mission",
+              "us army","us navy","us air force","department of defense","dod",
+              "clearance required","security clearance","us citizenship required",
+              "must be a us citizen","requires us citizenship","active clearance"
+          ]
+
+          CLEARANCE_WORDS = [
+              "clearance required", "security clearance", "us citizen",
+              "u.s. citizen", "citizenship required", "active secret",
+              "top secret", "ts/sci", "dod clearance", "must be a citizen"
+          ]
 
           def matches(text):
               t = text.lower()
               if any(k in t for k in DROP):
+                  return False
+              if any(k in t for k in CLEARANCE_WORDS):
                   return False
               return any(k in t for k in KEEP)
 
