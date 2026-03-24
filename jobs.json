@@ -1,8 +1,8 @@
 {
-  "updated": "2026-03-24T20:24:59.619659+00:00",
-  "total": 588,
+  "updated": "2026-03-24T20:42:38.120737+00:00",
+  "total": 589,
   "urgent_count": 18,
-  "blocked_count": 11,
+  "blocked_count": 0,
   "jobs": [
     {
       "company": "\ud83c\udfe2 Thermo Fisher Scientific",
@@ -60,13 +60,35 @@
       "date_added": "2026-03-24"
     },
     {
-      "company": "\ud83c\udfe2 OpenAI",
-      "role": "Design Verification Engineer",
-      "location": "San Francisco",
+      "company": "\ud83c\udfe2 Shield AI",
+      "role": "Electrical Engineer I - Power Electronics",
+      "location": "Dallas",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "DV",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-03-24"
+    },
+    {
+      "company": "\ud83c\udfe2 Shield AI",
+      "role": "Electrical Engineer I (BOS)",
+      "location": "Boston, MA",
+      "link": "BOS",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-03-24"
+    },
+    {
+      "company": "\ud83c\udfe2 Shield AI",
+      "role": "Electrical Engineer I (SD)",
+      "location": "San Diego",
+      "link": "SD",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-03-24"
     },
@@ -93,6 +115,28 @@
       "date_added": "2026-03-24"
     },
     {
+      "company": "\ud83c\udfe2 OpenAI",
+      "role": "Design Verification Engineer",
+      "location": "San Francisco",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "DV",
+      "urgent": false,
+      "date_added": "2026-03-24"
+    },
+    {
+      "company": "\ud83c\udfe2 OpenAI",
+      "role": "Physical Design Engineer",
+      "location": "San Francisco",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-03-24"
+    },
+    {
       "company": "\ud83c\udfe2 Northwood Space",
       "role": "RF Hardware Engineer (Early Career)",
       "location": "Torrance, CA",
@@ -104,30 +148,30 @@
       "date_added": "2026-03-24"
     },
     {
-      "company": "\ud83c\udfe2 Shield AI",
-      "role": "Electrical Engineer I - Power Electronics",
-      "location": "Dallas",
+      "company": "\ud83c\udfe2 Analog Devices",
+      "role": "Engineer, Design Verification Engineering",
+      "location": "US, AZ",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
+      "sponsor": "yes",
+      "cat": "DV",
       "urgent": false,
       "date_added": "2026-03-24"
     },
     {
-      "company": "\ud83c\udfe2 Shield AI",
-      "role": "Electrical Engineer I (BOS)",
-      "location": "Boston, MA",
-      "link": "BOS",
+      "company": "\ud83c\udfe2 CFS Energy",
+      "role": "Assembly Process Engineer - Contract",
+      "location": "Devens, MA",
+      "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
-      "cat": "HW",
+      "cat": "ASIC",
       "urgent": false,
       "date_added": "2026-03-24"
     },
     {
       "company": "\ud83c\udfe2 Handshake",
-      "role": "Hardware Engineer - AI Trainer",
+      "role": "PCB Designer - AI Trainer",
       "location": "Remote",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
@@ -148,17 +192,6 @@
       "date_added": "2026-03-24"
     },
     {
-      "company": "\ud83c\udfe2 Analog Devices",
-      "role": "Engineer, Design Verification Engineering",
-      "location": "US, AZ",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-03-24"
-    },
-    {
       "company": "\ud83c\udfe2 Crusoe",
       "role": "Electrical Engineer",
       "location": "Arvada, CO",
@@ -166,28 +199,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-03-24"
-    },
-    {
-      "company": "\ud83c\udfe2 Hermeus",
-      "role": "Avionics Electrical Engineer",
-      "location": "Atlanta, GA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-03-24"
-    },
-    {
-      "company": "\ud83c\udfe2 CFS Energy",
-      "role": "Assembly Process Engineer - Contract",
-      "location": "Devens, MA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "ASIC",
       "urgent": false,
       "date_added": "2026-03-24"
     },
@@ -324,7 +335,7 @@
       "date_added": "2026-03-24"
     },
     {
-      "company": "\ud83c\udfe2 HPE (University)",
+      "company": "\ud83c\udfe2 HPE",
       "role": "Signal Integrity and Power Delivery Engineer",
       "location": "Chippewa Falls",
       "link": "#",
@@ -335,7 +346,7 @@
       "date_added": "2026-03-24"
     },
     {
-      "company": "\ud83c\udfe2 HPE",
+      "company": "\ud83c\udfe2 HPE (University)",
       "role": "Signal Integrity and Power Delivery Engineer",
       "location": "Chippewa Falls",
       "link": "#",
@@ -352,17 +363,6 @@
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-03-24"
-    },
-    {
-      "company": "\ud83c\udfe2 Carrier Global",
-      "role": "Electrical Engineer",
-      "location": "Charlotte, 9701 O...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-03-24"
@@ -412,7 +412,7 @@
       "date_added": "2026-03-24"
     },
     {
-      "company": "\ud83c\udfe2 HPE (University)",
+      "company": "\ud83c\udfe2 HPE",
       "role": "Hardware Engineer 3",
       "location": "Sunnyvale",
       "link": "#",
@@ -423,7 +423,7 @@
       "date_added": "2026-03-24"
     },
     {
-      "company": "\ud83c\udfe2 HPE",
+      "company": "\ud83c\udfe2 HPE (University)",
       "role": "Hardware Engineer 3",
       "location": "Sunnyvale",
       "link": "#",
@@ -478,17 +478,6 @@
       "date_added": "2026-03-24"
     },
     {
-      "company": "\ud83c\udfe2 Freeform",
-      "role": "Process Engineer (CNC Innovation)",
-      "location": "Los Angeles, CA",
-      "link": "CNC Innovation",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-03-24"
-    },
-    {
       "company": "\ud83c\udfe2 NVIDIA",
       "role": "ASIC Design Efficiency Engineer",
       "location": "3 Locations",
@@ -533,9 +522,9 @@
       "date_added": "2026-03-24"
     },
     {
-      "company": "\ud83c\udfe2 Etched",
-      "role": "Design Verification Engineer - SoC",
-      "location": "San Jose",
+      "company": "\ud83c\udfe2 Analog Devices",
+      "role": "ASIC Design and Verification Engineer - AI",
+      "location": "2 Locations",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
@@ -544,9 +533,9 @@
       "date_added": "2026-03-24"
     },
     {
-      "company": "\ud83c\udfe2 Analog Devices",
-      "role": "ASIC Design and Verification Engineer - AI",
-      "location": "2 Locations",
+      "company": "\ud83c\udfe2 Etched",
+      "role": "Design Verification Engineer - SoC",
+      "location": "San Jose",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
@@ -612,7 +601,7 @@
     {
       "company": "\ud83c\udfe2 SpaceX",
       "role": "Wireless Firmware Engineer (Direct To Cell)",
-      "location": "Sunnyvale, CA",
+      "location": "Redmond, WA",
       "link": "Direct To Cell",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -6471,6 +6460,37 @@
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-03-24"
+    },
+    {
+      "company": "SQA\u00b2",
+      "role": "Jr. QA Analyst Trainee",
+      "location": "Los Alamitos, CA",
+      "link": "https://www.indeed.com/viewjob?jk=e4692123ef997d25",
+      "source": "Indeed",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-03-24"
+    },
+    {
+      "company": "Confidential",
+      "role": "QA Analyst (Hybrid)",
+      "location": "Portland, OR 97223",
+      "link": "https://www.indeed.com/viewjob?jk=c14aee68e79b1c73",
+      "source": "Indeed",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-03-24"
     }
-  ]
+  ],
+  "sources": [
+    "GitHub repos",
+    "Greenhouse",
+    "Ashby",
+    "Lever",
+    "LinkedIn",
+    "Indeed"
+  ],
+  "last_tailored": "2026-03-24T20:44:11.148236+00:00"
 }
