@@ -1,435 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Harshini's ECE Job Tracker – 2026</title>
-<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Harshini | F1 OPT ECE Job Board 2026</title>
 <style>
-* { box-sizing: border-box; margin: 0; padding: 0; }
-body { font-family: 'DM Sans', sans-serif; background: #f4f6f9; color: #1a1a1a; min-height: 100vh; }
+  :root{--blue:#1e40af;--lb:#eff6ff;--border:#dbeafe;--green:#166534;--gbg:#dcfce7;--red:#991b1b;--rbg:#fee2e2;--gray:#6b7280;}
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'Segoe UI',Arial,sans-serif;background:#f0f4ff;color:#1e293b;}
+  header{background:linear-gradient(135deg,#1e3a8a,#2563eb);color:#fff;padding:28px 32px;}
+  header h1{font-size:1.7rem;} header p{opacity:.8;margin-top:4px;}
+  .badge{display:inline-block;padding:3px 12px;border-radius:99px;font-size:.75rem;font-weight:700;margin-top:10px;margin-right:6px;}
+  .b-opt{background:#bbf7d0;color:#166534;} .b-live{background:#fed7aa;color:#9a3412;} .b-ai{background:#e9d5ff;color:#6b21a8;}
 
-.hero { background: #fff; border-bottom: 1px solid #e5e7eb; padding: 2rem 2rem 0; position: relative; overflow: hidden; }
-.hero-grid { position: absolute; inset: 0; background-image: linear-gradient(#e5e7eb 1px, transparent 1px), linear-gradient(90deg, #e5e7eb 1px, transparent 1px); background-size: 32px 32px; opacity: 0.5; }
-.hero-content { position: relative; z-index: 1; }
-.badge-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 1rem; }
-.badge { font-family: 'Space Mono', monospace; font-size: 10px; padding: 3px 10px; border-radius: 100px; letter-spacing: 0.05em; border: 1px solid; }
-.badge-blue { background: #E6F1FB; color: #0C447C; border-color: #85B7EB; }
-.badge-green { background: #E1F5EE; color: #085041; border-color: #5DCAA5; }
-.badge-amber { background: #FAEEDA; color: #633806; border-color: #EF9F27; }
-h1 { font-family: 'Space Mono', monospace; font-size: clamp(1.1rem, 3vw, 1.55rem); font-weight: 700; color: #111; line-height: 1.3; margin-bottom: 0.5rem; }
-h1 span { color: #378ADD; }
-.hero-sub { font-size: 13px; color: #555; line-height: 1.6; max-width: 700px; margin-bottom: 1.5rem; }
+  .controls{display:flex;flex-wrap:wrap;gap:10px;padding:14px 24px;background:#fff;border-bottom:1px solid var(--border);align-items:center;}
+  .controls input,.controls select{padding:8px 12px;border:1px solid #d1d5db;border-radius:8px;font-size:.9rem;flex:1;min-width:150px;}
+  .controls button{padding:8px 16px;background:#2563eb;color:#fff;border:none;border-radius:8px;cursor:pointer;font-size:.9rem;font-weight:600;}
+  .controls button:hover{background:#1d4ed8;}
+  .controls button.sec{background:#fff;color:#374151;border:1px solid #d1d5db;}
+  .controls button.sec:hover{background:#f3f4f6;}
 
-.stats-bar { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid #e5e7eb; }
-.stat { background: #fff; padding: 1rem 1.25rem; text-align: center; border-right: 1px solid #e5e7eb; }
-.stat:last-child { border-right: none; }
-.stat-num { font-family: 'Space Mono', monospace; font-size: 1.4rem; font-weight: 700; color: #378ADD; display: block; }
-.stat-label { font-size: 11px; color: #888; text-transform: uppercase; letter-spacing: 0.08em; margin-top: 2px; }
+  .banner{background:#dcfce7;border-left:4px solid #16a34a;padding:10px 24px;font-size:.85rem;color:#166534;}
+  .stats{display:flex;gap:20px;padding:12px 24px;background:var(--lb);flex-wrap:wrap;}
+  .stat .num{font-size:1.5rem;font-weight:800;color:var(--blue);}
+  .stat .lbl{font-size:.7rem;color:var(--gray);text-transform:uppercase;letter-spacing:.05em;}
 
-.tips-bar { background: #fff; border-bottom: 1px solid #e5e7eb; padding: 0.75rem 2rem; display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; }
-.tips-label { font-family: 'Space Mono', monospace; font-size: 10px; color: #aaa; text-transform: uppercase; letter-spacing: 0.1em; white-space: nowrap; }
-.tip-chip { font-size: 12px; color: #555; background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 8px; padding: 3px 10px; white-space: nowrap; }
-.tip-chip strong { color: #111; font-weight: 500; }
+  .main{padding:16px 24px;}
+  .sec-title{font-size:1rem;font-weight:700;color:var(--blue);margin:18px 0 8px;border-bottom:2px solid var(--border);padding-bottom:6px;}
 
-.main { padding: 1.5rem 2rem; max-width: 1200px; margin: 0 auto; }
+  table{width:100%;border-collapse:collapse;background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,.08);margin-bottom:8px;}
+  thead tr{background:#eff6ff;}
+  th{padding:10px 12px;text-align:left;font-size:.78rem;color:#374151;text-transform:uppercase;letter-spacing:.05em;font-weight:700;}
+  td{padding:10px 12px;border-top:1px solid #f1f5f9;font-size:.87rem;vertical-align:middle;}
+  tr:hover td{background:#f8faff;}
 
-.section { margin-bottom: 2.5rem; animation: fadeUp 0.4s ease both; }
-.section:nth-child(1) { animation-delay: 0.05s; }
-.section:nth-child(2) { animation-delay: 0.1s; }
-.section:nth-child(3) { animation-delay: 0.15s; }
-.section:nth-child(4) { animation-delay: 0.2s; }
-.section:nth-child(5) { animation-delay: 0.25s; }
-.section:nth-child(6) { animation-delay: 0.3s; }
-@keyframes fadeUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+  .tag{display:inline-block;padding:2px 8px;border-radius:99px;font-size:.72rem;font-weight:600;margin:1px;}
+  .t-yes{background:#dcfce7;color:#166534;} .t-open{background:#fef9c3;color:#854d0e;}
+  .t-urg{background:#fee2e2;color:#991b1b;} .t-cat{background:#f3e8ff;color:#6b21a8;}
 
-.section-header { display: flex; align-items: center; gap: 10px; margin-bottom: 0.6rem; }
-.section-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
-.section-title { font-family: 'Space Mono', monospace; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: #444; }
-.section-count { font-family: 'Space Mono', monospace; font-size: 10px; color: #aaa; margin-left: auto; }
+  .btn{display:inline-block;padding:5px 11px;border-radius:6px;font-size:.78rem;font-weight:600;text-decoration:none;margin:1px;}
+  .btn-apply{background:#2563eb;color:#fff;} .btn-apply:hover{background:#1d4ed8;}
+  .btn-pdf{background:#7c3aed;color:#fff;} .btn-pdf:hover{background:#6d28d9;}
+  .btn-gen{background:#f3f4f6;color:#374151;border:1px solid #d1d5db;cursor:pointer;}
+  .btn-gen:hover{background:#e5e7eb;}
 
-.table-wrap { border-radius: 10px; border: 1px solid #e5e7eb; overflow: hidden; background: #fff; }
-table { width: 100%; border-collapse: collapse; font-size: 13px; }
-thead tr { background: #f9fafb; }
-th { padding: 10px 14px; text-align: left; font-size: 11px; font-weight: 600; color: #888; text-transform: uppercase; letter-spacing: 0.06em; border-bottom: 1px solid #e5e7eb; }
-td { padding: 11px 14px; border-bottom: 1px solid #f0f0f0; vertical-align: middle; }
-tbody tr:last-child td { border-bottom: none; }
-tbody tr:hover { background: #fafbfc; }
+  .empty{text-align:center;padding:48px;color:var(--gray);}
+  .loading{text-align:center;padding:60px;color:var(--blue);font-size:1.1rem;}
+  .spinner{display:inline-block;width:32px;height:32px;border:3px solid #bfdbfe;border-top-color:#2563eb;border-radius:50%;animation:spin .8s linear infinite;margin-bottom:12px;}
+  @keyframes spin{to{transform:rotate(360deg)}}
 
-.td-company { font-weight: 500; color: #111; white-space: nowrap; }
-.td-role a { color: #2563eb; text-decoration: none; font-weight: 400; }
-.td-role a:hover { text-decoration: underline; }
-.td-location { color: #777; font-size: 12px; }
-.td-posted { font-family: 'Space Mono', monospace; font-size: 11px; color: #aaa; white-space: nowrap; }
+  .modal-bg{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:100;align-items:center;justify-content:center;}
+  .modal-bg.open{display:flex;}
+  .modal{background:#fff;border-radius:14px;padding:28px;max-width:640px;width:90%;max-height:80vh;overflow-y:auto;}
+  .modal h2{color:var(--blue);margin-bottom:12px;}
+  .modal .score{font-size:2rem;font-weight:800;color:#16a34a;}
+  .modal pre{background:#f8faff;padding:12px;border-radius:8px;font-size:.82rem;white-space:pre-wrap;margin-top:10px;}
+  .modal .close{float:right;background:none;border:none;font-size:1.4rem;cursor:pointer;color:var(--gray);}
 
-.footer { text-align: center; padding: 1.5rem; font-family: 'Space Mono', monospace; font-size: 10px; color: #aaa; letter-spacing: 0.05em; border-top: 1px solid #e5e7eb; margin-top: 1rem; }
-.footer a { color: #378ADD; text-decoration: none; }
+  details summary{cursor:pointer;background:#fee2e2;border-left:4px solid #dc2626;padding:10px 24px;font-size:.85rem;color:#991b1b;list-style:none;}
+  .blocked-list{padding:12px 24px;background:#fff;}
+  .bpill{display:inline-block;background:#fee2e2;color:#991b1b;border-radius:99px;padding:3px 10px;font-size:.78rem;margin:3px;border:1px solid #fca5a5;}
+
+  footer{text-align:center;padding:20px;font-size:.8rem;color:var(--gray);}
+  @media(max-width:700px){th:nth-child(4),td:nth-child(4){display:none;}.main{padding:12px;}}
 </style>
 </head>
 <body>
 
-<div class="hero">
-  <div class="hero-grid"></div>
-  <div class="hero-content">
-    <div class="badge-row">
-      <span class="badge badge-green">OPT / F1 Friendly</span>
-      <span class="badge badge-blue">No Clearance Required</span>
-      <span class="badge badge-amber">Auto-updates every 6h</span>
-    </div>
-    <h1>Harshini's ECE Job Tracker<br><span>2026 Entry-Level / New Grad</span></h1>
-    <p class="hero-sub">Design Verification · SOC · GPU DV · Analog/Mixed-Signal · Board Bring-up · ASIC · Physical Design · Layout · Memory Controller · Hardware &amp; Applications Engineer</p>
+<header>
+  <h1>🎓 Harshini's F1 OPT ECE Job Board — 2026</h1>
+  <p>Entry-level & New Grad · ECE / Hardware · United States · Auto-updated every 30 min</p>
+  <span class="badge b-opt">✅ OPT/F1 Friendly Only</span>
+  <span class="badge b-live">🔴 Live Feed</span>
+  <span class="badge b-ai">🤖 AI Resume Tailoring</span>
+</header>
+
+<div class="banner">
+  🛡️ <strong>Auto-filtered:</strong> All defense, government, and clearance-required roles are automatically excluded.
+  Only OPT-friendly & sponsorship-open positions shown.
+</div>
+
+<div class="controls">
+  <input type="text" id="searchBox" placeholder="🔍 Search role, company, location…" oninput="render()"/>
+  <select id="catFilter" onchange="render()">
+    <option value="">All Categories</option>
+    <option value="DV">Design Verification / SOC</option>
+    <option value="Analog">Analog / Mixed-Signal</option>
+    <option value="FPGA">FPGA / Board Bring-up</option>
+    <option value="ASIC">ASIC / Physical Design</option>
+    <option value="HW">Hardware / Systems</option>
+    <option value="SW">Embedded / SW</option>
+  </select>
+  <select id="spFilter" onchange="render()">
+    <option value="">All Sponsor Status</option>
+    <option value="yes">✅ Confirmed H1B Sponsor</option>
+    <option value="open">🟡 OPT Accepted</option>
+  </select>
+  <select id="urgFilter" onchange="render()">
+    <option value="">All Roles</option>
+    <option value="urgent">🔴 Urgent Hiring Only</option>
+  </select>
+  <button onclick="loadJobs()">🔄 Refresh</button>
+  <button class="sec" onclick="clearFilters()">✖ Clear</button>
+</div>
+
+<div class="stats">
+  <div class="stat"><div class="num" id="sTotal">—</div><div class="lbl">Total Jobs</div></div>
+  <div class="stat"><div class="num" id="sVisible">—</div><div class="lbl">Showing</div></div>
+  <div class="stat"><div class="num" id="sUrgent">—</div><div class="lbl">🔴 Urgent</div></div>
+  <div class="stat"><div class="num" id="sSponsor">—</div><div class="lbl">H1B Sponsors</div></div>
+  <div class="stat"><div class="num" id="sPDF">—</div><div class="lbl">Tailored PDFs Ready</div></div>
+  <div class="stat"><div class="num" id="sUpdated">—</div><div class="lbl">Last Updated</div></div>
+</div>
+
+<div class="main" id="main">
+  <div class="loading">
+    <div class="spinner"></div><br/>Loading live jobs…
   </div>
-  <div class="stats-bar">
-    <div class="stat"><span class="stat-num">38</span><span class="stat-label">Jobs</span></div>
-    <div class="stat"><span class="stat-num">26</span><span class="stat-label">Companies</span></div>
-    <div class="stat"><span class="stat-num">5</span><span class="stat-label">Categories</span></div>
-    <div class="stat"><span class="stat-num" style="font-size:1rem">6h</span><span class="stat-label">Refresh rate</span></div>
+</div>
+
+<details>
+  <summary>🚫 Blocked companies (Defense / Government / Clearance) — click to see</summary>
+  <div class="blocked-list" id="blockedList"></div>
+</details>
+
+<footer>
+  Harshini's F1 OPT ECE Job Board · Auto-updated from zapplyjobs + Greenhouse + Ashby + Lever
+  · Powered by GitHub Actions + Vercel · <a href="https://github.com/bvsriharshini/ECE-jobs" target="_blank">GitHub Repo</a>
+</footer>
+
+<!-- Modal for AI resume preview -->
+<div class="modal-bg" id="modalBg">
+  <div class="modal">
+    <button class="close" onclick="closeModal()">✕</button>
+    <h2 id="modalTitle">Tailored Resume</h2>
+    <div id="modalBody"></div>
   </div>
 </div>
 
-<div class="tips-bar">
-  <span class="tips-label">Resume highlights →</span>
-  <span class="tip-chip"><strong>UVM FIFO</strong> 100% coverage, 2000+ txns</span>
-  <span class="tip-chip"><strong>Pipeline</strong> CPI 2.23 → 0.87 · 156% gain</span>
-  <span class="tip-chip"><strong>Cadence Virtuoso</strong> LDO/boost · PVT stable</span>
-  <span class="tip-chip"><strong>Zynq-7000</strong> rails · JTAG · AXI bring-up</span>
-</div>
+<script>
+const CATS = {
+  DV:'🔬 Design Verification / SOC / GPU DV',
+  Analog:'📡 Analog / Mixed-Signal / Memory',
+  FPGA:'🔧 FPGA / Board Bring-up',
+  ASIC:'⚙️ ASIC / Physical Design',
+  HW:'🖥️ Hardware / Systems Engineering',
+  SW:'💻 Embedded / Software'
+};
 
-<div class="main">
-  
-    <div class="section">
-      <div class="section-header">
-        <div class="section-dot" style="background:#378ADD"></div>
-        <span class="section-title">Design Verification / SOC / GPU DV</span>
-        <span class="section-count">8 roles</span>
-      </div>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th style="width:160px">Company</th>
-              <th>Role</th>
-              <th style="width:160px">Location</th>
-              <th style="width:70px">Posted</th>
-            </tr>
-          </thead>
-          <tbody>
-        <tr>
-          <td class="td-company">Marvell</td>
-          <td class="td-role"><a href="https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Westborough-MA/Design-Verification-Engineer_2502573" target="_blank">Design Verification Engineer</a></td>
-          <td class="td-location">Westborough, MA</td>
-          <td class="td-posted">12m</td>
-        </tr>
-        <tr>
-          <td class="td-company">Intel</td>
-          <td class="td-role"><a href="https://intel.wd1.myworkdayjobs.com/External/job/US-Texas-Austin/CPU-Design-Verification-Engineer_JR0280632" target="_blank">CPU Design Verification Engineer</a></td>
-          <td class="td-location">US</td>
-          <td class="td-posted">12m</td>
-        </tr>
-        <tr>
-          <td class="td-company">Etched</td>
-          <td class="td-role"><a href="https://jobs.ashbyhq.com/etched/7aeafe31-c2c6-43e0-bb31-01868dcfad39/application" target="_blank">Design Verification Engineer - Internal IP</a></td>
-          <td class="td-location">San Jose</td>
-          <td class="td-posted">14m</td>
-        </tr>
-        <tr>
-          <td class="td-company">Intel</td>
-          <td class="td-role"><a href="https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/CPU-Formal-Verification-Engineer_JR0281438" target="_blank">CPU Formal Verification Engineer</a></td>
-          <td class="td-location">5 Locations</td>
-          <td class="td-posted">2d</td>
-        </tr>
-        <tr>
-          <td class="td-company">Etched</td>
-          <td class="td-role"><a href="https://jobs.ashbyhq.com/etched/a99318bd-b433-44b7-9600-2ee9533c90a1/application" target="_blank">Design Verification Engineer - SoC</a></td>
-          <td class="td-location">San Jose</td>
-          <td class="td-posted">14m</td>
-        </tr>
-        <tr>
-          <td class="td-company">Waymo</td>
-          <td class="td-role"><a href="https://careers.withwaymo.com/jobs?gh_jid=7656843" target="_blank">ASIC Design Verification Engineer</a></td>
-          <td class="td-location">Mountain View, CA</td>
-          <td class="td-posted">2d</td>
-        </tr>
-        <tr>
-          <td class="td-company">Cisco</td>
-          <td class="td-role"><a href="https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/ASIC-Design-Verification-Engineer_2010971-1" target="_blank">ASIC Design Verification Engineer</a></td>
-          <td class="td-location">San Jose, US</td>
-          <td class="td-posted">3d</td>
-        </tr>
-        <tr>
-          <td class="td-company">Broadcom</td>
-          <td class="td-role"><a href="https://broadcom.wd1.myworkdayjobs.com/External_Career/job/USA-CA-Irvine-Alton-Parkway-Bldg-2/ASIC-Design-Verification-Engineer_R025121" target="_blank">ASIC Design Verification Engineer</a></td>
-          <td class="td-location">3 Locations</td>
-          <td class="td-posted">1w</td>
-        </tr></tbody>
-        </table>
-      </div>
-    </div>
-    <div class="section">
-      <div class="section-header">
-        <div class="section-dot" style="background:#1D9E75"></div>
-        <span class="section-title">ASIC / FPGA / Physical Design / RTL</span>
-        <span class="section-count">9 roles</span>
-      </div>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th style="width:160px">Company</th>
-              <th>Role</th>
-              <th style="width:160px">Location</th>
-              <th style="width:70px">Posted</th>
-            </tr>
-          </thead>
-          <tbody>
-        <tr>
-          <td class="td-company">OpenAI</td>
-          <td class="td-role"><a href="https://jobs.ashbyhq.com/openai/77b815de-b7c5-4b87-8582-e8c752aea849/application" target="_blank">RTL & Co-design Engineer (junior)</a></td>
-          <td class="td-location">San Francisco</td>
-          <td class="td-posted">14m</td>
-        </tr>
-        <tr>
-          <td class="td-company">Marvell</td>
-          <td class="td-role"><a href="https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Morrisville-NC/ASIC-Design-Engineer--DFT-IP_2600512" target="_blank">ASIC Design Engineer: DFT-IP</a></td>
-          <td class="td-location">Morrisville, NC</td>
-          <td class="td-posted">3d</td>
-        </tr>
-        <tr>
-          <td class="td-company">Micron</td>
-          <td class="td-role"><a href="https://micron.wd1.myworkdayjobs.com/External/job/San-Jose-CA/MTS-ASIC-Design-Engineer_JR94428-1" target="_blank">MTS ASIC Design Engineer</a></td>
-          <td class="td-location">5 Locations</td>
-          <td class="td-posted">3d</td>
-        </tr>
-        <tr>
-          <td class="td-company">Intel</td>
-          <td class="td-role"><a href="https://intel.wd1.myworkdayjobs.com/External/job/US-Texas-Austin/RTL-Design-Engineer_JR0281759" target="_blank">RTL Design Engineer</a></td>
-          <td class="td-location">3 Locations</td>
-          <td class="td-posted">3d</td>
-        </tr>
-        <tr>
-          <td class="td-company">Cisco</td>
-          <td class="td-role"><a href="https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/ASIC-Design-Engineer_2010922" target="_blank">ASIC Design Engineer</a></td>
-          <td class="td-location">San Jose, US</td>
-          <td class="td-posted">4d</td>
-        </tr>
-        <tr>
-          <td class="td-company">Marvell</td>
-          <td class="td-role"><a href="https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Irvine-CA/ASIC-Design-Engineer_2600835" target="_blank">ASIC Design Engineer</a></td>
-          <td class="td-location">16 Locations</td>
-          <td class="td-posted">5d</td>
-        </tr>
-        <tr>
-          <td class="td-company">Jane Street</td>
-          <td class="td-role"><a href="https://job-boards.greenhouse.io/janestreet/jobs/8062455002" target="_blank">FPGA Engineer</a></td>
-          <td class="td-location">New York</td>
-          <td class="td-posted">5d</td>
-        </tr>
-        <tr>
-          <td class="td-company">NVIDIA</td>
-          <td class="td-role"><a href="https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/ASIC-Physical-Design-and-Timing-Engineer_JR2012182" target="_blank">ASIC Timing Engineer</a></td>
-          <td class="td-location">US, CA</td>
-          <td class="td-posted">1w</td>
-        </tr>
-        <tr>
-          <td class="td-company">IMC Trading</td>
-          <td class="td-role"><a href="https://job-boards.eu.greenhouse.io/imc/jobs/4784514101" target="_blank">2026 ISFPGA Conference</a></td>
-          <td class="td-location">United States</td>
-          <td class="td-posted">1w</td>
-        </tr></tbody>
-        </table>
-      </div>
-    </div>
-    <div class="section">
-      <div class="section-header">
-        <div class="section-dot" style="background:#D4537E"></div>
-        <span class="section-title">Board Bring-up / Hardware Engineer</span>
-        <span class="section-count">9 roles</span>
-      </div>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th style="width:160px">Company</th>
-              <th>Role</th>
-              <th style="width:160px">Location</th>
-              <th style="width:70px">Posted</th>
-            </tr>
-          </thead>
-          <tbody>
-        <tr>
-          <td class="td-company">Arrow Electronics</td>
-          <td class="td-role"><a href="https://arrow.wd1.myworkdayjobs.com/AC/job/US-MA-Bedford-Massachusetts-Werfen/Hardware-Engineer_R238559" target="_blank">Hardware Engineer (eInfochips)</a></td>
-          <td class="td-location">MA-Bedford-Massac...</td>
-          <td class="td-posted">14m</td>
-        </tr>
-        <tr>
-          <td class="td-company">Handshake</td>
-          <td class="td-role"><a href="https://jobs.ashbyhq.com/handshake/a2005298-96da-46f6-8809-231008720bd9/application" target="_blank">Hardware Engineer - AI Trainer</a></td>
-          <td class="td-location">Remote</td>
-          <td class="td-posted">14m</td>
-        </tr>
-        <tr>
-          <td class="td-company">Verkada</td>
-          <td class="td-role"><a href="https://job-boards.greenhouse.io/verkada/jobs/5036396007" target="_blank">Hardware Engineer, New Grad 2025</a></td>
-          <td class="td-location">San Mateo, CA</td>
-          <td class="td-posted">1h</td>
-        </tr>
-        <tr>
-          <td class="td-company">Freeform</td>
-          <td class="td-role"><a href="https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7645357003" target="_blank">Electrical Engineer (Hardware Design)</a></td>
-          <td class="td-location">Los Angeles, CA</td>
-          <td class="td-posted">2h</td>
-        </tr>
-        <tr>
-          <td class="td-company">Amazon Development Center U.S., Inc.</td>
-          <td class="td-role"><a href="https://www.amazon.jobs/en/jobs/10373969/system-development-engineer-hardware-engineering-lab-operations" target="_blank">System Development Engineer, Hardware Engineering, Lab Operations</a></td>
-          <td class="td-location">Kent, WA</td>
-          <td class="td-posted">20h</td>
-        </tr>
-        <tr>
-          <td class="td-company">Amazon Development Center U.S., Inc.</td>
-          <td class="td-role"><a href="https://www.amazon.jobs/en/jobs/10372773/cloud-hardware-development-engineer-hardware-engineering-services" target="_blank">Cloud Hardware Development Engineer, Hardware Engineering Services</a></td>
-          <td class="td-location">Seattle, WA</td>
-          <td class="td-posted">3d</td>
-        </tr>
-        <tr>
-          <td class="td-company">HPE (University)</td>
-          <td class="td-role"><a href="https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Sunnyvale-California-United-States-of-America/Hardware-Engineer-3_1203770-2" target="_blank">Hardware Engineer 3</a></td>
-          <td class="td-location">Sunnyvale</td>
-          <td class="td-posted">4d</td>
-        </tr>
-        <tr>
-          <td class="td-company">HPE</td>
-          <td class="td-role"><a href="https://hpe.wd5.myworkdayjobs.com/acjobsite/job/Sunnyvale-California-United-States-of-America/Hardware-Engineer-3_1203770" target="_blank">Hardware Engineer 3</a></td>
-          <td class="td-location">Sunnyvale</td>
-          <td class="td-posted">4d</td>
-        </tr>
-        <tr>
-          <td class="td-company">Arrow Electronics</td>
-          <td class="td-role"><a href="https://arrow.wd1.myworkdayjobs.com/AC/job/Benton-Harbor-Michigan/Hardware-Engineer-eInfochips-Inc-_R242806" target="_blank">Hardware Engineer(eInfochips Inc)</a></td>
-          <td class="td-location">Benton Harbor</td>
-          <td class="td-posted">4d</td>
-        </tr></tbody>
-        </table>
-      </div>
-    </div>
-    <div class="section">
-      <div class="section-header">
-        <div class="section-dot" style="background:#7F77DD"></div>
-        <span class="section-title">Application / Field / Product Engineer</span>
-        <span class="section-count">6 roles</span>
-      </div>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th style="width:160px">Company</th>
-              <th>Role</th>
-              <th style="width:160px">Location</th>
-              <th style="width:70px">Posted</th>
-            </tr>
-          </thead>
-          <tbody>
-        <tr>
-          <td class="td-company">WeRide</td>
-          <td class="td-role"><a href="https://jobs.lever.co/weride/82955de9-485d-4db0-8fd9-1c018489fc8d/apply" target="_blank">Application Engineer</a></td>
-          <td class="td-location">San Jose, CA</td>
-          <td class="td-posted">13m</td>
-        </tr>
-        <tr>
-          <td class="td-company">Snowflake</td>
-          <td class="td-role"><a href="https://jobs.ashbyhq.com/snowflake/0fd8cb45-cc23-4632-ae02-32471f45bbc0/application" target="_blank">Software Application Engineer - Migrations</a></td>
-          <td class="td-location">CR-San Jose</td>
-          <td class="td-posted">14m</td>
-        </tr>
-        <tr>
-          <td class="td-company">Xometry</td>
-          <td class="td-role"><a href="https://job-boards.greenhouse.io/xometry/jobs/5061787007" target="_blank">Application Engineer, Injection Molding</a></td>
-          <td class="td-location">Lexington, KY</td>
-          <td class="td-posted">2d</td>
-        </tr>
-        <tr>
-          <td class="td-company">NVIDIA</td>
-          <td class="td-role"><a href="https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-TX-Austin/Networking-Field-Applications-Engineer_JR2014521" target="_blank">Networking Field Applications Engineer</a></td>
-          <td class="td-location">2 Locations</td>
-          <td class="td-posted">3d</td>
-        </tr>
-        <tr>
-          <td class="td-company">Tenstorrent</td>
-          <td class="td-role"><a href="https://job-boards.greenhouse.io/tenstorrent/jobs/4629571007" target="_blank">Field Application Engineer,  AI Systems & Solutions</a></td>
-          <td class="td-location">Austin</td>
-          <td class="td-posted">3d</td>
-        </tr>
-        <tr>
-          <td class="td-company">BlackRock</td>
-          <td class="td-role"><a href="https://blackrock.wd1.myworkdayjobs.com/blackrock_professional/job/Atlanta-GA/Application-Engineer--ETF--Java-Backend--Associate_R260497" target="_blank">Application Engineer (ETF)-Java Backend -Associate</a></td>
-          <td class="td-location">Atlanta, GA</td>
-          <td class="td-posted">4d</td>
-        </tr></tbody>
-        </table>
-      </div>
-    </div>
-    <div class="section">
-      <div class="section-header">
-        <div class="section-dot" style="background:#888780"></div>
-        <span class="section-title">Other Relevant Roles</span>
-        <span class="section-count">6 roles</span>
-      </div>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th style="width:160px">Company</th>
-              <th>Role</th>
-              <th style="width:160px">Location</th>
-              <th style="width:70px">Posted</th>
-            </tr>
-          </thead>
-          <tbody>
-        <tr>
-          <td class="td-company">Caterpillar</td>
-          <td class="td-role"><a href="https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Alpharetta-Georgia/Associate-HMI-Design-Engineer_R0000358983" target="_blank">Associate HMI Design Engineer</a></td>
-          <td class="td-location">Alpharetta</td>
-          <td class="td-posted">13m</td>
-        </tr>
-        <tr>
-          <td class="td-company">Eaton Corporation</td>
-          <td class="td-role"><a href="https://eaton.eightfold.ai/careers/job/687234526177?trk=public_post-text" target="_blank">Embedded Firmware Engineer- Entry Level</a></td>
-          <td class="td-location">Raleigh</td>
-          <td class="td-posted">4d</td>
-        </tr>
-        <tr>
-          <td class="td-company">Jane Street</td>
-          <td class="td-role"><a href="https://job-boards.greenhouse.io/janestreet/jobs/8213653002" target="_blank">ASIC Engineer</a></td>
-          <td class="td-location">New York</td>
-          <td class="td-posted">5d</td>
-        </tr>
-        <tr>
-          <td class="td-company">KLA</td>
-          <td class="td-role"><a href="https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Associate-Test-Engineer-2_2634910-1" target="_blank">Associate Test Engineer 2</a></td>
-          <td class="td-location">Milpitas, CA</td>
-          <td class="td-posted">5d</td>
-        </tr>
-        <tr>
-          <td class="td-company">Tenstorrent</td>
-          <td class="td-role"><a href="https://job-boards.greenhouse.io/tenstorrent/jobs/5062896007" target="_blank">ASIC Networking Engineer</a></td>
-          <td class="td-location">United States</td>
-          <td class="td-posted">6d</td>
-        </tr>
-        <tr>
-          <td class="td-company">Tenstorrent</td>
-          <td class="td-role"><a href="https://job-boards.greenhouse.io/tenstorrent/jobs/5070207007" target="_blank">SOC Emulation Engineer - Hardware Emulation Infrastructure</a></td>
-          <td class="td-location">Austin</td>
-          <td class="td-posted">6d</td>
-        </tr></tbody>
-        </table>
-      </div>
-    </div>
-</div>
+const BLOCKED_DISPLAY = [
+  'Lockheed Martin','Raytheon Technologies','Northrop Grumman','General Dynamics',
+  'L3Harris','BAE Systems','Leidos','SAIC','Booz Allen Hamilton','CACI',
+  'MIT Lincoln Laboratory','Draper','MITRE','HII','Textron','Dynetics','Peraton',
+  'Parsons','General Atomics','Mercury Systems','Kratos','Aerojet Rocketdyne',
+  'ManTech','NASA (federal)','DoD / NSA / CIA / NRO / DARPA',
+  'Any role requiring Security Clearance','Any role requiring US Citizenship'
+];
 
-<div class="footer">
-  Last updated: 2026-03-23 20:00 UTC · Source: <a href="https://github.com/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026">zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026</a>
-</div>
+// Raw GitHub URL for jobs.json
+const JOBS_URL = 'https://raw.githubusercontent.com/bvsriharshini/ECE-jobs/main/jobs.json';
+const RESUME_BASE = 'https://raw.githubusercontent.com/bvsriharshini/ECE-jobs/main/';
 
+let allJobs = [];
+
+async function loadJobs() {
+  document.getElementById('main').innerHTML =
+    '<div class="loading"><div class="spinner"></div><br/>Fetching latest jobs…</div>';
+  try {
+    const r = await fetch(JOBS_URL + '?t=' + Date.now());
+    const data = await r.json();
+    allJobs = data.jobs || [];
+    document.getElementById('sTotal').textContent = allJobs.length;
+    document.getElementById('sUrgent').textContent = allJobs.filter(j=>j.urgent).length;
+    document.getElementById('sSponsor').textContent = allJobs.filter(j=>j.sponsor==='yes').length;
+    document.getElementById('sPDF').textContent = allJobs.filter(j=>j.resume_path).length;
+    const upd = data.updated ? new Date(data.updated).toLocaleString() : 'Unknown';
+    document.getElementById('sUpdated').textContent = upd;
+    render();
+  } catch(e) {
+    document.getElementById('main').innerHTML =
+      `<div class="empty">⚠️ Could not load jobs.json from GitHub.<br/>
+      Make sure the GitHub Action has run at least once.<br/>
+      <small style="color:#9ca3af">${e.message}</small></div>`;
+  }
+  // Blocked list
+  document.getElementById('blockedList').innerHTML =
+    BLOCKED_DISPLAY.map(c=>`<span class="bpill">🚫 ${c}</span>`).join('');
+}
+
+function render() {
+  const q   = document.getElementById('searchBox').value.toLowerCase();
+  const cat = document.getElementById('catFilter').value;
+  const sp  = document.getElementById('spFilter').value;
+  const urg = document.getElementById('urgFilter').value;
+
+  const filtered = allJobs.filter(j => {
+    const txt = (j.company+' '+j.role+' '+j.location).toLowerCase();
+    if (q && !txt.includes(q)) return false;
+    if (cat && j.cat !== cat) return false;
+    if (sp && j.sponsor !== sp) return false;
+    if (urg === 'urgent' && !j.urgent) return false;
+    return true;
+  });
+
+  document.getElementById('sVisible').textContent = filtered.length;
+
+  const order = ['DV','Analog','FPGA','ASIC','HW','SW'];
+  let html = '';
+  for (const c of order) {
+    const jobs = filtered.filter(j => j.cat === c);
+    if (!jobs.length) continue;
+    html += `<div class="sec-title">${CATS[c]||c}
+      <span style="font-size:.8rem;font-weight:400;color:#6b7280">(${jobs.length})</span></div>`;
+    html += `<table><thead><tr>
+      <th>Company</th><th>Role</th><th>Location</th>
+      <th>Sponsor</th><th>Actions</th>
+    </tr></thead><tbody>`;
+    for (const j of jobs) {
+      const sp = j.sponsor==='yes'
+        ? '<span class="tag t-yes">✅ H1B Sponsor</span>'
+        : '<span class="tag t-open">🟡 OPT OK</span>';
+      const urg = j.urgent ? '<span class="tag t-urg">🔴 Urgent</span>' : '';
+      const pdfBtn = j.resume_path
+        ? `<a class="btn btn-pdf" href="${RESUME_BASE}${j.resume_path}" target="_blank">📄 Resume PDF</a>`
+        : `<button class="btn btn-gen" onclick='showAtsScore(${JSON.stringify(j)})'>🤖 View ATS</button>`;
+      html += `<tr>
+        <td><strong>${j.company}</strong></td>
+        <td>${j.role} <span class="tag t-cat">${j.cat}</span>${urg}</td>
+        <td>${j.location||'US'}</td>
+        <td>${sp}</td>
+        <td>
+          <a class="btn btn-apply" href="${j.link}" target="_blank">Apply →</a>
+          ${pdfBtn}
+        </td>
+      </tr>`;
+    }
+    html += '</tbody></table>';
+  }
+
+  if (!filtered.length) html = `<div class="empty">🔍 No jobs match your filters.</div>`;
+  document.getElementById('main').innerHTML = html;
+}
+
+function showAtsScore(job) {
+  document.getElementById('modalTitle').textContent =
+    `${job.company} — ${job.role}`;
+  let body = '';
+  if (job.ats_score) {
+    body += `<div>ATS Match Score: <span class="score">${job.ats_score}%</span></div>`;
+  }
+  if (job.cover_letter) {
+    body += `<h3 style="margin-top:14px;color:#1e40af">Cover Letter Opening</h3>
+      <pre>${job.cover_letter}</pre>`;
+  }
+  if (!job.ats_score && !job.cover_letter) {
+    body = `<p style="color:#6b7280">Resume tailoring hasn't run yet for this job.<br/>
+      The GitHub Action will process it on the next run (within 30 min).</p>`;
+  }
+  document.getElementById('modalBody').innerHTML = body;
+  document.getElementById('modalBg').classList.add('open');
+}
+
+function closeModal() {
+  document.getElementById('modalBg').classList.remove('open');
+}
+
+function clearFilters() {
+  document.getElementById('searchBox').value = '';
+  document.getElementById('catFilter').value = '';
+  document.getElementById('spFilter').value = '';
+  document.getElementById('urgFilter').value = '';
+  render();
+}
+
+// Close modal on background click
+document.getElementById('modalBg').addEventListener('click', e => {
+  if (e.target === document.getElementById('modalBg')) closeModal();
+});
+
+loadJobs();
+</script>
 </body>
 </html>
