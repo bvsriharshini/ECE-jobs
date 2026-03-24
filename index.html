@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Harshini | F1 OPT ECE Job Board 2026</title>
+<style>
+  :root{--blue:#1e40af;--lb:#eff6ff;--border:#dbeafe;--green:#166534;--gbg:#dcfce7;--red:#991b1b;--rbg:#fee2e2;--gray:#6b7280;}
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'Segoe UI',Arial,sans-serif;background:#f0f4ff;color:#1e293b;}
+  header{background:linear-gradient(135deg,#1e3a8a,#2563eb);color:#fff;padding:28px 32px;}
+  header h1{font-size:1.7rem;} header p{opacity:.8;margin-top:4px;}
+  .badge{display:inline-block;padding:3px 12px;border-radius:99px;font-size:.75rem;font-weight:700;margin-top:10px;margin-right:6px;}
+  .b-opt{background:#bbf7d0;color:#166534;} .b-live{background:#fed7aa;color:#9a3412;} .b-ai{background:#e9d5ff;color:#6b21a8;}
+
+  .controls{display:flex;flex-wrap:wrap;gap:10px;padding:14px 24px;background:#fff;border-bottom:1px solid var(--border);align-items:center;}
+  .controls input,.controls select{padding:8px 12px;border:1px solid #d1d5db;border-radius:8px;font-size:.9rem;flex:1;min-width:150px;}
+  .controls button{padding:8px 16px;background:#2563eb;color:#fff;border:none;border-radius:8px;cursor:pointer;font-size:.9rem;font-weight:600;}
+  .controls button:hover{background:#1d4ed8;}
+  .controls button.sec{background:#fff;color:#374151;border:1px solid #d1d5db;}
+  .controls button.sec:hover{background:#f3f4f6;}
+
+  .banner{background:#dcfce7;border-left:4px solid #16a34a;padding:10px 24px;font-size:.85rem;color:#166534;}
+  .stats{display:flex;gap:20px;padding:12px 24px;background:var(--lb);flex-wrap:wrap;}
+  .stat .num{font-size:1.5rem;font-weight:800;color:var(--blue);}
+  .stat .lbl{font-size:.7rem;color:var(--gray);text-transform:uppercase;letter-spacing:.05em;}
+
+  .main{padding:16px 24px;}
+  .sec-title{font-size:1rem;font-weight:700;color:var(--blue);margin:18px 0 8px;border-bottom:2px solid var(--border);padding-bottom:6px;}
+
+  table{width:100%;border-collapse:collapse;background:#fff;border-radius:10px;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,.08);margin-bottom:8px;}
+  thead tr{background:#eff6ff;}
+  th{padding:10px 12px;text-align:left;font-size:.78rem;color:#374151;text-transform:uppercase;letter-spacing:.05em;font-weight:700;}
+  td{padding:10px 12px;border-top:1px solid #f1f5f9;font-size:.87rem;vertical-align:middle;}
+  tr:hover td{background:#f8faff;}
+
+  .tag{display:inline-block;padding:2px 8px;border-radius:99px;font-size:.72rem;font-weight:600;margin:1px;}
+  .t-yes{background:#dcfce7;color:#166534;} .t-open{background:#fef9c3;color:#854d0e;}
+  .t-urg{background:#fee2e2;color:#991b1b;} .t-cat{background:#f3e8ff;color:#6b21a8;}
+
+  .btn{display:inline-block;padding:5px 11px;border-radius:6px;font-size:.78rem;font-weight:600;text-decoration:none;margin:1px;}
+  .btn-apply{background:#2563eb;color:#fff;} .btn-apply:hover{background:#1d4ed8;}
+  .btn-pdf{background:#7c3aed;color:#fff;} .btn-pdf:hover{background:#6d28d9;}
+  .btn-gen{background:#f3f4f6;color:#374151;border:1px solid #d1d5db;cursor:pointer;}
+  .btn-gen:hover{background:#e5e7eb;}
+
+  .empty{text-align:center;padding:48px;color:var(--gray);}
+  .loading{text-align:center;padding:60px;color:var(--blue);font-size:1.1rem;}
+  .spinner{display:inline-block;width:32px;height:32px;border:3px solid #bfdbfe;border-top-color:#2563eb;border-radius:50%;animation:spin .8s linear infinite;margin-bottom:12px;}
+  @keyframes spin{to{transform:rotate(360deg)}}
+
+  .modal-bg{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:100;align-items:center;justify-content:center;}
+  .modal-bg.open{display:flex;}
+  .modal{background:#fff;border-radius:14px;padding:28px;max-width:640px;width:90%;max-height:80vh;overflow-y:auto;}
+  .modal h2{color:var(--blue);margin-bottom:12px;}
+  .modal .score{font-size:2rem;font-weight:800;color:#16a34a;}
+  .modal pre{background:#f8faff;padding:12px;border-radius:8px;font-size:.82rem;white-space:pre-wrap;margin-top:10px;}
+  .modal .close{float:right;background:none;border:none;font-size:1.4rem;cursor:pointer;color:var(--gray);}
+
+  details summary{cursor:pointer;background:#fee2e2;border-left:4px solid #dc2626;padding:10px 24px;font-size:.85rem;color:#991b1b;list-style:none;}
+  .blocked-list{padding:12px 24px;background:#fff;}
+  .bpill{display:inline-block;background:#fee2e2;color:#991b1b;border-radius:99px;padding:3px 10px;font-size:.78rem;margin:3px;border:1px solid #fca5a5;}
+
+  footer{text-align:center;padding:20px;font-size:.8rem;color:var(--gray);}
+  @media(max-width:700px){th:nth-child(4),td:nth-child(4){display:none;}.main{padding:12px;}}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🎓 Harshini's F1 OPT ECE Job Board — 2026</h1>
+  <p>Entry-level & New Grad · ECE / Hardware · United States · Auto-updated every 30 min</p>
+  <span class="badge b-opt">✅ OPT/F1 Friendly Only</span>
+  <span class="badge b-live">🔴 Live Feed</span>
+  <span class="badge b-ai">🤖 AI Resume Tailoring</span>
+</header>
+
+<div class="banner">
+  🛡️ <strong>Auto-filtered:</strong> All defense, government, and clearance-required roles are automatically excluded.
+  Only OPT-friendly & sponsorship-open positions shown.
+</div>
+
+<div class="controls">
+  <input type="text" id="searchBox" placeholder="🔍 Search role, company, location…" oninput="render()"/>
+  <select id="catFilter" onchange="render()">
+    <option value="">All Categories</option>
+    <option value="DV">Design Verification / SOC</option>
+    <option value="Analog">Analog / Mixed-Signal</option>
+    <option value="FPGA">FPGA / Board Bring-up</option>
+    <option value="ASIC">ASIC / Physical Design</option>
+    <option value="HW">Hardware / Systems</option>
+    <option value="SW">Embedded / SW</option>
+  </select>
+  <select id="spFilter" onchange="render()">
+    <option value="">All Sponsor Status</option>
+    <option value="yes">✅ Confirmed H1B Sponsor</option>
+    <option value="open">🟡 OPT Accepted</option>
+  </select>
+  <select id="urgFilter" onchange="render()">
+    <option value="">All Roles</option>
+    <option value="urgent">🔴 Urgent Hiring Only</option>
+  </select>
+  <select id="sortFilter" onchange="render()">
+    <option value="newest">🕐 Newest First</option>
+    <option value="oldest">🕐 Oldest First</option>
+    <option value="company">🔤 Company A–Z</option>
+  </select>
+  <button onclick="loadJobs()">🔄 Refresh</button>
+  <button class="sec" onclick="clearFilters()">✖ Clear</button>
+</div>
+
+<div class="stats">
+  <div class="stat"><div class="num" id="sTotal">—</div><div class="lbl">Total Jobs</div></div>
+  <div class="stat"><div class="num" id="sVisible">—</div><div class="lbl">Showing</div></div>
+  <div class="stat"><div class="num" id="sUrgent">—</div><div class="lbl">🔴 Urgent</div></div>
+  <div class="stat"><div class="num" id="sSponsor">—</div><div class="lbl">H1B Sponsors</div></div>
+  <div class="stat"><div class="num" id="sPDF">—</div><div class="lbl">Tailored PDFs Ready</div></div>
+  <div class="stat"><div class="num" id="sUpdated">—</div><div class="lbl">Last Updated</div></div>
+</div>
+
+<div class="main" id="main">
+  <div class="loading">
+    <div class="spinner"></div><br/>Loading live jobs…
+  </div>
+</div>
+
+<details>
+  <summary>🚫 Blocked companies (Defense / Government / Clearance) — click to see</summary>
+  <div class="blocked-list" id="blockedList"></div>
+</details>
+
+<footer>
+  Harshini's F1 OPT ECE Job Board · Auto-updated from zapplyjobs + Greenhouse + Ashby + Lever
+  · Powered by GitHub Actions + Vercel · <a href="https://github.com/bvsriharshini/ECE-jobs" target="_blank">GitHub Repo</a>
+</footer>
+
+<!-- Modal for AI resume preview -->
+<div class="modal-bg" id="modalBg">
+  <div class="modal">
+    <button class="close" onclick="closeModal()">✕</button>
+    <h2 id="modalTitle">Tailored Resume</h2>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<script>
+const CATS = {
+  DV:'🔬 Design Verification / SOC / GPU DV',
+  Analog:'📡 Analog / Mixed-Signal / Memory',
+  FPGA:'🔧 FPGA / Board Bring-up',
+  ASIC:'⚙️ ASIC / Physical Design',
+  HW:'🖥️ Hardware / Systems Engineering',
+  SW:'💻 Embedded / Software'
+};
+
+const BLOCKED_DISPLAY = [
+  'Lockheed Martin','Raytheon Technologies','Northrop Grumman','General Dynamics',
+  'L3Harris','BAE Systems','Leidos','SAIC','Booz Allen Hamilton','CACI',
+  'MIT Lincoln Laboratory','Draper','MITRE','HII','Textron','Dynetics','Peraton',
+  'Parsons','General Atomics','Mercury Systems','Kratos','Aerojet Rocketdyne',
+  'ManTech','NASA (federal)','DoD / NSA / CIA / NRO / DARPA',
+  'Any role requiring Security Clearance','Any role requiring US Citizenship'
+];
+
+// Raw GitHub URL for jobs.json
+const JOBS_URL = 'https://raw.githubusercontent.com/bvsriharshini/ECE-jobs/main/jobs.json';
+const RESUME_BASE = 'https://raw.githubusercontent.com/bvsriharshini/ECE-jobs/main/';
+
+let allJobs = [];
+
+async function loadJobs() {
+  document.getElementById('main').innerHTML =
+    '<div class="loading"><div class="spinner"></div><br/>Fetching latest jobs…</div>';
+  try {
+    const r = await fetch(JOBS_URL + '?t=' + Date.now());
+    const data = await r.json();
+    allJobs = data.jobs || [];
+    document.getElementById('sTotal').textContent = allJobs.length;
+    document.getElementById('sUrgent').textContent = allJobs.filter(j=>j.urgent).length;
+    document.getElementById('sSponsor').textContent = allJobs.filter(j=>j.sponsor==='yes').length;
+    document.getElementById('sPDF').textContent = allJobs.filter(j=>j.resume_path).length;
+    const upd = data.updated ? new Date(data.updated).toLocaleString() : 'Unknown';
+    document.getElementById('sUpdated').textContent = upd;
+    render();
+  } catch(e) {
+    document.getElementById('main').innerHTML =
+      `<div class="empty">⚠️ Could not load jobs.json from GitHub.<br/>
+      Make sure the GitHub Action has run at least once.<br/>
+      <small style="color:#9ca3af">${e.message}</small></div>`;
+  }
+  // Blocked list
+  document.getElementById('blockedList').innerHTML =
+    BLOCKED_DISPLAY.map(c=>`<span class="bpill">🚫 ${c}</span>`).join('');
+}
+
+function render() {
+  const q   = document.getElementById('searchBox').value.toLowerCase();
+  const cat = document.getElementById('catFilter').value;
+  const sp  = document.getElementById('spFilter').value;
+  const urg = document.getElementById('urgFilter').value;
+
+  const USA_TERMS = ['united states','usa',' us ',' us,','remote','new york','california',
+    'texas','washington','massachusetts','illinois','georgia','florida','oregon',
+    'colorado','virginia','arizona','michigan','north carolina','new jersey',
+    'pennsylvania','ohio','minnesota','austin','seattle','san jose','san francisco',
+    'boston','chicago','new york','atlanta','raleigh','portland','denver',
+    'santa clara','sunnyvale','cupertino','menlo park','mountain view','palo alto',
+    'irvine','san diego','los angeles','bellevue','redmond','hillsboro','boise',
+    'chandler','phoenix','morrisville','westborough','milpitas','fremont',
+    'santa barbara','pittsburgh','detroit','dallas','houston','miami','nyc'];
+
+  // Block senior/staff/director roles
+  const SENIOR_BLOCKED = [
+    'staff ','senior ','sr ','sr.','principal','director','manager','lead ',
+    'head of','vp ','vice president','distinguished','fellow ','architect ',
+    '> 3 years','5+ years','7+ years','8+ years','10+ years',
+    '5 years','6 years','7 years','8 years','10 years',
+  ];
+  const ENTRY_SIGNALS = [
+    'new grad','new college grad','entry level','entry-level','junior',
+    'associate ','early career','0-3','0 to 3','1-3','recent grad',
+    'university grad','college grad','2025','2026','intern','co-op',
+  ];
+
+  const isEntryLevel = j => {
+    const txt = (j.role + ' ' + (j.note||'')).toLowerCase();
+    // Block if senior signals found
+    if (SENIOR_BLOCKED.some(s => txt.includes(s))) return false;
+    return true;
+  };
+
+  const isUSA = j => {
+    const loc = (j.location || '').toLowerCase();
+    if (!loc || loc === 'us' || loc === 'usa') return true;
+    return USA_TERMS.some(t => loc.includes(t));
+  };
+
+  const filtered = allJobs.filter(j => {
+    if (!isUSA(j)) return false;
+    if (!isEntryLevel(j)) return false;  // 0-3 yrs only
+    const txt = (j.company+' '+j.role+' '+j.location).toLowerCase();
+    if (q && !txt.includes(q)) return false;
+    if (cat && j.cat !== cat) return false;
+    if (sp && j.sponsor !== sp) return false;
+    if (urg === 'urgent' && !j.urgent) return false;
+    return true;
+  });
+
+  // Sort
+  const sort = document.getElementById('sortFilter').value;
+  filtered.sort((a, b) => {
+    if (sort === 'newest') return (b.date_added||'').localeCompare(a.date_added||'');
+    if (sort === 'oldest') return (a.date_added||'').localeCompare(b.date_added||'');
+    if (sort === 'company') return a.company.localeCompare(b.company);
+    return 0;
+  });
+
+  document.getElementById('sVisible').textContent = filtered.length;
+
+  const order = ['DV','Analog','FPGA','ASIC','HW','SW'];
+  let html = '';
+  for (const c of order) {
+    const jobs = filtered.filter(j => j.cat === c);
+    if (!jobs.length) continue;
+    html += `<div class="sec-title">${CATS[c]||c}
+      <span style="font-size:.8rem;font-weight:400;color:#6b7280">(${jobs.length})</span></div>`;
+    html += `<table><thead><tr>
+      <th>Company</th><th>Role</th><th>Location</th>
+      <th>Sponsor</th><th>Actions</th>
+    </tr></thead><tbody>`;
+    for (const j of jobs) {
+      const sp = j.sponsor==='yes'
+        ? '<span class="tag t-yes">✅ H1B Sponsor</span>'
+        : '<span class="tag t-open">🟡 OPT OK</span>';
+      const urg = j.urgent ? '<span class="tag t-urg">🔴 Urgent</span>' : '';
+      // Clean company name — strip markdown bold **text**
+      const company = j.company.replace(/\*\*/g, '').trim();
+
+      // Fix link
+      let applyLink = (j.link || '').trim();
+      if (applyLink && applyLink !== '#' && !applyLink.startsWith('http')) {
+        applyLink = 'https://' + applyLink;
+      }
+      const applyBtn = applyLink && applyLink !== '#'
+        ? `<a class="btn btn-apply" href="${applyLink}" target="_blank" rel="noopener noreferrer">Apply →</a>`
+        : `<span style="font-size:.78rem;color:#9ca3af">—</span>`;
+
+      // Trim long locations
+      const loc = (j.location || 'US').split(';')[0].trim();
+      const shortLoc = loc.length > 30 ? loc.substring(0, 28) + '…' : loc;
+
+      const pdfBtn = j.resume_path
+        ? `<a class="btn btn-pdf" href="${RESUME_BASE}${j.resume_path}" target="_blank">📄 PDF</a>`
+        : `<button class="btn btn-gen" onclick='showAtsScore(${JSON.stringify(j)})'>🤖 ATS</button>`;
+
+      html += `<tr>
+        <td><strong>${company}</strong><br/><span style="font-size:.75rem;color:#6b7280">${timeAgo(j.date_added)}</span></td>
+        <td>${j.role} <span class="tag t-cat">${j.cat}</span>${urg}</td>
+        <td>${shortLoc}</td>
+        <td>${sp}</td>
+        <td>${applyBtn} ${pdfBtn}</td>
+      </tr>`;
+    }
+    html += '</tbody></table>';
+  }
+
+  if (!filtered.length) html = `<div class="empty">🔍 No jobs match your filters.</div>`;
+  document.getElementById('main').innerHTML = html;
+}
+
+function timeAgo(dateStr) {
+  if (!dateStr) return 'Recently';
+  const diff = Date.now() - new Date(dateStr).getTime();
+  const mins  = Math.floor(diff / 60000);
+  const hours = Math.floor(diff / 3600000);
+  const days  = Math.floor(diff / 86400000);
+  if (mins < 60)  return `${mins}m ago`;
+  if (hours < 24) return `${hours}h ago`;
+  if (days === 1) return `1 day ago`;
+  if (days < 7)   return `${days} days ago`;
+  if (days < 14)  return `1 week ago`;
+  return `${Math.floor(days/7)} weeks ago`;
+}
+
+function showAtsScore(job) {
+  document.getElementById('modalTitle').textContent =
+    `${job.company} — ${job.role}`;
+  let body = '';
+  if (job.ats_score) {
+    body += `<div>ATS Match Score: <span class="score">${job.ats_score}%</span></div>`;
+  }
+  if (job.cover_letter) {
+    body += `<h3 style="margin-top:14px;color:#1e40af">Cover Letter Opening</h3>
+      <pre>${job.cover_letter}</pre>`;
+  }
+  if (!job.ats_score && !job.cover_letter) {
+    body = `<p style="color:#6b7280">Resume tailoring hasn't run yet for this job.<br/>
+      The GitHub Action will process it on the next run (within 30 min).</p>`;
+  }
+  document.getElementById('modalBody').innerHTML = body;
+  document.getElementById('modalBg').classList.add('open');
+}
+
+function closeModal() {
+  document.getElementById('modalBg').classList.remove('open');
+}
+
+function clearFilters() {
+  document.getElementById('searchBox').value = '';
+  document.getElementById('catFilter').value = '';
+  document.getElementById('spFilter').value = '';
+  document.getElementById('urgFilter').value = '';
+  document.getElementById('sortFilter').value = 'newest';
+  render();
+}
+
+// Close modal on background click
+document.getElementById('modalBg').addEventListener('click', e => {
+  if (e.target === document.getElementById('modalBg')) closeModal();
+});
+
+loadJobs();
+</script>
+</body>
+</html>
