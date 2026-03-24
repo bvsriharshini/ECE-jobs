@@ -1,12 +1,12 @@
-name: Update OPT-Friendly ECE Jobs
+name: Update OPT-Friendly ECE Jobs + Tailor Resumes
 
 on:
   schedule:
-    - cron: '*/30 * * * *'   # every 30 minutes
-  workflow_dispatch:           # manual trigger anytime
+    - cron: '0 */6 * * *'   # every 6 hours (Apify free tier friendly)
+  workflow_dispatch:          # manual trigger anytime
 
 jobs:
-  update-jobs:
+  update-and-tailor:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -21,15 +21,30 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests
+        run: |
+          pip install requests weasyprint
+          sudo apt-get install -y \
+            libpango-1.0-0 libpangoft2-1.0-0 \
+            libpangocairo-1.0-0 libgdk-pixbuf2.0-0 \
+            libffi-dev shared-mime-info
 
-      - name: Fetch and filter jobs from all sources
+      - name: Step 1 — Fetch jobs from GitHub repos + Greenhouse + Ashby + Lever
         run: python filter_jobs.py
 
-      - name: Commit updated jobs.json
+      - name: Step 2 — Fetch jobs from LinkedIn + Indeed via Apify
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+        run: python apify_scraper.py
+
+      - name: Step 3 — AI tailor resume for each new job
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python resume_tailor.py
+
+      - name: Commit everything
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add jobs.json
-          git diff --cached --quiet || git commit -m "Auto-update: OPT-filtered ECE jobs $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git add jobs.json resumes/
+          git diff --cached --quiet || git commit -m "Auto-update: jobs + resumes $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
