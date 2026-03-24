@@ -1,148 +1,155 @@
-# Harshini's ECE Job Board
+"""
+filter_jobs.py
+Fetches new-grad ECE hardware jobs and filters out any role that
+requires US citizenship, security clearance, or is from a defense/
+government employer. Saves the clean list to jobs.json.
+"""
 
-**OPT/F1 Friendly | Entry-Level & New Grad | DV, ASIC, FPGA, Analog, Embedded**
+import json, re, urllib.request, urllib.error
+from datetime import datetime, timezone
 
-Last updated: 2026-03-24 16:11 UTC
+# ── BLOCKLIST ────────────────────────────────────────────────────────────────
+BLOCKED = [
+    # Defense / aerospace prime contractors
+    "lockheed", "raytheon", "northrop", "general dynamics", "l3harris",
+    "bae systems", "leidos", "saic", "booz allen", "caci",
+    "mit lincoln", "draper laboratory", "mitre", "huntington ingalls", "hii",
+    "textron", "dynetics", "peraton", "parsons", "general atomics",
+    "mercury systems", "kratos", "aerojet", "mantech", "vectrus", "amentum",
+    "cubic defense", "perspecta", "keyw", "bechtel national",
+    "jacobs federal", "pae incorporated",
+    # US government / federal agencies
+    "u.s. army", "us army", "u.s. navy", "us navy", "u.s. air force",
+    "us air force", "u.s. marine", "department of defense", "dept of defense",
+    "department of energy", "nasa ", "federal aviation", "central intelligence",
+    "national security agency", "nsa ", "federal bureau", "dept of homeland",
+    "defense information", "disa ", "darpa ", "national reconnaissance",
+    "u.s. government", "federal government",
+    # Clearance / citizenship requirement phrases
+    "clearance required", "secret clearance", "top secret", "ts/sci",
+    "us citizenship required", "must be a us citizen", "us citizen only",
+    "requires us citizenship", "active clearance", "dod clearance",
+    "government clearance", "security clearance required",
+]
 
-Source: [zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026](https://github.com/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026)
+# ── KNOWN OPT/SPONSOR-FRIENDLY COMPANIES ────────────────────────────────────
+SPONSORS = {
+    "nvidia": "yes", "qualcomm": "yes", "amd": "yes", "intel": "yes",
+    "apple": "yes", "google": "yes", "meta": "yes", "microsoft": "yes",
+    "amazon": "yes", "cisco": "yes", "broadcom": "yes", "marvell": "yes",
+    "synopsys": "yes", "cadence": "yes", "arm ": "yes", "arm,": "yes",
+    "texas instruments": "yes", "ti ": "yes", "analog devices": "yes",
+    "micron": "yes", "samsung": "yes", "tsmc": "yes", "globalfoundries": "yes",
+    "nxp": "yes", "infineon": "yes", "cirrus logic": "yes", "waymo": "yes",
+    "etched": "yes", "sk hynix": "yes",
+    # OPT-accepted (sponsor status not confirmed but OPT known OK)
+    "spacex": "open", "tesla": "open", "tenstorrent": "open",
+    "lattice": "open", "microchip": "open", "onsemi": "open",
+    "on semiconductor": "open", "st micro": "open", "sambanova": "open",
+}
 
----
+ECE_KEYWORDS = [
+    "verification", "soc", "asic", "fpga", "analog", "mixed-signal",
+    "physical design", "board bring", "hardware engineer", "chip design",
+    "vlsi", "rtl", "verilog", "systemverilog", "uvm", "digital design",
+    "memory controller", "gpu", "dv engineer", "process engineer",
+    "product engineer", "applications engineer", "embedded", "zynq",
+    "semiconductor", "silicon", "layout engineer",
+]
 
-## Latest ECE Jobs (131 filtered)
+# ── FETCH SOURCE REPO README ──────────────────────────────────────────────────
+SOURCE_URL = (
+    "https://raw.githubusercontent.com/zapplyjobs/"
+    "New-Grad-Hardware-Engineering-Jobs-2026/main/README.md"
+)
 
-| Company | Role | Location | Posted | Apply |
-|---------|------|----------|--------|-------|
-| 🏢 **OpenAI** | Design Verification Engineer | San Francisco | 13m | [<img src="images/apply.png" width="75" alt="Apply">](https://jobs.ashbyhq.com/openai/3a415c1d-4f66-4578-8eb3-8b15ef0ab52b/application) |
-| 🏢 **OpenAI** | Physical Design Engineer | San Francisco | 13m | [<img src="images/apply.png" width="75" alt="Apply">](https://jobs.ashbyhq.com/openai/5a265d2b-683f-4cea-9b69-8e137e704ab3/application) |
-| 🏢 **Shield AI** | Electrical Engineer I - Power Electronics | Dallas | 13m | [<img src="images/apply.png" width="75" alt="Apply">](https://jobs.lever.co/shieldai/0af53b2b-e1ba-4e73-9e94-a4a689cabab9/apply) |
-| 🏢 **Shield AI** | Electrical Engineer I (BOS) | Boston, MA | 13m | [<img src="images/apply.png" width="75" alt="Apply">](https://jobs.lever.co/shieldai/37fa20c1-57dc-4aa1-9515-ecc87f22f31b/apply) |
-| 🏢 **Northwood Space** | Mechanical Design Engineer | Torrance, CA | 13m | [<img src="images/apply.png" width="75" alt="Apply">](https://jobs.ashbyhq.com/northwoodspace/db35e4f0-291e-4a55-94a5-ea25a43172d3/application) |
-| 🏢 **Northwood Space** | RF Hardware Engineer (Early Career) | Torrance, CA | 13m | [<img src="images/apply.png" width="75" alt="Apply">](https://jobs.ashbyhq.com/northwoodspace/5d76a025-bb64-4ddd-8b97-8649c41d89ed/application) |
-| 🏢 **Handshake** | Hardware Engineer - AI Trainer | Remote | 13m | [<img src="images/apply.png" width="75" alt="Apply">](https://jobs.ashbyhq.com/handshake/a2005298-96da-46f6-8809-231008720bd9/application) |
-| 🏢 **Analog Devices** | Engineer, Design Verification Engineering | US, AZ | 14m | [<img src="images/apply.png" width="75" alt="Apply">](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-AZ-Chandler-East-Elliot/Engineer--Design-Verification-Engineering_R261549) |
-| 🏢 **Etched** | Design Verification Engineer - Internal IP | San Jose | 14m | [<img src="images/apply.png" width="75" alt="Apply">](https://jobs.ashbyhq.com/etched/7aeafe31-c2c6-43e0-bb31-01868dcfad39/application) |
-| 🏢 **Crusoe** | Electrical Engineer | Arvada, CO | 14m | [<img src="images/apply.png" width="75" alt="Apply">](https://jobs.ashbyhq.com/crusoe/8747a8c1-7004-4053-87b7-951a13d3fcb5/application) |
-| 🏢 **Hermeus** | Avionics Electrical Engineer | Atlanta, GA | 14m | [<img src="images/apply.png" width="75" alt="Apply">](https://jobs.lever.co/hermeus/1fc2f0fb-9961-49d2-93ab-59adc2a0ab9d/apply) |
-| 🏢 **Hermeus** | Avionics Electrical Engineer | Los Angeles, CA | 14m | [<img src="images/apply.png" width="75" alt="Apply">](https://jobs.lever.co/hermeus/9ad6f012-cabb-439f-bd6c-fe967a278bed/apply) |
-| 🏢 **Zipline** | Electrical Engineer - Ground Systems | South San Francisco | 11h | [<img src="images/apply.png" width="75" alt="Apply">](https://www.flyzipline.com/careers/open-roles?gh_jid=6683054003) |
-| 🏢 **Anduril** | Electrical Engineer | Costa Mesa | 16h | [<img src="images/apply.png" width="75" alt="Apply">](https://boards.greenhouse.io/andurilindustries/jobs/4999776007?gh_jid=4999776007) |
-| 🏢 **Waymo** | Signal Integrity Engineer | Mountain View, CA | 16h | [<img src="images/apply.png" width="75" alt="Apply">](https://careers.withwaymo.com/jobs?gh_jid=7683884) |
-| 🏢 **Bosch Group** | Dock Operator - DSP (2nd Shift) | West Memphis, AR | 18h | [<img src="images/apply.png" width="75" alt="Apply">](https://jobs.smartrecruiters.com/BoschGroup/744000116285062) |
-| 🏢 **Verkada** | Hardware Engineer, New Grad 2025 | San Mateo, CA | 21h | [<img src="images/apply.png" width="75" alt="Apply">](https://job-boards.greenhouse.io/verkada/jobs/5036396007) |
-| 🏢 **Freeform** | Electrical Engineer (PCB Design) | Los Angeles, CA | 22h | [<img src="images/apply.png" width="75" alt="Apply">](https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7668634003) |
-| 🏢 **Freeform** | Electrical Engineer (Hardware Design) | Los Angeles, CA | 22h | [<img src="images/apply.png" width="75" alt="Apply">](https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7645357003) |
-| 🏢 **Formlabs** | Electrical Engineer | Boston, MA | 1d | [<img src="images/apply.png" width="75" alt="Apply">](https://careers.formlabs.com/job/7742543/apply/?gh_jid=7742543) |
-| 🏢 **Formlabs** | Electrical Engineer | Somerville, MA | 1d | [<img src="images/apply.png" width="75" alt="Apply">](https://careers.formlabs.com/job/7742542/apply/?gh_jid=7742542) |
-| 🏢 **SharkNinja** | Electrical Engineer | United States | 1d | [<img src="images/apply.png" width="75" alt="Apply">](https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4645454006) |
-| 🏢 **Amazon Development Center U.S., Inc.** | System Development Engineer, Hardware Engineering, Lab Operations | Kent, WA | 1d | [<img src="images/apply.png" width="75" alt="Apply">](https://www.amazon.jobs/en/jobs/10373969/system-development-engineer-hardware-engineering-lab-operations) |
-| 🏢 **HPE (University)** | Signal Integrity and Power Delivery Engineer | Chippewa Falls | 2d | [<img src="images/apply.png" width="75" alt="Apply">](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Chippewa-Falls-Wisconsin-United-States-of-America/Signal-Integrity-and-Power-Delivery-Engineer_1195734-2) |
-| 🏢 **HPE** | Signal Integrity and Power Delivery Engineer | Chippewa Falls | 2d | [<img src="images/apply.png" width="75" alt="Apply">](https://hpe.wd5.myworkdayjobs.com/acjobsite/job/Chippewa-Falls-Wisconsin-United-States-of-America/Signal-Integrity-and-Power-Delivery-Engineer_1195734) |
-| 🏢 **Intel** | CPU Formal Verification Engineer | 5 Locations | 3d | [<img src="images/apply.png" width="75" alt="Apply">](https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/CPU-Formal-Verification-Engineer_JR0281438) |
-| 🏢 **xAI** | Electrical Engineer (EIT) | Memphis, TN | 3d | [<img src="images/apply.png" width="75" alt="Apply">](https://job-boards.greenhouse.io/xai/jobs/4753835007) |
-| 🏢 **Intel** | Pre-Silicon Verification Engineer | 2 Locations | 4d | [<img src="images/apply.png" width="75" alt="Apply">](https://intel.wd1.myworkdayjobs.com/External/job/US-Texas-Austin/Pre-Silicon-Verification-Engineer_JR0280786) |
-| 🏢 **Carrier Global** | Electrical Engineer | Charlotte, 9701 O... | 4d | [<img src="images/apply.png" width="75" alt="Apply">](https://carrier.wd5.myworkdayjobs.com/jobs/job/CAN03-Carrier-Charlotte-9701-Old-Statesville-Road-Charlotte-NC-28269-USA/Electrical-Engineer_30199824) |
-| 🏢 **AES Corporation** | Robotics Hardware Engineer - Solar | US, VA | 4d | [<img src="images/apply.png" width="75" alt="Apply">](https://aes.wd1.myworkdayjobs.com/AES_US/job/US-Arlington-VA/Senior-Robotics-Hardware-Engineer---Solar_R1060869) |
-| 🏢 **Amazon Development Center U.S., Inc.** | Cloud Hardware Development Engineer, Hardware Engineering Services | Seattle, WA | 4d | [<img src="images/apply.png" width="75" alt="Apply">](https://www.amazon.jobs/en/jobs/10372773/cloud-hardware-development-engineer-hardware-engineering-services) |
-| 🏢 **HPE (University)** | Hardware Engineer 3 | Sunnyvale | 5d | [<img src="images/apply.png" width="75" alt="Apply">](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Sunnyvale-California-United-States-of-America/Hardware-Engineer-3_1203770-2) |
-| 🏢 **HPE** | Hardware Engineer 3 | Sunnyvale | 5d | [<img src="images/apply.png" width="75" alt="Apply">](https://hpe.wd5.myworkdayjobs.com/acjobsite/job/Sunnyvale-California-United-States-of-America/Hardware-Engineer-3_1203770) |
-| 🏢 **Cisco** | Hardware Engineer (High-speed IO/Testing) (Onsite) | San Jose, US | 5d | [<img src="images/apply.png" width="75" alt="Apply">](https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer--High-speed-IO-Testing---Onsite-_2011046) |
-| 🏢 **Broadcom** | DFT Engineer | 3 Locations | 5d | [<img src="images/apply.png" width="75" alt="Apply">](https://broadcom.wd1.myworkdayjobs.com/External_Career/job/USA-TX-Austin---River-Place-B7/DFT-Engineer_R024805) |
-| 🏢 **Arrow Electronics** | Hardware Engineer(eInfochips Inc) | Benton Harbor | 5d | [<img src="images/apply.png" width="75" alt="Apply">](https://arrow.wd1.myworkdayjobs.com/AC/job/Benton-Harbor-Michigan/Hardware-Engineer-eInfochips-Inc-_R242806) |
-| 🏢 **Analog Devices** | Equipment Engineering Technician 2 | US, OR | 5d | [<img src="images/apply.png" width="75" alt="Apply">](https://analogdevices.wd1.myworkdayjobs.com/External/job/US-OR-Beaverton/Equipment-Engineering-Technician-2_R261300-1) |
-| 🏢 **Dell Technologies** | Electrical Engineer | Round Rock | 5d | [<img src="images/apply.png" width="75" alt="Apply">](https://dell.wd1.myworkdayjobs.com/External/job/Round-Rock-Texas-United-States/Electrical-Engineer_R287441-1) |
-| 🏢 **NVIDIA** | ASIC Design Efficiency Engineer | 3 Locations | 11m | [<img src="images/apply.png" width="75" alt="Apply">](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/ASIC-Design-Efficiency-Engineer_JR1998928) |
-| 🏢 **OpenAI** | Networking Operating System Firmware Engineer | San Francisco | 13m | [<img src="images/apply.png" width="75" alt="Apply">](https://jobs.ashbyhq.com/openai/582b878e-61bf-4be2-8b30-623434baf726/application) |
-| 🏢 **OpenAI** | Camera Firmware Engineer, Consumer Devices | San Francisco | 13m | [<img src="images/apply.png" width="75" alt="Apply">](https://jobs.ashbyhq.com/openai/1dc05fc7-ceb7-4827-a905-9d1beb77a4a0/application) |
-| 🏢 **Etched** | Design Verification Engineer - SoC | San Jose | 14m | [<img src="images/apply.png" width="75" alt="Apply">](https://jobs.ashbyhq.com/etched/a99318bd-b433-44b7-9600-2ee9533c90a1/application) |
-| 🏢 **Waymo** | ASIC Design Verification Engineer | Mountain View, CA | 16h | [<img src="images/apply.png" width="75" alt="Apply">](https://careers.withwaymo.com/jobs?gh_jid=7656843) |
-| 🏢 **Anduril** | Firmware Engineer, Embedded Systems | Costa Mesa | 19h | [<img src="images/apply.png" width="75" alt="Apply">](https://boards.greenhouse.io/andurilindustries/jobs/5052359007?gh_jid=5052359007) |
-| 🏢 **Anduril** | Firmware Engineer, Manufacturing Test | Costa Mesa | 19h | [<img src="images/apply.png" width="75" alt="Apply">](https://boards.greenhouse.io/andurilindustries/jobs/4987908007?gh_jid=4987908007) |
-| 🏢 **SpaceX** | RTL Design Engineer (Silicon Engineering) | Irvine, CA | 19h | [<img src="images/apply.png" width="75" alt="Apply">](https://boards.greenhouse.io/spacex/jobs/8466346002?gh_jid=8466346002) |
-| 🏢 **SpaceX** | Avionics Build Associate (Starship) | Starbase, TX | 19h | [<img src="images/apply.png" width="75" alt="Apply">](https://boards.greenhouse.io/spacex/jobs/8456300002?gh_jid=8456300002) |
-| 🏢 **SpaceX** | Wireless Firmware Engineer (Direct To Cell) | Sunnyvale, CA | 19h | [<img src="images/apply.png" width="75" alt="Apply">](https://boards.greenhouse.io/spacex/jobs/8376504002?gh_jid=8376504002) |
-| 🏢 **Intel** | CPU RTL Design Engineer | 2 Locations | 2d | [<img src="images/apply.png" width="75" alt="Apply">](https://intel.wd1.myworkdayjobs.com/External/job/US-Texas-Austin/CPU-RTL-Design-Engineer_JR0281532) |
-| 🏢 **Merck & Co.** | Associate Scientist, Environmental & Process Safety Engineering | New Jersey - Rahway | 4d | [<img src="images/apply.png" width="75" alt="Apply">](https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---New-Jersey---Rahway/Associate-Scientist--Environmental---Process-Safety-Engineering_R389795) |
-| 🏢 **Micron** | MTS ASIC Design Engineer | 5 Locations | 4d | [<img src="images/apply.png" width="75" alt="Apply">](https://micron.wd1.myworkdayjobs.com/External/job/San-Jose-CA/MTS-ASIC-Design-Engineer_JR94428-1) |
-| 🏢 **Marvell** | ASIC Design Engineer: DFT-IP | Morrisville, NC | 4d | [<img src="images/apply.png" width="75" alt="Apply">](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Morrisville-NC/ASIC-Design-Engineer--DFT-IP_2600512) |
-| 🏢 **Intel** | RTL Design Engineer | 3 Locations | 4d | [<img src="images/apply.png" width="75" alt="Apply">](https://intel.wd1.myworkdayjobs.com/External/job/US-Texas-Austin/RTL-Design-Engineer_JR0281759) |
-| 🏢 **Cisco** | ASIC Design Verification Engineer | San Jose, US | 4d | [<img src="images/apply.png" width="75" alt="Apply">](https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/ASIC-Design-Verification-Engineer_2010971-1) |
-| 🏢 **Cisco** | ASIC Design Engineer | San Jose, US | 5d | [<img src="images/apply.png" width="75" alt="Apply">](https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/ASIC-Design-Engineer_2010922) |
-| 🏢 **Cisco** | ASIC Engineer - SDC | San Jose, US | 5d | [<img src="images/apply.png" width="75" alt="Apply">](https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/San-Jose-California-US/ASIC-Engineer---SDC_2010912) |
-| 🏢 **BlackRock** | Application Engineer (ETF)-Java Backend -Associate | Atlanta, GA | 5d | [<img src="images/apply.png" width="75" alt="Apply">](https://blackrock.wd1.myworkdayjobs.com/blackrock_professional/job/Atlanta-GA/Application-Engineer--ETF--Java-Backend--Associate_R260497) |
-| 🏢 **Eaton Corporation** | Embedded Firmware Engineer- Entry Level | Raleigh | 5d | [<img src="images/apply.png" width="75" alt="Apply">](https://eaton.eightfold.ai/careers/job/687234526177?trk=public_post-text) |
-| 🏢 **KeyBank** | Equity Research Associate, Industrials/Basics | Cleveland, OH | 5d | [<img src="images/apply.png" width="75" alt="Apply">](https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Cleveland-OH/Equity-Research-Associate--Industrials---Basics_R-38571) |
-| 🏢 **Jane Street** | ASIC Engineer | New York | 5d | [<img src="images/apply.png" width="75" alt="Apply">](https://job-boards.greenhouse.io/janestreet/jobs/8213653002) |
-| 🏢 **Jane Street** | FPGA Engineer | New York | 5d | [<img src="images/apply.png" width="75" alt="Apply">](https://job-boards.greenhouse.io/janestreet/jobs/8062455002) |
-| 🏢 **Marvell** | ASIC Design Engineer | 16 Locations | 6d | [<img src="images/apply.png" width="75" alt="Apply">](https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Irvine-CA/ASIC-Design-Engineer_2600835) |
-| 🏢 **HPE (University)** | Software Engineer 3 (ASIC & Software Development Kit) | Roseville | 6d | [<img src="images/apply.png" width="75" alt="Apply">](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Roseville-California-United-States-of-America/Software-Engineer-3--ASIC---Software-Development-Kit-_1201804-2) |
-| 🏢 **HPE** | Software Engineer 3 (ASIC & Software Development Kit) | Roseville | 6d | [<img src="images/apply.png" width="75" alt="Apply">](https://hpe.wd5.myworkdayjobs.com/acjobsite/job/Roseville-California-United-States-of-America/Software-Engineer-3--ASIC---Software-Development-Kit-_1201804) |
-| 🏢 **Intel** | Design Engineer – AI SoC Development | 4 Locations | 6d | [<img src="images/apply.png" width="75" alt="Apply">](https://intel.wd1.myworkdayjobs.com/External/job/US-California-Folsom/Design-Engineer---AI-SoC-Development_JR0279192) |
-| 🏢 **KLA** | Associate Test Engineer 2 | Milpitas, CA | 6d | [<img src="images/apply.png" width="75" alt="Apply">](https://kla.wd1.myworkdayjobs.com/Search/job/Milpitas-CA/Associate-Test-Engineer-2_2634910-1) |
-| 🏢 **Merck & Co.** | Assoc Spclst , Manufacturing Automation | Pennsylvania - We... | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Pennsylvania---West-Point/Assoc-Spclst---Manufacturing-Automation_R372033-1) |
-| 🏢 **Samsara** | Hardware Solutions Firmware Engineer | San Francisco, CA | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://www.samsara.com/company/careers/roles/7266419?gh_jid=7266419) |
-| 🏢 **CoreWeave** | Firmware Engineer, SPX | Livingston, NJ | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://coreweave.com/careers/job?4615564006&board=coreweave&gh_jid=4615564006) |
-| 🏢 **Tenstorrent** | ASIC Networking Engineer | United States | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://job-boards.greenhouse.io/tenstorrent/jobs/5062896007) |
-| 🏢 **Tenstorrent** | SOC Emulation Engineer - Hardware Emulation Infrastructure | Austin | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://job-boards.greenhouse.io/tenstorrent/jobs/5070207007) |
-| 🏢 **NVIDIA** | Low Power ASIC Engineer - New College Grad 2026 | US, CA | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Low-Power-ASIC-Engineer---New-College-Grad-2026_JR2012836) |
-| 🏢 **Broadcom** | ASIC Design Verification Engineer | 3 Locations | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://broadcom.wd1.myworkdayjobs.com/External_Career/job/USA-CA-Irvine-Alton-Parkway-Bldg-2/ASIC-Design-Verification-Engineer_R025121) |
-| 🏢 **Johnson & Johnson** | Associate Design Engineer, R&D - Advanced Energy | Cincinnati | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://jj.wd5.myworkdayjobs.com/jj/job/Cincinnati-Ohio-United-States-of-America/Associate-Design-Engineer--R-D---Advanced-Energy_R-061305-1) |
-| 🏢 **Broadcom** | Firmware Engineer | 2 Locations | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://broadcom.wd1.myworkdayjobs.com/External_Career/job/USA-CA-Irvine-Alton-Parkway-Bldg-2/IC-DESIGN-ENGINEER_R024617) |
-| 🏢 **Merck & Co.** | Associate Specialist, Process Engineering - Oral Solid Dosage, Clinical Manufacturing (Onsite) | New Jersey - Rahway | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---New-Jersey---Rahway/Associate-Specialist--Process-Engineering---Oral-Solid-Dosage--Clinical-Manufacturing--Onsite-_R388864-1) |
-| 🏢 **NVIDIA** | ASIC Timing Engineer | US, CA | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/ASIC-Physical-Design-and-Timing-Engineer_JR2012182) |
-| 🏢 **IMC Trading** | 2026 ISFPGA Conference | United States | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://job-boards.eu.greenhouse.io/imc/jobs/4784514101) |
-| 🏢 **Target** | Merch Planner, Owned Brand Basics (Hybrid) | 2542, MN | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://target.wd5.myworkdayjobs.com/TargetCareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Merch-Planner--Owned-Brand-Basics--Hybrid-_R0000431773-1) |
-| 🏢 **Zoox** | Embedded Software Engineer | San Diego, CA | 13m | [<img src="images/apply.png" width="75" alt="Apply">](https://jobs.lever.co/zoox/31c14ea2-3273-4784-9d37-006f19f84781/apply) |
-| 🏢 **Zoox** | Firmware Validation Engineer | Foster City, CA | 13m | [<img src="images/apply.png" width="75" alt="Apply">](https://jobs.lever.co/zoox/4b00bf61-6547-4c50-be83-5d659176090b/apply) |
-| 🏢 **Etched** | MTS - Firmware | San Jose | 14m | [<img src="images/apply.png" width="75" alt="Apply">](https://jobs.ashbyhq.com/etched/3b2b0704-c8fd-446e-90c3-af9de880cb28/application) |
-| 🏢 **Palantir** | Embedded People Engineer | Washington | 14m | [<img src="images/apply.png" width="75" alt="Apply">](https://jobs.lever.co/palantir/c620a2b0-fa5f-4a1d-999d-b1ec6f09a582/apply) |
-| 🏢 **Palantir** | Embedded People Engineer | New York, NY | 14m | [<img src="images/apply.png" width="75" alt="Apply">](https://jobs.lever.co/palantir/f1fdab97-ab1e-4c3d-82f2-4b70f12d249d/apply) |
-| 🏢 **Waymo** | Software Engineer, Embedded Systems / Robotics | Mountain View, CA | 16h | [<img src="images/apply.png" width="75" alt="Apply">](https://careers.withwaymo.com/jobs?gh_jid=7429873) |
-| 🏢 **John Deere & Company** | Embedded Software Engineer - Entry level | Waterloo | 17h | [<img src="images/apply.png" width="75" alt="Apply">](http://rogercreale.com/work/job/embedded-software-engineer-entry-level-at-john-deere-company-waterloo-ia-6852446a6e793656617457574e63726456413d3d) |
-| 🏢 **Anduril** | Embedded Haskell Engineer | Costa Mesa | 19h | [<img src="images/apply.png" width="75" alt="Apply">](https://boards.greenhouse.io/andurilindustries/jobs/5043620007?gh_jid=5043620007) |
-| 🏢 **Anduril** | Embedded NixOS Engineer | Costa Mesa | 19h | [<img src="images/apply.png" width="75" alt="Apply">](https://boards.greenhouse.io/andurilindustries/jobs/5043618007?gh_jid=5043618007) |
-| 🏢 **Anduril** | Embedded Software Engineer, Maritime | Costa Mesa | 19h | [<img src="images/apply.png" width="75" alt="Apply">](https://boards.greenhouse.io/andurilindustries/jobs/5082336007?gh_jid=5082336007) |
-| 🏢 **SpaceX** | Embedded Software Engineer, Satellite Antenna (Starlink) | Redmond, WA | 19h | [<img src="images/apply.png" width="75" alt="Apply">](https://boards.greenhouse.io/spacex/jobs/8468958002?gh_jid=8468958002) |
-| 🏢 **SpaceX** | Embedded Security Engineer (Starlink) | Hawthorne, CA | 19h | [<img src="images/apply.png" width="75" alt="Apply">](https://boards.greenhouse.io/spacex/jobs/8459609002?gh_jid=8459609002) |
-| 🏢 **SpaceX** | Software Engineer, Embedded Software (Starshield) | Hawthorne, CA | 19h | [<img src="images/apply.png" width="75" alt="Apply">](https://boards.greenhouse.io/spacex/jobs/8436708002?gh_jid=8436708002) |
-| 🏢 **Caterpillar** | Embedded Software Engineer | Clayton | 1d | [<img src="images/apply.png" width="75" alt="Apply">](https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Clayton-North-Carolina/Embedded-Software-Engineer_R0000349595) |
-| 🏢 **Intel** | Embedded OS Software Engineering Developer (Zephyr RTOS) | US | 4d | [<img src="images/apply.png" width="75" alt="Apply">](https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Embedded-OS-Software-Engineering-Developer--Zephyr-RTOS-_JR0282191-1) |
-| 🏢 **Caterpillar** | Embedded Software Engineer - Display System Engineer | Mossville | 4d | [<img src="images/apply.png" width="75" alt="Apply">](https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Mossville-Illinois/Embedded-Software-Engineer---Display-System-Engineer_R0000354453) |
-| 🏢 **Neuralink** | Embedded Software Engineer, Implant Embedded Systems | Austin | 4d | [<img src="images/apply.png" width="75" alt="Apply">](https://boards.greenhouse.io/neuralink/jobs/6550259003?gh_jid=6550259003) |
-| 🏢 **HP Inc** | C++ Engineer (Computer Vision/Embedded Systems) | Austin | 5d | [<img src="images/apply.png" width="75" alt="Apply">](https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Austin-Texas-United-States-of-America/C---Engineer--Computer-Vision-Embedded-Systems-_3159542-2) |
-| 🏢 **Intel** | Firmware Development Engineer | 2 Locations | 5d | [<img src="images/apply.png" width="75" alt="Apply">](https://intel.wd1.myworkdayjobs.com/External/job/US-California-Santa-Clara/Firmware-Development-Engineer_JR0281547-1) |
-| 🏢 **Caterpillar** | Embedded Software Engineering Specialist - Core Machine | Mossville | 5d | [<img src="images/apply.png" width="75" alt="Apply">](https://cat.wd5.myworkdayjobs.com/caterpillarcareers/job/Mossville-Illinois/Embedded-Software-Engineering-Specialist_R0000349764) |
-| 🏢 **SkipLine** | Production engineer entry - embedded software engineer at SkipLine United States | Roosevelt | 5d | [<img src="images/apply.png" width="75" alt="Apply">](https://eotaudio.com/library/job/production-engineer-entry-embedded-software-engineer-at-skipline-united-states-d1hCOWlqMVdneENTZ2xZS0dmcUxhRzU0aEE9PQ==) |
-| 🏢 **Samsung Semiconductor** | Engineer, Firmware | San Jose | 6d | [<img src="images/apply.png" width="75" alt="Apply">](https://job-boards.greenhouse.io/samsungsemiconductor/jobs/7560642003) |
-| 🏢 **Intel** | Silicon Firmware Development Engineer | 2 Locations | 6d | [<img src="images/apply.png" width="75" alt="Apply">](https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Silicon-Firmware-Development-Engineer_JR0281990) |
-| 🏢 **Astranis** | Embedded Software Engineer - Network Software | San Francisco | 6d | [<img src="images/apply.png" width="75" alt="Apply">](https://job-boards.greenhouse.io/astranis/jobs/4363202006) |
-| 🏢 **Salesforce** | Embedded Specialist SE | 3 Locations | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Texas---Remote/Embedded-Specialist-SE_JR333974) |
-| 🏢 **Micron** | Firmware Test Engineer, SSD | Longmont, CO | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://micron.wd1.myworkdayjobs.com/External/job/Longmont-CO/Firmware-Test-Engineer--SSD_JR94604) |
-| 🏢 **General Motors** | Manufacturing Embedded Systems Developer | Warren | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://generalmotors.wd5.myworkdayjobs.com/Careers_GM/job/Warren-Michigan-United-States-of-America/Manufacturing-Embedded-Systems-Developer_JR-202602587-1) |
-| 🏢 **TDK** | Embedded Software Engineer | Neptune Township | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://www.thefreshdev.com/job/embedded-software-engineer-tdk-3057) |
-| 🏢 **FLIR Systems** | Embedded Software Engineer | Tucson, AZ, AZ | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://flir.wd1.myworkdayjobs.com/flircareers/job/US---Tucson-AZ/Embedded-Software-Engineer_REQ27002) |
-| 🏢 **NVIDIA** | Embedded Software Engineer - RISCV | US, CA | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Embedded-Software-Engineer---RISCV_JR2012326) |
-| 🏢 **Cisco** | Software Engineer - Embedded Devices | RTP, US | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://cisco.wd5.myworkdayjobs.com/Cisco_Careers/job/RTP-North-Carolina-US/Software-Engineer---Embedded-Devices_2010783-1) |
-| 🏢 **Hitachi** | Embedded AI Engineer | Santa Clara | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Santa-Clara-California-United-States/Embedded-AI-Engineer_R0122081) |
-| 🏢 **Axon** | Embedded Software Engineer I | Seattle | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://job-boards.greenhouse.io/axon/jobs/6289451003) |
-| 🏢 **Arrow Electronics** | Embedded Software Engineer | Campbell | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://arrow.wd1.myworkdayjobs.com/AC/job/Campbell-California/Embedded-Software-Engineer_R241035) |
-| 🏢 **Amazon.com Services LLC** | Embedded Software Development Engineer, Alexa Devices | Austin, TX | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://www.amazon.jobs/en/jobs/3202832/embedded-software-development-engineer-alexa-devices) |
-| 🏢 **Western Digital** | Early Career Talent - Software Development Engineer (Firmware) | Irvine, CA | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://jobs.smartrecruiters.com/WesternDigital/744000114153937) |
-| 🏢 **NVIDIA** | Firmware Infrastructure Engineer - GPU | US, CA | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Firmware-Infrastructure-Engineer---GPU_JR1999623-1) |
-| 🏢 **HPE (University)** | SW Engineering (Systems) - Software Engineer I -Embedded System | Sunnyvale | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://hpe.wd5.myworkdayjobs.com/Jobsathpe/job/Sunnyvale-California-United-States-of-America/SW-Engineering--Systems----Software-Engineer-I--Embedded-System_1200169-2) |
-| 🏢 **HPE** | SW Engineering (Systems) - Software Engineer I -Embedded System | Sunnyvale | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://hpe.wd5.myworkdayjobs.com/acjobsite/job/Sunnyvale-California-United-States-of-America/SW-Engineering--Systems----Software-Engineer-I--Embedded-System_1200169) |
-| 🏢 **Johnson & Johnson** | Embedded Software Project Engineer | Danvers | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://jj.wd5.myworkdayjobs.com/jj/job/Danvers-Massachusetts-United-States-of-America/Embedded-Software-Project-Manager_R-052201) |
-| 🏢 **Redwire Space** | Jr. Level. Embedded Software Engineer (Willing to consider all Jr. Levels)) | Marlborough | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://careers.rdw.com/jobs/jr-level-embedded-software-engineer-willing-to-consider-all-jr-levels-marlborough-massachusetts-united-states) |
-| 🏢 **Blue Origin** | Firmware / Software Engineer - Optical Communications - TeraWave | Greater Seattle Area | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://blueorigin.wd5.myworkdayjobs.com/blueorigin/job/Greater-Seattle-Area/Firmware---Software-Engineer---Optical-Communications---TeraWave_R59805-1) |
-| 🏢 **Intel** | Memory Circuit Design Engineer | 2 Locations | 12m | [<img src="images/apply.png" width="75" alt="Apply">](https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Memory-Circuit-Design-Engineer_JR0281607) |
-| 🏢 **Waabi** | Systems Test Engineer - Platform Verification | Phoenix, AZ | 13m | [<img src="images/apply.png" width="75" alt="Apply">](https://jobs.lever.co/waabi/c45156f5-792e-459e-a312-435e66728733/apply) |
-| 🏢 **Northwood Space** | Electronics Test Engineer | Torrance, CA | 13m | [<img src="images/apply.png" width="75" alt="Apply">](https://jobs.ashbyhq.com/northwoodspace/e153b809-8535-4d9d-b48c-c25acdeadae7/application) |
-| 🏢 **Handshake** | Analog Engineer - AI Trainer | Remote | 13m | [<img src="images/apply.png" width="75" alt="Apply">](https://jobs.ashbyhq.com/handshake/385dcfca-d3c2-4638-bc4f-de7108ca1a17/application) |
-| 🏢 **Cadence** | Product Validation Engineer (Analog Circuit Design) | SAN JOSE | 6d | [<img src="images/apply.png" width="75" alt="Apply">](https://cadence.wd1.myworkdayjobs.com/External_Careers/job/SAN-JOSE/Lead-Product-Validation-Engineer_R52338) |
-| 🏢 **Cadence (University)** | Product Validation Engineer (Analog Circuit Design) | SAN JOSE | 6d | [<img src="images/apply.png" width="75" alt="Apply">](https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/SAN-JOSE/Product-Validation-Engineer--Analog-Circuit-Design-_R52338) |
-| 🏢 **Intel** | Analog and Mixed Signal Design Engineer | US | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Analog-and-Mixed-Signal-Design-Engineer_JR0282013-1) |
-| 🏢 **Intel** | Analog and Mixed Signal Design Engineer | 2 Locations | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/Analog-and-Mixed-Signal-Design-Engineer_JR0281912-1) |
-| 🏢 **Broadcom** | Analog Layout Designer | TX-Austin - River... | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://broadcom.wd1.myworkdayjobs.com/External_Career/job/USA-TX-Austin---River-Place-B7/Analog-Layout-Designer_R024830) |
-| 🏢 **Broadcom** | System Validation and Signal Integrity Engineer | CA Irvine Alton P... | 1w | [<img src="images/apply.png" width="75" alt="Apply">](https://broadcom.wd1.myworkdayjobs.com/External_Career/job/USA-CA-Irvine-Alton-Parkway-Bldg-2/System-Validation-and-Signal-Integrity-Engineer_R024846) |
+def fetch_source():
+    try:
+        with urllib.request.urlopen(SOURCE_URL, timeout=15) as r:
+            return r.read().decode("utf-8")
+    except urllib.error.URLError as e:
+        print(f"Warning: could not fetch source ({e}). Using empty list.")
+        return ""
 
----
-_Auto-refreshes every 4 hours._
+# ── PARSE MARKDOWN TABLE ROWS ─────────────────────────────────────────────────
+def parse_table(md_text):
+    jobs = []
+    for line in md_text.splitlines():
+        if not line.startswith("|") or "---" in line or "Company" in line:
+            continue
+        cols = [c.strip() for c in line.strip("|").split("|")]
+        if len(cols) < 3:
+            continue
+        # Extract plain text and href from markdown links  [text](url)
+        def plain(s):
+            return re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', s).strip()
+        def href(s):
+            m = re.search(r'\(([^)]+)\)', s)
+            return m.group(1) if m else "#"
+
+        company = plain(cols[0])
+        role    = plain(cols[1]) if len(cols) > 1 else ""
+        loc     = plain(cols[2]) if len(cols) > 2 else ""
+        link    = href(cols[1]) if len(cols) > 1 else "#"
+        date    = plain(cols[3]) if len(cols) > 3 else ""
+
+        jobs.append({"company": company, "role": role,
+                     "location": loc, "link": link, "date_added": date})
+    return jobs
+
+# ── FILTER ───────────────────────────────────────────────────────────────────
+def is_blocked(job):
+    haystack = " ".join([
+        job.get("company",""), job.get("role",""), job.get("location","")
+    ]).lower()
+    return any(kw in haystack for kw in BLOCKED)
+
+def is_ece(job):
+    haystack = (job.get("company","") + " " + job.get("role","")).lower()
+    return any(kw in haystack for kw in ECE_KEYWORDS)
+
+def sponsor_status(job):
+    name = job.get("company","").lower()
+    for key, val in SPONSORS.items():
+        if key in name:
+            return val
+    return "open"   # default: assume OPT ok unless proven otherwise
+
+def categorize(job):
+    r = job.get("role","").lower()
+    if any(k in r for k in ["verification","dv ","uvm","soc verif"]): return "DV"
+    if any(k in r for k in ["analog","mixed-signal","memory","dram"]): return "Analog"
+    if any(k in r for k in ["fpga","bring-up","bring up","embedded"]): return "FPGA"
+    if any(k in r for k in ["physical design","layout","asic design","process"]): return "ASIC"
+    if any(k in r for k in ["software","firmware","sw "]): return "SW"
+    return "HW"
+
+# ── MAIN ──────────────────────────────────────────────────────────────────────
+def main():
+    print("Fetching jobs from source repo…")
+    md = fetch_source()
+    raw = parse_table(md)
+    print(f"  Raw rows found: {len(raw)}")
+
+    ece     = [j for j in raw if is_ece(j)]
+    clean   = [j for j in ece  if not is_blocked(j)]
+    blocked = [j for j in ece  if is_blocked(j)]
+    print(f"  ECE-relevant: {len(ece)}  |  Blocked (defense/gov/clearance): {len(blocked)}  |  Clean: {len(clean)}")
+
+    for j in clean:
+        j["sponsor"] = sponsor_status(j)
+        j["cat"]     = categorize(j)
+
+    output = {
+        "updated": datetime.now(timezone.utc).isoformat(),
+        "total": len(clean),
+        "jobs": clean,
+        "blocked_count": len(blocked),
+    }
+
+    with open("jobs.json", "w") as f:
+        json.dump(output, f, indent=2)
+    print(f"Saved {len(clean)} OPT-friendly jobs to jobs.json ✅")
+
+if __name__ == "__main__":
+    main()
