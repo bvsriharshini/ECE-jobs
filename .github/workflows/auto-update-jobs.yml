@@ -1,109 +1,35 @@
-name: Sync ECE Jobs
+name: Update OPT-Friendly ECE Jobs
 
 on:
   schedule:
-    - cron: '0 */4 * * *'
-  workflow_dispatch:
+    - cron: '*/30 * * * *'   # runs every 30 minutes
+  workflow_dispatch:           # lets you trigger manually from GitHub
 
 jobs:
-  update:
+  update-jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
 
       - name: Fetch and filter jobs
-        run: |
-          python3 - <<'PYEOF'
-          import requests, re
-          from datetime import datetime, timezone
+        run: python filter_jobs.py
 
-          SOURCE_URL = "https://raw.githubusercontent.com/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026/main/README.md"
-
-          KEEP = ["verification","asic","fpga","soc","embedded","firmware",
-                  "analog","mixed signal","electrical engineer","signal integrity",
-                  "physical design","dft","hardware engineer","circuit design",
-                  "rtl","vlsi","dsp","rf design","pcb design"]
-
-          DROP = [
-              # noise roles
-              "hvac","fitness","graphic designer","supply chain","facilities",
-              "manufacturing tech","civil","cosmoquick","medical","dental",
-              "site reliability","clerical","accounting","structural","administrative",
-              "quality engineer","field service",
-              # clearance / citizenship required companies
-              "northrop grumman","lockheed martin","raytheon","rtx","bae systems",
-              "booz allen","l3harris","general dynamics","leidos","saic","caci",
-              "mitre","kbr","boeing","moog","collins aerospace","ball aerospace",
-              "sierra nevada","textron","dynetics","peraton","parsons","amentum",
-              "mantech","cubic","vectrus","engility","unison","dxc","csra",
-              "huntington ingalls","booz","leidox","bah","ngc","gd mission",
-              "us army","us navy","us air force","department of defense","dod",
-              "clearance required","security clearance","us citizenship required",
-              "must be a us citizen","requires us citizenship","active clearance"
-          ]
-
-          CLEARANCE_WORDS = [
-              "clearance required", "security clearance", "us citizen",
-              "u.s. citizen", "citizenship required", "active secret",
-              "top secret", "ts/sci", "dod clearance", "must be a citizen"
-          ]
-
-          def matches(text):
-              t = text.lower()
-              if any(k in t for k in DROP):
-                  return False
-              if any(k in t for k in CLEARANCE_WORDS):
-                  return False
-              return any(k in t for k in KEEP)
-
-          r = requests.get(SOURCE_URL, timeout=30)
-          r.raise_for_status()
-          lines = r.text.splitlines()
-
-          rows = []
-          for line in lines:
-              if "Apply" in line and "|" in line and "**" in line:
-                  if matches(line):
-                      rows.append(line)
-
-          print("Found " + str(len(rows)) + " ECE jobs")
-
-          now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-
-          out = []
-          out.append("# Harshini's ECE Job Board")
-          out.append("")
-          out.append("**OPT/F1 Friendly | Entry-Level & New Grad | DV, ASIC, FPGA, Analog, Embedded**")
-          out.append("")
-          out.append("Last updated: " + now)
-          out.append("")
-          out.append("Source: [zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026](https://github.com/zapplyjobs/New-Grad-Hardware-Engineering-Jobs-2026)")
-          out.append("")
-          out.append("---")
-          out.append("")
-          out.append("## Latest ECE Jobs (" + str(len(rows)) + " filtered)")
-          out.append("")
-          out.append("| Company | Role | Location | Posted | Apply |")
-          out.append("|---------|------|----------|--------|-------|")
-          for row in rows:
-              out.append(row)
-          out.append("")
-          out.append("---")
-          out.append("_Auto-refreshes every 4 hours._")
-
-          with open("README.md", "w", encoding="utf-8") as f:
-              f.write("\n".join(out))
-
-          print("Done!")
-          PYEOF
-
-      - name: Commit and push if changed
+      - name: Commit updated jobs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git diff --cached --quiet || git commit -m "Auto-update ECE jobs [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+          git add jobs.json
+          git diff --cached --quiet || git commit -m "Auto-update: OPT-filtered ECE jobs $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
