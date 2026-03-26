@@ -1,9 +1,20 @@
 {
-  "updated": "2026-03-25T20:03:13.727301+00:00",
-  "total": 589,
+  "updated": "2026-03-26T05:57:27.781363+00:00",
+  "total": 591,
   "urgent_count": 17,
   "blocked_count": 0,
   "jobs": [
+    {
+      "company": "\ud83c\udfe2 HPE",
+      "role": "Electrical Hardware Engineer",
+      "location": "Spring",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-03-26"
+    },
     {
       "company": "\ud83c\udfe2 General Motors",
       "role": "CFD Process Engineer- Aero CFD Platform (Motorsports)",
@@ -13,18 +24,7 @@
       "sponsor": "open",
       "cat": "ASIC",
       "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 GE Aerospace",
-      "role": "Manufacturing Process Engineer",
-      "location": "Arkansas City",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Elanco",
@@ -35,29 +35,7 @@
       "sponsor": "open",
       "cat": "ASIC",
       "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 OpenAI",
-      "role": "Design Verification Engineer",
-      "location": "San Francisco",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 OpenAI",
-      "role": "Physical Design Engineer",
-      "location": "San Francisco",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Shield AI",
@@ -68,7 +46,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Shield AI",
@@ -79,18 +57,40 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
-      "company": "\ud83c\udfe2 Shield AI",
-      "role": "Electrical Engineer I (SD)",
-      "location": "San Diego",
-      "link": "SD",
+      "company": "\ud83c\udfe2 OpenAI",
+      "role": "RTL & Co-design Engineer (junior)",
+      "location": "San Francisco",
+      "link": "junior",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 Hermeus",
+      "role": "Avionics Electrical Engineer",
+      "location": "Atlanta, GA",
+      "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 Applied Materials",
+      "role": "BEOL Transfer Process Engineer",
+      "location": "Santa Clara, CA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Applied Materials",
@@ -101,7 +101,29 @@
       "sponsor": "open",
       "cat": "ASIC",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 Northwood Space",
+      "role": "RF Hardware Engineer (Early Career)",
+      "location": "Torrance, CA",
+      "link": "Early Career",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 Northwood Space",
+      "role": "Electrical Engineer (Early Career)",
+      "location": "Torrance, CA",
+      "link": "Early Career",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Handshake",
@@ -112,29 +134,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Etched",
-      "role": "Design Verification Engineer - Internal IP",
-      "location": "San Jose",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Crusoe",
-      "role": "Electrical Engineer",
-      "location": "Arvada, CO",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 CFS Energy",
@@ -145,51 +145,84 @@
       "sponsor": "open",
       "cat": "ASIC",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
-      "company": "\ud83c\udfe2 SpaceX",
-      "role": "Supply Chain Engineer, PCB (Starlink)",
-      "location": "Redmond, WA",
-      "link": "Starlink",
+      "company": "\ud83c\udfe2 Etched",
+      "role": "Design Verification Engineer - Internal IP",
+      "location": "San Jose",
+      "link": "#",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
+      "sponsor": "yes",
+      "cat": "DV",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
-      "company": "\ud83c\udfe2 SpaceX",
-      "role": "Supplier Industrialization Engineer, PCB (Starlink)",
-      "location": "Redmond, WA",
-      "link": "Starlink",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 SpaceX",
-      "role": "Supplier Development Engineer, PCB (Starlink)",
-      "location": "Redmond, WA",
-      "link": "Starlink",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Anduril",
-      "role": "Electrical Engineering Technician, Air Vehicles",
-      "location": "Costa Mesa",
+      "company": "\ud83c\udfe2 Crusoe",
+      "role": "Electrical Engineer",
+      "location": "Arvada, CO",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 GE Aerospace",
+      "role": "Manufacturing Process Engineer",
+      "location": "Arkansas City",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 Amazon.com Services LLC",
+      "role": "Hardware Engineer, Prime Air, Propulsion, Prime Air",
+      "location": "Seattle, WA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 SpaceX",
+      "role": "PCB Designer (Starlink)",
+      "location": "Bastrop, TX",
+      "link": "Starlink",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 Oklo",
+      "role": "Process Engineer",
+      "location": "Santa Clara, CA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 Torc Robotics",
+      "role": "Hardware Engineer I - Sensors",
+      "location": "Ann Arbor, MI",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Waymo",
@@ -200,7 +233,7 @@
       "sponsor": "yes",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 CoreWeave",
@@ -211,7 +244,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 CoreWeave",
@@ -222,18 +255,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Zipline",
-      "role": "Electrical Engineer - Ground Systems",
-      "location": "South San Francisco",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Thermo Fisher Scientific",
@@ -244,7 +266,7 @@
       "sponsor": "open",
       "cat": "ASIC",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Marvell",
@@ -255,7 +277,7 @@
       "sponsor": "yes",
       "cat": "DV",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Intel",
@@ -266,7 +288,7 @@
       "sponsor": "yes",
       "cat": "DV",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Arrow Electronics",
@@ -277,7 +299,18 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 Zipline",
+      "role": "Electrical Engineer - Ground Systems",
+      "location": "South San Francisco",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Verkada",
@@ -288,7 +321,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Freeform",
@@ -299,7 +332,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Freeform",
@@ -310,7 +343,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Bosch Group",
@@ -321,7 +354,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Formlabs",
@@ -332,7 +365,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 SharkNinja",
@@ -343,18 +376,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Amazon Development Center U.S., Inc.",
-      "role": "System Development Engineer, Hardware Engineering, Lab Operations",
-      "location": "Kent, WA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 HPE (University)",
@@ -365,7 +387,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 HPE",
@@ -376,7 +398,18 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 Amazon Development Center U.S., Inc.",
+      "role": "System Development Engineer, Hardware Engineering, Lab Operations",
+      "location": "Kent, WA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Intel",
@@ -387,7 +420,7 @@
       "sponsor": "yes",
       "cat": "DV",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 BeaconFire Inc.",
@@ -398,18 +431,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 xAI",
-      "role": "Electrical Engineer (EIT)",
-      "location": "Memphis, TN",
-      "link": "EIT",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Moog",
@@ -420,7 +442,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Cadence",
@@ -431,18 +453,18 @@
       "sponsor": "yes",
       "cat": "DV",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
-      "company": "\ud83c\udfe2 OpenAI",
-      "role": "Networking Operating System Firmware Engineer",
-      "location": "San Francisco",
+      "company": "\ud83c\udfe2 Broadcom",
+      "role": "ASIC DFT Engineer",
+      "location": "CA San Jose Innov...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
-      "cat": "FPGA",
+      "cat": "ASIC",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 OpenAI",
@@ -453,7 +475,18 @@
       "sponsor": "yes",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 OpenAI",
+      "role": "Networking Operating System Firmware Engineer",
+      "location": "San Francisco",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Etched",
@@ -464,29 +497,7 @@
       "sponsor": "yes",
       "cat": "DV",
       "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 CoreWeave",
-      "role": "Firmware Engineer, SPX",
-      "location": "Livingston, NJ",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Waymo",
-      "role": "ASIC Design Verification Engineer",
-      "location": "Mountain View, CA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Anduril",
@@ -497,7 +508,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Anduril",
@@ -508,7 +519,29 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 CoreWeave",
+      "role": "Firmware Engineer, SPX",
+      "location": "Livingston, NJ",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 Waymo",
+      "role": "ASIC Design Verification Engineer",
+      "location": "Mountain View, CA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "DV",
+      "urgent": false,
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Tenstorrent",
@@ -519,7 +552,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Tenstorrent",
@@ -530,40 +563,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 SpaceX",
-      "role": "RTL Design Engineer (Silicon Engineering)",
-      "location": "Irvine, CA",
-      "link": "Silicon Engineering",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 SpaceX",
-      "role": "Avionics Build Associate (Starship)",
-      "location": "Starbase, TX",
-      "link": "Starship",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 SpaceX",
-      "role": "Wireless Firmware Engineer (Direct To Cell)",
-      "location": "Sunnyvale, CA",
-      "link": "Direct To Cell",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Marvell",
@@ -574,7 +574,7 @@
       "sponsor": "yes",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Caterpillar",
@@ -585,7 +585,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Broadcom",
@@ -596,7 +596,40 @@
       "sponsor": "yes",
       "cat": "DV",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 SpaceX",
+      "role": "RTL Design Engineer (Silicon Engineering)",
+      "location": "Irvine, CA",
+      "link": "Silicon Engineering",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 SpaceX",
+      "role": "Avionics Build Associate (Starship)",
+      "location": "Starbase, TX",
+      "link": "Starship",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 SpaceX",
+      "role": "Wireless Firmware Engineer (Direct To Cell)",
+      "location": "Redmond, WA",
+      "link": "Direct To Cell",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Intel",
@@ -607,7 +640,7 @@
       "sponsor": "yes",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Marvell",
@@ -618,7 +651,7 @@
       "sponsor": "yes",
       "cat": "ASIC",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Micron",
@@ -629,7 +662,7 @@
       "sponsor": "yes",
       "cat": "ASIC",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Intel",
@@ -640,7 +673,7 @@
       "sponsor": "yes",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Cisco",
@@ -651,7 +684,7 @@
       "sponsor": "yes",
       "cat": "DV",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Cisco",
@@ -662,7 +695,7 @@
       "sponsor": "yes",
       "cat": "ASIC",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 BlackRock",
@@ -673,18 +706,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Eaton Corporation",
-      "role": "Embedded Firmware Engineer- Entry Level",
-      "location": "Raleigh",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Marvell",
@@ -695,7 +717,18 @@
       "sponsor": "yes",
       "cat": "ASIC",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 Eaton Corporation",
+      "role": "Embedded Firmware Engineer- Entry Level",
+      "location": "Raleigh",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Jane Street",
@@ -706,7 +739,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Jane Street",
@@ -717,7 +750,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Samsara",
@@ -728,18 +761,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Broadcom",
-      "role": "ASIC Design Verification Engineer",
-      "location": "3 Locations",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 NVIDIA",
@@ -750,7 +772,7 @@
       "sponsor": "yes",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 IMC Trading",
@@ -761,7 +783,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 RTX",
@@ -772,7 +794,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 RTX",
@@ -783,7 +805,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 NVIDIA",
@@ -794,7 +816,40 @@
       "sponsor": "yes",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 HPE (University)",
+      "role": "Embedded Software Test Engineer",
+      "location": "Spring",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 HPE",
+      "role": "Embedded Software Test Engineer",
+      "location": "Spring",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 Caterpillar",
+      "role": "Embedded Software Engineering Specialist - Core Machine",
+      "location": "Mossville",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Zoox",
@@ -805,7 +860,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Zoox",
@@ -816,7 +871,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Etched",
@@ -827,7 +882,7 @@
       "sponsor": "yes",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Palantir",
@@ -838,95 +893,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 SpaceX",
-      "role": "Embedded Security Engineer (Starlink)",
-      "location": "Bastrop, TX",
-      "link": "Starlink",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Waymo",
-      "role": "Software Engineer, Embedded Systems / Robotics",
-      "location": "Mountain View, CA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Anduril",
-      "role": "Flight Software Platform Engineer, Embedded C/C++, Air Dominance & Strike",
-      "location": "Costa Mesa",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Anduril",
-      "role": "Embedded Software QA Engineer",
-      "location": "Lexington",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Anduril",
-      "role": "Embedded Haskell Engineer",
-      "location": "Costa Mesa",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 SpaceX",
-      "role": "Embedded Software Engineer, Satellite Antenna (Starlink)",
-      "location": "Redmond, WA",
-      "link": "Starlink",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Caterpillar",
-      "role": "Embedded Software Engineer",
-      "location": "Mossville",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Intel",
-      "role": "Embedded OS Software Engineering Developer (Zephyr RTOS)",
-      "location": "US",
-      "link": "Zephyr RTOS",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Neuralink",
@@ -937,128 +904,40 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
-      "company": "\ud83c\udfe2 Intel",
-      "role": "Firmware Development Engineer",
-      "location": "2 Locations",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 SkipLine",
-      "role": "Production engineer entry - embedded software engineer at SkipLine United States",
-      "location": "Roosevelt",
+      "company": "\ud83c\udfe2 Anduril",
+      "role": "Embedded Haskell Engineer",
+      "location": "Costa Mesa",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
-      "company": "\ud83c\udfe2 GD Mission Systems",
-      "role": "Entry-Level Embedded Software Engineer at GD Mission Systems Bloomington, MN",
-      "location": "Bloomington",
+      "company": "\ud83c\udfe2 Anduril",
+      "role": "Embedded NixOS Engineer",
+      "location": "Costa Mesa",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
-      "company": "\ud83c\udfe2 RTX",
-      "role": "Embedded Systems Security Engineer (ONSITE)",
-      "location": "FL-LARGO-382SS ~ ...",
-      "link": "ONSITE",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Samsung Semiconductor",
-      "role": "Engineer, Firmware",
-      "location": "San Jose",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Boeing",
-      "role": "Entry-Level Missions Systems Software Engineers - Embedded",
-      "location": "Berkeley",
+      "company": "\ud83c\udfe2 Anduril",
+      "role": "Embedded Software Engineer, Maritime",
+      "location": "Costa Mesa",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Intel",
-      "role": "Silicon Firmware Development Engineer",
-      "location": "2 Locations",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Moog",
-      "role": "Embedded Software Engineer",
-      "location": "Torrance, CA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Micron",
-      "role": "Firmware Test Engineer, SSD",
-      "location": "Longmont, CO",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 General Motors",
-      "role": "Manufacturing Embedded Systems Developer",
-      "location": "Warren",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 RTX",
-      "role": "Embedded Real-time Software Engineer I",
-      "location": "AZ-TUCSON-805 ~ 1...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Astranis",
@@ -1069,18 +948,183 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
-      "company": "\ud83c\udfe2 TDK",
+      "company": "\ud83c\udfe2 SpaceX",
+      "role": "Embedded Security Engineer (Starlink)",
+      "location": "Bastrop, TX",
+      "link": "Starlink",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 Waymo",
+      "role": "Software Engineer, Embedded Systems / Robotics",
+      "location": "Mountain View, CA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 SpaceX",
+      "role": "Embedded Software Engineer, Satellite Antenna (Starlink)",
+      "location": "Redmond, WA",
+      "link": "Starlink",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 Caterpillar",
       "role": "Embedded Software Engineer",
-      "location": "Neptune Township",
+      "location": "Mossville",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 Intel",
+      "role": "Embedded OS Software Engineering Developer (Zephyr RTOS)",
+      "location": "US",
+      "link": "Zephyr RTOS",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 Intel",
+      "role": "Firmware Development Engineer",
+      "location": "2 Locations",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 SkipLine",
+      "role": "Production engineer entry - embedded software engineer at SkipLine United States",
+      "location": "Roosevelt",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 GD Mission Systems",
+      "role": "Entry-Level Embedded Software Engineer at GD Mission Systems Bloomington, MN",
+      "location": "Bloomington",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 RTX",
+      "role": "Embedded Systems Security Engineer (ONSITE)",
+      "location": "FL-LARGO-382SS ~ ...",
+      "link": "ONSITE",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 Moog",
+      "role": "Embedded Software Engineer",
+      "location": "Torrance, CA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 Micron",
+      "role": "Firmware Test Engineer, SSD",
+      "location": "Longmont, CO",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 General Motors",
+      "role": "Manufacturing Embedded Systems Developer",
+      "location": "Warren",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 Samsung Semiconductor",
+      "role": "Engineer, Firmware",
+      "location": "San Jose",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 Boeing",
+      "role": "Entry-Level Missions Systems Software Engineers - Embedded",
+      "location": "Berkeley",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 Intel",
+      "role": "Silicon Firmware Development Engineer",
+      "location": "2 Locations",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 RTX",
+      "role": "Embedded Real-time Software Engineer I",
+      "location": "AZ-TUCSON-805 ~ 1...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 KBR",
@@ -1091,7 +1135,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 KBR",
@@ -1102,29 +1146,18 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
-      "company": "\ud83c\udfe2 Hitachi",
-      "role": "Embedded AI Engineer",
-      "location": "Santa Clara",
+      "company": "\ud83c\udfe2 TDK",
+      "role": "Embedded Software Engineer",
+      "location": "Neptune Township",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Axon",
-      "role": "Embedded Software Engineer I",
-      "location": "Seattle",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Arrow Electronics",
@@ -1135,7 +1168,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 ASML",
@@ -1146,40 +1179,29 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
-      "company": "\ud83c\udfe2 Amazon.com Services LLC",
-      "role": "Embedded Software Development Engineer, Alexa Devices",
-      "location": "Austin, TX",
+      "company": "\ud83c\udfe2 Hitachi",
+      "role": "Embedded AI Engineer",
+      "location": "Santa Clara",
       "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Western Digital",
-      "role": "Early Career Talent - Software Development Engineer (Firmware)",
-      "location": "Irvine, CA",
-      "link": "Firmware",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
-      "company": "\ud83c\udfe2 Broadcom",
-      "role": "Analog Layout Designer",
-      "location": "CA Irvine Alton P...",
+      "company": "\ud83c\udfe2 Axon",
+      "role": "Embedded Software Engineer I",
+      "location": "Seattle",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "Analog",
+      "sponsor": "open",
+      "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Waabi",
@@ -1190,7 +1212,18 @@
       "sponsor": "open",
       "cat": "DV",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "\ud83c\udfe2 Broadcom",
+      "role": "Analog Layout Designer",
+      "location": "CA Irvine Alton P...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "Analog",
+      "urgent": false,
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Handshake",
@@ -1201,7 +1234,7 @@
       "sponsor": "open",
       "cat": "Analog",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Cadence",
@@ -1212,7 +1245,7 @@
       "sponsor": "yes",
       "cat": "Analog",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Cadence (University)",
@@ -1223,7 +1256,7 @@
       "sponsor": "yes",
       "cat": "Analog",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "\ud83c\udfe2 Intel",
@@ -1234,7 +1267,7 @@
       "sponsor": "yes",
       "cat": "Analog",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1245,7 +1278,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1256,7 +1289,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1267,7 +1300,7 @@
       "sponsor": "open",
       "cat": "ASIC",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1278,7 +1311,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1289,7 +1322,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1300,7 +1333,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1311,7 +1344,7 @@
       "sponsor": "open",
       "cat": "DV",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1322,7 +1355,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1333,7 +1366,7 @@
       "sponsor": "open",
       "cat": "DV",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1344,7 +1377,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1355,7 +1388,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1366,7 +1399,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1377,7 +1410,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1388,7 +1421,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1399,7 +1432,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1410,7 +1443,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1421,7 +1454,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1432,7 +1465,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1443,7 +1476,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1454,7 +1487,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1465,7 +1498,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1476,7 +1509,7 @@
       "sponsor": "open",
       "cat": "DV",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1487,7 +1520,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1498,7 +1531,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1509,7 +1542,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1520,7 +1553,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1531,7 +1564,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1542,7 +1575,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1553,7 +1586,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1564,7 +1597,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1575,7 +1608,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1586,7 +1619,7 @@
       "sponsor": "open",
       "cat": "Analog",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1597,7 +1630,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1608,7 +1641,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1619,7 +1652,18 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "Tenstorrent",
+      "role": "PCB Layout Engineer",
+      "location": "Santa Clara, California, United States; Toronto, Ontario, Canada",
+      "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/5089673007",
+      "source": "Greenhouse",
+      "sponsor": "open",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1630,7 +1674,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1641,7 +1685,7 @@
       "sponsor": "open",
       "cat": "ASIC",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1652,7 +1696,7 @@
       "sponsor": "open",
       "cat": "ASIC",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1663,7 +1707,7 @@
       "sponsor": "open",
       "cat": "ASIC",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1674,7 +1718,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1685,18 +1729,18 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
       "role": "Presentation Designer",
-      "location": "Austin, Texas, United States; Boston, Massachusetts, United States; Santa Clara, California, United States; Toronto, Ontario, Canada",
+      "location": "United States",
       "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/5055868007",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1707,7 +1751,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1718,7 +1762,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1729,7 +1773,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1740,7 +1784,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1751,7 +1795,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1762,7 +1806,7 @@
       "sponsor": "open",
       "cat": "DV",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1773,7 +1817,7 @@
       "sponsor": "open",
       "cat": "ASIC",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1784,7 +1828,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1795,7 +1839,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1806,7 +1850,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1817,7 +1861,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1828,7 +1872,7 @@
       "sponsor": "open",
       "cat": "DV",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1839,7 +1883,7 @@
       "sponsor": "open",
       "cat": "ASIC",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1850,7 +1894,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1861,7 +1905,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1872,7 +1916,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1883,7 +1927,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1894,7 +1938,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1905,7 +1949,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1916,7 +1960,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1927,7 +1971,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1938,7 +1982,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1949,7 +1993,7 @@
       "sponsor": "open",
       "cat": "DV",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1960,7 +2004,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1971,7 +2015,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1982,7 +2026,7 @@
       "sponsor": "open",
       "cat": "ASIC",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -1993,7 +2037,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2004,7 +2048,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2015,7 +2059,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2026,7 +2070,7 @@
       "sponsor": "open",
       "cat": "DV",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2037,7 +2081,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2048,7 +2092,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2059,7 +2103,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2070,7 +2114,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2081,7 +2125,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2092,7 +2136,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2103,7 +2147,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2114,7 +2158,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2125,7 +2169,7 @@
       "sponsor": "open",
       "cat": "Analog",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2136,7 +2180,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2147,7 +2191,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2158,7 +2202,7 @@
       "sponsor": "open",
       "cat": "ASIC",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2169,7 +2213,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2180,7 +2224,7 @@
       "sponsor": "open",
       "cat": "DV",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2191,7 +2235,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2202,7 +2246,7 @@
       "sponsor": "open",
       "cat": "ASIC",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2213,7 +2257,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2224,7 +2268,7 @@
       "sponsor": "open",
       "cat": "DV",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2235,7 +2279,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2246,7 +2290,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2257,7 +2301,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2268,7 +2312,7 @@
       "sponsor": "open",
       "cat": "ASIC",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2279,7 +2323,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2290,7 +2334,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2301,7 +2345,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2312,7 +2356,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2323,7 +2367,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2334,7 +2378,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2345,7 +2389,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2356,7 +2400,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Tenstorrent",
@@ -2367,7 +2411,7 @@
       "sponsor": "open",
       "cat": "DV",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2378,7 +2422,7 @@
       "sponsor": "open",
       "cat": "Analog",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2389,7 +2433,7 @@
       "sponsor": "open",
       "cat": "Analog",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2400,7 +2444,7 @@
       "sponsor": "open",
       "cat": "Analog",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2411,7 +2455,7 @@
       "sponsor": "open",
       "cat": "Analog",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2422,7 +2466,7 @@
       "sponsor": "open",
       "cat": "Analog",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2433,7 +2477,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2444,7 +2488,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2455,7 +2499,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2466,7 +2510,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2477,7 +2521,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": true,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2488,7 +2532,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2499,7 +2543,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2510,7 +2554,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2521,7 +2565,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2532,7 +2576,7 @@
       "sponsor": "open",
       "cat": "ASIC",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2543,7 +2587,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2554,7 +2598,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2565,7 +2609,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2576,7 +2620,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2587,7 +2631,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2598,7 +2642,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2609,7 +2653,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2620,7 +2664,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2631,7 +2675,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2642,7 +2686,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2653,7 +2697,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2664,7 +2708,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2675,7 +2719,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2686,7 +2730,7 @@
       "sponsor": "open",
       "cat": "Analog",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2697,7 +2741,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2708,7 +2752,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2719,7 +2763,7 @@
       "sponsor": "open",
       "cat": "DV",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2730,7 +2774,7 @@
       "sponsor": "open",
       "cat": "DV",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2741,7 +2785,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2752,7 +2796,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2763,7 +2807,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2774,7 +2818,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2785,7 +2829,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2796,7 +2840,7 @@
       "sponsor": "open",
       "cat": "ASIC",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2807,7 +2851,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2818,7 +2862,7 @@
       "sponsor": "open",
       "cat": "ASIC",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2829,7 +2873,7 @@
       "sponsor": "open",
       "cat": "ASIC",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Lightmatter",
@@ -2840,7 +2884,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -2851,7 +2895,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -2862,7 +2906,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -2873,7 +2917,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -2884,7 +2928,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -2895,7 +2939,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -2906,7 +2950,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -2917,7 +2961,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -2928,7 +2972,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -2939,7 +2983,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -2950,7 +2994,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -2961,7 +3005,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -2972,7 +3016,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -2983,7 +3027,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -2994,7 +3038,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -3005,7 +3049,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -3016,7 +3060,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -3027,7 +3071,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -3038,7 +3082,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -3049,7 +3093,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -3060,7 +3104,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -3071,7 +3115,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -3082,7 +3126,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -3093,7 +3137,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": true,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -3104,7 +3148,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -3115,7 +3159,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -3126,7 +3170,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -3137,7 +3181,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -3148,7 +3192,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -3159,7 +3203,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -3170,7 +3214,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -3181,7 +3225,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -3192,7 +3236,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -3203,7 +3247,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -3214,7 +3258,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Jane Street",
@@ -3225,7 +3269,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3236,7 +3280,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3247,7 +3291,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3258,7 +3302,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": true,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3269,7 +3313,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": true,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3280,7 +3324,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3291,7 +3335,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3302,7 +3346,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3313,7 +3357,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": true,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3324,7 +3368,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3335,7 +3379,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3346,7 +3390,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3357,7 +3401,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3368,7 +3412,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3379,7 +3423,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3390,7 +3434,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3401,7 +3445,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3412,7 +3456,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3423,7 +3467,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3434,7 +3478,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3445,7 +3489,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3456,7 +3500,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3467,7 +3511,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3478,7 +3522,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3489,7 +3533,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3500,7 +3544,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3511,7 +3555,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3522,7 +3566,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": true,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3533,7 +3577,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3544,7 +3588,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3555,7 +3599,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3566,7 +3610,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3577,7 +3621,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3588,7 +3632,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3599,7 +3643,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3610,7 +3654,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3621,7 +3665,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "IMC Trading",
@@ -3632,7 +3676,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3643,7 +3687,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3654,7 +3698,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3665,7 +3709,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3676,7 +3720,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3687,7 +3731,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3698,7 +3742,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3709,7 +3753,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3720,7 +3764,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3731,7 +3775,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3742,7 +3786,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3753,7 +3797,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3764,7 +3808,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3775,7 +3819,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3786,7 +3830,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3797,7 +3841,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3808,7 +3852,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3819,7 +3863,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3830,7 +3874,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3841,7 +3885,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3852,7 +3896,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3863,7 +3907,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3874,7 +3918,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3885,7 +3929,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3896,7 +3940,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3907,7 +3951,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3918,7 +3962,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3929,7 +3973,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3940,7 +3984,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3951,7 +3995,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3962,7 +4006,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3973,7 +4017,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3984,7 +4028,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -3995,7 +4039,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4006,7 +4050,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4017,7 +4061,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4028,7 +4072,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4039,7 +4083,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4050,7 +4094,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": true,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4061,7 +4105,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4072,7 +4116,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4083,7 +4127,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4094,7 +4138,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4105,7 +4149,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4116,7 +4160,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4127,7 +4171,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4138,7 +4182,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4149,7 +4193,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4160,7 +4204,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4171,7 +4215,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4182,7 +4226,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4193,7 +4237,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4204,7 +4248,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": true,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4215,7 +4259,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4226,7 +4270,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4237,7 +4281,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": true,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4248,7 +4292,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4259,7 +4303,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4270,7 +4314,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4281,7 +4325,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4292,7 +4336,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": true,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4303,7 +4347,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4314,7 +4358,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4325,7 +4369,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4336,7 +4380,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": true,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4347,7 +4391,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4358,7 +4402,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4369,7 +4413,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4380,7 +4424,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4391,7 +4435,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4402,7 +4446,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4413,7 +4457,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4424,7 +4468,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4435,7 +4479,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4446,7 +4490,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4457,7 +4501,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4468,7 +4512,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4479,7 +4523,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4490,7 +4534,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4501,7 +4545,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4512,7 +4556,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4523,7 +4567,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4534,7 +4578,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4545,7 +4589,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4556,7 +4600,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4567,7 +4611,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4578,7 +4622,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4589,7 +4633,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4600,7 +4644,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4611,7 +4655,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4622,7 +4666,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4633,7 +4677,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4644,7 +4688,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4655,7 +4699,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4666,7 +4710,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4677,7 +4721,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4688,7 +4732,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": true,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4699,7 +4743,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4710,7 +4754,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4721,7 +4765,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4732,7 +4776,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4743,7 +4787,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4754,7 +4798,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4765,7 +4809,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4776,7 +4820,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Verkada",
@@ -4787,7 +4831,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -4798,18 +4842,18 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
       "role": "AI Engineer",
-      "location": "Remote - Canada",
-      "link": "https://www.samsara.com/company/careers/roles/7589442?gh_jid=7589442",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7491153?gh_jid=7491153",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -4820,7 +4864,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -4831,7 +4875,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -4842,7 +4886,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -4853,7 +4897,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -4864,7 +4908,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -4875,7 +4919,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -4886,7 +4930,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -4897,7 +4941,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -4908,7 +4952,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -4919,7 +4963,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": true,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -4930,7 +4974,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -4941,7 +4985,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -4952,7 +4996,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -4963,7 +5007,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -4974,7 +5018,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -4985,7 +5029,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -4996,18 +5040,18 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
       "role": "Lead Full Stack Developer, Business Applications",
-      "location": "Remote - US",
-      "link": "https://www.samsara.com/company/careers/roles/7266307?gh_jid=7266307",
+      "location": "Remote - Canada",
+      "link": "https://www.samsara.com/company/careers/roles/7601794?gh_jid=7601794",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5018,7 +5062,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5029,18 +5073,18 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
       "role": "Manager, Software Engineering (Platform Reports)",
-      "location": "Remote - UK",
-      "link": "https://www.samsara.com/company/careers/roles/7345839?gh_jid=7345839",
+      "location": "Remote - Poland",
+      "link": "https://www.samsara.com/company/careers/roles/7266585?gh_jid=7266585",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5051,7 +5095,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5062,7 +5106,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5073,7 +5117,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5084,7 +5128,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5095,18 +5139,18 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
       "role": "Program Manager, Customer Support Enablement ",
-      "location": "Remote - Canada",
-      "link": "https://www.samsara.com/company/careers/roles/7648673?gh_jid=7648673",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7587446?gh_jid=7587446",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5117,7 +5161,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5128,7 +5172,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5139,7 +5183,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5150,7 +5194,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5161,7 +5205,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5172,7 +5216,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5183,7 +5227,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5194,7 +5238,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5205,7 +5249,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5216,29 +5260,29 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
       "role": "Senior Data Platform Engineer",
-      "location": "Remote - Canada",
-      "link": "https://www.samsara.com/company/careers/roles/7266961?gh_jid=7266961",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7266657?gh_jid=7266657",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
       "role": "Senior Firmware Engineer",
-      "location": "Remote - US",
-      "link": "https://www.samsara.com/company/careers/roles/7402091?gh_jid=7402091",
+      "location": "Remote - Canada",
+      "link": "https://www.samsara.com/company/careers/roles/7443763?gh_jid=7443763",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5249,7 +5293,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5260,7 +5304,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5271,29 +5315,29 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
       "role": "Senior Machine Learning Engineer",
       "location": "Remote - US",
-      "link": "https://www.samsara.com/company/careers/roles/7327168?gh_jid=7327168",
+      "link": "https://www.samsara.com/company/careers/roles/7266471?gh_jid=7266471",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
       "role": "Senior Manager, Computer Vision",
-      "location": "Remote - US",
-      "link": "https://www.samsara.com/company/careers/roles/7363083?gh_jid=7363083",
+      "location": "Remote - Canada",
+      "link": "https://www.samsara.com/company/careers/roles/7443765?gh_jid=7443765",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5304,7 +5348,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5315,7 +5359,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5326,7 +5370,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": true,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5337,7 +5381,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5348,7 +5392,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5359,7 +5403,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5370,7 +5414,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5381,7 +5425,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5392,29 +5436,29 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
       "role": "Senior Software Engineer - Connectivity",
-      "location": "Remote - US",
-      "link": "https://www.samsara.com/company/careers/roles/7496573?gh_jid=7496573",
+      "location": "Remote - Canada",
+      "link": "https://www.samsara.com/company/careers/roles/7496904?gh_jid=7496904",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
       "role": "Senior Software Engineer - Enterprise Management",
-      "location": "Remote - UK",
-      "link": "https://www.samsara.com/company/careers/roles/7534517?gh_jid=7534517",
+      "location": "Remote - Poland",
+      "link": "https://www.samsara.com/company/careers/roles/7524128?gh_jid=7524128",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5425,29 +5469,29 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
       "role": "Senior Software Engineer - Fleet Security",
-      "location": "Remote - UK",
-      "link": "https://www.samsara.com/company/careers/roles/7544248?gh_jid=7544248",
+      "location": "Remote - Poland",
+      "link": "https://www.samsara.com/company/careers/roles/7512130?gh_jid=7512130",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
       "urgent": true,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
       "role": "Senior Software Engineer, Full-Stack - Vehicle Data Platform",
-      "location": "Remote - Canada",
-      "link": "https://www.samsara.com/company/careers/roles/7341094?gh_jid=7341094",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7266689?gh_jid=7266689",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
       "urgent": true,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5458,7 +5502,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5469,7 +5513,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5480,7 +5524,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5491,7 +5535,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5502,29 +5546,29 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
       "role": "Senior Software Engineer II,  Smart Trailer & Connected Equipment",
-      "location": "Remote - Toronto",
-      "link": "https://www.samsara.com/company/careers/roles/7384619?gh_jid=7384619",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7367490?gh_jid=7367490",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
       "role": "Senior Software Engineer I,  Smart Trailer & Connected Equipment",
-      "location": "Remote - Canada",
-      "link": "https://www.samsara.com/company/careers/roles/7367658?gh_jid=7367658",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7266415?gh_jid=7266415",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5535,7 +5579,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5546,7 +5590,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5557,7 +5601,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5568,7 +5612,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5579,7 +5623,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5590,7 +5634,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5601,7 +5645,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5612,7 +5656,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": true,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5623,7 +5667,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5634,7 +5678,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5645,7 +5689,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5656,7 +5700,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5667,7 +5711,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5678,7 +5722,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5689,7 +5733,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5700,7 +5744,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5711,18 +5755,18 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
       "role": "Staff Mobile Engineer - Mobile Platform",
-      "location": "Remote - Canada",
-      "link": "https://www.samsara.com/company/careers/roles/7304881?gh_jid=7304881",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7266713?gh_jid=7266713",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5733,7 +5777,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5744,7 +5788,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5755,7 +5799,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5766,18 +5810,18 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
       "role": "Staff Software Engineer - Safety AI",
-      "location": "London, England, United Kingdom",
-      "link": "https://www.samsara.com/company/careers/roles/7325671?gh_jid=7325671",
+      "location": "Remote - UK",
+      "link": "https://www.samsara.com/company/careers/roles/7266699?gh_jid=7266699",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5788,7 +5832,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5799,7 +5843,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Samsara",
@@ -5810,7 +5854,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -5821,7 +5865,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -5832,7 +5876,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -5843,7 +5887,7 @@
       "sponsor": "open",
       "cat": "ASIC",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -5854,7 +5898,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -5865,7 +5909,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -5876,7 +5920,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -5887,18 +5931,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "Freeform",
-      "role": "Electrical Engineering Intern (Summer 2026)",
-      "location": "Los Angeles, CA (On-site)",
-      "link": "https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7551187003",
-      "source": "Greenhouse",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -5909,7 +5942,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -5920,7 +5953,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -5931,7 +5964,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -5942,7 +5975,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -5953,7 +5986,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -5964,7 +5997,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -5975,7 +6008,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -5986,7 +6019,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -5997,7 +6030,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6008,7 +6041,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6019,7 +6052,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6030,7 +6063,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6041,7 +6074,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6052,7 +6085,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6063,7 +6096,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6074,7 +6107,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6085,7 +6118,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6096,7 +6129,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6107,7 +6140,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6118,7 +6151,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6129,7 +6162,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6140,7 +6173,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6151,7 +6184,7 @@
       "sponsor": "open",
       "cat": "ASIC",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6162,7 +6195,7 @@
       "sponsor": "open",
       "cat": "ASIC",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6173,7 +6206,7 @@
       "sponsor": "open",
       "cat": "ASIC",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6184,7 +6217,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6195,7 +6228,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6206,7 +6239,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6217,7 +6250,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6228,7 +6261,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6239,7 +6272,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6250,7 +6283,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6261,7 +6294,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6272,7 +6305,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6283,7 +6316,7 @@
       "sponsor": "open",
       "cat": "ASIC",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6294,7 +6327,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6305,7 +6338,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6316,7 +6349,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6327,7 +6360,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6338,7 +6371,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6349,7 +6382,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6360,7 +6393,7 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6371,7 +6404,7 @@
       "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "Freeform",
@@ -6382,18 +6415,7 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "ITC Holdings Corp.",
-      "role": "Engineer - Operations Applications Engineering (All Levels)",
-      "location": "Novi, MI 48377",
-      "link": "https://www.indeed.com/viewjob?jk=7a2e724179eb5f36",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
       "company": "HighQ",
@@ -6404,18 +6426,62 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
-      "company": "Siemens Energy",
-      "role": "PRIMARY SUBSTATION ENGINEER (RALEIGH, NC)",
-      "location": "Raleigh, NC 27616",
-      "link": "https://www.indeed.com/viewjob?jk=6343a88288df4c4a",
+      "company": "ITC Holdings Corp.",
+      "role": "Engineer - Operations Applications Engineering (All Levels)",
+      "location": "Novi, MI 48377",
+      "link": "https://www.indeed.com/viewjob?jk=7a2e724179eb5f36",
       "source": "Indeed",
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "Siemens",
+      "role": "High Speed & Analysis SQA Engineer",
+      "location": "Plano, TX",
+      "link": "https://www.indeed.com/viewjob?jk=58a1164e1180b465",
+      "source": "Indeed",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "JND",
+      "role": "[Entry Level] Network QA Engineer - Cell Phone Network Field Testing (2602-5)",
+      "location": "Englewood Cliffs, NJ 07632",
+      "link": "https://www.indeed.com/viewjob?jk=f791146452f470d3",
+      "source": "Indeed",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "Quanta Manufacturing Nashville",
+      "role": "Night Shift - Test Engineer",
+      "location": "Fremont, CA 94538",
+      "link": "https://www.indeed.com/viewjob?jk=737cdf6a3e6dd214",
+      "source": "Indeed",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-03-26"
+    },
+    {
+      "company": "BNY Mellon",
+      "role": "UAT Analyst (contract)",
+      "location": "Lake Mary, FL",
+      "link": "https://www.indeed.com/viewjob?jk=5a329d068a3de158",
+      "source": "Indeed",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-03-26"
     },
     {
       "company": "Engineering Innovation, Inc (Engineering Innovation, Inc.)",
@@ -6426,62 +6492,18 @@
       "sponsor": "open",
       "cat": "SW",
       "urgent": true,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     },
     {
-      "company": "Abbott Laboratories",
-      "role": "Software Test Engineer",
-      "location": "Pleasanton, CA",
-      "link": "https://www.indeed.com/viewjob?jk=ce60fd470f4b488b",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "SW",
-      "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "Galil Motion Control",
-      "role": "Electrical Engineer - New College Grad",
-      "location": "Rocklin, CA 95765",
-      "link": "https://www.indeed.com/viewjob?jk=6955199d17cc2e8a",
+      "company": "Skylark Wireless",
+      "role": "Electronics Design Engineer",
+      "location": "Houston, TX",
+      "link": "https://www.indeed.com/viewjob?jk=f87f6c4b4003ef48",
       "source": "Indeed",
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "Opal Kelly",
-      "role": "Entry-Level Computer Engineer",
-      "location": "Portland, OR 97223",
-      "link": "https://www.indeed.com/viewjob?jk=98a511ea434dd1f3",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "Texas Control Systems Inc.",
-      "role": "R&D \u2013 Embedded Hardware Engineer I/II",
-      "location": "Carrollton, TX 75006",
-      "link": "https://www.indeed.com/viewjob?jk=65edce442e80f14d",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-25"
-    },
-    {
-      "company": "1st Resource Recruiting",
-      "role": "Controls Engineer",
-      "location": "Ossian, IN 46777",
-      "link": "https://www.indeed.com/viewjob?jk=90061f6c4d881063",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-03-25"
+      "date_added": "2026-03-26"
     }
   ],
   "sources": [
@@ -6492,5 +6514,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-03-25T20:03:18.618146+00:00"
+  "last_tailored": "2026-03-26T05:57:36.108135+00:00"
 }
