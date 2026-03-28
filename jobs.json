@@ -1,113 +1,14 @@
 {
-  "updated": "2026-03-28T07:59:04.580635+00:00",
-  "total": 570,
+  "updated": "2026-03-28T14:04:54.278822+00:00",
+  "total": 569,
   "urgent_count": 13,
   "blocked_count": 0,
   "jobs": [
     {
-      "company": "\ud83c\udfe2 OpenAI",
-      "role": "Physical Design Engineer",
-      "location": "San Francisco",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
-      "company": "\ud83c\udfe2 OpenAI",
-      "role": "RTL & Codesign Engineer",
-      "location": "San Francisco",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
-      "company": "\ud83c\udfe2 OpenAI",
-      "role": "RTL & Co-design Engineer (junior)",
-      "location": "San Francisco",
-      "link": "junior",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
-      "company": "\ud83c\udfe2 Shield AI",
-      "role": "Electrical Engineer I - Power Electronics",
-      "location": "Dallas",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
-      "company": "\ud83c\udfe2 Shield AI",
-      "role": "Electrical Engineer I (BOS)",
-      "location": "Boston, MA",
-      "link": "BOS",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
-      "company": "\ud83c\udfe2 Handshake",
-      "role": "Hardware Engineer - AI Trainer",
-      "location": "Remote",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "SW",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
-      "company": "\ud83c\udfe2 Etched",
-      "role": "Design Verification Engineer - Internal IP",
-      "location": "San Jose",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
-      "company": "\ud83c\udfe2 Crusoe",
-      "role": "Electrical Engineer",
-      "location": "Arvada, CO",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
-      "company": "\ud83c\udfe2 Hermeus",
-      "role": "Avionics Electrical Engineer",
-      "location": "Atlanta, GA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
-      "company": "\ud83c\udfe2 CFS Energy",
-      "role": "Assembly Process Engineer - Contract",
-      "location": "Devens, MA",
-      "link": "#",
+      "company": "\ud83c\udfe2 RTX",
+      "role": "Surface Mount Technology (SMT) Process Engineer I",
+      "location": "TX-MCKINNEY-513WA...",
+      "link": "SMT",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "ASIC",
@@ -115,9 +16,31 @@
       "date_added": "2026-03-28"
     },
     {
-      "company": "\ud83c\udfe2 Johnson Controls",
+      "company": "\ud83c\udfe2 RTX",
+      "role": "Hardware Engineer",
+      "location": "2 Locations",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
+      "company": "\ud83c\udfe2 Oshkosh Corporation",
       "role": "Electrical Engineer",
-      "location": "Florida-United St...",
+      "location": "Bradenton",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
+      "company": "\ud83c\udfe2 KBR",
+      "role": "Associate Electrical Engineer",
+      "location": "Las Cruces",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -170,20 +93,97 @@
       "date_added": "2026-03-28"
     },
     {
-      "company": "\ud83c\udfe2 RTX",
-      "role": "Surface Mount Technology (SMT) Process Engineer I",
-      "location": "TX-MCKINNEY-513WA...",
-      "link": "SMT",
+      "company": "\ud83c\udfe2 Shield AI",
+      "role": "Electrical Engineer I (BOS)",
+      "location": "Boston, MA",
+      "link": "BOS",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
+      "company": "\ud83c\udfe2 Shield AI",
+      "role": "Electrical Engineer I (SD)",
+      "location": "San Diego",
+      "link": "SD",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
+      "company": "\ud83c\udfe2 OpenAI",
+      "role": "Design Verification Engineer",
+      "location": "San Francisco",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "DV",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
+      "company": "\ud83c\udfe2 OpenAI",
+      "role": "Physical Design Engineer",
+      "location": "San Francisco",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
       "cat": "ASIC",
       "urgent": false,
       "date_added": "2026-03-28"
     },
     {
-      "company": "\ud83c\udfe2 RTX",
-      "role": "Hardware Engineer",
-      "location": "2 Locations",
+      "company": "\ud83c\udfe2 Northwood Space",
+      "role": "RF Hardware Engineer (Early Career)",
+      "location": "Torrance, CA",
+      "link": "Early Career",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
+      "company": "\ud83c\udfe2 Northwood Space",
+      "role": "Electrical Engineer (Early Career)",
+      "location": "Torrance, CA",
+      "link": "Early Career",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
+      "company": "\ud83c\udfe2 Handshake",
+      "role": "Hardware Engineer - AI Trainer",
+      "location": "Remote",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "SW",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
+      "company": "\ud83c\udfe2 Etched",
+      "role": "Design Verification Engineer - Internal IP",
+      "location": "San Jose",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "DV",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
+      "company": "\ud83c\udfe2 Crusoe",
+      "role": "Electrical Engineer",
+      "location": "Arvada, CO",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -192,13 +192,13 @@
       "date_added": "2026-03-28"
     },
     {
-      "company": "\ud83c\udfe2 Oshkosh Corporation",
-      "role": "Electrical Engineer",
-      "location": "Bradenton",
+      "company": "\ud83c\udfe2 CFS Energy",
+      "role": "Assembly Process Engineer - Contract",
+      "location": "Devens, MA",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
-      "cat": "HW",
+      "cat": "ASIC",
       "urgent": false,
       "date_added": "2026-03-28"
     },
@@ -280,6 +280,61 @@
       "date_added": "2026-03-28"
     },
     {
+      "company": "\ud83c\udfe2 Intel",
+      "role": "Silicon Packaging Design Engineer",
+      "location": "US",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
+      "company": "\ud83c\udfe2 Globus Medical",
+      "role": "Electrical Engineer, Robotics",
+      "location": "Methuen, MA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
+      "company": "\ud83c\udfe2 GE Aerospace",
+      "role": "Process Engineer Commerical Engine Line",
+      "location": "Arkansas City",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
+      "company": "\ud83c\udfe2 Elanco",
+      "role": "Secondary Loop Process Engineer",
+      "location": "Winslow, ME",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
+      "company": "\ud83c\udfe2 Analog Devices",
+      "role": "Engineer, Design Verification Engineering",
+      "location": "US, AZ",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "DV",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
       "company": "\ud83c\udfe2 ASML",
       "role": "Process Engineer, CNC Automation",
       "location": "Wilton, CT",
@@ -291,35 +346,13 @@
       "date_added": "2026-03-28"
     },
     {
-      "company": "\ud83c\udfe2 HPE",
-      "role": "Electrical Hardware Engineer",
-      "location": "Spring",
+      "company": "\ud83c\udfe2 AES Corporation",
+      "role": "Electrical Engineer, Metering",
+      "location": "US, OH",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
-      "company": "\ud83c\udfe2 Elanco",
-      "role": "Process Engineer, Biologics Manufacturing",
-      "location": "Elwood, KS",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
-      "company": "\ud83c\udfe2 GE Aerospace",
-      "role": "Manufacturing Process Engineer",
-      "location": "Arkansas City",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "ASIC",
       "urgent": false,
       "date_added": "2026-03-28"
     },
@@ -346,112 +379,13 @@
       "date_added": "2026-03-28"
     },
     {
-      "company": "\ud83c\udfe2 Torc Robotics",
-      "role": "Hardware Engineer I - Sensors",
-      "location": "Ann Arbor, MI",
+      "company": "\ud83c\udfe2 KBR",
+      "role": "Associate Mechanical Engineer",
+      "location": "Las Cruces",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
-      "company": "\ud83c\udfe2 Waymo",
-      "role": "Signal Integrity Engineer",
-      "location": "Mountain View, CA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
-      "company": "\ud83c\udfe2 Intel",
-      "role": "CPU Verification Engineer",
-      "location": "US",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
-      "company": "\ud83c\udfe2 GE Vernova",
-      "role": "Experienced Hardware Engineer - (Circuit Design, Industrialization, Wireless, ECAD) Relocation Assistance",
-      "location": "Rochester",
-      "link": "Circuit Design, Industrialization, Wireless, ECAD",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
-      "company": "\ud83c\udfe2 Thermo Fisher Scientific",
-      "role": "Engineer I, Process Engineer",
-      "location": "Fair Lawn",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
-      "company": "\ud83c\udfe2 CoreWeave",
-      "role": "Hardware Engineer",
-      "location": "New York, NY",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
-      "company": "\ud83c\udfe2 CoreWeave",
-      "role": "Hardware Engineer - Liquid Cooling",
-      "location": "New York, NY",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
-      "company": "\ud83c\udfe2 OpenAI",
-      "role": "Camera Firmware Engineer, Consumer Devices",
-      "location": "San Francisco",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
-      "company": "\ud83c\udfe2 OpenAI",
-      "role": "Networking Operating System Firmware Engineer",
-      "location": "San Francisco",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
-      "company": "\ud83c\udfe2 Etched",
-      "role": "Design Verification Engineer - SoC",
-      "location": "San Jose",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "DV",
       "urgent": false,
       "date_added": "2026-03-28"
     },
@@ -485,6 +419,39 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
+      "company": "\ud83c\udfe2 OpenAI",
+      "role": "Networking Operating System Firmware Engineer",
+      "location": "San Francisco",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
+      "company": "\ud83c\udfe2 OpenAI",
+      "role": "Camera Firmware Engineer, Consumer Devices",
+      "location": "San Francisco",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
+      "company": "\ud83c\udfe2 Etched",
+      "role": "Design Verification Engineer - SoC",
+      "location": "San Jose",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "DV",
       "urgent": false,
       "date_added": "2026-03-28"
     },
@@ -566,24 +533,13 @@
       "date_added": "2026-03-28"
     },
     {
-      "company": "\ud83c\udfe2 Cadence",
-      "role": "ASIC Verification, Account Technical Executive",
-      "location": "SAN JOSE",
+      "company": "\ud83c\udfe2 Analog Devices",
+      "role": "ASIC Design and Verification Engineer - AI",
+      "location": "2 Locations",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
       "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
-      "company": "\ud83c\udfe2 Broadcom",
-      "role": "ASIC DFT Engineer",
-      "location": "CA San Jose Innov...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "ASIC",
       "urgent": false,
       "date_added": "2026-03-28"
     },
@@ -599,31 +555,20 @@
       "date_added": "2026-03-28"
     },
     {
-      "company": "\ud83c\udfe2 Micron",
-      "role": "HBM SoC Physical Design Engineer",
-      "location": "2 Locations",
+      "company": "\ud83c\udfe2 Cadence",
+      "role": "ASIC Verification, Account Technical Executive",
+      "location": "SAN JOSE",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
-      "cat": "ASIC",
+      "cat": "DV",
       "urgent": false,
       "date_added": "2026-03-28"
     },
     {
-      "company": "\ud83c\udfe2 Micron",
-      "role": "HBM SoC Design Engineer",
-      "location": "2 Locations",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
-      "company": "\ud83c\udfe2 NVIDIA",
-      "role": "ASIC Design Efficiency Engineer",
-      "location": "3 Locations",
+      "company": "\ud83c\udfe2 Broadcom",
+      "role": "ASIC DFT Engineer",
+      "location": "CA San Jose Innov...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
@@ -671,6 +616,39 @@
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
+      "company": "\ud83c\udfe2 NVIDIA",
+      "role": "ASIC Design Efficiency Engineer",
+      "location": "3 Locations",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
+      "company": "\ud83c\udfe2 Micron",
+      "role": "HBM SoC Physical Design Engineer",
+      "location": "2 Locations",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
+      "company": "\ud83c\udfe2 Micron",
+      "role": "HBM SoC Design Engineer",
+      "location": "2 Locations",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-03-28"
@@ -764,17 +742,6 @@
       "date_added": "2026-03-28"
     },
     {
-      "company": "\ud83c\udfe2 BlackRock",
-      "role": "Application Engineer (ETF)-Java Backend -Associate",
-      "location": "Atlanta, GA",
-      "link": "ETF",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
       "company": "\ud83c\udfe2 Cisco",
       "role": "ASIC Design Engineer",
       "location": "San Jose, US",
@@ -786,13 +753,13 @@
       "date_added": "2026-03-28"
     },
     {
-      "company": "\ud83c\udfe2 Marvell",
-      "role": "ASIC Design Engineer",
-      "location": "16 Locations",
-      "link": "#",
+      "company": "\ud83c\udfe2 BlackRock",
+      "role": "Application Engineer (ETF)-Java Backend -Associate",
+      "location": "Atlanta, GA",
+      "link": "ETF",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "ASIC",
+      "sponsor": "open",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-03-28"
     },
@@ -830,9 +797,53 @@
       "date_added": "2026-03-28"
     },
     {
+      "company": "\ud83c\udfe2 Marvell",
+      "role": "ASIC Design Engineer",
+      "location": "16 Locations",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
       "company": "\ud83c\udfe2 Samsara",
       "role": "Hardware Solutions Firmware Engineer",
       "location": "San Francisco, CA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
+      "company": "\ud83c\udfe2 Motorola Solutions",
+      "role": "Embedded Software Engineer",
+      "location": "Schaumburg, IL",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
+      "company": "\ud83c\udfe2 Cisco",
+      "role": "Software Engineer (L2/L3-Embedded)",
+      "location": "Milpitas, US",
+      "link": "L2/L3-Embedded",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
+      "company": "\ud83c\udfe2 Ciena",
+      "role": "Embedded Software Engineer 3",
+      "location": "Atlanta",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -877,39 +888,6 @@
       "company": "\ud83c\udfe2 Palantir",
       "role": "Embedded People Engineer",
       "location": "Washington",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
-      "company": "\ud83c\udfe2 Cisco",
-      "role": "Software Engineer (L2/L3-Embedded)",
-      "location": "Milpitas, US",
-      "link": "L2/L3-Embedded",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
-      "company": "\ud83c\udfe2 Ciena",
-      "role": "Embedded Software Engineer 3",
-      "location": "Atlanta",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
-      "company": "\ud83c\udfe2 Motorola Solutions",
-      "role": "Embedded Software Engineer",
-      "location": "Schaumburg, IL",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -1039,34 +1017,12 @@
       "date_added": "2026-03-28"
     },
     {
-      "company": "\ud83c\udfe2 HPE (University)",
-      "role": "Embedded Software Test Engineer",
-      "location": "Spring",
-      "link": "#",
+      "company": "\ud83c\udfe2 Caterpillar",
+      "role": "Embedded Software Engineer (Telematics and Productivity)",
+      "location": "Mossville",
+      "link": "Telematics and Productivity",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
-      "company": "\ud83c\udfe2 HPE",
-      "role": "Embedded Software Test Engineer",
-      "location": "Spring",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
-      "company": "\ud83c\udfe2 NVIDIA",
-      "role": "Firmware Design Engineer",
-      "location": "US, CA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
       "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-03-28"
@@ -1116,9 +1072,31 @@
       "date_added": "2026-03-28"
     },
     {
-      "company": "\ud83c\udfe2 Caterpillar",
-      "role": "Embedded Software Engineer",
-      "location": "Mossville",
+      "company": "\ud83c\udfe2 NVIDIA",
+      "role": "Firmware Design Engineer",
+      "location": "US, CA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
+      "company": "\ud83c\udfe2 HPE (University)",
+      "role": "Embedded Software Test Engineer",
+      "location": "Spring",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
+      "company": "\ud83c\udfe2 HPE",
+      "role": "Embedded Software Test Engineer",
+      "location": "Spring",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -1204,28 +1182,6 @@
       "date_added": "2026-03-28"
     },
     {
-      "company": "\ud83c\udfe2 General Motors",
-      "role": "Manufacturing Embedded Systems Developer",
-      "location": "Warren",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
-      "company": "\ud83c\udfe2 Moog",
-      "role": "Embedded Software Engineer",
-      "location": "Torrance, CA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
       "company": "\ud83c\udfe2 Micron",
       "role": "Firmware Test Engineer, SSD",
       "location": "Longmont, CO",
@@ -1270,6 +1226,39 @@
       "date_added": "2026-03-28"
     },
     {
+      "company": "\ud83c\udfe2 Moog",
+      "role": "Embedded Software Engineer",
+      "location": "Torrance, CA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
+      "company": "\ud83c\udfe2 General Motors",
+      "role": "Manufacturing Embedded Systems Developer",
+      "location": "Warren",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
+      "company": "\ud83c\udfe2 TDK",
+      "role": "Embedded Software Engineer",
+      "location": "Neptune Township",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
       "company": "\ud83c\udfe2 KBR",
       "role": "Firmware Developer",
       "location": "Lexington",
@@ -1284,17 +1273,6 @@
       "company": "\ud83c\udfe2 KBR",
       "role": "Embedded Software Developer",
       "location": "Lexington",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-03-28"
-    },
-    {
-      "company": "\ud83c\udfe2 TDK",
-      "role": "Embedded Software Engineer",
-      "location": "Neptune Township",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -1320,6 +1298,17 @@
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
+      "cat": "Analog",
+      "urgent": false,
+      "date_added": "2026-03-28"
+    },
+    {
+      "company": "\ud83c\udfe2 Intel",
+      "role": "Analog product Development Engineer",
+      "location": "US",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
       "cat": "Analog",
       "urgent": false,
       "date_added": "2026-03-28"
@@ -6283,5 +6272,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-03-28T07:59:10.192428+00:00"
+  "last_tailored": "2026-03-28T14:05:02.148603+00:00"
 }
