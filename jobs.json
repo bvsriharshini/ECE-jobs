@@ -1,9 +1,31 @@
 {
-  "updated": "2026-04-02T09:43:49.536733+00:00",
-  "total": 531,
+  "updated": "2026-04-02T15:39:08.078599+00:00",
+  "total": 534,
   "urgent_count": 12,
   "blocked_count": 0,
   "jobs": [
+    {
+      "company": "\ud83c\udfe2 Hitachi",
+      "role": "Electrical Engineer",
+      "location": "Pleasanton",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-02"
+    },
+    {
+      "company": "\ud83c\udfe2 Veolia Environnement SA",
+      "role": "Associate Electrical Engineer - (Data Center)",
+      "location": "Fredericksburg, VA",
+      "link": "Data Center",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-02"
+    },
     {
       "company": "\ud83c\udfe2 Intel",
       "role": "CPU Verification engineer",
@@ -45,17 +67,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
       "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-02"
-    },
-    {
-      "company": "\ud83c\udfe2 Applied Materials",
-      "role": "Process Engineer V",
-      "location": "Santa Clara, CA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "ASIC",
       "urgent": false,
       "date_added": "2026-04-02"
     },
@@ -236,12 +247,23 @@
       "date_added": "2026-04-02"
     },
     {
-      "company": "\ud83c\udfe2 Analog Devices",
-      "role": "Biosensor Algorithm Engineer",
-      "location": "2 Locations",
+      "company": "\ud83c\udfe2 Veolia Environnement SA",
+      "role": "Associate Mechanical Engineer \u2013 (Data Center)",
+      "location": "Fredericksburg, VA",
+      "link": "Data Center",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-02"
+    },
+    {
+      "company": "\ud83c\udfe2 Veolia Environnement SA",
+      "role": "Associate Engineer - Mechanical Design",
+      "location": "Norfolk, VA",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
+      "sponsor": "open",
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-02"
@@ -253,6 +275,17 @@
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-02"
+    },
+    {
+      "company": "\ud83c\udfe2 KBR",
+      "role": "Associate Proposal Coordinator",
+      "location": "3 Locations",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-02"
@@ -423,8 +456,19 @@
       "date_added": "2026-04-02"
     },
     {
+      "company": "\ud83c\udfe2 Deutsche Bank",
+      "role": "Software Development Engineer in Test  - Associate",
+      "location": "Green",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "SW",
+      "urgent": false,
+      "date_added": "2026-04-02"
+    },
+    {
       "company": "\ud83c\udfe2 OpenAI",
-      "role": "Camera Firmware Engineer, Consumer Devices",
+      "role": "Networking Operating System Firmware Engineer",
       "location": "San Francisco",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
@@ -435,7 +479,7 @@
     },
     {
       "company": "\ud83c\udfe2 OpenAI",
-      "role": "Networking Operating System Firmware Engineer",
+      "role": "Camera Firmware Engineer, Consumer Devices",
       "location": "San Francisco",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
@@ -743,8 +787,8 @@
     },
     {
       "company": "\ud83c\udfe2 Zoox",
-      "role": "Firmware Validation Engineer",
-      "location": "Foster City, CA",
+      "role": "Embedded Software Engineer",
+      "location": "San Diego, CA",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -754,8 +798,8 @@
     },
     {
       "company": "\ud83c\udfe2 Zoox",
-      "role": "Embedded Software Engineer",
-      "location": "San Diego, CA",
+      "role": "Firmware Validation Engineer",
+      "location": "Foster City, CA",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -2603,8 +2647,8 @@
     {
       "company": "Jane Street",
       "role": "ASIC Engineer",
-      "location": "London, England, United Kingdom",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8233259002",
+      "location": "New York, New York, United States",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8213653002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2724,8 +2768,8 @@
     {
       "company": "Jane Street",
       "role": "FPGA Engineer",
-      "location": "New York, New York, United States",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8062455002",
+      "location": "London, England, United Kingdom",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8062422002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "FPGA",
@@ -2735,8 +2779,8 @@
     {
       "company": "Jane Street",
       "role": "IT Operations Engineer",
-      "location": "New York, New York, United States",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8065684002",
+      "location": "Hong Kong, Hong Kong",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8377831002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2757,8 +2801,8 @@
     {
       "company": "Jane Street",
       "role": "Linux Engineer",
-      "location": "London, England, United Kingdom",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8062886002",
+      "location": "Hong Kong, Hong Kong",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8104305002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2790,8 +2834,8 @@
     {
       "company": "Jane Street",
       "role": "Machine Learning Performance Engineer",
-      "location": "New York, New York, United States",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/7449077002",
+      "location": "London, England, United Kingdom",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/7449252002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2802,7 +2846,7 @@
       "company": "Jane Street",
       "role": "Machine Learning Researcher",
       "location": "Hong Kong, Hong Kong",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/7246309002",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8374335002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2845,8 +2889,8 @@
     {
       "company": "Jane Street",
       "role": "Production Engineer",
-      "location": "New York, New York, United States",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/5108180002",
+      "location": "London, England, United Kingdom",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/5168486002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2856,8 +2900,8 @@
     {
       "company": "Jane Street",
       "role": "Quantitative Researcher",
-      "location": "New York, New York, United States",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8069351002",
+      "location": "London, England, United Kingdom",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8092053002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2868,7 +2912,7 @@
       "company": "Jane Street",
       "role": "Quantitative Trader",
       "location": "Hong Kong, Hong Kong",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8071940002",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/7982986002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2878,8 +2922,8 @@
     {
       "company": "Jane Street",
       "role": "Senior Weather Analyst/ML Researcher",
-      "location": "New York, New York, United States",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8440974002",
+      "location": "London, England, United Kingdom",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8445154002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -3290,17 +3334,6 @@
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-02"
-    },
-    {
-      "company": "IMC Trading",
-      "role": "Software Engineer Intern (2026)",
-      "location": "Amsterdam, Netherlands",
-      "link": "https://job-boards.eu.greenhouse.io/imc/jobs/4563168101",
-      "source": "Greenhouse",
-      "sponsor": "open",
-      "cat": "SW",
       "urgent": false,
       "date_added": "2026-04-02"
     },
@@ -5854,5 +5887,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-04-02T09:43:56.906556+00:00"
+  "last_tailored": "2026-04-02T15:39:13.926642+00:00"
 }
