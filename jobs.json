@@ -1,9 +1,20 @@
 {
-  "updated": "2026-04-03T05:52:45.478662+00:00",
-  "total": 545,
+  "updated": "2026-04-03T08:37:50.332349+00:00",
+  "total": 539,
   "urgent_count": 12,
   "blocked_count": 0,
   "jobs": [
+    {
+      "company": "\ud83c\udfe2 Applied Materials",
+      "role": "Process Engineer",
+      "location": "Santa Clara, CA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-04-03"
+    },
     {
       "company": "\ud83c\udfe2 KLA",
       "role": "Product Engineer",
@@ -170,28 +181,6 @@
       "date_added": "2026-04-03"
     },
     {
-      "company": "\ud83c\udfe2 Intel",
-      "role": "CPU Verification engineer",
-      "location": "US",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-04-03"
-    },
-    {
-      "company": "\ud83c\udfe2 Analog Devices",
-      "role": "Equipment Engineering Technician 3- Thin Films",
-      "location": "US, OR",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-03"
-    },
-    {
       "company": "\ud83c\udfe2 Apptronik",
       "role": "Electrical Engineer",
       "location": "Austin, TX",
@@ -236,17 +225,6 @@
       "date_added": "2026-04-03"
     },
     {
-      "company": "\ud83c\udfe2 Elanco",
-      "role": "Entry-level Process Engineer or Manufacturing Scientist",
-      "location": "Fort Dodge, IA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-04-03"
-    },
-    {
       "company": "\ud83c\udfe2 Anthropic",
       "role": "Performance Engineer, GPU",
       "location": "San Francisco, CA",
@@ -264,6 +242,28 @@
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-03"
+    },
+    {
+      "company": "\ud83c\udfe2 Elanco",
+      "role": "Entry-level Process Engineer or Manufacturing Scientist",
+      "location": "Fort Dodge, IA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-04-03"
+    },
+    {
+      "company": "\ud83c\udfe2 Analog Devices",
+      "role": "Equipment Engineering Technician 3- Thin Films",
+      "location": "US, OR",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-03"
@@ -379,45 +379,12 @@
       "date_added": "2026-04-03"
     },
     {
-      "company": "\ud83c\udfe2 Intel",
-      "role": "SoC Design Engineer Student",
-      "location": "Costa Rica",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-03"
-    },
-    {
-      "company": "\ud83c\udfe2 KBR",
-      "role": "Associate Proposal Coordinator",
-      "location": "3 Locations",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-03"
-    },
-    {
       "company": "\ud83c\udfe2 Jane Street",
       "role": "ASIC Engineer",
       "location": "New York",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-03"
-    },
-    {
-      "company": "\ud83c\udfe2 Broadcom",
-      "role": "Mixed Signals ASIC Test Engineer",
-      "location": "CA San Jose Innov...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-03"
@@ -452,6 +419,39 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-04-03"
+    },
+    {
+      "company": "\ud83c\udfe2 KBR",
+      "role": "Associate Proposal Coordinator",
+      "location": "3 Locations",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-03"
+    },
+    {
+      "company": "\ud83c\udfe2 Intel",
+      "role": "SoC Design Engineer Student",
+      "location": "Costa Rica",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-03"
+    },
+    {
+      "company": "\ud83c\udfe2 Broadcom",
+      "role": "Mixed Signals ASIC Test Engineer",
+      "location": "CA San Jose Innov...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-03"
     },
@@ -687,50 +687,6 @@
       "date_added": "2026-04-03"
     },
     {
-      "company": "\ud83c\udfe2 KBR",
-      "role": "Associate Mechanical Engineer",
-      "location": "Las Cruces",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-03"
-    },
-    {
-      "company": "\ud83c\udfe2 Ciena",
-      "role": "ASIC Digital Backend Physical Implementation Engineer",
-      "location": "Atlanta",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-03"
-    },
-    {
-      "company": "\ud83c\udfe2 Ciena",
-      "role": "Digital ASIC Prototyping Engineer",
-      "location": "Atlanta",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-03"
-    },
-    {
-      "company": "\ud83c\udfe2 BlackRock",
-      "role": "Associate, Application Engineer",
-      "location": "San Francisco, CA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-03"
-    },
-    {
       "company": "\ud83c\udfe2 Intel",
       "role": "Memory Systems Firmware Development Engineer",
       "location": "2 Locations",
@@ -941,8 +897,8 @@
     },
     {
       "company": "\ud83c\udfe2 Zoox",
-      "role": "Embedded Software Engineer",
-      "location": "San Diego, CA",
+      "role": "Firmware Validation Engineer",
+      "location": "Foster City, CA",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -952,8 +908,8 @@
     },
     {
       "company": "\ud83c\udfe2 Zoox",
-      "role": "Firmware Validation Engineer",
-      "location": "Foster City, CA",
+      "role": "Embedded Software Engineer",
+      "location": "San Diego, CA",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -1043,28 +999,6 @@
       "role": "Embedded Software Engineer (Starlink)",
       "location": "Bastrop, TX",
       "link": "Starlink",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-03"
-    },
-    {
-      "company": "\ud83c\udfe2 Cisco",
-      "role": "Software Engineer (L2/L3-Embedded)",
-      "location": "Milpitas, US",
-      "link": "L2/L3-Embedded",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-03"
-    },
-    {
-      "company": "\ud83c\udfe2 Ciena",
-      "role": "Embedded Software Engineer 3",
-      "location": "Atlanta",
-      "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "FPGA",
@@ -6008,5 +5942,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-04-03T05:52:50.635903+00:00"
+  "last_tailored": "2026-04-03T08:37:58.110738+00:00"
 }
