@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-04T14:05:29.167268+00:00",
+  "updated": "2026-04-04T19:46:51.736335+00:00",
   "total": 517,
   "urgent_count": 12,
   "blocked_count": 0,
@@ -342,6 +342,17 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
       "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-04-04"
+    },
+    {
+      "company": "\ud83c\udfe2 0903 SP - Propulsion Systems",
+      "role": "Associate Engineer Embedded Software",
+      "location": "Unknown",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-04-04"
     },
@@ -778,17 +789,6 @@
       "company": "\ud83c\udfe2 Caterpillar",
       "role": "Embedded Software Validation Engineer",
       "location": "Mossville",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-04"
-    },
-    {
-      "company": "\ud83c\udfe2 John Deere",
-      "role": "Software Test Engineer - Embedded Software",
-      "location": "Dubuque",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -4011,8 +4011,8 @@
     {
       "company": "Verkada",
       "role": "Senior Product Counsel",
-      "location": "Austin, TX United States",
-      "link": "https://job-boards.greenhouse.io/verkada/jobs/5082756007",
+      "location": "San Mateo, CA United States",
+      "link": "https://job-boards.greenhouse.io/verkada/jobs/5082376007",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -5700,5 +5700,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-04-04T14:05:35.248411+00:00"
+  "last_tailored": "2026-04-04T19:47:00.047710+00:00"
 }
