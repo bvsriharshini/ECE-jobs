@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-04T08:01:56.436882+00:00",
-  "total": 527,
+  "updated": "2026-04-04T14:05:29.167268+00:00",
+  "total": 517,
   "urgent_count": 12,
   "blocked_count": 0,
   "jobs": [
@@ -104,61 +104,6 @@
       "date_added": "2026-04-04"
     },
     {
-      "company": "\ud83c\udfe2 Applied Materials",
-      "role": "Process Engineer V",
-      "location": "Santa Clara, CA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-04-04"
-    },
-    {
-      "company": "\ud83c\udfe2 KLA",
-      "role": "Customer Engagement Applications Engineer (FaST)",
-      "location": "Boise, ID",
-      "link": "FaST",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-04"
-    },
-    {
-      "company": "\ud83c\udfe2 Cadence",
-      "role": "IC Design Verification Application Engineer",
-      "location": "SAN JOSE",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-04-04"
-    },
-    {
-      "company": "\ud83c\udfe2 Analog Devices",
-      "role": "Technician 2, Process Sustaining Engineering",
-      "location": "US, WA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-04-04"
-    },
-    {
-      "company": "\ud83c\udfe2 Analog Devices",
-      "role": "MEMS Mechanical Engineer",
-      "location": "US, MA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-04"
-    },
-    {
       "company": "\ud83c\udfe2 Torc Robotics",
       "role": "Hardware Engineer I \u2013 Base Hardware",
       "location": "Ann Arbor, MI",
@@ -181,12 +126,67 @@
       "date_added": "2026-04-04"
     },
     {
+      "company": "\ud83c\udfe2 KLA",
+      "role": "Customer Engagement Applications Engineer (FaST)",
+      "location": "Boise, ID",
+      "link": "FaST",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-04"
+    },
+    {
       "company": "\ud83c\udfe2 Hitachi",
       "role": "Electrical Engineer",
       "location": "Pleasanton",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-04"
+    },
+    {
+      "company": "\ud83c\udfe2 Cadence",
+      "role": "IC Design Verification Application Engineer",
+      "location": "SAN JOSE",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "DV",
+      "urgent": false,
+      "date_added": "2026-04-04"
+    },
+    {
+      "company": "\ud83c\udfe2 Applied Materials",
+      "role": "Process Engineer V",
+      "location": "Santa Clara, CA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-04-04"
+    },
+    {
+      "company": "\ud83c\udfe2 Analog Devices",
+      "role": "Technician 2, Process Sustaining Engineering",
+      "location": "US, WA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-04-04"
+    },
+    {
+      "company": "\ud83c\udfe2 Analog Devices",
+      "role": "MEMS Mechanical Engineer",
+      "location": "US, MA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-04"
@@ -280,17 +280,6 @@
       "date_added": "2026-04-04"
     },
     {
-      "company": "\ud83c\udfe2 Broadcom",
-      "role": "ASIC Design Engineer",
-      "location": "2 Locations",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-04-04"
-    },
-    {
       "company": "\ud83c\udfe2 Anduril",
       "role": "Firmware Engineer, Embedded Systems",
       "location": "Costa Mesa",
@@ -320,6 +309,17 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-04"
+    },
+    {
+      "company": "\ud83c\udfe2 Broadcom",
+      "role": "ASIC Design Engineer",
+      "location": "2 Locations",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "ASIC",
       "urgent": false,
       "date_added": "2026-04-04"
     },
@@ -551,39 +551,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "SW",
-      "urgent": false,
-      "date_added": "2026-04-04"
-    },
-    {
-      "company": "\ud83c\udfe2 OpenAI",
-      "role": "Networking Operating System Firmware Engineer",
-      "location": "San Francisco",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-04"
-    },
-    {
-      "company": "\ud83c\udfe2 OpenAI",
-      "role": "Camera Firmware Engineer, Consumer Devices",
-      "location": "San Francisco",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-04"
-    },
-    {
-      "company": "\ud83c\udfe2 Etched",
-      "role": "Design Verification Engineer - SoC",
-      "location": "San Jose",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "DV",
       "urgent": false,
       "date_added": "2026-04-04"
     },
@@ -830,50 +797,6 @@
       "date_added": "2026-04-04"
     },
     {
-      "company": "\ud83c\udfe2 Zoox",
-      "role": "Embedded Software Engineer",
-      "location": "San Diego, CA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-04"
-    },
-    {
-      "company": "\ud83c\udfe2 Zoox",
-      "role": "Firmware Validation Engineer",
-      "location": "Foster City, CA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-04"
-    },
-    {
-      "company": "\ud83c\udfe2 Etched",
-      "role": "MTS - Firmware",
-      "location": "San Jose",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-04"
-    },
-    {
-      "company": "\ud83c\udfe2 Palantir",
-      "role": "Embedded People Engineer",
-      "location": "Washington",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-04"
-    },
-    {
       "company": "\ud83c\udfe2 Western Digital",
       "role": "Technologist \u2013 Analog/Mixed Signal Design Engineer",
       "location": "San Jose OR Irvin...",
@@ -936,39 +859,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
       "cat": "Analog",
-      "urgent": false,
-      "date_added": "2026-04-04"
-    },
-    {
-      "company": "\ud83c\udfe2 Waabi",
-      "role": "Systems Test Engineer - Platform Verification",
-      "location": "Phoenix, AZ",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-04-04"
-    },
-    {
-      "company": "\ud83c\udfe2 Handshake",
-      "role": "Analog Engineer - AI Trainer",
-      "location": "Remote",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "Analog",
-      "urgent": false,
-      "date_added": "2026-04-04"
-    },
-    {
-      "company": "\ud83c\udfe2 Etched",
-      "role": "Board Bring-Up Specialist (Validation Engineering)",
-      "location": "San Jose",
-      "link": "Validation Engineering",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-04-04"
     },
@@ -5810,5 +5700,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-04-04T08:02:02.022759+00:00"
+  "last_tailored": "2026-04-04T14:05:35.248411+00:00"
 }
