@@ -1,14 +1,25 @@
 {
-  "updated": "2026-04-09T16:49:49.229458+00:00",
-  "total": 488,
+  "updated": "2026-04-09T20:37:14.815535+00:00",
+  "total": 493,
   "urgent_count": 13,
   "blocked_count": 0,
   "jobs": [
     {
-      "company": "\ud83c\udfe2 Arrow Electronics",
-      "role": "Field Applications Engineer",
-      "location": "NY-New York",
+      "company": "\ud83c\udfe2 Intel",
+      "role": "Memory Signal Integrity Engineer",
+      "location": "Costa Rica",
       "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "Analog",
+      "urgent": false,
+      "date_added": "2026-04-09"
+    },
+    {
+      "company": "\ud83c\udfe2 SpaceX",
+      "role": "Electrical Engineer, Propellant Generation (Starship)",
+      "location": "Cape Canaveral, FL",
+      "link": "Starship",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
@@ -16,9 +27,42 @@
       "date_added": "2026-04-09"
     },
     {
-      "company": "\ud83c\udfe2 KBR",
-      "role": "Electrical Engineer New Grad",
-      "location": "Newark",
+      "company": "\ud83c\udfe2 SpaceX",
+      "role": "PVD Process Engineer, Solar Cells (Starlink)",
+      "location": "Bastrop, TX",
+      "link": "Starlink",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-04-09"
+    },
+    {
+      "company": "\ud83c\udfe2 RTX",
+      "role": "Grinding Process Engineer (Onsite)",
+      "location": "CT-EAST HARTFORD-...",
+      "link": "Onsite",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-04-09"
+    },
+    {
+      "company": "\ud83c\udfe2 General Motors",
+      "role": "CFD Process Engineer- Aero CFD Platform (Motorsports)",
+      "location": "Concord",
+      "link": "Motorsports",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-04-09"
+    },
+    {
+      "company": "\ud83c\udfe2 Arrow Electronics",
+      "role": "Field Applications Engineer",
+      "location": "NY-New York",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -71,31 +115,9 @@
       "date_added": "2026-04-09"
     },
     {
-      "company": "\ud83c\udfe2 RTX",
-      "role": "Electrical Engineer I (Onsite)",
-      "location": "AZ-TUCSON-800 ~ 1...",
-      "link": "Onsite",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-09"
-    },
-    {
       "company": "\ud83c\udfe2 Analog Devices",
       "role": "HVAC/R Facilities Technician 5",
       "location": "US, CA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-09"
-    },
-    {
-      "company": "\ud83c\udfe2 Intel",
-      "role": "GPU Logic Design Engineer",
-      "location": "2 Locations",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
@@ -280,13 +302,46 @@
       "date_added": "2026-04-09"
     },
     {
-      "company": "\ud83c\udfe2 BeaconFire Inc.",
-      "role": "Embedded Systems Engineer \u2013 Entry Level (Visa Sponsorship)",
-      "location": "New York",
-      "link": "Visa Sponsorship",
+      "company": "\ud83c\udfe2 AbbVie",
+      "role": "Associate Technical Operations Engineer",
+      "location": "North Chicago, IL",
+      "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
-      "cat": "FPGA",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-09"
+    },
+    {
+      "company": "\ud83c\udfe2 Carrier Global",
+      "role": "Rentals HVAC Branch Associate",
+      "location": "CAC53: SC LOS ANG...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-09"
+    },
+    {
+      "company": "\ud83c\udfe2 Micron",
+      "role": "HBM SoC Physical Design Engineer",
+      "location": "Richardson, TX",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-04-09"
+    },
+    {
+      "company": "\ud83c\udfe2 Micron",
+      "role": "HBM SoC Design Engineer",
+      "location": "Richardson, TX",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-09"
     },
@@ -326,7 +381,7 @@
     {
       "company": "\ud83c\udfe2 NVIDIA",
       "role": "Custom SOC IP Verification Engineer",
-      "location": "2 Locations",
+      "location": "US CA Santa Clara",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
@@ -2340,7 +2395,7 @@
       "company": "Jane Street",
       "role": "FPGA Engineer",
       "location": "New York, New York, United States",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8061011002",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/4279246002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "FPGA",
@@ -2350,8 +2405,8 @@
     {
       "company": "Jane Street",
       "role": "IT Operations Engineer",
-      "location": "New York, New York, United States",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8065684002",
+      "location": "Hong Kong, Hong Kong",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8377831002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2361,8 +2416,8 @@
     {
       "company": "Jane Street",
       "role": "IT Security Engineer",
-      "location": "New York, New York, United States",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8155302002",
+      "location": "London, England, United Kingdom",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8220940002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2383,8 +2438,8 @@
     {
       "company": "Jane Street",
       "role": "Linux Engineering Manager",
-      "location": "New York, New York, United States",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/5625787002",
+      "location": "London, England, United Kingdom",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/6579680002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2417,7 +2472,7 @@
       "company": "Jane Street",
       "role": "Machine Learning Researcher",
       "location": "Hong Kong, Hong Kong",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/7246309002",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8069532002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2460,8 +2515,8 @@
     {
       "company": "Jane Street",
       "role": "Production Engineer",
-      "location": "New York, New York, United States",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/5108180002",
+      "location": "Singapore",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/5807405002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2471,8 +2526,8 @@
     {
       "company": "Jane Street",
       "role": "Quantitative Researcher",
-      "location": "New York, New York, United States",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8069351002",
+      "location": "London, England, United Kingdom",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/4808264002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2482,8 +2537,8 @@
     {
       "company": "Jane Street",
       "role": "Quantitative Trader",
-      "location": "New York, New York, United States",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8070482002",
+      "location": "Hong Kong, Hong Kong",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/7982986002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2493,8 +2548,8 @@
     {
       "company": "Jane Street",
       "role": "Senior Weather Analyst/ML Researcher",
-      "location": "New York, New York, United States",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8440974002",
+      "location": "London, England, United Kingdom",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8445154002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -2559,8 +2614,8 @@
     {
       "company": "Jane Street",
       "role": "Trading Desk Coordinator",
-      "location": "New York, New York, United States",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8290343002",
+      "location": "London, England, United Kingdom",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8483293002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -5381,5 +5436,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-04-09T16:49:55.570575+00:00"
+  "last_tailored": "2026-04-09T20:37:23.766600+00:00"
 }
