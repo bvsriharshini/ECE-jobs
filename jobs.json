@@ -1,17 +1,50 @@
 {
-  "updated": "2026-04-16T16:57:24.794564+00:00",
+  "updated": "2026-04-16T20:11:50.199160+00:00",
   "total": 496,
   "urgent_count": 13,
   "blocked_count": 0,
   "jobs": [
     {
-      "company": "\ud83c\udfe2 KBR",
-      "role": "Electrical Engineer",
-      "location": "",
+      "company": "\ud83c\udfe2 Intel",
+      "role": "CPU Physical Design Engineer",
+      "location": "\u2705 Sponsor",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-04-16"
+    },
+    {
+      "company": "\ud83c\udfe2 Johnson & Johnson",
+      "role": "Process Engineer 2",
+      "location": "\u2705 Sponsor",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
-      "cat": "HW",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-04-16"
+    },
+    {
+      "company": "\ud83c\udfe2 General Motors",
+      "role": "Paint Process Engineer",
+      "location": "\u2705 Sponsor",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-04-16"
+    },
+    {
+      "company": "\ud83c\udfe2 Cadence",
+      "role": "IC Verification AI Application Engineer",
+      "location": "\u2705 Sponsor",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "DV",
       "urgent": false,
       "date_added": "2026-04-16"
     },
@@ -34,17 +67,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-04-16"
-    },
-    {
-      "company": "\ud83c\udfe2 Intel",
-      "role": "CPU Verification Engineer",
-      "location": "\u2705 Sponsor",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "DV",
       "urgent": false,
       "date_added": "2026-04-16"
     },
@@ -78,6 +100,17 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
       "cat": "DV",
+      "urgent": false,
+      "date_added": "2026-04-16"
+    },
+    {
+      "company": "\ud83c\udfe2 Amazon Data Services, Inc.",
+      "role": "Embedded Software Dev Engineer, AWS Hardware Engineering",
+      "location": "\u2705 Sponsor",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-04-16"
     },
@@ -144,17 +177,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
       "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-04-16"
-    },
-    {
-      "company": "\ud83c\udfe2 Intel",
-      "role": "CPU Core  Physical Design Engineer",
-      "location": "\u2705 Sponsor",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "ASIC",
       "urgent": false,
       "date_added": "2026-04-16"
     },
@@ -236,24 +258,24 @@
       "date_added": "2026-04-16"
     },
     {
-      "company": "\ud83c\udfe2 GE Aerospace",
-      "role": "Process Engineer Commerical Engine Line",
+      "company": "\ud83c\udfe2 HPE (University)",
+      "role": "ASIC design/verification engineer",
       "location": "",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
-      "cat": "ASIC",
+      "cat": "DV",
       "urgent": false,
       "date_added": "2026-04-16"
     },
     {
-      "company": "\ud83c\udfe2 Dell Technologies",
-      "role": "Front-End Electrical Engineering Consultant",
+      "company": "\ud83c\udfe2 HPE",
+      "role": "ASIC design/verification engineer",
       "location": "\u2705 Sponsor",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
-      "cat": "HW",
+      "cat": "DV",
       "urgent": false,
       "date_added": "2026-04-16"
     },
@@ -551,17 +573,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "SW",
-      "urgent": false,
-      "date_added": "2026-04-16"
-    },
-    {
-      "company": "\ud83c\udfe2 AbbVie",
-      "role": "Associate Technical Operations Engineer",
-      "location": "\u2705 Sponsor",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-16"
     },
@@ -1008,7 +1019,7 @@
     {
       "company": "Tenstorrent",
       "role": "Infrastructure and Platform Development Engineer",
-      "location": "United States; Warszawa, Masovian Voivodeship, Poland",
+      "location": "Austin, Texas, United States; Gda\u0144sk, Pomeranian Voivodeship, Poland; Santa Clara, California, United States; Toronto, Ontario, Canada; Warszawa, Masovian Voivodeship, Poland",
       "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/5084998007",
       "source": "Greenhouse",
       "sponsor": "open",
@@ -1921,8 +1932,8 @@
     {
       "company": "Lightmatter",
       "role": "Chip Architecture Leader",
-      "location": "Toronto, ON",
-      "link": "https://boards.greenhouse.io/lightmatter/jobs/4967969008?gh_jid=4967969008",
+      "location": "Boston, MA; Mountain View, CA",
+      "link": "https://boards.greenhouse.io/lightmatter/jobs/4967967008?gh_jid=4967967008",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -1976,8 +1987,8 @@
     {
       "company": "Lightmatter",
       "role": "Integrated Silicon Photonics Engineer",
-      "location": "Boston, MA; Mountain View, CA",
-      "link": "https://boards.greenhouse.io/lightmatter/jobs/5079046008?gh_jid=5079046008",
+      "location": "Toronto, ON",
+      "link": "https://boards.greenhouse.io/lightmatter/jobs/5097382008?gh_jid=5097382008",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2086,8 +2097,8 @@
     {
       "company": "Lightmatter",
       "role": "Principal Machine Learning Infrastructure Researcher",
-      "location": "Mountain View, CA",
-      "link": "https://boards.greenhouse.io/lightmatter/jobs/4893269008?gh_jid=4893269008",
+      "location": "Toronto, ON",
+      "link": "https://boards.greenhouse.io/lightmatter/jobs/5148543008?gh_jid=5148543008",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2165,28 +2176,6 @@
       "role": "Senior Technical Program Manager- Silicon",
       "location": "Mountain View, CA",
       "link": "https://boards.greenhouse.io/lightmatter/jobs/5184220008?gh_jid=5184220008",
-      "source": "Greenhouse",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-16"
-    },
-    {
-      "company": "Lightmatter",
-      "role": " Sr. Business Systems Analyst",
-      "location": "Mountain View, CA",
-      "link": "https://boards.greenhouse.io/lightmatter/jobs/5109567008?gh_jid=5109567008",
-      "source": "Greenhouse",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-16"
-    },
-    {
-      "company": "Lightmatter",
-      "role": "Sr. Business Systems Analyst",
-      "location": "Boston, MA",
-      "link": "https://boards.greenhouse.io/lightmatter/jobs/5113136008?gh_jid=5113136008",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2814,6 +2803,17 @@
       "role": "Hardware Machine Learning Engineer",
       "location": "Chicago, United States; New York, United States",
       "link": "https://job-boards.eu.greenhouse.io/imc/jobs/4713602101",
+      "source": "Greenhouse",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-16"
+    },
+    {
+      "company": "IMC Trading",
+      "role": "Hardware Machine Learning PhD Research Internship",
+      "location": "Chicago, United States",
+      "link": "https://job-boards.eu.greenhouse.io/imc/jobs/4829785101",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -4066,8 +4066,8 @@
     {
       "company": "Samsara",
       "role": "AI Engineer",
-      "location": "Remote - Canada",
-      "link": "https://www.samsara.com/company/careers/roles/7589442?gh_jid=7589442",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7491153?gh_jid=7491153",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -4242,8 +4242,8 @@
     {
       "company": "Samsara",
       "role": "Lead Full Stack Developer, Business Applications",
-      "location": "Remote - US",
-      "link": "https://www.samsara.com/company/careers/roles/7266307?gh_jid=7266307",
+      "location": "Remote - Canada",
+      "link": "https://www.samsara.com/company/careers/roles/7601794?gh_jid=7601794",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -4726,8 +4726,8 @@
     {
       "company": "Samsara",
       "role": "Staff Machine Learning Engineer - Edge AI",
-      "location": "Remote - US",
-      "link": "https://www.samsara.com/company/careers/roles/7266357?gh_jid=7266357",
+      "location": "Remote - Canada",
+      "link": "https://www.samsara.com/company/careers/roles/7431070?gh_jid=7431070",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -4803,8 +4803,8 @@
     {
       "company": "Samsara",
       "role": "Staff Software Engineer - Safety AI",
-      "location": "Remote - UK",
-      "link": "https://www.samsara.com/company/careers/roles/7266699?gh_jid=7266699",
+      "location": "London, England, United Kingdom",
+      "link": "https://www.samsara.com/company/careers/roles/7325671?gh_jid=7325671",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -4847,8 +4847,8 @@
     {
       "company": "Samsara",
       "role": "Technical Account Manager",
-      "location": "Remote - Mexico",
-      "link": "https://www.samsara.com/company/careers/roles/7702042?gh_jid=7702042",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7763623?gh_jid=7763623",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -5469,5 +5469,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-04-16T16:57:30.727277+00:00"
+  "last_tailored": "2026-04-16T20:11:58.342030+00:00"
 }
