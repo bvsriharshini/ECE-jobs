@@ -1,9 +1,20 @@
 {
-  "updated": "2026-04-17T07:59:32.496166+00:00",
-  "total": 498,
-  "urgent_count": 13,
+  "updated": "2026-04-17T13:45:42.836350+00:00",
+  "total": 497,
+  "urgent_count": 14,
   "blocked_count": 0,
   "jobs": [
+    {
+      "company": "\ud83c\udfe2 Intel",
+      "role": "Physical Design Engineer for Core IP",
+      "location": "",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-04-17"
+    },
     {
       "company": "\ud83c\udfe2 RTX",
       "role": "Electrical Engineer",
@@ -551,17 +562,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
       "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-04-17"
-    },
-    {
-      "company": "\ud83c\udfe2 CVS Health",
-      "role": "Associate Software Development Engineer (Google Workspace Administrator)",
-      "location": "",
-      "link": "Google Workspace Administrator",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "SW",
       "urgent": false,
       "date_added": "2026-04-17"
     },
@@ -2417,7 +2417,7 @@
       "company": "Jane Street",
       "role": "FPGA Engineer",
       "location": "New York, New York, United States",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8062455002",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/4279246002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "FPGA",
@@ -2427,8 +2427,8 @@
     {
       "company": "Jane Street",
       "role": "IT Operations Engineer",
-      "location": "New York, New York, United States",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8065684002",
+      "location": "Hong Kong, Hong Kong",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8377831002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2438,8 +2438,8 @@
     {
       "company": "Jane Street",
       "role": "IT Security Engineer",
-      "location": "New York, New York, United States",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8155302002",
+      "location": "London, England, United Kingdom",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8220940002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2449,12 +2449,12 @@
     {
       "company": "Jane Street",
       "role": "Linux Engineer",
-      "location": "Hong Kong, Hong Kong",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/5548184002",
+      "location": "New York, New York, United States",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8061059002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
-      "urgent": false,
+      "urgent": true,
       "date_added": "2026-04-17"
     },
     {
@@ -2483,7 +2483,7 @@
       "company": "Jane Street",
       "role": "Machine Learning Performance Engineer",
       "location": "New York, New York, United States",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/7449077002",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/7449190002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2494,7 +2494,7 @@
       "company": "Jane Street",
       "role": "Machine Learning Researcher",
       "location": "Hong Kong, Hong Kong",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/7246309002",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8374335002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2549,7 +2549,7 @@
       "company": "Jane Street",
       "role": "Quantitative Researcher",
       "location": "Hong Kong, Hong Kong",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8343131002",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/7514485002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2581,8 +2581,8 @@
     {
       "company": "Jane Street",
       "role": "Software Engineer",
-      "location": "Hong Kong, Hong Kong",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/7582902002",
+      "location": "New York, New York, United States",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8160791002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -4275,8 +4275,8 @@
     {
       "company": "Samsara",
       "role": "Lead Full Stack Developer, Business Applications",
-      "location": "Remote - Canada",
-      "link": "https://www.samsara.com/company/careers/roles/7601794?gh_jid=7601794",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7266307?gh_jid=7266307",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -4572,8 +4572,8 @@
     {
       "company": "Samsara",
       "role": "Senior Manager, Computer Vision",
-      "location": "Remote - Canada",
-      "link": "https://www.samsara.com/company/careers/roles/7782752?gh_jid=7782752",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7731751?gh_jid=7731751",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -4583,8 +4583,8 @@
     {
       "company": "Samsara",
       "role": "Senior Mobile Software Engineer - BLE / Connectivity",
-      "location": "Remote - Canada",
-      "link": "https://www.samsara.com/company/careers/roles/7392436?gh_jid=7392436",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7266447?gh_jid=7266447",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -4770,8 +4770,8 @@
     {
       "company": "Samsara",
       "role": "Staff ML Engineer - ML Infrastructure",
-      "location": "Remote - US",
-      "link": "https://www.samsara.com/company/careers/roles/7721193?gh_jid=7721193",
+      "location": "Remote - Canada",
+      "link": "https://www.samsara.com/company/careers/roles/7746586?gh_jid=7746586",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -4835,20 +4835,9 @@
     },
     {
       "company": "Samsara",
-      "role": "Staff Software Engineer - Safety AI",
-      "location": "London, England, United Kingdom",
-      "link": "https://www.samsara.com/company/careers/roles/7325671?gh_jid=7325671",
-      "source": "Greenhouse",
-      "sponsor": "open",
-      "cat": "SW",
-      "urgent": false,
-      "date_added": "2026-04-17"
-    },
-    {
-      "company": "Samsara",
       "role": "Staff Software Engineer - Security & Privacy",
-      "location": "Remote - US",
-      "link": "https://www.samsara.com/company/careers/roles/7559244?gh_jid=7559244",
+      "location": "Remote - Canada",
+      "link": "https://www.samsara.com/company/careers/roles/7589637?gh_jid=7589637",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -4880,8 +4869,8 @@
     {
       "company": "Samsara",
       "role": "Technical Account Manager",
-      "location": "Remote - Canada",
-      "link": "https://www.samsara.com/company/careers/roles/7733788?gh_jid=7733788",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7763623?gh_jid=7763623",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -5491,5 +5480,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-04-17T07:59:40.586720+00:00"
+  "last_tailored": "2026-04-17T13:45:49.936407+00:00"
 }
