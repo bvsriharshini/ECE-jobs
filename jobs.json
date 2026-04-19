@@ -1,14 +1,14 @@
 {
-  "updated": "2026-04-19T07:40:13.016353+00:00",
-  "total": 568,
+  "updated": "2026-04-19T13:16:31.801839+00:00",
+  "total": 569,
   "urgent_count": 13,
   "blocked_count": 0,
   "jobs": [
     {
       "company": "\ud83c\udfe2 Shield AI",
-      "role": "Electrical Engineer I (BOS)",
+      "role": "Power Electronics - Electrical Engineer I",
       "location": "\u2705 Sponsors Visa",
-      "link": "BOS",
+      "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
@@ -23,6 +23,61 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-04-19"
+    },
+    {
+      "company": "\ud83c\udfe2 OpenAI",
+      "role": "PCB Layout Engineer and Librarian",
+      "location": "\u2705 Sponsors Visa",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-04-19"
+    },
+    {
+      "company": "\ud83c\udfe2 OpenAI",
+      "role": "RTL & Co-design Engineer (junior)",
+      "location": "\u2705 Sponsors Visa",
+      "link": "junior",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-19"
+    },
+    {
+      "company": "\ud83c\udfe2 Notion",
+      "role": "AI Applications Engineer",
+      "location": "\u2705 Sponsors Visa",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "SW",
+      "urgent": false,
+      "date_added": "2026-04-19"
+    },
+    {
+      "company": "\ud83c\udfe2 Northwood Space",
+      "role": "RF Hardware Engineer (Early Career)",
+      "location": "\u2705 Sponsors Visa",
+      "link": "Early Career",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-19"
+    },
+    {
+      "company": "\ud83c\udfe2 Northwood Space",
+      "role": "Electrical Engineer (Early Career)",
+      "location": "\u2705 Sponsors Visa",
+      "link": "Early Career",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-19"
     },
@@ -45,6 +100,17 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
       "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-19"
+    },
+    {
+      "company": "\ud83c\udfe2 Handshake",
+      "role": "Hardware Engineer - AI Trainer",
+      "location": "\u2705 Sponsors Visa",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "SW",
       "urgent": false,
       "date_added": "2026-04-19"
     },
@@ -83,9 +149,9 @@
     },
     {
       "company": "\ud83c\udfe2 SpaceX",
-      "role": "Wastewater Technician (Starlink PCB)",
+      "role": "Thin Films Specialist, Silicon Assembly (Starlink)",
       "location": "",
-      "link": "Starlink PCB",
+      "link": "Starlink",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
@@ -93,21 +159,21 @@
       "date_added": "2026-04-19"
     },
     {
-      "company": "\ud83c\udfe2 OpenAI",
-      "role": "PCB Layout Engineer and Librarian",
-      "location": "\u2705 Sponsors Visa",
+      "company": "\ud83c\udfe2 Etched",
+      "role": "Design Verification Engineer - Internal IP",
+      "location": "\ud83c\udfe2 Sponsor Employer",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
-      "cat": "ASIC",
+      "cat": "DV",
       "urgent": false,
       "date_added": "2026-04-19"
     },
     {
-      "company": "\ud83c\udfe2 OpenAI",
-      "role": "RTL & Co-design Engineer (junior)",
-      "location": "\u2705 Sponsors Visa",
-      "link": "junior",
+      "company": "\ud83c\udfe2 Etched",
+      "role": "PCB Rework Technician",
+      "location": "\ud83c\udfe2 Sponsor Employer",
+      "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
       "cat": "HW",
@@ -115,21 +181,10 @@
       "date_added": "2026-04-19"
     },
     {
-      "company": "\ud83c\udfe2 Northwood Space",
-      "role": "RF Hardware Engineer (Early Career)",
+      "company": "\ud83c\udfe2 Crusoe",
+      "role": "Electrical Engineer",
       "location": "\u2705 Sponsors Visa",
-      "link": "Early Career",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-19"
-    },
-    {
-      "company": "\ud83c\udfe2 Northwood Space",
-      "role": "Electrical Engineer (Early Career)",
-      "location": "\u2705 Sponsors Visa",
-      "link": "Early Career",
+      "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
@@ -148,20 +203,20 @@
       "date_added": "2026-04-19"
     },
     {
-      "company": "\ud83c\udfe2 Notion",
-      "role": "AI Applications Engineer",
-      "location": "\u2705 Sponsors Visa",
+      "company": "\ud83c\udfe2 Muon Space",
+      "role": "Electrical Hardware Engineer",
+      "location": "",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
-      "cat": "SW",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-19"
     },
     {
-      "company": "\ud83c\udfe2 Muon Space",
-      "role": "Electrical Hardware Engineer",
-      "location": "",
+      "company": "\ud83c\udfe2 Neuralink",
+      "role": "Electrical Engineer, Robotics",
+      "location": "\u2705 Sponsors Visa",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -177,17 +232,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-19"
-    },
-    {
-      "company": "\ud83c\udfe2 Handshake",
-      "role": "Hardware Engineer - AI Trainer",
-      "location": "\u2705 Sponsors Visa",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "SW",
       "urgent": false,
       "date_added": "2026-04-19"
     },
@@ -236,23 +280,23 @@
       "date_added": "2026-04-19"
     },
     {
-      "company": "\ud83c\udfe2 Etched",
-      "role": "Design Verification Engineer - Internal IP",
+      "company": "\ud83c\udfe2 Figure AI",
+      "role": "Electrical Engineer (All Levels)",
       "location": "\ud83c\udfe2 Sponsor Employer",
-      "link": "#",
+      "link": "All Levels",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "DV",
+      "sponsor": "open",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-19"
     },
     {
-      "company": "\ud83c\udfe2 Etched",
-      "role": "PCB Rework Technician",
-      "location": "\ud83c\udfe2 Sponsor Employer",
+      "company": "\ud83c\udfe2 DoorDash",
+      "role": "Applications Engineer, Full Stack - People",
+      "location": "\u2705 Sponsors Visa",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
+      "sponsor": "open",
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-19"
@@ -280,28 +324,6 @@
       "date_added": "2026-04-19"
     },
     {
-      "company": "\ud83c\udfe2 Astranis",
-      "role": "PCBA Technician",
-      "location": "",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-19"
-    },
-    {
-      "company": "\ud83c\udfe2 Astranis",
-      "role": "PCB Librarian",
-      "location": "",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-19"
-    },
-    {
       "company": "\ud83c\udfe2 Astera Labs",
       "role": "Physical Design/CAD Engineer",
       "location": "\ud83c\udfe2 Sponsor Employer",
@@ -309,17 +331,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-04-19"
-    },
-    {
-      "company": "\ud83c\udfe2 Anthropic",
-      "role": "Performance Engineer, GPU",
-      "location": "\u2705 Sponsors Visa",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-19"
     },
@@ -335,12 +346,12 @@
       "date_added": "2026-04-19"
     },
     {
-      "company": "\ud83c\udfe2 Crusoe",
-      "role": "Electrical Engineer",
+      "company": "\ud83c\udfe2 Anthropic",
+      "role": "Performance Engineer, GPU",
       "location": "\u2705 Sponsors Visa",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
+      "sponsor": "yes",
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-19"
@@ -375,6 +386,28 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-19"
+    },
+    {
+      "company": "\ud83c\udfe2 OpenAI",
+      "role": "Networking Operating System Firmware Engineer",
+      "location": "\u2705 Sponsors Visa",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-04-19"
+    },
+    {
+      "company": "\ud83c\udfe2 OpenAI",
+      "role": "Camera Firmware Engineer, Consumer Devices",
+      "location": "\u2705 Sponsors Visa",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-04-19"
     },
@@ -424,17 +457,6 @@
     },
     {
       "company": "\ud83c\udfe2 SpaceX",
-      "role": "RTL Design Engineer (Silicon Engineering)",
-      "location": "",
-      "link": "Silicon Engineering",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-19"
-    },
-    {
-      "company": "\ud83c\udfe2 SpaceX",
       "role": "SOC Design Verification Engineer (Silicon Engineering)",
       "location": "",
       "link": "Silicon Engineering",
@@ -445,24 +467,35 @@
       "date_added": "2026-04-19"
     },
     {
-      "company": "\ud83c\udfe2 OpenAI",
-      "role": "Networking Operating System Firmware Engineer",
-      "location": "\u2705 Sponsors Visa",
-      "link": "#",
+      "company": "\ud83c\udfe2 SpaceX",
+      "role": "RTL Design Engineer (Silicon Engineering)",
+      "location": "",
+      "link": "Silicon Engineering",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
+      "sponsor": "open",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-19"
     },
     {
-      "company": "\ud83c\udfe2 OpenAI",
-      "role": "Camera Firmware Engineer, Consumer Devices",
-      "location": "\u2705 Sponsors Visa",
+      "company": "\ud83c\udfe2 Etched",
+      "role": "Design Verification Engineer - SoC",
+      "location": "\ud83c\udfe2 Sponsor Employer",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
-      "cat": "FPGA",
+      "cat": "DV",
+      "urgent": false,
+      "date_added": "2026-04-19"
+    },
+    {
+      "company": "\ud83c\udfe2 Exegy",
+      "role": "Associate Site Reliability Engineer (SRE)",
+      "location": "\u2705 Sponsors Visa",
+      "link": "SRE",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-19"
     },
@@ -588,17 +621,6 @@
       "date_added": "2026-04-19"
     },
     {
-      "company": "\ud83c\udfe2 Etched",
-      "role": "Design Verification Engineer - SoC",
-      "location": "\ud83c\udfe2 Sponsor Employer",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-04-19"
-    },
-    {
       "company": "\ud83c\udfe2 CoreWeave",
       "role": "Firmware Engineer, SPX",
       "location": "\u2705 Sponsors Visa",
@@ -606,17 +628,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-19"
-    },
-    {
-      "company": "\ud83c\udfe2 Exegy",
-      "role": "Associate Site Reliability Engineer (SRE)",
-      "location": "\u2705 Sponsors Visa",
-      "link": "SRE",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-19"
     },
@@ -787,7 +798,7 @@
     },
     {
       "company": "\ud83c\udfe2 Carrier Global",
-      "role": "Automated Logic- Associate Controls Engineer",
+      "role": "Associate Field Engineer",
       "location": "\ud83c\udfe2 Sponsor Employer",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
@@ -798,7 +809,7 @@
     },
     {
       "company": "\ud83c\udfe2 Carrier Global",
-      "role": "Associate Field Engineer",
+      "role": "Automated Logic- Associate Controls Engineer",
       "location": "\ud83c\udfe2 Sponsor Employer",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
@@ -815,17 +826,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
       "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-04-19"
-    },
-    {
-      "company": "\ud83c\udfe2 CVS Health",
-      "role": "Associate Software Development Engineer",
-      "location": "",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "SW",
       "urgent": false,
       "date_added": "2026-04-19"
     },
@@ -870,6 +870,17 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
       "cat": "DV",
+      "urgent": false,
+      "date_added": "2026-04-19"
+    },
+    {
+      "company": "\ud83c\udfe2 CVS Health",
+      "role": "Associate Software Development Engineer",
+      "location": "",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "SW",
       "urgent": false,
       "date_added": "2026-04-19"
     },
@@ -1083,12 +1094,23 @@
       "date_added": "2026-04-19"
     },
     {
-      "company": "\ud83c\udfe2 Waymo",
-      "role": "Software Engineer, Embedded Systems / Robotics",
-      "location": "\ud83c\udfe2 Sponsor Employer",
+      "company": "\ud83c\udfe2 Palantir",
+      "role": "Embedded People Engineer",
+      "location": "\u2705 Sponsors Visa",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-04-19"
+    },
+    {
+      "company": "\ud83c\udfe2 Northwood Space",
+      "role": "Embedded Software Engineer",
+      "location": "\u2705 Sponsors Visa",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-04-19"
@@ -1116,6 +1138,17 @@
       "date_added": "2026-04-19"
     },
     {
+      "company": "\ud83c\udfe2 Waymo",
+      "role": "Software Engineer, Embedded Systems / Robotics",
+      "location": "\ud83c\udfe2 Sponsor Employer",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-04-19"
+    },
+    {
       "company": "\ud83c\udfe2 SpaceX",
       "role": "Software Engineer, Embedded Software (Starlink)",
       "location": "",
@@ -1138,6 +1171,17 @@
       "date_added": "2026-04-19"
     },
     {
+      "company": "\ud83c\udfe2 Etched",
+      "role": "MTS - Firmware",
+      "location": "\ud83c\udfe2 Sponsor Employer",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-04-19"
+    },
+    {
       "company": "\ud83c\udfe2 SharkNinja",
       "role": "Embedded Software Engineering Opportunities at SharkNinja",
       "location": "\u2705 Sponsors Visa",
@@ -1155,17 +1199,6 @@
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-19"
-    },
-    {
-      "company": "\ud83c\udfe2 Northwood Space",
-      "role": "Embedded Software Engineer",
-      "location": "\u2705 Sponsors Visa",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-04-19"
@@ -1221,17 +1254,6 @@
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-19"
-    },
-    {
-      "company": "\ud83c\udfe2 Etched",
-      "role": "MTS - Firmware",
-      "location": "\ud83c\udfe2 Sponsor Employer",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
       "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-04-19"
@@ -1327,17 +1349,6 @@
     {
       "company": "\ud83c\udfe2 Anduril",
       "role": "Flight Software Engineer, Embedded C/C++, Air Dominance & Strike",
-      "location": "\u2705 Sponsors Visa",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-19"
-    },
-    {
-      "company": "\ud83c\udfe2 Palantir",
-      "role": "Embedded People Engineer",
       "location": "\u2705 Sponsors Visa",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
@@ -6261,5 +6272,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-04-19T07:40:21.594481+00:00"
+  "last_tailored": "2026-04-19T13:16:41.010614+00:00"
 }
