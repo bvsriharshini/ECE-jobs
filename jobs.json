@@ -1,7 +1,7 @@
 {
-  "updated": "2026-04-20T08:20:58.541542+00:00",
-  "total": 560,
-  "urgent_count": 13,
+  "updated": "2026-04-20T13:59:10.091345+00:00",
+  "total": 561,
+  "urgent_count": 11,
   "blocked_count": 0,
   "jobs": [
     {
@@ -39,7 +39,7 @@
     },
     {
       "company": "\ud83c\udfe2 Torc Robotics",
-      "role": "Hardware Engineer I \u2013 Base Hardware",
+      "role": "Hardware Engineer I - Sensors",
       "location": "\u2705 Sponsors Visa",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
@@ -50,7 +50,7 @@
     },
     {
       "company": "\ud83c\udfe2 Torc Robotics",
-      "role": "Hardware Engineer I - Sensors",
+      "role": "Hardware Engineer I \u2013 Base Hardware",
       "location": "\u2705 Sponsors Visa",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
@@ -78,6 +78,17 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "SW",
+      "urgent": false,
+      "date_added": "2026-04-20"
+    },
+    {
+      "company": "\ud83c\udfe2 SpaceX",
+      "role": "Starlink Production Technician (PCBA) - Temporary",
+      "location": "",
+      "link": "PCBA",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-20"
     },
@@ -117,6 +128,17 @@
     {
       "company": "\ud83c\udfe2 Pure Storage",
       "role": "Hardware Engineer, Hyperscale Line of Business",
+      "location": "\u2705 Sponsors Visa",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-20"
+    },
+    {
+      "company": "\ud83c\udfe2 Olsson",
+      "role": "Licensed Electrical Engineer - Building Design",
       "location": "\u2705 Sponsors Visa",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
@@ -214,10 +236,21 @@
       "date_added": "2026-04-20"
     },
     {
-      "company": "\ud83c\udfe2 Freeform",
-      "role": "Electrical Engineer (Hardware Design)",
-      "location": "",
-      "link": "Hardware Design",
+      "company": "\ud83c\udfe2 Zipline",
+      "role": "Process Engineer, Service Tooling & Processes",
+      "location": "\u2705 Sponsors Visa",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-04-20"
+    },
+    {
+      "company": "\ud83c\udfe2 DoorDash",
+      "role": "Applications Engineer, Full Stack - People",
+      "location": "\u2705 Sponsors Visa",
+      "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
@@ -490,23 +523,23 @@
     },
     {
       "company": "\ud83c\udfe2 Jane Street",
-      "role": "ASIC Engineer",
-      "location": "\ud83c\udfe2 Sponsor Employer",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-20"
-    },
-    {
-      "company": "\ud83c\udfe2 Jane Street",
       "role": "FPGA Engineer",
       "location": "\ud83c\udfe2 Sponsor Employer",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-04-20"
+    },
+    {
+      "company": "\ud83c\udfe2 Jane Street",
+      "role": "ASIC Engineer",
+      "location": "\ud83c\udfe2 Sponsor Employer",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-20"
     },
@@ -617,17 +650,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-20"
-    },
-    {
-      "company": "\ud83c\udfe2 CVS Health",
-      "role": "Associate Software Development Engineer (Google Workspace Administrator)",
-      "location": "",
-      "link": "Google Workspace Administrator",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "SW",
       "urgent": false,
       "date_added": "2026-04-20"
     },
@@ -754,9 +776,9 @@
     },
     {
       "company": "\ud83c\udfe2 CVS Health",
-      "role": "Associate Software Development Engineer",
+      "role": "Associate Software Development Engineer (Google Workspace Administrator)",
       "location": "",
-      "link": "#",
+      "link": "Google Workspace Administrator",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "SW",
@@ -804,6 +826,17 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
       "cat": "DV",
+      "urgent": false,
+      "date_added": "2026-04-20"
+    },
+    {
+      "company": "\ud83c\udfe2 CVS Health",
+      "role": "Associate Software Development Engineer",
+      "location": "",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "SW",
       "urgent": false,
       "date_added": "2026-04-20"
     },
@@ -1292,17 +1325,6 @@
       "date_added": "2026-04-20"
     },
     {
-      "company": "\ud83c\udfe2 Boeing",
-      "role": "Entry-Level Missions Systems Software Engineers - Embedded",
-      "location": "",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-20"
-    },
-    {
       "company": "\ud83c\udfe2 Western Digital",
       "role": "Software Development Engineer (Firmware)",
       "location": "\ud83c\udfe2 Sponsor Employer",
@@ -1317,6 +1339,17 @@
       "company": "\ud83c\udfe2 RTX",
       "role": "Embedded Software Engineer",
       "location": "\ud83c\udfe2 Sponsor Employer",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-04-20"
+    },
+    {
+      "company": "\ud83c\udfe2 Boeing",
+      "role": "Entry-Level Missions Systems Software Engineers - Embedded",
+      "location": "",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -2515,7 +2548,7 @@
     {
       "company": "Tenstorrent",
       "role": "Staff, Ethernet Validation Engineer",
-      "location": "Santa Clara, California, United States; Toronto, Ontario, Canada",
+      "location": "Santa Clara, California, United States; Vancouver, British Columbia, Canada",
       "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/4722600007",
       "source": "Greenhouse",
       "sponsor": "open",
@@ -2537,7 +2570,7 @@
     {
       "company": "Tenstorrent",
       "role": "Staff Physical Design Engineer \u2013 EMIR",
-      "location": "Austin, Texas, United States; Santa Clara, California, United States",
+      "location": "Austin, Texas, United States; Fort Collins, Colorado, United States; Santa Clara, California, United States",
       "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/4784593007",
       "source": "Greenhouse",
       "sponsor": "open",
@@ -3274,8 +3307,8 @@
     {
       "company": "Jane Street",
       "role": "Quantitative Researcher",
-      "location": "New York, New York, United States",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/6302325002",
+      "location": "Hong Kong, Hong Kong",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/7514485002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -3285,8 +3318,8 @@
     {
       "company": "Jane Street",
       "role": "Quantitative Trader",
-      "location": "London, England, United Kingdom",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8092062002",
+      "location": "Hong Kong, Hong Kong",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/7982986002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -3296,8 +3329,8 @@
     {
       "company": "Jane Street",
       "role": "Senior Weather Analyst/ML Researcher",
-      "location": "London, England, United Kingdom",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8445154002",
+      "location": "New York, New York, United States",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8440974002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -3362,8 +3395,8 @@
     {
       "company": "Jane Street",
       "role": "Trading Desk Coordinator",
-      "location": "London, England, United Kingdom",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8483293002",
+      "location": "New York, New York, United States",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8290343002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -3379,28 +3412,6 @@
       "sponsor": "open",
       "cat": "HW",
       "urgent": false,
-      "date_added": "2026-04-20"
-    },
-    {
-      "company": "IMC Trading",
-      "role": "Accelerate - Technology",
-      "location": "Amsterdam, Netherlands",
-      "link": "https://job-boards.eu.greenhouse.io/imc/jobs/4697266101",
-      "source": "Greenhouse",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": true,
-      "date_added": "2026-04-20"
-    },
-    {
-      "company": "IMC Trading",
-      "role": "Accelerate - Trading",
-      "location": "Amsterdam, Netherlands",
-      "link": "https://job-boards.eu.greenhouse.io/imc/jobs/4697261101",
-      "source": "Greenhouse",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": true,
       "date_added": "2026-04-20"
     },
     {
@@ -4319,8 +4330,8 @@
     {
       "company": "Verkada",
       "role": "Sales Strategy and Operations Division Lead",
-      "location": "Austin, TX United States",
-      "link": "https://job-boards.greenhouse.io/verkada/jobs/4964446007",
+      "location": "Salt Lake City, UT United States",
+      "link": "https://job-boards.greenhouse.io/verkada/jobs/4613974007",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -4451,8 +4462,8 @@
     {
       "company": "Verkada",
       "role": "Senior Product Counsel",
-      "location": "Austin, TX United States",
-      "link": "https://job-boards.greenhouse.io/verkada/jobs/5082756007",
+      "location": "San Mateo, CA United States",
+      "link": "https://job-boards.greenhouse.io/verkada/jobs/5082376007",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -6173,5 +6184,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-04-20T08:21:08.640397+00:00"
+  "last_tailored": "2026-04-20T13:59:19.275754+00:00"
 }
