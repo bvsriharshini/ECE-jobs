@@ -1,13 +1,13 @@
 {
-  "updated": "2026-04-22T03:25:01.693001+00:00",
-  "total": 552,
+  "updated": "2026-04-22T07:59:48.209027+00:00",
+  "total": 545,
   "urgent_count": 12,
   "blocked_count": 0,
   "jobs": [
     {
       "company": "\ud83c\udfe2 LLNL",
       "role": "Waste Treatment Process Engineer",
-      "location": "\ud83c\udfe2 Sponsor Employer",
+      "location": "",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -192,17 +192,6 @@
       "date_added": "2026-04-22"
     },
     {
-      "company": "\ud83c\udfe2 NVIDIA",
-      "role": "Physical Design Methodology and DevOps Engineer",
-      "location": "\ud83c\udfe2 Sponsor Employer",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-04-22"
-    },
-    {
       "company": "\ud83c\udfe2 Medtronic",
       "role": "Prin Product Engineer",
       "location": "\ud83c\udfe2 Sponsor Employer",
@@ -225,24 +214,35 @@
       "date_added": "2026-04-22"
     },
     {
-      "company": "\ud83c\udfe2 Waabi",
-      "role": "Systems Engineer -  Test Platform Verification",
+      "company": "\ud83c\udfe2 Intel",
+      "role": "CPU Verification Engineer",
       "location": "\ud83c\udfe2 Sponsor Employer",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
+      "sponsor": "yes",
       "cat": "DV",
       "urgent": false,
       "date_added": "2026-04-22"
     },
     {
-      "company": "\ud83c\udfe2 Waabi",
-      "role": "Systems Engineer, Platform Requirements and Verification",
-      "location": "",
+      "company": "\ud83c\udfe2 NVIDIA",
+      "role": "Physical Design Methodology and DevOps Engineer",
+      "location": "\ud83c\udfe2 Sponsor Employer",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-04-22"
+    },
+    {
+      "company": "\ud83c\udfe2 Shield AI",
+      "role": "Hardware Test - Electrical Engineer (R4000)",
+      "location": "\u2705 Sponsors Visa",
+      "link": "R4000",
+      "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
-      "cat": "DV",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-22"
     },
@@ -293,7 +293,7 @@
     {
       "company": "\ud83c\udfe2 Johnson & Johnson",
       "role": "Associate Mechanical Engineer",
-      "location": "\ud83c\udfe2 Sponsor Employer",
+      "location": "",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -336,17 +336,6 @@
     },
     {
       "company": "\ud83c\udfe2 OpenAI",
-      "role": "Camera Firmware Engineer, Consumer Devices",
-      "location": "\u2705 Sponsors Visa",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-22"
-    },
-    {
-      "company": "\ud83c\udfe2 OpenAI",
       "role": "Networking Operating System Firmware Engineer",
       "location": "\u2705 Sponsors Visa",
       "link": "#",
@@ -357,8 +346,19 @@
       "date_added": "2026-04-22"
     },
     {
+      "company": "\ud83c\udfe2 OpenAI",
+      "role": "Camera Firmware Engineer, Consumer Devices",
+      "location": "\u2705 Sponsors Visa",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-04-22"
+    },
+    {
       "company": "\ud83c\udfe2 Tenstorrent",
-      "role": "ASIC Networking Engineer",
+      "role": "SOC Emulation Engineer - Hardware Emulation Infrastructure",
       "location": "\ud83c\udfe2 Sponsor Employer",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
@@ -369,7 +369,7 @@
     },
     {
       "company": "\ud83c\udfe2 Tenstorrent",
-      "role": "SOC Emulation Engineer - Hardware Emulation Infrastructure",
+      "role": "ASIC Networking Engineer",
       "location": "\ud83c\udfe2 Sponsor Employer",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
@@ -457,6 +457,17 @@
     },
     {
       "company": "\ud83c\udfe2 MatX",
+      "role": "ASIC/SOC Silicon Verification Engineer",
+      "location": "\u2705 Sponsors Visa",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "DV",
+      "urgent": false,
+      "date_added": "2026-04-22"
+    },
+    {
+      "company": "\ud83c\udfe2 MatX",
       "role": "ASIC/SOC CAD Engineer",
       "location": "\u2705 Sponsors Visa",
       "link": "#",
@@ -474,17 +485,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-04-22"
-    },
-    {
-      "company": "\ud83c\udfe2 MatX",
-      "role": "ASIC/SOC Silicon Verification Engineer",
-      "location": "\u2705 Sponsors Visa",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "DV",
       "urgent": false,
       "date_added": "2026-04-22"
     },
@@ -666,9 +666,9 @@
     },
     {
       "company": "\ud83c\udfe2 Medtronic",
-      "role": "Associate Mapping Specialist I In Training",
+      "role": "CAS Associate Mapping Specialist (In Training)",
       "location": "\ud83c\udfe2 Sponsor Employer",
-      "link": "#",
+      "link": "In Training",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
@@ -699,6 +699,17 @@
     },
     {
       "company": "\ud83c\udfe2 Micron",
+      "role": "MTS ASIC Design Engineer",
+      "location": "\ud83c\udfe2 Sponsor Employer",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-04-22"
+    },
+    {
+      "company": "\ud83c\udfe2 Micron",
       "role": "HBM SoC Design Engineer",
       "location": "\ud83c\udfe2 Sponsor Employer",
       "link": "#",
@@ -711,17 +722,6 @@
     {
       "company": "\ud83c\udfe2 Micron",
       "role": "HBM SoC Physical Design Engineer",
-      "location": "\ud83c\udfe2 Sponsor Employer",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-04-22"
-    },
-    {
-      "company": "\ud83c\udfe2 Micron",
-      "role": "MTS ASIC Design Engineer",
       "location": "\ud83c\udfe2 Sponsor Employer",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
@@ -764,7 +764,7 @@
       "date_added": "2026-04-22"
     },
     {
-      "company": "\ud83c\udfe2 HPE",
+      "company": "\ud83c\udfe2 HPE (University)",
       "role": "ASIC design/verification engineer",
       "location": "\ud83c\udfe2 Sponsor Employer",
       "link": "#",
@@ -775,7 +775,7 @@
       "date_added": "2026-04-22"
     },
     {
-      "company": "\ud83c\udfe2 HPE (University)",
+      "company": "\ud83c\udfe2 HPE",
       "role": "ASIC design/verification engineer",
       "location": "\ud83c\udfe2 Sponsor Employer",
       "link": "#",
@@ -841,72 +841,6 @@
       "date_added": "2026-04-22"
     },
     {
-      "company": "\ud83c\udfe2 HPE (University)",
-      "role": "ASIC Design Engineer",
-      "location": "\ud83c\udfe2 Sponsor Employer",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-04-22"
-    },
-    {
-      "company": "\ud83c\udfe2 HPE",
-      "role": "ASIC Design Engineer",
-      "location": "\ud83c\udfe2 Sponsor Employer",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-04-22"
-    },
-    {
-      "company": "\ud83c\udfe2 KLA",
-      "role": "Associate Test Engineer",
-      "location": "\ud83c\udfe2 Sponsor Employer",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-22"
-    },
-    {
-      "company": "\ud83c\udfe2 NVIDIA",
-      "role": "ASIC Verification Engineer",
-      "location": "\ud83c\udfe2 Sponsor Employer",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-04-22"
-    },
-    {
-      "company": "\ud83c\udfe2 Moog",
-      "role": "Associate Design Engineer",
-      "location": "",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-22"
-    },
-    {
-      "company": "\ud83c\udfe2 Intel",
-      "role": "SoC Analog Engineer",
-      "location": "\ud83c\udfe2 Sponsor Employer",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "Analog",
-      "urgent": false,
-      "date_added": "2026-04-22"
-    },
-    {
       "company": "\ud83c\udfe2 SpaceX",
       "role": "Embedded Software Engineer, OS/Platform (Starlink)",
       "location": "",
@@ -940,17 +874,6 @@
       "date_added": "2026-04-22"
     },
     {
-      "company": "\ud83c\udfe2 Ciena",
-      "role": "Embedded Software Engineer",
-      "location": "\ud83c\udfe2 Sponsor Employer",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-22"
-    },
-    {
       "company": "\ud83c\udfe2 RTX",
       "role": "Embedded Cybersecurity Software Engineer I (Onsite)",
       "location": "\ud83c\udfe2 Sponsor Employer",
@@ -962,19 +885,30 @@
       "date_added": "2026-04-22"
     },
     {
-      "company": "\ud83c\udfe2 Intel",
-      "role": "Silicon Firmware Development Engineer",
+      "company": "\ud83c\udfe2 RTX",
+      "role": "Embedded Real-time Software Engineer I",
       "location": "\ud83c\udfe2 Sponsor Employer",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
+      "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-04-22"
     },
     {
-      "company": "\ud83c\udfe2 RTX",
-      "role": "Embedded Real-time Software Engineer I",
+      "company": "\ud83c\udfe2 Brex",
+      "role": "Enterprise Account Executive I, Embedded Finance",
+      "location": "\u2705 Sponsors Visa",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-04-22"
+    },
+    {
+      "company": "\ud83c\udfe2 Ciena",
+      "role": "Embedded Software Engineer",
       "location": "\ud83c\udfe2 Sponsor Employer",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
@@ -995,12 +929,12 @@
       "date_added": "2026-04-22"
     },
     {
-      "company": "\ud83c\udfe2 Brex",
-      "role": "Enterprise Account Executive I, Embedded Finance",
-      "location": "\u2705 Sponsors Visa",
+      "company": "\ud83c\udfe2 Intel",
+      "role": "Silicon Firmware Development Engineer",
+      "location": "\ud83c\udfe2 Sponsor Employer",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
+      "sponsor": "yes",
       "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-04-22"
@@ -1347,8 +1281,8 @@
       "date_added": "2026-04-22"
     },
     {
-      "company": "\ud83c\udfe2 Intel",
-      "role": "GPU Validation Engineer",
+      "company": "\ud83c\udfe2 Broadcom",
+      "role": "Silicon Design and Validation Engineer",
       "location": "\ud83c\udfe2 Sponsor Employer",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
@@ -1358,8 +1292,8 @@
       "date_added": "2026-04-22"
     },
     {
-      "company": "\ud83c\udfe2 Broadcom",
-      "role": "Silicon Design and Validation Engineer",
+      "company": "\ud83c\udfe2 Intel",
+      "role": "GPU Validation Engineer",
       "location": "\ud83c\udfe2 Sponsor Employer",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
@@ -1415,7 +1349,7 @@
     {
       "company": "\ud83c\udfe2 HPE (University)",
       "role": "Silicon Validation Engineer",
-      "location": "\ud83c\udfe2 Sponsor Employer",
+      "location": "",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -1442,17 +1376,6 @@
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
-      "urgent": false,
-      "date_added": "2026-04-22"
-    },
-    {
-      "company": "Tenstorrent",
-      "role": "AI Subsystems Physical Design Lead",
-      "location": "Austin, Texas, United States; Fort Collins, Colorado, United States; Santa Clara, California, United States",
-      "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/5108447007",
-      "source": "Greenhouse",
-      "sponsor": "open",
-      "cat": "ASIC",
       "urgent": false,
       "date_added": "2026-04-22"
     },
@@ -6085,5 +6008,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-04-22T03:25:10.387799+00:00"
+  "last_tailored": "2026-04-22T07:59:56.636041+00:00"
 }
