@@ -1,9 +1,20 @@
 {
-  "updated": "2026-04-25T03:19:02.623865+00:00",
-  "total": 553,
+  "updated": "2026-04-25T07:41:36.097944+00:00",
+  "total": 533,
   "urgent_count": 12,
   "blocked_count": 0,
   "jobs": [
+    {
+      "company": "\ud83c\udfe2 Cadence",
+      "role": "DFT Design Engineer",
+      "location": "AUSTIN",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-04-25"
+    },
     {
       "company": "\ud83c\udfe2 Formlabs",
       "role": "Electrical Engineer",
@@ -60,17 +71,6 @@
       "date_added": "2026-04-25"
     },
     {
-      "company": "\ud83c\udfe2 Intel",
-      "role": "GPU Software Development Engineer",
-      "location": "US + 1 more",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "SW",
-      "urgent": false,
-      "date_added": "2026-04-25"
-    },
-    {
       "company": "\ud83c\udfe2 Broadcom",
       "role": "DFT Engineer",
       "location": "CA San Jose Innov...",
@@ -78,17 +78,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
       "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-04-25"
-    },
-    {
-      "company": "\ud83c\udfe2 NVIDIA",
-      "role": "VLSI Design Automation Software Engineer",
-      "location": "US, MA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "SW",
       "urgent": false,
       "date_added": "2026-04-25"
     },
@@ -319,6 +308,17 @@
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-04-25"
+    },
+    {
+      "company": "\ud83c\udfe2 NXP",
+      "role": "Metrology Process Engineer",
+      "location": "Chandler",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
       "cat": "ASIC",
       "urgent": false,
       "date_added": "2026-04-25"
@@ -819,9 +819,9 @@
       "date_added": "2026-04-25"
     },
     {
-      "company": "\ud83c\udfe2 AES Corporation",
-      "role": "Associate Transmission Line Design Engineer",
-      "location": "US, OH",
+      "company": "\ud83c\udfe2 Boston Dynamics",
+      "role": "Associate Director, Integration and Test",
+      "location": "Waltham POST",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -852,61 +852,6 @@
       "date_added": "2026-04-25"
     },
     {
-      "company": "\ud83c\udfe2 Cisco",
-      "role": "Embedded Software Engineer",
-      "location": "Milpitas, US",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-25"
-    },
-    {
-      "company": "\ud83c\udfe2 RTX",
-      "role": "Embedded Software Engineer I",
-      "location": "CA-EL SEGUNDO-E01",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Moog",
-      "role": "Embedded Flight Software Engineer",
-      "location": "Torrance, CA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Caterpillar",
-      "role": "Embedded Software Engineering Specialist",
-      "location": "Mossville",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Sonos",
-      "role": "Junior Embedded Software Development Engineer",
-      "location": "Boston, MA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-25"
-    },
-    {
       "company": "\ud83c\udfe2 Baker Hughes",
       "role": "Embedded MDS Engineer",
       "location": "TX-HOUSTON-575 N....",
@@ -921,61 +866,6 @@
       "company": "\ud83c\udfe2 Anduril",
       "role": "Embedded Linux Engineer",
       "location": "Costa Mesa",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Redwood Materials",
-      "role": "Embedded Software Engineer \u2013 Power Electronics, Energy Storage",
-      "location": "San Francisco",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Anduril",
-      "role": "Embedded Software Engineer, EW",
-      "location": "Costa Mesa",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-25"
-    },
-    {
-      "company": "\ud83c\udfe2 SpaceX",
-      "role": "Embedded Software Engineer, OS/Platform (Starlink)",
-      "location": "Bastrop, TX",
-      "link": "Starlink",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Anduril",
-      "role": "Embedded Software QA Engineer",
-      "location": "Lexington",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Carrier Global",
-      "role": "Embedded Software Engineer",
-      "location": "Charlotte, 9701 O...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -1017,17 +907,6 @@
       "date_added": "2026-04-25"
     },
     {
-      "company": "\ud83c\udfe2 Ciena",
-      "role": "Embedded Software Engineer",
-      "location": "2 Locations",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-25"
-    },
-    {
       "company": "\ud83c\udfe2 Arrow Electronics",
       "role": "Embedded Engineer (eInfochips Inc)",
       "location": "Atlanta",
@@ -1051,30 +930,8 @@
     },
     {
       "company": "\ud83c\udfe2 Zoox",
-      "role": "Embedded Software Engineer",
-      "location": "San Diego, CA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Zoox",
       "role": "Firmware Validation Engineer",
       "location": "Foster City, CA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Verkada",
-      "role": "Embedded Software Engineer - Access Control",
-      "location": "San Mateo, CA",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -1095,31 +952,9 @@
     },
     {
       "company": "\ud83c\udfe2 SpaceX",
-      "role": "Software Engineer, Embedded Software (Starlink)",
-      "location": "Redmond, WA",
+      "role": "Embedded Security Engineer (Starlink)",
+      "location": "Redmond, WA + 2 more",
       "link": "Starlink",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Northwood Space",
-      "role": "Embedded Software Engineer",
-      "location": "Torrance, CA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-25"
-    },
-    {
-      "company": "\ud83c\udfe2 SharkNinja",
-      "role": "Embedded Software Engineering Opportunities at SharkNinja",
-      "location": "Needham, MA",
-      "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "FPGA",
@@ -1160,28 +995,6 @@
       "date_added": "2026-04-25"
     },
     {
-      "company": "\ud83c\udfe2 Zipline",
-      "role": "Software Engineer - Embedded Firmware",
-      "location": "South San Francisco",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Zipline",
-      "role": "Embedded Software Engineer (Data Platform), Autonomy",
-      "location": "South San Francisco",
-      "link": "Data Platform",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-25"
-    },
-    {
       "company": "\ud83c\udfe2 Figure AI",
       "role": "Embedded Systems Integration Engineer",
       "location": "San Jose, CA",
@@ -1197,17 +1010,6 @@
       "role": "Embedded Data Specialist",
       "location": "San Francisco Bay...",
       "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Cresta",
-      "role": "Embedded Expert - SaaS Software (Contact Center)",
-      "location": "United States",
-      "link": "Contact Center",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "FPGA",
@@ -1237,17 +1039,6 @@
       "date_added": "2026-04-25"
     },
     {
-      "company": "\ud83c\udfe2 Astranis",
-      "role": "Embedded Software Engineer - Network Software",
-      "location": "San Francisco",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-25"
-    },
-    {
       "company": "\ud83c\udfe2 Applied Intuition",
       "role": "Embedded AI Engineer \u2013 Android Automotive (On-Device Intelligence)",
       "location": "Sunnyvale",
@@ -1259,9 +1050,9 @@
       "date_added": "2026-04-25"
     },
     {
-      "company": "\ud83c\udfe2 Applied Intuition",
-      "role": "Embedded Software Engineer - Core OS",
-      "location": "Sunnyvale",
+      "company": "\ud83c\udfe2 Anduril",
+      "role": "Embedded Haskell Engineer, EW",
+      "location": "Costa Mesa",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -1270,9 +1061,9 @@
       "date_added": "2026-04-25"
     },
     {
-      "company": "\ud83c\udfe2 Applied Intuition",
-      "role": "Embedded Software Engineer - Firmware",
-      "location": "Sunnyvale",
+      "company": "\ud83c\udfe2 Anduril",
+      "role": "Embedded NixOS Engineer",
+      "location": "Costa Mesa",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -1294,17 +1085,6 @@
     {
       "company": "\ud83c\udfe2 Allen Control Systems",
       "role": "Embedded Engineer",
-      "location": "Austin, TX",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-25"
-    },
-    {
-      "company": "\ud83c\udfe2 Allen Control Systems",
-      "role": "Embedded Software Engineer",
       "location": "Austin, TX",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
@@ -6022,10 +5802,10 @@
       "date_added": "2026-04-25"
     },
     {
-      "company": "Aqua Sierra Controls Inc.",
-      "role": "Electrical Engineer",
-      "location": "Auburn, CA 95603",
-      "link": "https://www.indeed.com/viewjob?jk=ea20535bcb7415a2",
+      "company": "Three Point Solutions, Inc.",
+      "role": "Product Engineer",
+      "location": "Fargo, ND 58102",
+      "link": "https://www.indeed.com/viewjob?jk=4c6c5a96df4c4d4d",
       "source": "Indeed",
       "sponsor": "open",
       "cat": "HW",
@@ -6033,10 +5813,10 @@
       "date_added": "2026-04-25"
     },
     {
-      "company": "M.C. Dean, Inc",
-      "role": "Project Engineer 1 - New College Grad 2025 - 2026 (E&C - York, SC)",
-      "location": "York, SC",
-      "link": "https://www.indeed.com/viewjob?jk=7989da5b658c046c",
+      "company": "Galil Motion Control",
+      "role": "Electrical Engineer - New College Grad",
+      "location": "Rocklin, CA 95765",
+      "link": "https://www.indeed.com/viewjob?jk=6955199d17cc2e8a",
       "source": "Indeed",
       "sponsor": "open",
       "cat": "HW",
@@ -6044,21 +5824,10 @@
       "date_added": "2026-04-25"
     },
     {
-      "company": "DiCon Fiberoptics, Inc.",
-      "role": "Photonics Engineer",
-      "location": "Richmond, CA 94804",
-      "link": "https://www.indeed.com/viewjob?jk=660f67fba3626ae3",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-25"
-    },
-    {
-      "company": "Z-AXIS Inc.",
-      "role": "Electrical Design Engineer",
-      "location": "Phelps, NY 14532",
-      "link": "https://www.indeed.com/viewjob?jk=fe3fc7b8a4419458",
+      "company": "Canadian Executive Search Group Inc.",
+      "role": "Controls Engineer",
+      "location": "Fairfax, KS",
+      "link": "https://www.indeed.com/viewjob?jk=7013f7cfdcafabfd",
       "source": "Indeed",
       "sponsor": "open",
       "cat": "HW",
@@ -6077,10 +5846,21 @@
       "date_added": "2026-04-25"
     },
     {
-      "company": "Three Point Solutions, Inc.",
-      "role": "Product Engineer",
-      "location": "Fargo, ND 58102",
-      "link": "https://www.indeed.com/viewjob?jk=4c6c5a96df4c4d4d",
+      "company": "Carbon Felt Inc.",
+      "role": "Electrical Controls Engineer",
+      "location": "Claremont, NH 03743",
+      "link": "https://www.indeed.com/viewjob?jk=26c1896ccfc4738a",
+      "source": "Indeed",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-25"
+    },
+    {
+      "company": "Z-AXIS Inc.",
+      "role": "Electrical Design Engineer",
+      "location": "Phelps, NY 14532",
+      "link": "https://www.indeed.com/viewjob?jk=fe3fc7b8a4419458",
       "source": "Indeed",
       "sponsor": "open",
       "cat": "HW",
@@ -6096,5 +5876,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-04-25T03:19:07.569551+00:00"
+  "last_tailored": "2026-04-25T07:41:45.345518+00:00"
 }
