@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-27T03:41:27.196255+00:00",
-  "total": 539,
+  "updated": "2026-04-27T08:35:57.186918+00:00",
+  "total": 538,
   "urgent_count": 12,
   "blocked_count": 0,
   "jobs": [
@@ -104,17 +104,6 @@
       "date_added": "2026-04-27"
     },
     {
-      "company": "\ud83c\udfe2 xAI",
-      "role": "Electrical Engineer (EIT)",
-      "location": "Memphis, TN",
-      "link": "EIT",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-27"
-    },
-    {
       "company": "\ud83c\udfe2 Waymo",
       "role": "Signal Integrity Engineer",
       "location": "Mountain View, CA",
@@ -126,9 +115,31 @@
       "date_added": "2026-04-27"
     },
     {
+      "company": "\ud83c\udfe2 True Anomaly",
+      "role": "Electrical Engineer (Early Career), Harness",
+      "location": "Denver, CO",
+      "link": "Early Career",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-27"
+    },
+    {
       "company": "\ud83c\udfe2 Torc Robotics",
       "role": "Hardware Engineer I - Sensors",
       "location": "Ann Arbor, MI",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-27"
+    },
+    {
+      "company": "\ud83c\udfe2 Neuralink",
+      "role": "Electrical Engineer, Robotics",
+      "location": "Austin",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -160,7 +171,7 @@
     },
     {
       "company": "\ud83c\udfe2 Graphcore",
-      "role": "DFT Engineer",
+      "role": "Silicon Physical Design Engineer",
       "location": "Bristol, UK",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
@@ -171,12 +182,12 @@
     },
     {
       "company": "\ud83c\udfe2 Graphcore",
-      "role": "Graduate Electrical Engineer",
-      "location": "Milpitas",
+      "role": "Silicon Verification Engineer",
+      "location": "Bristol, UK",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
-      "cat": "HW",
+      "cat": "DV",
       "urgent": false,
       "date_added": "2026-04-27"
     },
@@ -303,7 +314,7 @@
     },
     {
       "company": "\ud83c\udfe2 Pure Storage",
-      "role": "PCIe Hardware Engineer, Systems",
+      "role": "Signal Integrity Hardware Engineer, Everpure Platform",
       "location": "Santa Clara",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
@@ -314,7 +325,7 @@
     },
     {
       "company": "\ud83c\udfe2 Pure Storage",
-      "role": "Signal Integrity Hardware Engineer, Everpure Platform",
+      "role": "PCIe Hardware Engineer, Systems",
       "location": "Santa Clara",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
@@ -342,6 +353,17 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-04-27"
+    },
+    {
+      "company": "\ud83c\udfe2 Broadcom",
+      "role": "ASIC Implementation Engineer",
+      "location": "CA San Jose Innov...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-27"
     },
@@ -698,17 +720,6 @@
       "date_added": "2026-04-27"
     },
     {
-      "company": "\ud83c\udfe2 Cisco",
-      "role": "ASIC Engineering Program Manager",
-      "location": "San Jose, US",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-27"
-    },
-    {
       "company": "\ud83c\udfe2 Block",
       "role": "ASIC Validation Engineer",
       "location": "Bay Area, CA",
@@ -764,9 +775,9 @@
       "date_added": "2026-04-27"
     },
     {
-      "company": "\ud83c\udfe2 Analog Devices",
-      "role": "Associate Product Development Engineering",
-      "location": "US, MA",
+      "company": "\ud83c\udfe2 Cisco",
+      "role": "ASIC Engineering Program Manager",
+      "location": "San Jose, US",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
@@ -775,24 +786,13 @@
       "date_added": "2026-04-27"
     },
     {
-      "company": "\ud83c\udfe2 HPE (University)",
-      "role": "ASIC verification manager",
-      "location": "Roseville",
+      "company": "\ud83c\udfe2 Analog Devices",
+      "role": "Associate Product Development Engineering",
+      "location": "US, MA",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-04-27"
-    },
-    {
-      "company": "\ud83c\udfe2 HPE",
-      "role": "ASIC verification manager",
-      "location": "Roseville",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "DV",
+      "sponsor": "yes",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-27"
     },
@@ -815,6 +815,28 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-27"
+    },
+    {
+      "company": "\ud83c\udfe2 HPE",
+      "role": "ASIC verification manager",
+      "location": "Roseville",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "DV",
+      "urgent": false,
+      "date_added": "2026-04-27"
+    },
+    {
+      "company": "\ud83c\udfe2 HPE (University)",
+      "role": "ASIC verification manager",
+      "location": "Roseville",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "DV",
       "urgent": false,
       "date_added": "2026-04-27"
     },
@@ -1149,9 +1171,9 @@
       "date_added": "2026-04-27"
     },
     {
-      "company": "\ud83c\udfe2 Snap",
-      "role": "Manager, Embedded Engineering, BSP, Level 6",
-      "location": "San Diego",
+      "company": "\ud83c\udfe2 Anduril",
+      "role": "Embedded Linux Engineer",
+      "location": "Costa Mesa",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -1160,9 +1182,9 @@
       "date_added": "2026-04-27"
     },
     {
-      "company": "\ud83c\udfe2 Anduril",
-      "role": "Embedded Linux Engineer",
-      "location": "Costa Mesa",
+      "company": "\ud83c\udfe2 Snap",
+      "role": "Manager, Embedded Engineering, BSP, Level 6",
+      "location": "San Diego",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -1210,28 +1232,6 @@
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-27"
-    },
-    {
-      "company": "\ud83c\udfe2 Arrow Electronics",
-      "role": "Embedded Engineer (eInfochips Inc)",
-      "location": "Atlanta",
-      "link": "eInfochips Inc",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-27"
-    },
-    {
-      "company": "\ud83c\udfe2 Intel",
-      "role": "Silicon Firmware Development Engineer",
-      "location": "US",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
       "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-04-27"
@@ -1305,21 +1305,10 @@
     {
       "company": "\ud83c\udfe2 Intel",
       "role": "GPU Validation Engineer",
-      "location": "California Folsom + 1 more",
+      "location": "California Folsom",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-27"
-    },
-    {
-      "company": "\ud83c\udfe2 HPE (University)",
-      "role": "Silicon Validation Engineer",
-      "location": "4 Locations",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-27"
@@ -1336,12 +1325,12 @@
       "date_added": "2026-04-27"
     },
     {
-      "company": "\ud83c\udfe2 Broadcom",
-      "role": "Silicon Design and Validation Engineer",
-      "location": "California-San Jo...",
+      "company": "\ud83c\udfe2 HPE (University)",
+      "role": "Silicon Validation Engineer",
+      "location": "4 Locations",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
+      "sponsor": "open",
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-27"
@@ -3153,8 +3142,8 @@
     {
       "company": "Jane Street",
       "role": "Machine Learning Researcher",
-      "location": "London, England, United Kingdom",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8069523002",
+      "location": "Hong Kong, Hong Kong",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8069532002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -3197,8 +3186,8 @@
     {
       "company": "Jane Street",
       "role": "Production Engineer",
-      "location": "Singapore",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/5807405002",
+      "location": "Hong Kong, Hong Kong",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/5807402002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -3208,8 +3197,8 @@
     {
       "company": "Jane Street",
       "role": "Quantitative Researcher",
-      "location": "Hong Kong, Hong Kong",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/7514485002",
+      "location": "London, England, United Kingdom",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/4808264002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -3219,8 +3208,8 @@
     {
       "company": "Jane Street",
       "role": "Quantitative Trader",
-      "location": "Hong Kong, Hong Kong",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/7982986002",
+      "location": "London, England, United Kingdom",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8092062002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -3230,8 +3219,8 @@
     {
       "company": "Jane Street",
       "role": "Senior Weather Analyst/ML Researcher",
-      "location": "London, England, United Kingdom",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8445154002",
+      "location": "New York, New York, United States",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8440974002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -3241,8 +3230,8 @@
     {
       "company": "Jane Street",
       "role": "Software Engineer",
-      "location": "New York, New York, United States",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8160791002",
+      "location": "Hong Kong, Hong Kong",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/7582902002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -5942,5 +5931,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-04-27T03:41:37.566632+00:00"
+  "last_tailored": "2026-04-27T08:36:07.045936+00:00"
 }
