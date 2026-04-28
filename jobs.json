@@ -1,6 +1,6 @@
 {
-  "updated": "2026-04-28T03:47:54.451168+00:00",
-  "total": 540,
+  "updated": "2026-04-28T08:34:37.799009+00:00",
+  "total": 533,
   "urgent_count": 12,
   "blocked_count": 0,
   "jobs": [
@@ -148,6 +148,17 @@
       "date_added": "2026-04-28"
     },
     {
+      "company": "\ud83c\udfe2 Handshake",
+      "role": "Hardware Engineer - AI Trainer",
+      "location": "Remote",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "SW",
+      "urgent": false,
+      "date_added": "2026-04-28"
+    },
+    {
       "company": "\ud83c\udfe2 Etched",
       "role": "Design Verification Engineer - Internal IP",
       "location": "San Jose",
@@ -181,6 +192,17 @@
       "date_added": "2026-04-28"
     },
     {
+      "company": "\ud83c\udfe2 xAI",
+      "role": "Electrical Engineer (EIT)",
+      "location": "Memphis, TN",
+      "link": "EIT",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-28"
+    },
+    {
       "company": "\ud83c\udfe2 Waymo",
       "role": "Signal Integrity Engineer",
       "location": "Mountain View, CA",
@@ -192,31 +214,9 @@
       "date_added": "2026-04-28"
     },
     {
-      "company": "\ud83c\udfe2 True Anomaly",
-      "role": "Electrical Engineer (Early Career), Harness",
-      "location": "Denver, CO",
-      "link": "Early Career",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-28"
-    },
-    {
       "company": "\ud83c\udfe2 Torc Robotics",
       "role": "Hardware Engineer I - Sensors",
       "location": "Ann Arbor, MI",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-28"
-    },
-    {
-      "company": "\ud83c\udfe2 Neuralink",
-      "role": "Electrical Engineer, Robotics",
-      "location": "Austin",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -622,7 +622,7 @@
     },
     {
       "company": "\ud83c\udfe2 Anduril",
-      "role": "Inventory Associate, Shipping & Receiving",
+      "role": "Materials Associate, Warehouse",
       "location": "Santa Ana",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
@@ -742,7 +742,7 @@
       "date_added": "2026-04-28"
     },
     {
-      "company": "\ud83c\udfe2 HPE",
+      "company": "\ud83c\udfe2 HPE (University)",
       "role": "ASIC verification manager",
       "location": "Roseville",
       "link": "#",
@@ -753,7 +753,7 @@
       "date_added": "2026-04-28"
     },
     {
-      "company": "\ud83c\udfe2 HPE (University)",
+      "company": "\ud83c\udfe2 HPE",
       "role": "ASIC verification manager",
       "location": "Roseville",
       "link": "#",
@@ -801,39 +801,6 @@
       "role": "Bench Technician Associate - Pittsburgh, PA (Contract)",
       "location": "Pittsburgh, PA",
       "link": "Contract",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-28"
-    },
-    {
-      "company": "\ud83c\udfe2 Marvell",
-      "role": "Firmware Engineer - Early Career",
-      "location": "Westlake Village, CA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-28"
-    },
-    {
-      "company": "\ud83c\udfe2 Moog",
-      "role": "Associate Development Test Engineer",
-      "location": "Buffalo, NY",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-28"
-    },
-    {
-      "company": "\ud83c\udfe2 Johnson & Johnson",
-      "role": "Associate Mechanical Engineer",
-      "location": "Cincinnati",
-      "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
@@ -1232,28 +1199,6 @@
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-28"
-    },
-    {
-      "company": "\ud83c\udfe2 HPE",
-      "role": "Silicon Validation Engineer",
-      "location": "4 Locations",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-28"
-    },
-    {
-      "company": "\ud83c\udfe2 HPE (University)",
-      "role": "Silicon Validation Engineer",
-      "location": "4 Locations",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-28"
@@ -4209,8 +4154,8 @@
     {
       "company": "Verkada",
       "role": "Senior Product Counsel",
-      "location": "Austin, TX United States",
-      "link": "https://job-boards.greenhouse.io/verkada/jobs/5082756007",
+      "location": "San Mateo, CA United States",
+      "link": "https://job-boards.greenhouse.io/verkada/jobs/5082376007",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -4517,8 +4462,8 @@
     {
       "company": "Verkada",
       "role": "Tradeshow Associate",
-      "location": "Tampa, FL United States",
-      "link": "https://job-boards.greenhouse.io/verkada/jobs/5111785007",
+      "location": "Phoenix, AZ United States",
+      "link": "https://job-boards.greenhouse.io/verkada/jobs/5111789007",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -4528,8 +4473,8 @@
     {
       "company": "Samsara",
       "role": "AI Engineer",
-      "location": "Remote - US",
-      "link": "https://www.samsara.com/company/careers/roles/7491153?gh_jid=7491153",
+      "location": "Remote - Canada",
+      "link": "https://www.samsara.com/company/careers/roles/7589442?gh_jid=7589442",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -4703,17 +4648,6 @@
     },
     {
       "company": "Samsara",
-      "role": "GRC Analyst, Third-Party Risk Management",
-      "location": "Bengaluru - BLR1",
-      "link": "https://www.samsara.com/company/careers/roles/7669236?gh_jid=7669236",
-      "source": "Greenhouse",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-28"
-    },
-    {
-      "company": "Samsara",
       "role": "Installation Specialist",
       "location": "Remote - US",
       "link": "https://www.samsara.com/company/careers/roles/7266206?gh_jid=7266206",
@@ -4737,8 +4671,8 @@
     {
       "company": "Samsara",
       "role": "Lead Full Stack Developer, Business Applications",
-      "location": "Remote - Canada",
-      "link": "https://www.samsara.com/company/careers/roles/7601794?gh_jid=7601794",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7266307?gh_jid=7266307",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -4792,8 +4726,8 @@
     {
       "company": "Samsara",
       "role": "Manager, WW Planning",
-      "location": "Remote - US",
-      "link": "https://www.samsara.com/company/careers/roles/7662771?gh_jid=7662771",
+      "location": "Remote - Canada",
+      "link": "https://www.samsara.com/company/careers/roles/7680056?gh_jid=7680056",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -5058,17 +4992,6 @@
       "role": "Senior Hardware Systems Engineer",
       "location": "San Francisco - SF9",
       "link": "https://www.samsara.com/company/careers/roles/7291574?gh_jid=7291574",
-      "source": "Greenhouse",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-28"
-    },
-    {
-      "company": "Samsara",
-      "role": "Senior Instructional Designer",
-      "location": "Bengaluru - BLR1",
-      "link": "https://www.samsara.com/company/careers/roles/7290232?gh_jid=7290232",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -5953,5 +5876,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-04-28T03:48:01.674400+00:00"
+  "last_tailored": "2026-04-28T08:34:44.345908+00:00"
 }
