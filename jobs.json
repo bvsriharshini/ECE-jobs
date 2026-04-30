@@ -1,9 +1,31 @@
 {
-  "updated": "2026-04-30T03:46:00.729223+00:00",
-  "total": 566,
+  "updated": "2026-04-30T08:30:38.158660+00:00",
+  "total": 558,
   "urgent_count": 12,
   "blocked_count": 0,
   "jobs": [
+    {
+      "company": "\ud83c\udfe2 Neuralink",
+      "role": "Electrical Engineer, Implant Embedded Systems",
+      "location": "Austin, Texas, Un...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-04-30"
+    },
+    {
+      "company": "\ud83c\udfe2 ByteDance",
+      "role": "Graduate Design Verification Engineer - Video Silicon IP",
+      "location": "San Jose, CA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "DV",
+      "urgent": false,
+      "date_added": "2026-04-30"
+    },
     {
       "company": "\ud83c\udfe2 Etched",
       "role": "Design Verification Engineer - Internal IP",
@@ -78,17 +100,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
       "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-04-30"
-    },
-    {
-      "company": "\ud83c\udfe2 SpaceX",
-      "role": "Electrical Engineer, PCB (Starlink)",
-      "location": "Bastrop, TX",
-      "link": "Starlink",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-30"
     },
@@ -203,23 +214,23 @@
       "date_added": "2026-04-30"
     },
     {
-      "company": "\ud83c\udfe2 GE Vernova",
-      "role": "Experienced Hardware Engineer - (Circuit Design, Industrialization, Wireless, ECAD) Relocation Assistance",
-      "location": "Rochester",
-      "link": "Circuit Design, Industrialization, Wireless, ECAD",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-30"
-    },
-    {
       "company": "\ud83c\udfe2 Amazon Kuiper Manufacturing Enterprises LLC",
       "role": "Satellite Test Hardware Engineer, Integrated Vehicle Test Team",
       "location": "Redmond, WA",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-30"
+    },
+    {
+      "company": "\ud83c\udfe2 CoreWeave",
+      "role": "Hardware Engineer, GPU & PCIe",
+      "location": "New York, NY / Su...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-30"
@@ -237,6 +248,17 @@
     },
     {
       "company": "\ud83c\udfe2 Analog Devices",
+      "role": "Industrial Engineer",
+      "location": "US, MA, Chelmsfor...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-30"
+    },
+    {
+      "company": "\ud83c\udfe2 Analog Devices",
       "role": "AMS Verification Engineer",
       "location": "US, MA, Wilmington",
       "link": "#",
@@ -247,12 +269,12 @@
       "date_added": "2026-04-30"
     },
     {
-      "company": "\ud83c\udfe2 CoreWeave",
-      "role": "Hardware Engineer, GPU & PCIe",
-      "location": "New York, NY / Su...",
+      "company": "\ud83c\udfe2 NXP",
+      "role": "Hardware Applications Engineer",
+      "location": "San Jose",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
+      "sponsor": "yes",
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-30"
@@ -269,12 +291,12 @@
       "date_added": "2026-04-30"
     },
     {
-      "company": "\ud83c\udfe2 Analog Devices",
-      "role": "Industrial Engineer",
-      "location": "US, MA, Chelmsfor...",
-      "link": "#",
+      "company": "\ud83c\udfe2 GE Vernova",
+      "role": "Experienced Hardware Engineer - (Circuit Design, Industrialization, Wireless, ECAD) Relocation Assistance",
+      "location": "Rochester",
+      "link": "Circuit Design, Industrialization, Wireless, ECAD",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
+      "sponsor": "open",
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-30"
@@ -291,35 +313,35 @@
       "date_added": "2026-04-30"
     },
     {
-      "company": "\ud83c\udfe2 NXP",
-      "role": "Hardware Applications Engineer",
-      "location": "San Jose",
+      "company": "\ud83c\udfe2 NVIDIA",
+      "role": "MCU Firmware Engineer",
+      "location": "US, CA, Santa Clara",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
-      "cat": "HW",
+      "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-04-30"
     },
     {
-      "company": "\ud83c\udfe2 Amazon Data Services, Inc.",
-      "role": "Product Lifecycle Electrical Engineer, Electrical Products and Services, Data Center Engineering",
-      "location": "Herndon, VA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-30"
-    },
-    {
-      "company": "\ud83c\udfe2 MatX",
-      "role": "Rust SW-Silicon Co-verification Engineer",
-      "location": "Mountain View, CA",
+      "company": "\ud83c\udfe2 Carrier Global",
+      "role": "Associate Field Engineer - Automated Logic",
+      "location": "CAW11: ALC-Brown ...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
-      "cat": "DV",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-30"
+    },
+    {
+      "company": "\ud83c\udfe2 Zoox",
+      "role": "Part-Time Student Worker \u2013 Firmware Engineer (FW Thermal/Body)",
+      "location": "Foster City, CA",
+      "link": "FW Thermal/Body",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-04-30"
     },
@@ -390,39 +412,6 @@
       "date_added": "2026-04-30"
     },
     {
-      "company": "\ud83c\udfe2 Carrier Global",
-      "role": "Associate Field Engineer-Automated Logic",
-      "location": "CAW13: AL Wiscons...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-30"
-    },
-    {
-      "company": "\ud83c\udfe2 Motorola Solutions",
-      "role": "Associate Research and Development (R&D) Test Engineer",
-      "location": "Los Angeles, CA, ...",
-      "link": "R&D",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-30"
-    },
-    {
-      "company": "\ud83c\udfe2 Broadcom",
-      "role": "ASIC DFT Engineer",
-      "location": "CA San Jose Innov...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-04-30"
-    },
-    {
       "company": "\ud83c\udfe2 Apple",
       "role": "Wireless RF PHY Firmware Engineer",
       "location": "Irvine",
@@ -430,17 +419,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
       "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-30"
-    },
-    {
-      "company": "\ud83c\udfe2 Medtronic",
-      "role": "CAS Associate Mapping Specialist (In Training)",
-      "location": "5 Locations",
-      "link": "In Training",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-30"
     },
@@ -495,6 +473,39 @@
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-30"
+    },
+    {
+      "company": "\ud83c\udfe2 Broadcom",
+      "role": "ASIC DFT Engineer",
+      "location": "CA San Jose Innov...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-04-30"
+    },
+    {
+      "company": "\ud83c\udfe2 Medtronic",
+      "role": "CAS Associate Mapping Specialist (In Training)",
+      "location": "5 Locations",
+      "link": "In Training",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-30"
+    },
+    {
+      "company": "\ud83c\udfe2 Motorola Solutions",
+      "role": "Associate Research and Development (R&D) Test Engineer",
+      "location": "Los Angeles, CA, ...",
+      "link": "R&D",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-30"
@@ -566,23 +577,23 @@
       "date_added": "2026-04-30"
     },
     {
-      "company": "\ud83c\udfe2 Medtronic",
-      "role": "Associate Mapping Specialist I In Training",
-      "location": "State of Montana,...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-30"
-    },
-    {
       "company": "\ud83c\udfe2 Broadcom",
       "role": "ASIC Implementation Engineer",
       "location": "CA San Jose Innov...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-30"
+    },
+    {
+      "company": "\ud83c\udfe2 Medtronic",
+      "role": "Associate Mapping Specialist I In Training",
+      "location": "State of Montana,...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-04-30"
@@ -929,17 +940,6 @@
       "date_added": "2026-04-30"
     },
     {
-      "company": "\ud83c\udfe2 Cisco",
-      "role": "ASIC Engineering Program Manager",
-      "location": "San Jose, Califor...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-30"
-    },
-    {
       "company": "\ud83c\udfe2 Analog Devices",
       "role": "Associate Product Development Engineering",
       "location": "US, MA, Wilmington",
@@ -951,9 +951,20 @@
       "date_added": "2026-04-30"
     },
     {
+      "company": "\ud83c\udfe2 Cisco",
+      "role": "ASIC Engineering Program Manager",
+      "location": "San Jose, Califor...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-04-30"
+    },
+    {
       "company": "\ud83c\udfe2 Advanced Micro Devices, Inc",
       "role": "Firmware Engineer",
-      "location": "Washington",
+      "location": "Washington, Distr...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -962,65 +973,10 @@
       "date_added": "2026-04-30"
     },
     {
-      "company": "\ud83c\udfe2 Moog",
-      "role": "Associate Design Engineer",
-      "location": "Buffalo, NY",
+      "company": "\ud83c\udfe2 RTX",
+      "role": "Embedded Platforms SW Engineering",
+      "location": "Ka, IN",
       "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-30"
-    },
-    {
-      "company": "\ud83c\udfe2 HPE (University)",
-      "role": "ASIC verification manager",
-      "location": "Roseville, Califo...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-04-30"
-    },
-    {
-      "company": "\ud83c\udfe2 HPE",
-      "role": "ASIC verification manager",
-      "location": "Roseville, Califo...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-04-30"
-    },
-    {
-      "company": "\ud83c\udfe2 Intel",
-      "role": "SOC Design Verification Engineer",
-      "location": "US, Oregon, Hills...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-04-30"
-    },
-    {
-      "company": "\ud83c\udfe2 Latitude AI",
-      "role": "Bench Technician Associate - Palo Alto, CA (contract)",
-      "location": "Palo Alto, CA",
-      "link": "contract",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-04-30"
-    },
-    {
-      "company": "\ud83c\udfe2 Zoox",
-      "role": "Part-Time Student Worker \u2013 Firmware Engineer (FW Thermal/Body)",
-      "location": "Foster City, CA",
-      "link": "FW Thermal/Body",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "FPGA",
@@ -1304,17 +1260,6 @@
     },
     {
       "company": "\ud83c\udfe2 Olsson",
-      "role": "Electrical Construction Manager (Embedded)",
-      "location": "Kansas City, MO; ...",
-      "link": "Embedded",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-30"
-    },
-    {
-      "company": "\ud83c\udfe2 Olsson",
       "role": "Mechanical Construction Manager (Embedded)",
       "location": "Kansas City, MO; ...",
       "link": "Embedded",
@@ -1327,6 +1272,17 @@
     {
       "company": "\ud83c\udfe2 Olsson",
       "role": "Onsite Industrial Construction Manager (Embedded)",
+      "location": "Kansas City, MO; ...",
+      "link": "Embedded",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-04-30"
+    },
+    {
+      "company": "\ud83c\udfe2 Olsson",
+      "role": "Electrical Construction Manager (Embedded)",
       "location": "Kansas City, MO; ...",
       "link": "Embedded",
       "source": "zapplyjobs Hardware 2026",
@@ -1372,28 +1328,6 @@
       "company": "\ud83c\udfe2 Anduril",
       "role": "Embedded Linux Engineer",
       "location": "Costa Mesa, Calif...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-30"
-    },
-    {
-      "company": "\ud83c\udfe2 Snap",
-      "role": "Manager, Embedded Engineering, BSP, Level 6",
-      "location": "San Diego, Califo...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-04-30"
-    },
-    {
-      "company": "\ud83c\udfe2 Baker Hughes",
-      "role": "Embedded MDS Engineer",
-      "location": "Houston, TX",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -1475,28 +1409,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-04-30"
-    },
-    {
-      "company": "\ud83c\udfe2 Cadence",
-      "role": "Product Validation Engineer (Analog Circuit Design)",
-      "location": "SAN JOSE",
-      "link": "Analog Circuit Design",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "Analog",
-      "urgent": false,
-      "date_added": "2026-04-30"
-    },
-    {
-      "company": "\ud83c\udfe2 Cadence (University)",
-      "role": "Product Validation Engineer (Analog Circuit Design)",
-      "location": "SAN JOSE",
-      "link": "Analog Circuit Design",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "Analog",
       "urgent": false,
       "date_added": "2026-04-30"
     },
@@ -6239,5 +6151,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-04-30T03:46:07.903958+00:00"
+  "last_tailored": "2026-04-30T08:30:46.701358+00:00"
 }
