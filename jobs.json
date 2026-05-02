@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-02T07:52:48.463272+00:00",
-  "total": 535,
+  "updated": "2026-05-02T13:26:06.873112+00:00",
+  "total": 536,
   "urgent_count": 12,
   "blocked_count": 0,
   "jobs": [
@@ -12,6 +12,17 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
       "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-02"
+    },
+    {
+      "company": "\ud83c\udfe2 Applied Materials",
+      "role": "Process Engineer V",
+      "location": "Santa Clara,CA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "ASIC",
       "urgent": false,
       "date_added": "2026-05-02"
     },
@@ -78,17 +89,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
       "cat": "Analog",
-      "urgent": false,
-      "date_added": "2026-05-02"
-    },
-    {
-      "company": "\ud83c\udfe2 Philips",
-      "role": "Electrical Engineer",
-      "location": "Orlando, Florida,...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
       "urgent": false,
       "date_added": "2026-05-02"
     },
@@ -181,17 +181,6 @@
       "date_added": "2026-05-02"
     },
     {
-      "company": "\ud83c\udfe2 NXP",
-      "role": "SoC Validation Engineer",
-      "location": "Austin",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-02"
-    },
-    {
       "company": "\ud83c\udfe2 Belvedere Trading",
       "role": "FPGA Engineer",
       "location": "Chicago, Illinois",
@@ -203,42 +192,9 @@
       "date_added": "2026-05-02"
     },
     {
-      "company": "\ud83c\udfe2 Carrier Global",
-      "role": "Associate Field Engineer",
-      "location": "CAW11: ALC-Brown ...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-02"
-    },
-    {
       "company": "\ud83c\udfe2 LG Electronics",
       "role": "Bilingual R&D Engineer Associate",
       "location": "Clarksville, TN",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-02"
-    },
-    {
-      "company": "\ud83c\udfe2 NVIDIA",
-      "role": "ASIC Verification Engineer",
-      "location": "US, CA, Santa Clara",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-05-02"
-    },
-    {
-      "company": "\ud83c\udfe2 Moog",
-      "role": "Associate Product Engineer",
-      "location": "Buffalo, NY",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -280,6 +236,28 @@
       "date_added": "2026-05-02"
     },
     {
+      "company": "\ud83c\udfe2 NXP",
+      "role": "SoC Validation Engineer",
+      "location": "Austin",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-02"
+    },
+    {
+      "company": "\ud83c\udfe2 NVIDIA",
+      "role": "ASIC Verification Engineer",
+      "location": "US, CA, Santa Clara",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "DV",
+      "urgent": false,
+      "date_added": "2026-05-02"
+    },
+    {
       "company": "\ud83c\udfe2 NVIDIA",
       "role": "MCU Firmware Engineer",
       "location": "US, CA, Santa Clara",
@@ -291,6 +269,28 @@
       "date_added": "2026-05-02"
     },
     {
+      "company": "\ud83c\udfe2 Moog",
+      "role": "Associate Product Engineer",
+      "location": "Buffalo, NY",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-02"
+    },
+    {
+      "company": "\ud83c\udfe2 Carrier Global",
+      "role": "Associate Field Engineer",
+      "location": "CAW11: ALC-Brown ...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-02"
+    },
+    {
       "company": "\ud83c\udfe2 Cadence",
       "role": "ASIC Verification, Account Technical Executive",
       "location": "SAN JOSE",
@@ -298,6 +298,17 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
       "cat": "DV",
+      "urgent": false,
+      "date_added": "2026-05-02"
+    },
+    {
+      "company": "\ud83c\udfe2 Carrier Global",
+      "role": "Associate Field Engineer - Automated Logic",
+      "location": "CAW11: ALC-Brown ...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-05-02"
     },
@@ -402,23 +413,23 @@
     },
     {
       "company": "\ud83c\udfe2 Google",
-      "role": "TPU PCIe RTL Design Engineer",
-      "location": "United States",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-02"
-    },
-    {
-      "company": "\ud83c\udfe2 Google",
       "role": "ASIC Design Verification Engineer, Platforms and Devices",
       "location": "United States",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
       "cat": "DV",
+      "urgent": false,
+      "date_added": "2026-05-02"
+    },
+    {
+      "company": "\ud83c\udfe2 Google",
+      "role": "RTL Design Engineer, Multimedia and Machine Learning Accelerators",
+      "location": "United States",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-05-02"
     },
@@ -5898,5 +5909,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-05-02T07:52:55.756920+00:00"
+  "last_tailored": "2026-05-02T13:26:15.525115+00:00"
 }
