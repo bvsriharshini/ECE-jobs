@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-03T03:52:22.747530+00:00",
-  "total": 537,
+  "updated": "2026-05-03T08:08:23.473895+00:00",
+  "total": 536,
   "urgent_count": 12,
   "blocked_count": 0,
   "jobs": [
@@ -23,28 +23,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-03"
-    },
-    {
-      "company": "\ud83c\udfe2 Cisco",
-      "role": "Hardware Engineer (High-speed IO/Testing) (Onsite)",
-      "location": "San Jose, Califor...",
-      "link": "High-speed IO/Testing",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-03"
-    },
-    {
-      "company": "\ud83c\udfe2 Applied Materials",
-      "role": "Process Engineer IV",
-      "location": "Santa Clara,CA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "ASIC",
       "urgent": false,
       "date_added": "2026-05-03"
     },
@@ -93,6 +71,17 @@
       "date_added": "2026-05-03"
     },
     {
+      "company": "\ud83c\udfe2 Cisco",
+      "role": "Hardware Engineer (High-speed IO/Testing) (Onsite)",
+      "location": "San Jose, Califor...",
+      "link": "High-speed IO/Testing",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-03"
+    },
+    {
       "company": "\ud83c\udfe2 Block",
       "role": "ASIC Validation Engineer",
       "location": "Bay Area, CA, Uni...",
@@ -100,28 +89,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-03"
-    },
-    {
-      "company": "\ud83c\udfe2 Disney",
-      "role": "Associate CAD Designer (CT)",
-      "location": "Kissimmee, FL, USA",
-      "link": "CT",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-03"
-    },
-    {
-      "company": "\ud83c\udfe2 Broadcom",
-      "role": "R&D Firmware Engineer 3",
-      "location": "CA Irvine Alton P...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-05-03"
     },
@@ -148,6 +115,17 @@
       "date_added": "2026-05-03"
     },
     {
+      "company": "\ud83c\udfe2 Intel",
+      "role": "SOC Design Verification Engineer",
+      "location": "US, Colorado, For...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "DV",
+      "urgent": false,
+      "date_added": "2026-05-03"
+    },
+    {
       "company": "\ud83c\udfe2 Globus Medical",
       "role": "Associate Quality Engineer",
       "location": "Eagleville, PA",
@@ -159,13 +137,24 @@
       "date_added": "2026-05-03"
     },
     {
-      "company": "\ud83c\udfe2 Intel",
-      "role": "SOC Design Verification Engineer",
-      "location": "US, Colorado, For...",
+      "company": "\ud83c\udfe2 Disney",
+      "role": "Associate CAD Designer (CT)",
+      "location": "Kissimmee, FL, USA",
+      "link": "CT",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-03"
+    },
+    {
+      "company": "\ud83c\udfe2 Broadcom",
+      "role": "R&D Firmware Engineer 3",
+      "location": "CA Irvine Alton P...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
-      "cat": "DV",
+      "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-05-03"
     },
@@ -247,39 +236,6 @@
       "date_added": "2026-05-03"
     },
     {
-      "company": "\ud83c\udfe2 Intel",
-      "role": "RTL Design Engineer",
-      "location": "Texas Austin + 2 ...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-03"
-    },
-    {
-      "company": "\ud83c\udfe2 Carrier Global",
-      "role": "Associate Field Engineer - Automated Logic (Waco, TX)",
-      "location": "CAT16: CCS-Dallas...",
-      "link": "Waco, TX",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-03"
-    },
-    {
-      "company": "\ud83c\udfe2 NXP",
-      "role": "SoC Validation Engineer",
-      "location": "Austin",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-03"
-    },
-    {
       "company": "\ud83c\udfe2 NVIDIA",
       "role": "ASIC Verification Engineer",
       "location": "US, CA, Santa Clara",
@@ -302,6 +258,17 @@
       "date_added": "2026-05-03"
     },
     {
+      "company": "\ud83c\udfe2 NXP",
+      "role": "SoC Validation Engineer",
+      "location": "Austin",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-03"
+    },
+    {
       "company": "\ud83c\udfe2 Moog",
       "role": "Associate Product Engineer",
       "location": "Buffalo, NY",
@@ -313,10 +280,32 @@
       "date_added": "2026-05-03"
     },
     {
+      "company": "\ud83c\udfe2 Intel",
+      "role": "RTL Design Engineer",
+      "location": "Texas Austin + 2 ...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-03"
+    },
+    {
       "company": "\ud83c\udfe2 Carrier Global",
       "role": "Associate Field Engineer",
       "location": "CAW11: ALC-Brown ...",
       "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-03"
+    },
+    {
+      "company": "\ud83c\udfe2 Carrier Global",
+      "role": "Associate Field Engineer - Automated Logic (Waco, TX)",
+      "location": "CAT16: CCS-Dallas...",
+      "link": "Waco, TX",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
@@ -456,17 +445,6 @@
       "date_added": "2026-05-03"
     },
     {
-      "company": "\ud83c\udfe2 Broadcom",
-      "role": "ASIC DFT Engineer",
-      "location": "CA San Jose Innov...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-05-03"
-    },
-    {
       "company": "\ud83c\udfe2 Medtronic",
       "role": "CAS Associate Mapping Specialist (In Training)",
       "location": "5 Locations",
@@ -474,6 +452,17 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-03"
+    },
+    {
+      "company": "\ud83c\udfe2 Broadcom",
+      "role": "ASIC DFT Engineer",
+      "location": "CA San Jose Innov...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "ASIC",
       "urgent": false,
       "date_added": "2026-05-03"
     },
@@ -5920,5 +5909,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-05-03T03:52:28.940186+00:00"
+  "last_tailored": "2026-05-03T08:08:30.569455+00:00"
 }
