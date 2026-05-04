@@ -1,9 +1,86 @@
 {
-  "updated": "2026-05-04T14:18:54.862263+00:00",
-  "total": 499,
+  "updated": "2026-05-04T19:49:16.307343+00:00",
+  "total": 500,
   "urgent_count": 12,
   "blocked_count": 0,
   "jobs": [
+    {
+      "company": "\ud83c\udfe2 General Motors",
+      "role": "Paint Process Engineer",
+      "location": "Lake Orion, Michi...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-05-04"
+    },
+    {
+      "company": "\ud83c\udfe2 Google",
+      "role": "Silicon Product Engineer",
+      "location": "United States",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-04"
+    },
+    {
+      "company": "\ud83c\udfe2 Google",
+      "role": "Hardware Engineer",
+      "location": "United States",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-04"
+    },
+    {
+      "company": "\ud83c\udfe2 Applied Materials",
+      "role": "Process Engineer",
+      "location": "Santa Clara,CA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-05-04"
+    },
+    {
+      "company": "\ud83c\udfe2 Bosch Group",
+      "role": "Electrical Engineer",
+      "location": "Fort Lauderdale, FL",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-04"
+    },
+    {
+      "company": "\ud83c\udfe2 ASML",
+      "role": "Process Engineer, CNC Automation",
+      "location": "Wilton, CT, USA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-05-04"
+    },
+    {
+      "company": "\ud83c\udfe2 Johnson & Johnson",
+      "role": "Electrical Engineer",
+      "location": "2 Locations",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-04"
+    },
     {
       "company": "\ud83c\udfe2 Apple",
       "role": "CPU Physical Design and Integration Engineer",
@@ -126,13 +203,24 @@
       "date_added": "2026-05-04"
     },
     {
-      "company": "\ud83c\udfe2 Cisco",
-      "role": "Hardware Engineer (High-speed IO/Testing) (Onsite)",
-      "location": "San Jose, Califor...",
-      "link": "High-speed IO/Testing",
+      "company": "\ud83c\udfe2 Google",
+      "role": "Firmware Engineer, Modem NAS Protocol and Emergency Call Performance Improvement",
+      "location": "United States",
+      "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
-      "cat": "HW",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-05-04"
+    },
+    {
+      "company": "\ud83c\udfe2 AMD",
+      "role": "Memory Firmware Engineer",
+      "location": "Rochester, NY, Un...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "Analog",
       "urgent": false,
       "date_added": "2026-05-04"
     },
@@ -149,9 +237,9 @@
     },
     {
       "company": "\ud83c\udfe2 SpaceX",
-      "role": "Manager, ASIC Design Engineering (Starshield Satellite Engineering)",
+      "role": "Manager, ASIC Design Engineering (Starshield Silicon)",
       "location": "Hawthorne, CA",
-      "link": "Starshield Satellite Engineering",
+      "link": "Starshield Silicon",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "ASIC",
@@ -423,17 +511,6 @@
       "date_added": "2026-05-04"
     },
     {
-      "company": "\ud83c\udfe2 AMD",
-      "role": "FPGA Design Engineer (Timing)",
-      "location": "San Jose, CA, Uni...",
-      "link": "Timing",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-05-04"
-    },
-    {
       "company": "\ud83c\udfe2 Johnson & Johnson",
       "role": "Firmware Engineer",
       "location": "Cincinnati, Ohio,...",
@@ -485,17 +562,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
       "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-04"
-    },
-    {
-      "company": "\ud83c\udfe2 Google",
-      "role": "ASIC Design Verification Engineer, Platforms and Devices",
-      "location": "United States",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "DV",
       "urgent": false,
       "date_added": "2026-05-04"
     },
@@ -573,28 +639,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-05-04"
-    },
-    {
-      "company": "\ud83c\udfe2 Motional",
-      "role": "Associate Vehicle Test Specialist",
-      "location": "Las Vegas, Nevada...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-04"
-    },
-    {
-      "company": "\ud83c\udfe2 LG Electronics",
-      "role": "Production Engineer Associate",
-      "location": "Clarksville, TN",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
       "urgent": false,
       "date_added": "2026-05-04"
     },
@@ -694,17 +738,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-05-04"
-    },
-    {
-      "company": "\ud83c\udfe2 Google",
-      "role": "HSIO Validation Engineer, Silicon",
-      "location": "United States",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
       "urgent": false,
       "date_added": "2026-05-04"
     },
@@ -1657,8 +1690,8 @@
     {
       "company": "Tenstorrent",
       "role": "Sr. Engineer, Software - AI Compiler",
-      "location": "Belgrade, Serbia",
-      "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/4465063007",
+      "location": "Austin, Texas, United States; Santa Clara, California, United States; Toronto, Ontario, Canada",
+      "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/4723582007",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -1681,17 +1714,6 @@
       "role": "Sr. Software Engineer, AI Compiler",
       "location": "Toronto, Ontario, Canada",
       "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/4116462007",
-      "source": "Greenhouse",
-      "sponsor": "open",
-      "cat": "SW",
-      "urgent": false,
-      "date_added": "2026-05-04"
-    },
-    {
-      "company": "Tenstorrent",
-      "role": "Sr. Software Engineer, Observability and Telemetry",
-      "location": "Austin, Texas, United States; Santa Clara, California, United States; Toronto, Ontario, Canada",
-      "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/5073848007",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -1734,8 +1756,8 @@
     {
       "company": "Tenstorrent",
       "role": "Sr Staff Engineer, CPU System Microarchitect",
-      "location": "Bengaluru, Karnataka, India",
-      "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/5066674007",
+      "location": "Austin, Texas, United States",
+      "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/4836350007",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -3604,8 +3626,8 @@
     {
       "company": "Verkada",
       "role": "Sales Strategy and Operations Division Lead",
-      "location": "Austin, TX United States",
-      "link": "https://job-boards.greenhouse.io/verkada/jobs/4964446007",
+      "location": "Salt Lake City, UT United States",
+      "link": "https://job-boards.greenhouse.io/verkada/jobs/4613974007",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -3738,6 +3760,17 @@
       "role": "Senior Frontend Engineer - Web Platform",
       "location": "San Mateo, CA United States",
       "link": "https://job-boards.greenhouse.io/verkada/jobs/5102734007",
+      "source": "Greenhouse",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-04"
+    },
+    {
+      "company": "Verkada",
+      "role": "Senior Fullstack Engineer - New Product",
+      "location": "San Mateo, CA United States",
+      "link": "https://job-boards.greenhouse.io/verkada/jobs/5126612007",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -3955,17 +3988,6 @@
     },
     {
       "company": "Verkada",
-      "role": "Sr Channel Sales Manager, Midwest",
-      "location": "Chicago, IL United States; Michigan, United States; Minneapolis, MN United States; Wisconsin, United States",
-      "link": "https://job-boards.greenhouse.io/verkada/jobs/5023333007",
-      "source": "Greenhouse",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-04"
-    },
-    {
-      "company": "Verkada",
       "role": "(Sr.) Manager, Strategic Finance & Business Operations - Marketing",
       "location": "San Mateo, CA United States",
       "link": "https://job-boards.greenhouse.io/verkada/jobs/4855766007",
@@ -4077,8 +4099,8 @@
     {
       "company": "Verkada",
       "role": "Tradeshow Associate",
-      "location": "Phoenix, AZ United States",
-      "link": "https://job-boards.greenhouse.io/verkada/jobs/5111789007",
+      "location": "Philadelphia, PA United States",
+      "link": "https://job-boards.greenhouse.io/verkada/jobs/5111788007",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -4605,8 +4627,8 @@
     {
       "company": "Samsara",
       "role": "Senior Data Platform Engineer",
-      "location": "Remote - US",
-      "link": "https://www.samsara.com/company/careers/roles/7266657?gh_jid=7266657",
+      "location": "Remote - Canada",
+      "link": "https://www.samsara.com/company/careers/roles/7266961?gh_jid=7266961",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -4660,8 +4682,8 @@
     {
       "company": "Samsara",
       "role": "Senior Machine Learning Engineer - Platform",
-      "location": "Remote - Canada",
-      "link": "https://www.samsara.com/company/careers/roles/7315656?gh_jid=7315656",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7266471?gh_jid=7266471",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -4671,8 +4693,8 @@
     {
       "company": "Samsara",
       "role": "Senior Manager, Safety AI",
-      "location": "Remote - US",
-      "link": "https://www.samsara.com/company/careers/roles/7731751?gh_jid=7731751",
+      "location": "Remote - Canada",
+      "link": "https://www.samsara.com/company/careers/roles/7782752?gh_jid=7782752",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -4682,8 +4704,8 @@
     {
       "company": "Samsara",
       "role": "Senior Mobile Software Engineer - BLE / Connectivity",
-      "location": "Remote - Canada",
-      "link": "https://www.samsara.com/company/careers/roles/7392436?gh_jid=7392436",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7266447?gh_jid=7266447",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -5069,17 +5091,6 @@
       "role": "Electrical Engineer (Hardware Design)",
       "location": "Los Angeles, CA (On-site)",
       "link": "https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7688763003",
-      "source": "Greenhouse",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-04"
-    },
-    {
-      "company": "Freeform",
-      "role": "Electrical Engineer (New Grad Summer 2026)",
-      "location": "Los Angeles, CA (On-site)",
-      "link": "https://job-boards.greenhouse.io/freeformfuturecorp/jobs/7631560003",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -5502,5 +5513,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-05-04T14:19:02.532430+00:00"
+  "last_tailored": "2026-05-04T19:49:24.083293+00:00"
 }
