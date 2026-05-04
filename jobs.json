@@ -1,13 +1,35 @@
 {
-  "updated": "2026-05-04T08:38:32.520511+00:00",
-  "total": 496,
+  "updated": "2026-05-04T14:18:54.862263+00:00",
+  "total": 499,
   "urgent_count": 12,
   "blocked_count": 0,
   "jobs": [
     {
-      "company": "\ud83c\udfe2 Applied Intuition",
-      "role": "Robotic Hardware Engineer",
-      "location": "Fort Walton Beach...",
+      "company": "\ud83c\udfe2 Apple",
+      "role": "CPU Physical Design and Integration Engineer",
+      "location": "Santa Clara",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-05-04"
+    },
+    {
+      "company": "\ud83c\udfe2 Apple",
+      "role": "Formal Verification - AI/ML Engineer",
+      "location": "Austin",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "DV",
+      "urgent": false,
+      "date_added": "2026-05-04"
+    },
+    {
+      "company": "\ud83c\udfe2 AES Corporation",
+      "role": "Electrical Engineer, Metering",
+      "location": "US, Dayton, OH",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -16,12 +38,23 @@
       "date_added": "2026-05-04"
     },
     {
-      "company": "\ud83c\udfe2 Apple",
-      "role": "Hardware Engineering Internships",
-      "location": "United States",
+      "company": "\ud83c\udfe2 GE Vernova",
+      "role": "Electrical Engineering Technician",
+      "location": "Rochester",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-04"
+    },
+    {
+      "company": "\ud83c\udfe2 Applied Intuition",
+      "role": "Robotic Hardware Engineer",
+      "location": "Fort Walton Beach...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-05-04"
@@ -5469,5 +5502,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-05-04T08:38:42.322525+00:00"
+  "last_tailored": "2026-05-04T14:19:02.532430+00:00"
 }
