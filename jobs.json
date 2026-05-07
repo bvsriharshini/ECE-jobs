@@ -1,9 +1,42 @@
 {
-  "updated": "2026-05-07T14:32:39.977153+00:00",
-  "total": 469,
+  "updated": "2026-05-07T19:48:52.954374+00:00",
+  "total": 466,
   "urgent_count": 14,
   "blocked_count": 0,
   "jobs": [
+    {
+      "company": "\ud83c\udfe2 Western Digital",
+      "role": "EDA- CAD Engineer",
+      "location": "San Jose, CA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-07"
+    },
+    {
+      "company": "\ud83c\udfe2 Microsoft",
+      "role": "Critical Environment Electrical Engineer",
+      "location": "Milwaukee, Wiscon...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-07"
+    },
+    {
+      "company": "\ud83c\udfe2 Graphcore",
+      "role": "Electrical Engineer",
+      "location": "Austin, Texas, Un...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-07"
+    },
     {
       "company": "\ud83c\udfe2 Astera Labs",
       "role": "Physical Design Engineer (Place & Route)",
@@ -12,6 +45,17 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-05-07"
+    },
+    {
+      "company": "\ud83c\udfe2 Amazon Kuiper Manufacturing Enterprises LLC",
+      "role": "Satellite Systems Engineer, Amazon Leo - Avionics Verification and Test",
+      "location": "Redmond, WA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "DV",
       "urgent": false,
       "date_added": "2026-05-07"
     },
@@ -100,39 +144,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-07"
-    },
-    {
-      "company": "\ud83c\udfe2 Robinhood",
-      "role": "Applications Engineer, Corporate Systems",
-      "location": "Menlo Park, CA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-07"
-    },
-    {
-      "company": "\ud83c\udfe2 Tenstorrent",
-      "role": "Advanced Packaging Process Engineer",
-      "location": "Santa Clara, Cali...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-05-07"
-    },
-    {
-      "company": "\ud83c\udfe2 General Motors",
-      "role": "General Assembly Process Engineer",
-      "location": "Spring Hill, Tenn...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "ASIC",
       "urgent": false,
       "date_added": "2026-05-07"
     },
@@ -324,6 +335,17 @@
       "date_added": "2026-05-07"
     },
     {
+      "company": "\ud83c\udfe2 AMD",
+      "role": "RTL Design Engineer - Memory/PHY (DDR/PHY)",
+      "location": "Austin, TX, Unite...",
+      "link": "DDR/PHY",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "Analog",
+      "urgent": false,
+      "date_added": "2026-05-07"
+    },
+    {
       "company": "\ud83c\udfe2 Globus Medical",
       "role": "Associate Quality Engineer",
       "location": "Eagleville, PA",
@@ -379,17 +401,6 @@
       "date_added": "2026-05-07"
     },
     {
-      "company": "\ud83c\udfe2 AMD",
-      "role": "RTL Design Engineer",
-      "location": "San Jose, CA, Uni...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-07"
-    },
-    {
       "company": "\ud83c\udfe2 Belvedere Trading",
       "role": "FPGA Engineer",
       "location": "Chicago, Illinois",
@@ -407,17 +418,6 @@
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-07"
-    },
-    {
-      "company": "\ud83c\udfe2 Google",
-      "role": "RTL Design Engineer, TPU and ML, PhD Graduate",
-      "location": "United States",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-05-07"
@@ -500,17 +500,6 @@
       "date_added": "2026-05-07"
     },
     {
-      "company": "\ud83c\udfe2 Anduril",
-      "role": "Embedded Linux Engineer",
-      "location": "Costa Mesa, Calif...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-05-07"
-    },
-    {
       "company": "\ud83c\udfe2 Apple",
       "role": "Analog Mixed Signal IP Post Silicon Validation",
       "location": "San Francisco Bay...",
@@ -518,17 +507,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
       "cat": "Analog",
-      "urgent": false,
-      "date_added": "2026-05-07"
-    },
-    {
-      "company": "\ud83c\udfe2 Apple",
-      "role": "Silicon Validation Engineer",
-      "location": "San Francisco Bay...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
       "urgent": false,
       "date_added": "2026-05-07"
     },
@@ -3009,9 +2987,9 @@
     },
     {
       "company": "Verkada",
-      "role": "Engineering Manager, Quality & Test Engineering, Cameras",
+      "role": "Eng Manager, Quality & Test Engineering, Cameras",
       "location": "San Mateo, CA United States",
-      "link": "https://job-boards.greenhouse.io/verkada/jobs/5083166007",
+      "link": "https://job-boards.greenhouse.io/verkada/jobs/5131729007",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -3385,7 +3363,7 @@
       "company": "Verkada",
       "role": "Senior Embedded Engineer - Connectivity",
       "location": "San Mateo, CA United States",
-      "link": "https://job-boards.greenhouse.io/verkada/jobs/5122028007",
+      "link": "https://job-boards.greenhouse.io/verkada/jobs/5131735007",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "FPGA",
@@ -3450,8 +3428,8 @@
     {
       "company": "Verkada",
       "role": "Senior Product Counsel",
-      "location": "Austin, TX United States",
-      "link": "https://job-boards.greenhouse.io/verkada/jobs/5082756007",
+      "location": "San Mateo, CA United States",
+      "link": "https://job-boards.greenhouse.io/verkada/jobs/5082376007",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -3769,8 +3747,8 @@
     {
       "company": "Verkada",
       "role": "Tradeshow Associate",
-      "location": "Philadelphia, PA United States",
-      "link": "https://job-boards.greenhouse.io/verkada/jobs/5111788007",
+      "location": "Salt Lake City, UT United States",
+      "link": "https://job-boards.greenhouse.io/verkada/jobs/5111794007",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -3791,8 +3769,8 @@
     {
       "company": "Samsara",
       "role": "AI Engineer",
-      "location": "Remote - Canada",
-      "link": "https://www.samsara.com/company/careers/roles/7589442?gh_jid=7589442",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7491153?gh_jid=7491153",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -4044,8 +4022,8 @@
     {
       "company": "Samsara",
       "role": "Manager, Software Engineering (Platform Reports)",
-      "location": "Remote - UK",
-      "link": "https://www.samsara.com/company/careers/roles/7345839?gh_jid=7345839",
+      "location": "Remote - Poland",
+      "link": "https://www.samsara.com/company/careers/roles/7266585?gh_jid=7266585",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -4055,8 +4033,8 @@
     {
       "company": "Samsara",
       "role": "Manager, WW Planning",
-      "location": "Remote - Canada",
-      "link": "https://www.samsara.com/company/careers/roles/7680056?gh_jid=7680056",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7662771?gh_jid=7662771",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -4110,8 +4088,8 @@
     {
       "company": "Samsara",
       "role": "Product Support Engineer",
-      "location": "London - UK2; Remote - UK",
-      "link": "https://www.samsara.com/company/careers/roles/7852362?gh_jid=7852362",
+      "location": "Remote - Mexico",
+      "link": "https://www.samsara.com/company/careers/roles/7782002?gh_jid=7782002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -4275,8 +4253,8 @@
     {
       "company": "Samsara",
       "role": "Senior AI Platform Engineer",
-      "location": "Remote - FL",
-      "link": "https://www.samsara.com/company/careers/roles/7839093?gh_jid=7839093",
+      "location": "Remote - Canada",
+      "link": "https://www.samsara.com/company/careers/roles/7891766?gh_jid=7891766",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -4318,20 +4296,9 @@
     },
     {
       "company": "Samsara",
-      "role": "Senior Machine Learning Engineer - Edge AI",
-      "location": "Remote - US",
-      "link": "https://www.samsara.com/company/careers/roles/7327168?gh_jid=7327168",
-      "source": "Greenhouse",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-07"
-    },
-    {
-      "company": "Samsara",
       "role": "Senior Machine Learning Engineer - Platform",
-      "location": "Remote - Canada",
-      "link": "https://www.samsara.com/company/careers/roles/7315656?gh_jid=7315656",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7266471?gh_jid=7266471",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -4341,8 +4308,8 @@
     {
       "company": "Samsara",
       "role": "Senior Manager, Safety AI",
-      "location": "Remote - US",
-      "link": "https://www.samsara.com/company/careers/roles/7731751?gh_jid=7731751",
+      "location": "Remote - Canada",
+      "link": "https://www.samsara.com/company/careers/roles/7782752?gh_jid=7782752",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -4352,8 +4319,8 @@
     {
       "company": "Samsara",
       "role": "Senior Mobile Software Engineer - BLE / Connectivity",
-      "location": "Remote - Canada",
-      "link": "https://www.samsara.com/company/careers/roles/7392436?gh_jid=7392436",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7266447?gh_jid=7266447",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -4528,8 +4495,8 @@
     {
       "company": "Samsara",
       "role": "Staff Machine Learning Engineer - Edge AI",
-      "location": "Remote - Canada",
-      "link": "https://www.samsara.com/company/careers/roles/7431070?gh_jid=7431070",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7266357?gh_jid=7266357",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -4605,8 +4572,8 @@
     {
       "company": "Samsara",
       "role": "Staff Software Engineer - Security & Privacy",
-      "location": "Remote - Canada",
-      "link": "https://www.samsara.com/company/careers/roles/7589637?gh_jid=7589637",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7559244?gh_jid=7559244",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -4638,8 +4605,8 @@
     {
       "company": "Samsara",
       "role": "Technical Account Manager",
-      "location": "Remote - Mexico",
-      "link": "https://www.samsara.com/company/careers/roles/7702042?gh_jid=7702042",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7763623?gh_jid=7763623",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -5172,5 +5139,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-05-07T14:32:48.388583+00:00"
+  "last_tailored": "2026-05-07T19:48:59.230151+00:00"
 }
