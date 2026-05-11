@@ -1,9 +1,31 @@
 {
-  "updated": "2026-05-11T09:52:56.687472+00:00",
+  "updated": "2026-05-11T15:26:40.824897+00:00",
   "total": 502,
   "urgent_count": 13,
   "blocked_count": 0,
   "jobs": [
+    {
+      "company": "\ud83c\udfe2 Apple",
+      "role": "Graphics Post silicon Test & Methodology Engineer",
+      "location": "Austin",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-11"
+    },
+    {
+      "company": "\ud83c\udfe2 Apple",
+      "role": "CPU Design Verification Engineer",
+      "location": "Cambridge",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "DV",
+      "urgent": false,
+      "date_added": "2026-05-11"
+    },
     {
       "company": "\ud83c\udfe2 Voyant Photonics",
       "role": "Photonic Layout Engineer",
@@ -160,34 +182,23 @@
     },
     {
       "company": "\ud83c\udfe2 Graphcore",
+      "role": "Silicon Verification Engineer",
+      "location": "Bristol, UK; Camb...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "DV",
+      "urgent": false,
+      "date_added": "2026-05-11"
+    },
+    {
+      "company": "\ud83c\udfe2 Graphcore",
       "role": "DFT Engineer",
       "location": "Bristol, UK; Camb...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-05-11"
-    },
-    {
-      "company": "\ud83c\udfe2 Graphcore",
-      "role": "Graduate Electrical Engineer",
-      "location": "Milpitas",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-11"
-    },
-    {
-      "company": "\ud83c\udfe2 Freeform",
-      "role": "Electrical Engineer (Hardware Design)",
-      "location": "Los Angeles, CA (...",
-      "link": "Hardware Design",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
       "urgent": false,
       "date_added": "2026-05-11"
     },
@@ -325,23 +336,23 @@
     },
     {
       "company": "\ud83c\udfe2 Jane Street",
-      "role": "FPGA Engineer",
-      "location": "New York, New Yor...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-05-11"
-    },
-    {
-      "company": "\ud83c\udfe2 Jane Street",
       "role": "ASIC Engineer",
       "location": "New York, New Yor...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-11"
+    },
+    {
+      "company": "\ud83c\udfe2 Jane Street",
+      "role": "FPGA Engineer",
+      "location": "New York, New Yor...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-05-11"
     },
@@ -925,17 +936,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
       "cat": "Analog",
-      "urgent": false,
-      "date_added": "2026-05-11"
-    },
-    {
-      "company": "\ud83c\udfe2 Google",
-      "role": "Hardware Validation Engineer, Networking and Signal Integrity, Platforms",
-      "location": "United States",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
       "urgent": false,
       "date_added": "2026-05-11"
     },
@@ -1811,8 +1811,8 @@
     {
       "company": "Tenstorrent",
       "role": "Sr. Engineer, Software - AI Compiler",
-      "location": "Belgrade, Serbia",
-      "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/4465063007",
+      "location": "Austin, Texas, United States; Santa Clara, California, United States; Toronto, Ontario, Canada",
+      "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/4723582007",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -1888,8 +1888,8 @@
     {
       "company": "Tenstorrent",
       "role": "Sr Staff Engineer, CPU System Microarchitect",
-      "location": "Austin, Texas, United States",
-      "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/4836350007",
+      "location": "Bengaluru, Karnataka, India",
+      "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/5066674007",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -1945,17 +1945,6 @@
       "role": "Sr. Staff RTL Engineer, Automotive Robotics",
       "location": "Munich, Germany",
       "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/5064105007",
-      "source": "Greenhouse",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-11"
-    },
-    {
-      "company": "Tenstorrent",
-      "role": "Staff Business Applications Engineer, IT",
-      "location": "United States",
-      "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/5044113007",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2262,8 +2251,8 @@
     {
       "company": "Lightmatter",
       "role": "Chip Architecture Leader",
-      "location": "Toronto, ON",
-      "link": "https://boards.greenhouse.io/lightmatter/jobs/4967969008?gh_jid=4967969008",
+      "location": "Boston, MA; Mountain View, CA",
+      "link": "https://boards.greenhouse.io/lightmatter/jobs/4967967008?gh_jid=4967967008",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2539,6 +2528,17 @@
       "role": "Staff Photonics Design and Layout Engineer",
       "location": "Boston, MA; Mountain View, CA",
       "link": "https://boards.greenhouse.io/lightmatter/jobs/4825153008?gh_jid=4825153008",
+      "source": "Greenhouse",
+      "sponsor": "open",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-05-11"
+    },
+    {
+      "company": "Lightmatter",
+      "role": "Staff Physical Design Engineer",
+      "location": "Mountain View, CA",
+      "link": "https://boards.greenhouse.io/lightmatter/jobs/5057578008?gh_jid=5057578008",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "ASIC",
@@ -5535,5 +5535,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-05-11T09:53:03.844593+00:00"
+  "last_tailored": "2026-05-11T15:26:49.513377+00:00"
 }
