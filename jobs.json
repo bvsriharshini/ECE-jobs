@@ -1,12 +1,23 @@
 {
-  "updated": "2026-05-21T04:18:17.740418+00:00",
+  "updated": "2026-05-21T09:55:01.316334+00:00",
   "total": 505,
   "urgent_count": 14,
   "blocked_count": 0,
   "jobs": [
     {
       "company": "Google",
-      "role": "Silicon Reliability Engineer",
+      "role": "Hardware Engineer",
+      "location": "United States",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-21"
+    },
+    {
+      "company": "Google",
+      "role": "Silicon Product Engineer",
       "location": "United States",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
@@ -149,29 +160,29 @@
     },
     {
       "company": "Google",
-      "role": "Firmware Engineer, Modem NAS Protocol...",
-      "location": "United States",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-05-21"
-    },
-    {
-      "company": "Google",
-      "role": "Firmware Engineer III, Wireless Data ...",
-      "location": "United States",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-05-21"
-    },
-    {
-      "company": "Google",
       "role": "RTL Design Engineer, Machine Learning...",
+      "location": "United States",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-21"
+    },
+    {
+      "company": "Google",
+      "role": "RTL Design Engineer, Machine Learning",
+      "location": "United States",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-21"
+    },
+    {
+      "company": "Google",
+      "role": "TPU SoC Design Engineer, Cloud",
       "location": "United States",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
@@ -1381,17 +1392,6 @@
     },
     {
       "company": "Tenstorrent",
-      "role": "Program Manager",
-      "location": "Japan",
-      "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/4663596007",
-      "source": "Greenhouse",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-21"
-    },
-    {
-      "company": "Tenstorrent",
       "role": "Recruiting Coordinator (Contract)",
       "location": "North America",
       "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/4427020007",
@@ -1656,6 +1656,17 @@
     },
     {
       "company": "Tenstorrent",
+      "role": "Software Engineer, TT-Fabric ",
+      "location": "Austin, Texas, United States; Santa Clara, California, United States; Toronto, Ontario, Canada",
+      "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/4645584007",
+      "source": "Greenhouse",
+      "sponsor": "open",
+      "cat": "SW",
+      "urgent": false,
+      "date_added": "2026-05-21"
+    },
+    {
+      "company": "Tenstorrent",
       "role": "Sr. Engineer, Ethernet IP",
       "location": "Santa Clara, California, United States; Vancouver, British Columbia, Canada",
       "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/4722600007",
@@ -1712,8 +1723,8 @@
     {
       "company": "Tenstorrent",
       "role": "Sr. Engineer, Software - AI Compiler",
-      "location": "Belgrade, Serbia",
-      "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/4465063007",
+      "location": "Austin, Texas, United States; Santa Clara, California, United States; Toronto, Ontario, Canada",
+      "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/4723582007",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -2998,17 +3009,6 @@
     },
     {
       "company": "IMC Trading",
-      "role": "HR Business Partner",
-      "location": "Mumbai, India",
-      "link": "https://job-boards.eu.greenhouse.io/imc/jobs/4694125101",
-      "source": "Greenhouse",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-21"
-    },
-    {
-      "company": "IMC Trading",
       "role": "Junior\u00a0Compliance Officer",
       "location": "Zug, Switzerland",
       "link": "https://job-boards.eu.greenhouse.io/imc/jobs/4816368101",
@@ -3153,8 +3153,8 @@
     {
       "company": "Verkada",
       "role": "Associate, Pricing & Commercial Operations",
-      "location": "New York City, NY United States",
-      "link": "https://job-boards.greenhouse.io/verkada/jobs/5130977007",
+      "location": "San Mateo, CA United States",
+      "link": "https://job-boards.greenhouse.io/verkada/jobs/4945957007",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -3604,8 +3604,8 @@
     {
       "company": "Verkada",
       "role": "Sales Strategy and Operations Division Lead",
-      "location": "Austin, TX United States",
-      "link": "https://job-boards.greenhouse.io/verkada/jobs/4964446007",
+      "location": "Tampa, FL United States",
+      "link": "https://job-boards.greenhouse.io/verkada/jobs/5127722007",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -3780,8 +3780,8 @@
     {
       "company": "Verkada",
       "role": "Senior Product Counsel",
-      "location": "Austin, TX United States",
-      "link": "https://job-boards.greenhouse.io/verkada/jobs/5082756007",
+      "location": "San Mateo, CA United States",
+      "link": "https://job-boards.greenhouse.io/verkada/jobs/5082376007",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -4067,7 +4067,7 @@
       "company": "Verkada",
       "role": "Staff Software Engineer - Detection and Response Platform",
       "location": "San Mateo, CA United States",
-      "link": "https://job-boards.greenhouse.io/verkada/jobs/4441764007",
+      "link": "https://job-boards.greenhouse.io/verkada/jobs/5143766007",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -5568,5 +5568,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-05-21T04:18:24.515902+00:00"
+  "last_tailored": "2026-05-21T09:55:08.765926+00:00"
 }
