@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-23T13:53:17.592807+00:00",
-  "total": 506,
+  "updated": "2026-05-23T19:23:28.589824+00:00",
+  "total": 509,
   "urgent_count": 11,
   "blocked_count": 0,
   "jobs": [
@@ -16,13 +16,24 @@
       "date_added": "2026-05-23"
     },
     {
-      "company": "Google",
-      "role": "Hardware Engineer",
-      "location": "United States",
+      "company": "Varda Space",
+      "role": "Applications Engineering Internship",
+      "location": "El Segundo, CA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-23"
+    },
+    {
+      "company": "Cirrus Logic",
+      "role": "Co-op - Design Verification Engineer",
+      "location": "Austin, TX",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
-      "cat": "HW",
+      "cat": "DV",
       "urgent": false,
       "date_added": "2026-05-23"
     },
@@ -38,28 +49,6 @@
       "date_added": "2026-05-23"
     },
     {
-      "company": "Cirrus Logic",
-      "role": "Co-Op - Design Verification Engineer",
-      "location": "Chandler, AZ",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-05-23"
-    },
-    {
-      "company": "Varda Space",
-      "role": "Applications Engineering Internship",
-      "location": "El Segundo, CA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-23"
-    },
-    {
       "company": "Ambarella",
       "role": "Verification Engineer Intern",
       "location": "United States",
@@ -67,6 +56,17 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "DV",
+      "urgent": false,
+      "date_added": "2026-05-23"
+    },
+    {
+      "company": "Crane Co.",
+      "role": "Hardware Engineering Intern",
+      "location": "Burbank, CA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-05-23"
     },
@@ -104,6 +104,50 @@
       "date_added": "2026-05-23"
     },
     {
+      "company": "Takeda",
+      "role": "Quality Control Analyst I",
+      "location": "Brooklyn Park, MN",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-23"
+    },
+    {
+      "company": "Thermo Fisher Scientific",
+      "role": "Operations Process Engineer II",
+      "location": "Cincinnati, Ohio,...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-05-23"
+    },
+    {
+      "company": "Thermo Fisher Scientific",
+      "role": "Manufacturing Process Engineer",
+      "location": "Cincinnati, Ohio,...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-05-23"
+    },
+    {
+      "company": "Google",
+      "role": "Firmware Engineer III, Wireless Data ...",
+      "location": "United States",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-05-23"
+    },
+    {
       "company": "Google",
       "role": "RTL Design Engineer, Machine Learning...",
       "location": "United States",
@@ -126,17 +170,6 @@
       "date_added": "2026-05-23"
     },
     {
-      "company": "Google",
-      "role": "TPU SoC Design Engineer, Cloud",
-      "location": "United States",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-23"
-    },
-    {
       "company": "Ambarella",
       "role": "ASIC Design Engineer Intern",
       "location": "United States",
@@ -148,9 +181,9 @@
       "date_added": "2026-05-23"
     },
     {
-      "company": "Avnet",
-      "role": "Associate Field Application Engineer",
-      "location": "Hopkins, MN",
+      "company": "Vertiv",
+      "role": "Associate Product Engineer - Energy S...",
+      "location": "United States",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -159,9 +192,9 @@
       "date_added": "2026-05-23"
     },
     {
-      "company": "Vertiv",
-      "role": "Associate Product Engineer - Energy S...",
-      "location": "United States",
+      "company": "Avnet",
+      "role": "Associate Field Application Engineer",
+      "location": "Hopkins, MN",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -280,6 +313,28 @@
       "date_added": "2026-05-23"
     },
     {
+      "company": "Carrier Global",
+      "role": "Associate Field Engineer",
+      "location": "NV24: 300 E 2nd S...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-23"
+    },
+    {
+      "company": "Carrier Global",
+      "role": "Automated Logic- BAS/BMS Associate Fi...",
+      "location": "2 Locations",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-23"
+    },
+    {
       "company": "True Anomaly",
       "role": "Associate Ground & Flight Test Engine...",
       "location": "Denver, CO or Lon...",
@@ -368,17 +423,6 @@
       "date_added": "2026-05-23"
     },
     {
-      "company": "Carrier Global",
-      "role": "Associate Field Engineer",
-      "location": "NV24: 300 E 2nd S...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-23"
-    },
-    {
       "company": "Nokia",
       "role": "Firmware Engineer",
       "location": "United States",
@@ -419,6 +463,17 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-05-23"
+    },
+    {
+      "company": "Danaher",
+      "role": "Associate Field Service Engineer-Sout...",
+      "location": "4 Locations",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-05-23"
     },
@@ -478,17 +533,6 @@
       "date_added": "2026-05-23"
     },
     {
-      "company": "Danaher",
-      "role": "Associate Field Service Engineer-Sout...",
-      "location": "4 Locations",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-23"
-    },
-    {
       "company": "Axiom Space",
       "role": "Associate, Propulsion Test Engineer (...",
       "location": "Houston",
@@ -503,17 +547,6 @@
       "company": "Veolia Environnement SA",
       "role": "Associate Mechanical Engineer \u2013 (Data...",
       "location": "Fredericksburg, VA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-23"
-    },
-    {
-      "company": "KBR",
-      "role": "Associate Drafting Technician",
-      "location": "Las Cruces New Me...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -610,17 +643,6 @@
       "date_added": "2026-05-23"
     },
     {
-      "company": "Robert Bosch Venture Capital",
-      "role": "Engine / Vehicle Embedded Controls In...",
-      "location": "Southfield, MI",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-05-23"
-    },
-    {
       "company": "EquipmentShare",
       "role": "Engineering Intern - Embedded",
       "location": "Columbia, MO",
@@ -632,9 +654,20 @@
       "date_added": "2026-05-23"
     },
     {
-      "company": "Honeywell",
-      "role": "Embedded Engineer 1 New Grad",
-      "location": "St. Charles, IL",
+      "company": "Pennsylvania State University",
+      "role": "Embedded Systems and Hardware Co-Op",
+      "location": "Horsham, PA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-05-23"
+    },
+    {
+      "company": "Robert Bosch Venture Capital",
+      "role": "Engine / Vehicle Embedded Controls In...",
+      "location": "Southfield, MI",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -646,6 +679,17 @@
       "company": "Honeywell",
       "role": "Embedded Engineer 1",
       "location": "North Haven, CT",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-05-23"
+    },
+    {
+      "company": "Honeywell",
+      "role": "Embedded Engineer 1 New Grad",
+      "location": "St. Charles, IL",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -5558,17 +5602,6 @@
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-05-23"
-    },
-    {
-      "company": "M.C. Dean, Inc",
-      "role": "Project Engineer 1 - New College Grad 2025 - 2026 (E&C - York, SC)",
-      "location": "York, SC",
-      "link": "https://www.indeed.com/viewjob?jk=7989da5b658c046c",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-23"
     }
   ],
   "sources": [
@@ -5579,5 +5612,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-05-23T13:53:24.737022+00:00"
+  "last_tailored": "2026-05-23T19:24:06.531359+00:00"
 }
