@@ -1,28 +1,17 @@
 {
-  "updated": "2026-05-24T08:40:57.260811+00:00",
-  "total": 522,
+  "updated": "2026-05-24T13:52:33.873136+00:00",
+  "total": 525,
   "urgent_count": 11,
   "blocked_count": 0,
   "jobs": [
     {
       "company": "Google",
-      "role": "Silicon Product Engineer",
+      "role": "Silicon Reliability Engineer",
       "location": "United States",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
       "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-24"
-    },
-    {
-      "company": "Cirrus Logic",
-      "role": "Co-Op - Design Verification Engineer",
-      "location": "Chandler, AZ",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "DV",
       "urgent": false,
       "date_added": "2026-05-24"
     },
@@ -38,24 +27,13 @@
       "date_added": "2026-05-24"
     },
     {
-      "company": "Crane Co.",
-      "role": "Hardware Engineering Intern",
-      "location": "Burbank, CA",
+      "company": "Cirrus Logic",
+      "role": "Co-op - Design Verification Engineer",
+      "location": "Austin, TX",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-24"
-    },
-    {
-      "company": "Bio-Techne",
-      "role": "Hardware Engineering Intern",
-      "location": "San Jose, CA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
+      "sponsor": "yes",
+      "cat": "DV",
       "urgent": false,
       "date_added": "2026-05-24"
     },
@@ -82,9 +60,20 @@
       "date_added": "2026-05-24"
     },
     {
-      "company": "Varda Space",
-      "role": "Thermal Hardware Engineer - Passive &...",
-      "location": "El Segundo, CA",
+      "company": "Crane Co.",
+      "role": "Hardware Engineering Intern",
+      "location": "Burbank, CA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-24"
+    },
+    {
+      "company": "Bio-Techne",
+      "role": "Hardware Engineering Intern",
+      "location": "San Jose, CA",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -115,28 +104,6 @@
       "date_added": "2026-05-24"
     },
     {
-      "company": "Thermo Fisher Scientific",
-      "role": "Operations Process Engineer II",
-      "location": "Cincinnati, Ohio,...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-05-24"
-    },
-    {
-      "company": "Thermo Fisher Scientific",
-      "role": "Manufacturing Process Engineer",
-      "location": "Cincinnati, Ohio,...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-05-24"
-    },
-    {
       "company": "HPE (University)",
       "role": "Electrical/Hardware Engineer I",
       "location": "Spring, Texas, Un...",
@@ -148,30 +115,41 @@
       "date_added": "2026-05-24"
     },
     {
+      "company": "Takeda",
+      "role": "Quality Control Analyst I",
+      "location": "Brooklyn Park, MN",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-24"
+    },
+    {
+      "company": "Google",
+      "role": "Firmware Engineer, Modem NAS Protocol...",
+      "location": "United States",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-05-24"
+    },
+    {
+      "company": "Google",
+      "role": "Firmware Engineer III, Wireless Data ...",
+      "location": "United States",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-05-24"
+    },
+    {
       "company": "Google",
       "role": "RTL Design Engineer, Machine Learning...",
-      "location": "United States",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-24"
-    },
-    {
-      "company": "Google",
-      "role": "RTL Design Engineer, Machine Learning",
-      "location": "United States",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-24"
-    },
-    {
-      "company": "Google",
-      "role": "TPU SoC Design Engineer, Cloud",
       "location": "United States",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
@@ -194,7 +172,7 @@
     {
       "company": "Avnet",
       "role": "Associate Field Application Engineer",
-      "location": "Irvine, CA",
+      "location": "Hopkins, MN",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -379,9 +357,9 @@
       "date_added": "2026-05-24"
     },
     {
-      "company": "Intel",
-      "role": "SOC Design Verification Engineer",
-      "location": "California Santa ...",
+      "company": "Micron",
+      "role": "SOC Formal Verification Engineer, HBM",
+      "location": "Richardson, TX",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
@@ -401,9 +379,9 @@
       "date_added": "2026-05-24"
     },
     {
-      "company": "Micron",
-      "role": "SOC Formal Verification Engineer, HBM",
-      "location": "Richardson, TX",
+      "company": "Intel",
+      "role": "SOC Design Verification Engineer",
+      "location": "California Santa ...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
@@ -478,17 +456,6 @@
       "date_added": "2026-05-24"
     },
     {
-      "company": "Danaher",
-      "role": "Associate Field Service Engineer-Sout...",
-      "location": "4 Locations",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-24"
-    },
-    {
       "company": "AeroVironment",
       "role": "FPGA Engineer",
       "location": "1300 Britt Street...",
@@ -511,6 +478,17 @@
       "date_added": "2026-05-24"
     },
     {
+      "company": "Micron",
+      "role": "ASIC Engineer 2",
+      "location": "Longmont, CO",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-24"
+    },
+    {
       "company": "Micron Technology",
       "role": "ASIC Engineer 2",
       "location": "Longmont, CO",
@@ -522,12 +500,12 @@
       "date_added": "2026-05-24"
     },
     {
-      "company": "Micron",
-      "role": "ASIC Engineer 2",
-      "location": "Longmont, CO",
+      "company": "Danaher",
+      "role": "Associate Field Service Engineer-Sout...",
+      "location": "4 Locations",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
+      "sponsor": "open",
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-05-24"
@@ -555,17 +533,6 @@
       "date_added": "2026-05-24"
     },
     {
-      "company": "GDIT",
-      "role": "Production Analyst Associate",
-      "location": "USA CT Pawcatuck",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-24"
-    },
-    {
       "company": "Veolia Environnement SA",
       "role": "Associate Mechanical Engineer \u2013 (Data...",
       "location": "Fredericksburg, VA",
@@ -584,6 +551,17 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-05-24"
+    },
+    {
+      "company": "GDIT",
+      "role": "Production Analyst Associate",
+      "location": "USA CT Pawcatuck",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-05-24"
     },
@@ -760,6 +738,17 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-05-24"
+    },
+    {
+      "company": "Google",
+      "role": "Silicon Validation Engineer, HBM, Goo...",
+      "location": "United States",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-05-24"
     },
@@ -5582,6 +5571,17 @@
       "date_added": "2026-05-24"
     },
     {
+      "company": "FAR Inspections",
+      "role": "Self-Directed Vacancy Status Operator",
+      "location": "Smith Center, KS",
+      "link": "https://www.indeed.com/viewjob?jk=ca1eb7a5d1d8c30e",
+      "source": "Indeed",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-24"
+    },
+    {
       "company": "JND",
       "role": "[Entry Level] Network QA Engineer - Cell Phone Network Field Testing (2605-3)",
       "location": "Englewood Cliffs, NJ 07632",
@@ -5593,10 +5593,10 @@
       "date_added": "2026-05-24"
     },
     {
-      "company": "Stark Tech",
-      "role": "Design Engineer I",
-      "location": "Buffalo, NY 14221",
-      "link": "https://www.indeed.com/viewjob?jk=f30dcea06e1a1156",
+      "company": "VADD Construction Services",
+      "role": "Junior Electrical Project Engineer - Data Center Construction",
+      "location": "Midland, TX",
+      "link": "https://www.indeed.com/viewjob?jk=226e5dba25797b89",
       "source": "Indeed",
       "sponsor": "open",
       "cat": "HW",
@@ -5604,10 +5604,10 @@
       "date_added": "2026-05-24"
     },
     {
-      "company": "M.C. Dean, Inc",
-      "role": "Project Engineer 1 - New College Grad 2025 - 2026 (E&C - York, SC)",
-      "location": "York, SC",
-      "link": "https://www.indeed.com/viewjob?jk=7989da5b658c046c",
+      "company": "QE Solar",
+      "role": "Field Services Engineer",
+      "location": "Buffalo, NY",
+      "link": "https://www.indeed.com/viewjob?jk=93fce095afb9b65d",
       "source": "Indeed",
       "sponsor": "open",
       "cat": "HW",
@@ -5648,10 +5648,10 @@
       "date_added": "2026-05-24"
     },
     {
-      "company": "Vertilite Inc.",
-      "role": "Research scientist InP laser designer",
-      "location": "San Jose, CA 95131",
-      "link": "https://www.indeed.com/viewjob?jk=fcf6e5dc64d966bb",
+      "company": "Resolut Group",
+      "role": "Commissioning Engineer (Engineer I)",
+      "location": "Salt Lake City, UT 84107",
+      "link": "https://www.indeed.com/viewjob?jk=19045b67839cca2b",
       "source": "Indeed",
       "sponsor": "open",
       "cat": "HW",
@@ -5663,17 +5663,6 @@
       "role": "Electrical / Electronics Hardware Design Engineer",
       "location": "Fort Worth, TX 76118",
       "link": "https://www.indeed.com/viewjob?jk=53e2bd6f4c7ef7e4",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-24"
-    },
-    {
-      "company": "Elemental Scientific Inc",
-      "role": "Semiconductor Engineer (Albany, NY)",
-      "location": "Albany, NY 12244",
-      "link": "https://www.indeed.com/viewjob?jk=6dc36da27fd0712c",
       "source": "Indeed",
       "sponsor": "open",
       "cat": "HW",
@@ -5703,17 +5692,6 @@
       "date_added": "2026-05-24"
     },
     {
-      "company": "Greenlight Networks",
-      "role": "Make-Ready Engineer (Baltimore and NJ Markets)",
-      "location": "Baltimore, MD 21215",
-      "link": "https://www.indeed.com/viewjob?jk=b4f373a682bc8e9e",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-24"
-    },
-    {
       "company": "Omni One",
       "role": "Electrical Design Engineer",
       "location": "Dublin, OH 43017",
@@ -5725,10 +5703,10 @@
       "date_added": "2026-05-24"
     },
     {
-      "company": "Liberty Personnel Services, Inc, LP86994",
-      "role": "Electrical Distribution Engineer",
-      "location": "Baltimore, MD",
-      "link": "https://www.indeed.com/viewjob?jk=b20d770151dd61fa",
+      "company": "Colonial Manor Nursing Home",
+      "role": "Registered Nurse (RN) Charge Nurse",
+      "location": "Lakefield, MN 56150",
+      "link": "https://www.indeed.com/viewjob?jk=3713acf1ee7c2f60",
       "source": "Indeed",
       "sponsor": "open",
       "cat": "HW",
@@ -5736,10 +5714,65 @@
       "date_added": "2026-05-24"
     },
     {
-      "company": "Power Financial",
-      "role": "Technical Operations Engineer \u2013 Renewable Energy",
-      "location": "San Juan, PR 00902",
-      "link": "https://www.indeed.com/viewjob?jk=d5bb2c5f75411b15",
+      "company": "Clearview Girls Academy",
+      "role": "School Nurse",
+      "location": "Heron, MT 59844",
+      "link": "https://www.indeed.com/viewjob?jk=a571f091e038e54a",
+      "source": "Indeed",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-24"
+    },
+    {
+      "company": "OSF HealthCare",
+      "role": "Registered Nurse RN Med Surg",
+      "location": "Dixon, IL 61021",
+      "link": "https://www.indeed.com/viewjob?jk=b907c63f39ac7324",
+      "source": "Indeed",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-24"
+    },
+    {
+      "company": "High Desert Sports and Spine, LLC",
+      "role": "Radiologic Technologist - Fluoroscopy Specialist (F/T)",
+      "location": "Bend, OR 97702",
+      "link": "https://www.indeed.com/viewjob?jk=67f11a8772e667a1",
+      "source": "Indeed",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-24"
+    },
+    {
+      "company": "With Women Wellness",
+      "role": "Certified Nurse Midwife",
+      "location": "Manchester, CT 06040",
+      "link": "https://www.indeed.com/viewjob?jk=345567e0eda6b59c",
+      "source": "Indeed",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-24"
+    },
+    {
+      "company": "M.C. Dean, Inc",
+      "role": "Project Engineer 1 - New College Grad 2025 - 2026 (E&C - York, SC)",
+      "location": "York, SC",
+      "link": "https://www.indeed.com/viewjob?jk=7989da5b658c046c",
+      "source": "Indeed",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-24"
+    },
+    {
+      "company": "Stark Tech",
+      "role": "Design Engineer I",
+      "location": "Buffalo, NY 14221",
+      "link": "https://www.indeed.com/viewjob?jk=f30dcea06e1a1156",
       "source": "Indeed",
       "sponsor": "open",
       "cat": "HW",
@@ -5755,5 +5788,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-05-24T08:41:08.088731+00:00"
+  "last_tailored": "2026-05-24T13:52:44.279179+00:00"
 }
