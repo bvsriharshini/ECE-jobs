@@ -1,7 +1,7 @@
 {
-  "updated": "2026-05-26T10:10:13.158790+00:00",
-  "total": 506,
-  "urgent_count": 11,
+  "updated": "2026-05-26T15:55:45.713362+00:00",
+  "total": 505,
+  "urgent_count": 12,
   "blocked_count": 0,
   "jobs": [
     {
@@ -540,17 +540,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-26"
-    },
-    {
-      "company": "AMD",
-      "role": "FPGA Prototyping and Emulation Engineer",
-      "location": "San Jose, CA, Uni...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-05-26"
     },
@@ -1228,8 +1217,8 @@
     {
       "company": "Tenstorrent",
       "role": "Manager, Silicon Supplier Quality",
-      "location": "\u65b0\u5317\u5e02, New Taipei City, Taiwan",
-      "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/5136750007",
+      "location": "Toronto, Ontario, Canada",
+      "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/5097370007",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -1255,17 +1244,6 @@
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-26"
-    },
-    {
-      "company": "Tenstorrent",
-      "role": "PCB Layout Engineer",
-      "location": "Santa Clara, California, United States; Toronto, Ontario, Canada",
-      "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/5089673007",
-      "source": "Greenhouse",
-      "sponsor": "open",
-      "cat": "ASIC",
       "urgent": false,
       "date_added": "2026-05-26"
     },
@@ -1755,6 +1733,17 @@
     },
     {
       "company": "Tenstorrent",
+      "role": "Sr. Machine Learning Engineer, ML Models",
+      "location": "Toronto, Ontario, Canada",
+      "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/4822760007",
+      "source": "Greenhouse",
+      "sponsor": "open",
+      "cat": "SW",
+      "urgent": false,
+      "date_added": "2026-05-26"
+    },
+    {
+      "company": "Tenstorrent",
       "role": "Sr. Software Engineer, AI Compiler",
       "location": "Toronto, Ontario, Canada",
       "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/4116462007",
@@ -1888,8 +1877,8 @@
     {
       "company": "Tenstorrent",
       "role": "Staff Engineer, CPU Core Verification ",
-      "location": "Bengaluru, Karnataka, India",
-      "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/5140149007",
+      "location": "Austin, Texas, United States",
+      "link": "https://job-boards.greenhouse.io/tenstorrent/jobs/5115562007",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "DV",
@@ -2526,8 +2515,8 @@
     {
       "company": "Jane Street",
       "role": "ASIC Engineer",
-      "location": "London, England, United Kingdom",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8233259002",
+      "location": "New York, New York, United States",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8213653002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2548,8 +2537,8 @@
     {
       "company": "Jane Street",
       "role": "Cybersecurity Analyst",
-      "location": "Hong Kong, Hong Kong",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8441121002",
+      "location": "London, England, United Kingdom",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8072596002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2691,19 +2680,19 @@
     {
       "company": "Jane Street",
       "role": "Linux Engineer",
-      "location": "Singapore",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/5701269002",
+      "location": "New York, New York, United States",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8061059002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
-      "urgent": false,
+      "urgent": true,
       "date_added": "2026-05-26"
     },
     {
       "company": "Jane Street",
       "role": "Linux Engineering Manager",
-      "location": "London, England, United Kingdom",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/6579680002",
+      "location": "New York, New York, United States",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/5625787002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2713,8 +2702,8 @@
     {
       "company": "Jane Street",
       "role": "Machine Learning Performance Engineer",
-      "location": "London, England, United Kingdom",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/7449252002",
+      "location": "New York, New York, United States",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/7449190002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2724,8 +2713,8 @@
     {
       "company": "Jane Street",
       "role": "Machine Learning Researcher",
-      "location": "London, England, United Kingdom",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8069523002",
+      "location": "Hong Kong, Hong Kong",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8374335002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2757,8 +2746,8 @@
     {
       "company": "Jane Street",
       "role": "Production Engineer",
-      "location": "Singapore",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/5807405002",
+      "location": "New York, New York, United States",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/5108180002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2790,8 +2779,8 @@
     {
       "company": "Jane Street",
       "role": "Senior Weather Analyst/ML Researcher",
-      "location": "New York, New York, United States",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8440974002",
+      "location": "London, England, United Kingdom",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8445154002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -2801,8 +2790,8 @@
     {
       "company": "Jane Street",
       "role": "Software Engineer",
-      "location": "Hong Kong, Hong Kong",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/7582902002",
+      "location": "New York, New York, United States",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8160791002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -3045,6 +3034,17 @@
       "role": "Mid Office Associate",
       "location": "Amsterdam, Netherlands",
       "link": "https://job-boards.eu.greenhouse.io/imc/jobs/4798609101",
+      "source": "Greenhouse",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-05-26"
+    },
+    {
+      "company": "IMC Trading",
+      "role": "Mid-Office Operations Manager",
+      "location": "Chicago, United States",
+      "link": "https://job-boards.eu.greenhouse.io/imc/jobs/4874402101",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -4374,8 +4374,8 @@
     {
       "company": "Samsara",
       "role": "Manager, WW Planning",
-      "location": "Remote - US",
-      "link": "https://www.samsara.com/company/careers/roles/7662771?gh_jid=7662771",
+      "location": "Remote - Canada",
+      "link": "https://www.samsara.com/company/careers/roles/7680056?gh_jid=7680056",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -4429,8 +4429,8 @@
     {
       "company": "Samsara",
       "role": "Product Support Engineer",
-      "location": "Remote - Mexico",
-      "link": "https://www.samsara.com/company/careers/roles/7782002?gh_jid=7782002",
+      "location": "London - UK2; Remote - UK",
+      "link": "https://www.samsara.com/company/careers/roles/7852362?gh_jid=7852362",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -5558,17 +5558,6 @@
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-05-26"
-    },
-    {
-      "company": "JND",
-      "role": "[Entry Level] Network QA Engineer - Cell Phone Network Field Testing (2605-3)",
-      "location": "Englewood Cliffs, NJ 07632",
-      "link": "https://www.indeed.com/viewjob?jk=29fb239ad5f3af93",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-05-26"
     }
   ],
   "sources": [
@@ -5579,5 +5568,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-05-26T10:10:26.045202+00:00"
+  "last_tailored": "2026-05-26T15:55:54.069772+00:00"
 }
