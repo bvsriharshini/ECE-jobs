@@ -1,13 +1,24 @@
 {
-  "updated": "2026-06-01T04:55:09.913315+00:00",
-  "total": 486,
+  "updated": "2026-06-01T11:47:53.319864+00:00",
+  "total": 490,
   "urgent_count": 11,
   "blocked_count": 0,
   "jobs": [
     {
+      "company": "RTX",
+      "role": "Facilities Electrical Engineer - Desi...",
+      "location": "Andover, MA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-01"
+    },
+    {
       "company": "Cirrus Logic",
-      "role": "Co-Op - Design Verification Engineer",
-      "location": "Chandler, AZ",
+      "role": "Co-op - Design Verification Engineer",
+      "location": "Austin, TX",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
@@ -27,34 +38,12 @@
       "date_added": "2026-06-01"
     },
     {
-      "company": "Google",
-      "role": "Hardware Engineer",
-      "location": "United States",
+      "company": "Micron Technology",
+      "role": "Semiconductor Design Engineer",
+      "location": "Richardson, TX",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-01"
-    },
-    {
-      "company": "Google",
-      "role": "CPU Design Verification Engineer",
-      "location": "United States",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-06-01"
-    },
-    {
-      "company": "Takeda",
-      "role": "Quality Control Analyst I",
-      "location": "Brooklyn Park, MN",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-06-01"
@@ -71,13 +60,24 @@
       "date_added": "2026-06-01"
     },
     {
-      "company": "Micron Technology",
-      "role": "Semiconductor Design Engineer",
-      "location": "Richardson, TX",
+      "company": "Broadcom",
+      "role": "Field Applications Engineer",
+      "location": "CA San Jose Innov...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
       "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-01"
+    },
+    {
+      "company": "Broadcom",
+      "role": "Software Field Applications Engineer",
+      "location": "CA San Jose Innov...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "SW",
       "urgent": false,
       "date_added": "2026-06-01"
     },
@@ -93,12 +93,56 @@
       "date_added": "2026-06-01"
     },
     {
-      "company": "Broadcom",
-      "role": "Signal Integrity Engineer",
-      "location": "CA San Jose Innov...",
+      "company": "Takeda",
+      "role": "Quality Control Analyst I",
+      "location": "Brooklyn Park, MN",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-01"
+    },
+    {
+      "company": "Arlo",
+      "role": "Hardware Engineer",
+      "location": "Carlsbad, CA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-01"
+    },
+    {
+      "company": "CoreWeave",
+      "role": "Hardware Engineer (Metal Classic)",
+      "location": "New York, NY / Be...",
+      "link": "Metal Classic",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-01"
+    },
+    {
+      "company": "Microsoft",
+      "role": "Critical Environment Electrical Engineer",
+      "location": "Milwaukee, Wiscon...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-01"
+    },
+    {
+      "company": "Anduril",
+      "role": "Electrical Engineer",
+      "location": "Lexington, Massac...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-06-01"
@@ -116,18 +160,29 @@
     },
     {
       "company": "Google",
-      "role": "ASIC Design Verification Engineer, TP...",
+      "role": "Modem Power Firmware Engineer, Pixel",
       "location": "United States",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
-      "cat": "DV",
+      "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-06-01"
     },
     {
       "company": "Google",
-      "role": "ASIC Design Verification Engineer, TPU",
+      "role": "Firmware Engineer, Modem NAS Protocol...",
+      "location": "United States",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-06-01"
+    },
+    {
+      "company": "Google",
+      "role": "ASIC Design Verification Engineer, Go...",
       "location": "United States",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
@@ -137,9 +192,9 @@
       "date_added": "2026-06-01"
     },
     {
-      "company": "Target",
-      "role": "Associate PACKAGING ENGINEER - Home, ...",
-      "location": "Minneapolis, MN",
+      "company": "Carrier Global",
+      "role": "Associate Field Engineer - Automated ...",
+      "location": "CAW11: ALC-Brown ...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -148,9 +203,9 @@
       "date_added": "2026-06-01"
     },
     {
-      "company": "BlackRock",
-      "role": "Associate, Application Engineer",
-      "location": "New York, NY",
+      "company": "Target",
+      "role": "Associate PACKAGING ENGINEER - Home, ...",
+      "location": "Minneapolis, MN",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -170,17 +225,6 @@
       "date_added": "2026-06-01"
     },
     {
-      "company": "Micron",
-      "role": "Engineer, ASIC Physical Design",
-      "location": "Minneapolis, MN",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-06-01"
-    },
-    {
       "company": "Micron Technology",
       "role": "Engineer, ASIC Physical Design",
       "location": "Minneapolis, MN",
@@ -192,35 +236,13 @@
       "date_added": "2026-06-01"
     },
     {
-      "company": "Carrier Global",
-      "role": "Associate Field Engineer - Automated ...",
-      "location": "CAW11: ALC-Brown ...",
+      "company": "Micron",
+      "role": "Engineer, ASIC Physical Design",
+      "location": "Minneapolis, MN",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-01"
-    },
-    {
-      "company": "Globus Medical",
-      "role": "Firmware Engineer",
-      "location": "Audubon, PA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-06-01"
-    },
-    {
-      "company": "ABB",
-      "role": "R&D Associate Project Manager",
-      "location": "USA, NC, Mebane",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
+      "sponsor": "yes",
+      "cat": "ASIC",
       "urgent": false,
       "date_added": "2026-06-01"
     },
@@ -236,31 +258,9 @@
       "date_added": "2026-06-01"
     },
     {
-      "company": "HPE (University)",
-      "role": "ASIC Physical Design Engineer",
-      "location": "San Jose, Califor...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-06-01"
-    },
-    {
-      "company": "HPE",
-      "role": "ASIC Physical Design Engineer",
-      "location": "San Jose, Califor...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-06-01"
-    },
-    {
-      "company": "Oshkosh Corporation",
-      "role": "Associate Supplier Quality Engineer",
-      "location": "Greenville, Wisco...",
+      "company": "BlackRock",
+      "role": "Associate, Application Engineer",
+      "location": "New York, NY",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -269,24 +269,13 @@
       "date_added": "2026-06-01"
     },
     {
-      "company": "Aerospace Corporation",
-      "role": "High-Speed Digital Design Engineer",
-      "location": "El Segundo, CA",
+      "company": "Globus Medical",
+      "role": "Firmware Engineer",
+      "location": "Audubon, PA",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-01"
-    },
-    {
-      "company": "ABB",
-      "role": "R&D Associate Engineer",
-      "location": "USA, OH, Cleveland",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
+      "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-06-01"
     },
@@ -335,9 +324,9 @@
       "date_added": "2026-06-01"
     },
     {
-      "company": "Curtiss-Wright",
-      "role": "Associate Engineer - Quality and Cali...",
-      "location": "Lansing, NY",
+      "company": "ABB",
+      "role": "R&D Associate Engineer",
+      "location": "USA, OH, Cleveland",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -346,10 +335,21 @@
       "date_added": "2026-06-01"
     },
     {
-      "company": "Arrow Electronics",
-      "role": "ASIC Design Engineer (eInfochips)",
-      "location": "2 Locations",
-      "link": "eInfochips",
+      "company": "Aerospace Corporation",
+      "role": "High-Speed Digital Design Engineer",
+      "location": "El Segundo, CA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-01"
+    },
+    {
+      "company": "HPE (University)",
+      "role": "ASIC Physical Design Engineer",
+      "location": "San Jose, Califor...",
+      "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "ASIC",
@@ -357,9 +357,20 @@
       "date_added": "2026-06-01"
     },
     {
-      "company": "ABB",
-      "role": "Associate Project Manager",
-      "location": "IN Carmel + 6 more",
+      "company": "HPE",
+      "role": "ASIC Physical Design Engineer",
+      "location": "San Jose, Califor...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-06-01"
+    },
+    {
+      "company": "Oshkosh Corporation",
+      "role": "Associate Supplier Quality Engineer",
+      "location": "Greenville, Wisco...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -390,20 +401,9 @@
       "date_added": "2026-06-01"
     },
     {
-      "company": "Blue Origin",
-      "role": "ASIC Design Engineer",
-      "location": "Central Texas",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-06-01"
-    },
-    {
-      "company": "Disney",
-      "role": "Associate Show Mechanical Engineer (P...",
-      "location": "Glendale, CA, USA",
+      "company": "ABB",
+      "role": "Associate Project Manager",
+      "location": "IN Carmel + 6 more",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -412,12 +412,34 @@
       "date_added": "2026-06-01"
     },
     {
-      "company": "Intel",
-      "role": "SoC Logic Design Engineer",
-      "location": "California Santa ...",
+      "company": "Johnson Controls",
+      "role": "Associate Project Manager",
+      "location": "Alaska",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-01"
+    },
+    {
+      "company": "Arrow Electronics",
+      "role": "ASIC Design Engineer (eInfochips)",
+      "location": "2 Locations",
+      "link": "eInfochips",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-06-01"
+    },
+    {
+      "company": "Curtiss-Wright",
+      "role": "Associate Engineer - Quality and Cali...",
+      "location": "Lansing, NY",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-06-01"
@@ -463,6 +485,39 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-01"
+    },
+    {
+      "company": "Disney",
+      "role": "Associate Show Mechanical Engineer (P...",
+      "location": "Glendale, CA, USA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-01"
+    },
+    {
+      "company": "Intel",
+      "role": "SoC Logic Design Engineer",
+      "location": "California Santa ...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-01"
+    },
+    {
+      "company": "Blue Origin",
+      "role": "ASIC Design Engineer",
+      "location": "Central Texas",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "ASIC",
       "urgent": false,
       "date_added": "2026-06-01"
     },
@@ -556,12 +611,12 @@
     },
     {
       "company": "Google",
-      "role": "Analog Design Engineer, Google Cloud",
+      "role": "Silicon Validation Engineer, HBM, Goo...",
       "location": "United States",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
-      "cat": "Analog",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-06-01"
     },
@@ -2746,8 +2801,8 @@
     {
       "company": "IMC Trading",
       "role": "Data Center Engineer",
-      "location": "United States",
-      "link": "https://job-boards.eu.greenhouse.io/imc/jobs/4869766101",
+      "location": "Mumbai, India",
+      "link": "https://job-boards.eu.greenhouse.io/imc/jobs/4694133101",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -4120,20 +4175,9 @@
     },
     {
       "company": "Samsara",
-      "role": "GRC Analyst, Third-Party Risk Management",
-      "location": "Bengaluru - BLR1",
-      "link": "https://www.samsara.com/company/careers/roles/7669236?gh_jid=7669236",
-      "source": "Greenhouse",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-01"
-    },
-    {
-      "company": "Samsara",
       "role": "Installation Specialist",
-      "location": "Remote - US",
-      "link": "https://www.samsara.com/company/careers/roles/7266206?gh_jid=7266206",
+      "location": "Remote - Mexico",
+      "link": "https://www.samsara.com/company/careers/roles/7950569?gh_jid=7950569",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -4143,8 +4187,8 @@
     {
       "company": "Samsara",
       "role": "L1 Senior Technical Support",
-      "location": "Remote - Toronto",
-      "link": "https://www.samsara.com/company/careers/roles/7874163?gh_jid=7874163",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7484453?gh_jid=7484453",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -4176,8 +4220,8 @@
     {
       "company": "Samsara",
       "role": "Manager, Software Engineering (Platform Reports)",
-      "location": "Remote - UK",
-      "link": "https://www.samsara.com/company/careers/roles/7345839?gh_jid=7345839",
+      "location": "Remote - Poland",
+      "link": "https://www.samsara.com/company/careers/roles/7266585?gh_jid=7266585",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -4572,8 +4616,8 @@
     {
       "company": "Samsara",
       "role": "Senior Software Engineer I - Agent Foundations",
-      "location": "Remote - Canada",
-      "link": "https://www.samsara.com/company/careers/roles/7558088?gh_jid=7558088",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7356410?gh_jid=7356410",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -4715,8 +4759,8 @@
     {
       "company": "Samsara",
       "role": "Staff ML Engineer - ML Infrastructure",
-      "location": "Remote - US",
-      "link": "https://www.samsara.com/company/careers/roles/7721193?gh_jid=7721193",
+      "location": "Remote - Canada",
+      "link": "https://www.samsara.com/company/careers/roles/7746586?gh_jid=7746586",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -5359,5 +5403,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-06-01T04:55:18.764707+00:00"
+  "last_tailored": "2026-06-01T11:48:02.352124+00:00"
 }
