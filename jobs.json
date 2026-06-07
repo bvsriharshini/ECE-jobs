@@ -1,24 +1,13 @@
 {
-  "updated": "2026-06-07T04:40:12.066223+00:00",
-  "total": 488,
+  "updated": "2026-06-07T09:25:22.644939+00:00",
+  "total": 485,
   "urgent_count": 12,
   "blocked_count": 0,
   "jobs": [
     {
-      "company": "Intel",
-      "role": "IP Design Verification Engineer",
-      "location": "Oregon Hillsboro ...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-06-07"
-    },
-    {
       "company": "Cirrus Logic",
-      "role": "Co-op - Design Verification Engineer",
-      "location": "Austin, TX",
+      "role": "Co-Op - Design Verification Engineer",
+      "location": "Chandler, AZ",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
@@ -38,6 +27,50 @@
       "date_added": "2026-06-07"
     },
     {
+      "company": "Google",
+      "role": "Hardware Electrical Engineer, Augment...",
+      "location": "United States",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-07"
+    },
+    {
+      "company": "Google",
+      "role": "Silicon CAD Engineer, University Grad...",
+      "location": "United States",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-07"
+    },
+    {
+      "company": "Ciena",
+      "role": "Product Engineer - onsite in New Jersey",
+      "location": "NJ",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-07"
+    },
+    {
+      "company": "Carrier Global",
+      "role": "Electrical Engineer",
+      "location": "CAN01: Carrier-Sy...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-07"
+    },
+    {
       "company": "Crane Co.",
       "role": "Process Engineer III",
       "location": "Lynnwood, Washington",
@@ -45,39 +78,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-06-07"
-    },
-    {
-      "company": "Google",
-      "role": "DFT Engineer, Google Cloud",
-      "location": "United States",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-06-07"
-    },
-    {
-      "company": "Google",
-      "role": "Design Verification Engineer, Silicon",
-      "location": "United States",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-06-07"
-    },
-    {
-      "company": "Google",
-      "role": "Silicon Design Verification Engineer",
-      "location": "United States",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "DV",
       "urgent": false,
       "date_added": "2026-06-07"
     },
@@ -93,9 +93,9 @@
       "date_added": "2026-06-07"
     },
     {
-      "company": "Thermo Fisher Scientific",
-      "role": "Field Applications Engineer process m...",
-      "location": "Madison, Wisconsi...",
+      "company": "ASM",
+      "role": "Snr Process Engineer - Early Career (...",
+      "location": "> Arizona > Phoenix",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -104,32 +104,76 @@
       "date_added": "2026-06-07"
     },
     {
-      "company": "Thermo Fisher Scientific",
-      "role": "Engineer II, Process Engineer (Mechan...",
-      "location": "Fair Lawn, New Je...",
+      "company": "Field AI",
+      "role": "Electrical Engineer, Robotics Hardware",
+      "location": "Boston, MA",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
-      "cat": "ASIC",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-06-07"
     },
     {
-      "company": "Thermo Fisher Scientific",
-      "role": "Engineer III, Process Engineering (Au...",
-      "location": "Fair Lawn, New Je...",
+      "company": "Seagate Technology",
+      "role": "Firmware Engineer",
+      "location": "Longmont, CO",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
-      "cat": "ASIC",
+      "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-06-07"
     },
     {
-      "company": "Viavi Solutions",
-      "role": "Printed Circuit Board (PCB) Designer",
-      "location": "Germantown, MD + ...",
-      "link": "PCB",
+      "company": "Google",
+      "role": "Firmware Engineer III, Wireless Data ...",
+      "location": "United States",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-06-07"
+    },
+    {
+      "company": "Google",
+      "role": "Embedded Firmware Engineer, Digital S...",
+      "location": "United States",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-06-07"
+    },
+    {
+      "company": "Google",
+      "role": "RTL Design Engineer, Machine Learning...",
+      "location": "United States",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-07"
+    },
+    {
+      "company": "Eversource Energy",
+      "role": "Associate Energy Engineer CT (Hybrid ...",
+      "location": "Berlin, CT",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-07"
+    },
+    {
+      "company": "Carrier Global",
+      "role": "Associate Controls Engineer",
+      "location": "CAT16: CCS-Dallas...",
+      "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
@@ -159,105 +203,6 @@
       "date_added": "2026-06-07"
     },
     {
-      "company": "Seagate Technology",
-      "role": "Firmware Engineer",
-      "location": "Longmont, CO",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-06-07"
-    },
-    {
-      "company": "Google",
-      "role": "ASIC Formal Verification Engineer, Go...",
-      "location": "United States",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-06-07"
-    },
-    {
-      "company": "Google",
-      "role": "Firmware Engineer III, Wireless Data ...",
-      "location": "United States",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-06-07"
-    },
-    {
-      "company": "Eversource Energy",
-      "role": "Associate Energy Engineer CT (Hybrid ...",
-      "location": "Berlin, CT",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-07"
-    },
-    {
-      "company": "Arrow Electronics",
-      "role": "Field Applications Engineer (Altera F...",
-      "location": "San Jose, Califor...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-07"
-    },
-    {
-      "company": "Regal Rexnord",
-      "role": "Shipping /Receiving Associate",
-      "location": "Marengo, Illinois...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-07"
-    },
-    {
-      "company": "Micron Technology",
-      "role": "HBM SoC Physical Design Engineer",
-      "location": "Richardson, TX",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-06-07"
-    },
-    {
-      "company": "Micron",
-      "role": "HBM SoC Physical Design Engineer",
-      "location": "Richardson, TX",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-06-07"
-    },
-    {
-      "company": "Moog",
-      "role": "Associate Program Manager",
-      "location": "Santa Barbara, CA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-07"
-    },
-    {
       "company": "Moog",
       "role": "Associate Product Engineer",
       "location": "Buffalo, NY",
@@ -269,9 +214,9 @@
       "date_added": "2026-06-07"
     },
     {
-      "company": "Carrier Global",
-      "role": "Associate Controls Engineer",
-      "location": "CAT16: CCS-Dallas...",
+      "company": "Arrow Electronics",
+      "role": "Field Applications Engineer (Altera F...",
+      "location": "San Jose, Califor...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -302,20 +247,20 @@
       "date_added": "2026-06-07"
     },
     {
-      "company": "Cisco",
-      "role": "ASIC Engineering Program Manager",
-      "location": "San Jose, Califor...",
-      "link": "#",
+      "company": "Philips",
+      "role": "Associate Product Designer (Bothell, WA)",
+      "location": "Bothell, Washingt...",
+      "link": "Bothell, WA",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
+      "sponsor": "open",
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-06-07"
     },
     {
-      "company": "Cisco",
-      "role": "ASIC Design Engineer",
-      "location": "San Jose, Califor...",
+      "company": "Micron Technology",
+      "role": "HBM SoC Physical Design Engineer",
+      "location": "Richardson, TX",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
@@ -324,10 +269,21 @@
       "date_added": "2026-06-07"
     },
     {
-      "company": "ResMed",
-      "role": "Associate Analyst, IT Support (On-Site)",
-      "location": "Moreno Valley, CA...",
-      "link": "On-Site",
+      "company": "Micron",
+      "role": "HBM SoC Physical Design Engineer",
+      "location": "Richardson, TX",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-06-07"
+    },
+    {
+      "company": "Regal Rexnord",
+      "role": "Shipping /Receiving Associate",
+      "location": "Marengo, Illinois...",
+      "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
@@ -335,9 +291,9 @@
       "date_added": "2026-06-07"
     },
     {
-      "company": "NXP",
-      "role": "ATMC Fab Associate",
-      "location": "Austin",
+      "company": "Intel",
+      "role": "SoC Integration Engineer",
+      "location": "California Santa ...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
@@ -368,6 +324,17 @@
       "date_added": "2026-06-07"
     },
     {
+      "company": "NXP",
+      "role": "ATMC Fab Associate",
+      "location": "Austin",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-07"
+    },
+    {
       "company": "Broadcom",
       "role": "R&D Digital Design Engineer",
       "location": "CA San Jose Innov...",
@@ -379,13 +346,24 @@
       "date_added": "2026-06-07"
     },
     {
-      "company": "Disney",
-      "role": "Associate Safety Professional (Projec...",
-      "location": "Anaheim, CA, USA",
+      "company": "Cisco",
+      "role": "ASIC Engineering Program Manager",
+      "location": "San Jose, Califor...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
+      "sponsor": "yes",
       "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-07"
+    },
+    {
+      "company": "Cisco",
+      "role": "ASIC Design Engineer",
+      "location": "San Jose, Califor...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "ASIC",
       "urgent": false,
       "date_added": "2026-06-07"
     },
@@ -397,28 +375,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-07"
-    },
-    {
-      "company": "Unisys",
-      "role": "Field Engineer Technician - Associate",
-      "location": "East Hartford, CT...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-07"
-    },
-    {
-      "company": "NXP",
-      "role": "SoC Embedded SW/Linux Validation Engi...",
-      "location": "Austin",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-06-07"
     },
@@ -456,6 +412,28 @@
       "date_added": "2026-06-07"
     },
     {
+      "company": "NXP",
+      "role": "SoC Embedded SW/Linux Validation Engi...",
+      "location": "Austin",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-06-07"
+    },
+    {
+      "company": "Unisys",
+      "role": "Field Engineer Technician - Associate",
+      "location": "East Hartford, CT...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-07"
+    },
+    {
       "company": "Eversource Energy",
       "role": "Associate Energy Engineer, NH (Hybrid...",
       "location": "Manchester, NH",
@@ -463,28 +441,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-07"
-    },
-    {
-      "company": "Silicon Labs",
-      "role": "Digital Design Engineer I",
-      "location": "Austin",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-07"
-    },
-    {
-      "company": "NVIDIA",
-      "role": "ASIC Design Efficiency Engineer",
-      "location": "CA Santa Clara + ...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "ASIC",
       "urgent": false,
       "date_added": "2026-06-07"
     },
@@ -522,24 +478,24 @@
       "date_added": "2026-06-07"
     },
     {
-      "company": "Micron Technology",
-      "role": "Firmware Engineer",
-      "location": "Longmont, CO",
+      "company": "NVIDIA",
+      "role": "ASIC Design Efficiency Engineer",
+      "location": "CA Santa Clara + ...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
-      "cat": "FPGA",
+      "cat": "ASIC",
       "urgent": false,
       "date_added": "2026-06-07"
     },
     {
-      "company": "Micron",
-      "role": "Firmware Engineer",
-      "location": "Longmont, CO",
+      "company": "Silicon Labs",
+      "role": "Digital Design Engineer I",
+      "location": "Austin",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
+      "sponsor": "open",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-06-07"
     },
@@ -584,6 +540,28 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-07"
+    },
+    {
+      "company": "Micron Technology",
+      "role": "Firmware Engineer",
+      "location": "Longmont, CO",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-06-07"
+    },
+    {
+      "company": "Micron",
+      "role": "Firmware Engineer",
+      "location": "Longmont, CO",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-06-07"
     },
@@ -721,17 +699,6 @@
     },
     {
       "company": "Google",
-      "role": "Analog Design Engineer, Google Cloud",
-      "location": "United States",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "Analog",
-      "urgent": false,
-      "date_added": "2026-06-07"
-    },
-    {
-      "company": "Google",
       "role": "Silicon Validation Engineer, HBM, Goo...",
       "location": "United States",
       "link": "#",
@@ -753,13 +720,13 @@
       "date_added": "2026-06-07"
     },
     {
-      "company": "Intel",
-      "role": "GPU Validation Engineer",
-      "location": "California Folsom...",
+      "company": "Stanley Black & Decker",
+      "role": "Verification and Validation Engineer",
+      "location": "Highland Heights,...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
+      "sponsor": "open",
+      "cat": "DV",
       "urgent": false,
       "date_added": "2026-06-07"
     },
@@ -775,13 +742,13 @@
       "date_added": "2026-06-07"
     },
     {
-      "company": "Stanley Black & Decker",
-      "role": "Verification and Validation Engineer",
-      "location": "Highland Heights,...",
+      "company": "Intel",
+      "role": "GPU Validation Engineer",
+      "location": "California Folsom...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "DV",
+      "sponsor": "yes",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-06-07"
     },
@@ -5381,5 +5348,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-06-07T04:40:22.736962+00:00"
+  "last_tailored": "2026-06-07T09:25:30.323917+00:00"
 }
