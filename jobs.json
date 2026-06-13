@@ -1,20 +1,9 @@
 {
-  "updated": "2026-06-13T14:13:40.479705+00:00",
-  "total": 491,
+  "updated": "2026-06-13T19:44:55.028339+00:00",
+  "total": 493,
   "urgent_count": 14,
   "blocked_count": 0,
   "jobs": [
-    {
-      "company": "Analog Devices",
-      "role": "Product Applications Engineering",
-      "location": "US, CA, San Jose,...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-13"
-    },
     {
       "company": "Cirrus Logic",
       "role": "Co-op - Design Verification Engineer",
@@ -38,12 +27,67 @@
       "date_added": "2026-06-13"
     },
     {
+      "company": "Tesla",
+      "role": "Solar Hardware Engineer Intern - Sola...",
+      "location": "Palo Alto, CA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-13"
+    },
+    {
       "company": "Google",
       "role": "Hardware Electrical Engineer, Augment...",
       "location": "United States",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-13"
+    },
+    {
+      "company": "Analog Devices",
+      "role": "Product Applications Engineering",
+      "location": "US, CA, San Jose,...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-13"
+    },
+    {
+      "company": "Entegris",
+      "role": "Electrical Engineer II",
+      "location": "Bloomington, MN",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-13"
+    },
+    {
+      "company": "Crane Co.",
+      "role": "Process Engineer",
+      "location": "Marion, North Car...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-06-13"
+    },
+    {
+      "company": "Daimler Truck",
+      "role": "Electrical Engineer II",
+      "location": "High Point, NC US",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-06-13"
@@ -61,12 +105,12 @@
     },
     {
       "company": "Magna",
-      "role": "Applications Engineer",
-      "location": "Vaughan, Ontario, CA",
+      "role": "Process Engineer",
+      "location": "Warren, Michigan, US",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
-      "cat": "HW",
+      "cat": "ASIC",
       "urgent": false,
       "date_added": "2026-06-13"
     },
@@ -82,46 +126,13 @@
       "date_added": "2026-06-13"
     },
     {
-      "company": "Cisco",
-      "role": "Process Engineer",
-      "location": "San Jose Californ...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-06-13"
-    },
-    {
-      "company": "Cisco",
-      "role": "Physical Design Engineer",
-      "location": "Austin, Texas, US",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-06-13"
-    },
-    {
-      "company": "Envista Holdings",
-      "role": "Manufacturing Process Engineer",
-      "location": "PA",
+      "company": "GE Healthcare",
+      "role": "Product Engineer",
+      "location": "Salt Lake City",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-06-13"
-    },
-    {
-      "company": "Arrow Electronics",
-      "role": "FPGA Engineer Engineer (eInfochips)",
-      "location": "CA San Jose Calif...",
-      "link": "eInfochips",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-06-13"
     },
@@ -154,6 +165,17 @@
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-06-13"
+    },
+    {
+      "company": "Arrow Electronics",
+      "role": "FPGA Engineer Engineer (eInfochips)",
+      "location": "CA San Jose Calif...",
+      "link": "eInfochips",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
       "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-06-13"
@@ -280,9 +302,9 @@
       "date_added": "2026-06-13"
     },
     {
-      "company": "KLA",
-      "role": "Associate Test Engineer",
-      "location": "Westwood, MA",
+      "company": "Moog",
+      "role": "Associate Product Engineer",
+      "location": "Buffalo, NY",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -302,9 +324,9 @@
       "date_added": "2026-06-13"
     },
     {
-      "company": "Moog",
-      "role": "Associate Product Engineer",
-      "location": "Buffalo, NY",
+      "company": "KLA",
+      "role": "Associate Test Engineer",
+      "location": "Westwood, MA",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -5414,5 +5436,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-06-13T14:13:49.834717+00:00"
+  "last_tailored": "2026-06-13T19:45:01.992961+00:00"
 }
