@@ -1,20 +1,9 @@
 {
-  "updated": "2026-06-14T09:46:58.302375+00:00",
-  "total": 496,
+  "updated": "2026-06-14T14:18:34.693358+00:00",
+  "total": 495,
   "urgent_count": 13,
   "blocked_count": 0,
   "jobs": [
-    {
-      "company": "Tesla",
-      "role": "Sensor Hardware Engineer Intern - Sen...",
-      "location": "Palo Alto, CA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-14"
-    },
     {
       "company": "Cirrus Logic",
       "role": "Co-op - Design Verification Engineer",
@@ -38,9 +27,9 @@
       "date_added": "2026-06-14"
     },
     {
-      "company": "ASML",
-      "role": "Field Applications Engineer, Defect I...",
-      "location": "Boise, ID, USA",
+      "company": "Tesla",
+      "role": "Solar Hardware Engineer Intern - Sola...",
+      "location": "Palo Alto, CA",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -49,12 +38,12 @@
       "date_added": "2026-06-14"
     },
     {
-      "company": "Entegris",
-      "role": "Electrical Engineer II",
-      "location": "Bloomington, MN",
+      "company": "Google",
+      "role": "Hardware Electrical Engineer, Augment...",
+      "location": "United States",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
+      "sponsor": "yes",
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-06-14"
@@ -71,9 +60,9 @@
       "date_added": "2026-06-14"
     },
     {
-      "company": "Magna",
-      "role": "Applications Engineer",
-      "location": "Vaughan, Ontario, CA",
+      "company": "Entegris",
+      "role": "Electrical Engineer II",
+      "location": "Bloomington, MN",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -82,46 +71,13 @@
       "date_added": "2026-06-14"
     },
     {
-      "company": "Carrier Global",
-      "role": "Applications Engineer- DDC",
-      "location": "CAT78: Pasadena, ...",
+      "company": "ASML",
+      "role": "Field Applications Engineer, Defect I...",
+      "location": "Boise, ID, USA",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-14"
-    },
-    {
-      "company": "Cisco",
-      "role": "Physical Design Engineer",
-      "location": "Austin, Texas, US",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-06-14"
-    },
-    {
-      "company": "Cisco",
-      "role": "Process Engineer",
-      "location": "San Jose Californ...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-06-14"
-    },
-    {
-      "company": "Crane Co.",
-      "role": "Process Engineer",
-      "location": "Marion, North Car...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "ASIC",
       "urgent": false,
       "date_added": "2026-06-14"
     },
@@ -155,6 +111,39 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-14"
+    },
+    {
+      "company": "GE Healthcare",
+      "role": "Product Engineer",
+      "location": "Salt Lake City",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-14"
+    },
+    {
+      "company": "Cisco",
+      "role": "Physical Design Engineer",
+      "location": "Austin, Texas, US",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-06-14"
+    },
+    {
+      "company": "Cisco",
+      "role": "Process Engineer",
+      "location": "San Jose Californ...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "ASIC",
       "urgent": false,
       "date_added": "2026-06-14"
     },
@@ -225,17 +214,6 @@
       "date_added": "2026-06-14"
     },
     {
-      "company": "Arrow Electronics",
-      "role": "FPGA Engineer Engineer (eInfochips)",
-      "location": "CA San Jose Calif...",
-      "link": "eInfochips",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-06-14"
-    },
-    {
       "company": "NVIDIA",
       "role": "SOC Design Engineer, ASIC Tools and M...",
       "location": "US, TX, Austin",
@@ -254,6 +232,17 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-14"
+    },
+    {
+      "company": "Arrow Electronics",
+      "role": "FPGA Engineer Engineer (eInfochips)",
+      "location": "CA San Jose Calif...",
+      "link": "eInfochips",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-06-14"
     },
@@ -302,17 +291,6 @@
       "date_added": "2026-06-14"
     },
     {
-      "company": "Baxter International",
-      "role": "Quality Engineer Associate III",
-      "location": "Round Lake, Illinois",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-14"
-    },
-    {
       "company": "RTX",
       "role": "Power Electronics Associate Manager",
       "location": "Ka, IN",
@@ -324,20 +302,9 @@
       "date_added": "2026-06-14"
     },
     {
-      "company": "Carrier Global",
-      "role": "Embedded Firmware Engineer",
-      "location": "GA18: 1150 Robert...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-06-14"
-    },
-    {
-      "company": "KLA",
-      "role": "Associate Test Engineer",
-      "location": "Westwood, MA",
+      "company": "Baxter International",
+      "role": "Quality Engineer Associate III",
+      "location": "Round Lake, Illinois",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -357,28 +324,6 @@
       "date_added": "2026-06-14"
     },
     {
-      "company": "Intel",
-      "role": "RTL Design Engineer",
-      "location": "Texas Austin + 2 ...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-14"
-    },
-    {
-      "company": "Red Hat",
-      "role": "Associate Site Reliability Engineer",
-      "location": "Raleigh",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-14"
-    },
-    {
       "company": "Moog",
       "role": "Associate Product Engineer",
       "location": "Buffalo, NY",
@@ -390,9 +335,42 @@
       "date_added": "2026-06-14"
     },
     {
-      "company": "KBR",
-      "role": "Occupational Therapist (SOCOM, Camp L...",
-      "location": "Camp Lejeune, Nor...",
+      "company": "Intel",
+      "role": "RTL Design Engineer",
+      "location": "Texas Austin + 2 ...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-14"
+    },
+    {
+      "company": "KLA",
+      "role": "Associate Test Engineer",
+      "location": "Westwood, MA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-14"
+    },
+    {
+      "company": "Carrier Global",
+      "role": "Embedded Firmware Engineer",
+      "location": "GA18: 1150 Robert...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-06-14"
+    },
+    {
+      "company": "Red Hat",
+      "role": "Associate Site Reliability Engineer",
+      "location": "Raleigh",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -434,6 +412,17 @@
       "date_added": "2026-06-14"
     },
     {
+      "company": "KBR",
+      "role": "Occupational Therapist (SOCOM, Camp L...",
+      "location": "Camp Lejeune, Nor...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-14"
+    },
+    {
       "company": "Globus Medical",
       "role": "ASSOCIATE PRODUCT MANAGER",
       "location": "Audubon, PA",
@@ -456,17 +445,6 @@
       "date_added": "2026-06-14"
     },
     {
-      "company": "Cisco",
-      "role": "ASIC Design Verification Engineer",
-      "location": "San Jose, Califor...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-06-14"
-    },
-    {
       "company": "SpaceX",
       "role": "New Graduate Engineer, ASIC Design (S...",
       "location": "Hawthorne, CA",
@@ -485,6 +463,17 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-14"
+    },
+    {
+      "company": "Cisco",
+      "role": "ASIC Design Verification Engineer",
+      "location": "San Jose, Califor...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "DV",
       "urgent": false,
       "date_added": "2026-06-14"
     },
@@ -5469,5 +5458,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-06-14T09:47:06.031081+00:00"
+  "last_tailored": "2026-06-14T14:18:41.931796+00:00"
 }
