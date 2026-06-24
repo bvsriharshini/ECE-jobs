@@ -1,22 +1,44 @@
 {
-  "updated": "2026-06-24T09:44:13.632948+00:00",
-  "total": 543,
-  "urgent_count": 15,
+  "updated": "2026-06-24T14:47:51.525513+00:00",
+  "total": 536,
+  "urgent_count": 16,
   "blocked_count": 1,
   "jobs": [
     {
-      "company": "Thermo Fisher Scientific",
-      "role": "Manufacturing Process Engineer",
-      "location": "Cincinnati, Ohio,...",
+      "company": "Snap",
+      "role": "Electrical Engineer, Level 4",
+      "location": "Los Angeles Calif...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
-      "cat": "ASIC",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-06-24"
     },
     {
-      "company": "HPE",
+      "company": "Snap",
+      "role": "PCB Design Engineer",
+      "location": "Los Angeles, Cali...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-24"
+    },
+    {
+      "company": "Morningstar",
+      "role": "AI Product Engineer",
+      "location": "Chicago",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "SW",
+      "urgent": false,
+      "date_added": "2026-06-24"
+    },
+    {
+      "company": "HPE (University)",
       "role": "R&D Electrical Engineer, Santa Clara,...",
       "location": "Santa Clara, Cali...",
       "link": "#",
@@ -27,7 +49,18 @@
       "date_added": "2026-06-24"
     },
     {
-      "company": "HPE (University)",
+      "company": "General Motors",
+      "role": "Process Engineer",
+      "location": "Warren, Michigan,...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-06-24"
+    },
+    {
+      "company": "HPE",
       "role": "R&D Electrical Engineer, Santa Clara,...",
       "location": "Santa Clara, Cali...",
       "link": "#",
@@ -49,6 +82,28 @@
       "date_added": "2026-06-24"
     },
     {
+      "company": "Cisco",
+      "role": "Physical Design Engineer",
+      "location": "San Jose Californ...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-06-24"
+    },
+    {
+      "company": "Cisco",
+      "role": "Hardware Engineer (Transceiver Module...",
+      "location": "San Jose, Califor...",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-24"
+    },
+    {
       "company": "Baker Hughes",
       "role": "Process Engineer",
       "location": "Ka, IN",
@@ -60,12 +115,12 @@
       "date_added": "2026-06-24"
     },
     {
-      "company": "Baxter International",
-      "role": "Process Engineer I",
-      "location": "Cleveland, Missis...",
+      "company": "Analog Devices",
+      "role": "Process Sustaining Engineering Techni...",
+      "location": "US, WA, Camas",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
+      "sponsor": "yes",
       "cat": "ASIC",
       "urgent": false,
       "date_added": "2026-06-24"
@@ -159,42 +214,9 @@
       "date_added": "2026-06-24"
     },
     {
-      "company": "ABB",
-      "role": "Maintenance Process Engineer",
-      "location": "USA, MS, Senatobia",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-06-24"
-    },
-    {
-      "company": "KLA",
-      "role": "Associate Test Engineer 2",
-      "location": "Milpitas, CA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-24"
-    },
-    {
       "company": "RTX",
       "role": "Associate Engineer",
       "location": "Ka, IN",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-24"
-    },
-    {
-      "company": "Carrier Global",
-      "role": "Associate Field Engineer-Automated Lo...",
-      "location": "CAT78: Pasadena, ...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -258,9 +280,9 @@
       "date_added": "2026-06-24"
     },
     {
-      "company": "ABB",
-      "role": "Parts Room Associate",
-      "location": "USA, MS, Senatobia",
+      "company": "Carrier Global",
+      "role": "Associate Field Engineer-Automated Lo...",
+      "location": "CAT78: Pasadena, ...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -291,13 +313,35 @@
       "date_added": "2026-06-24"
     },
     {
-      "company": "Google",
-      "role": "Firmware Engineer III, Wireless Data ...",
-      "location": "United States",
+      "company": "KLA",
+      "role": "Associate Test Engineer 2",
+      "location": "Milpitas, CA",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-24"
+    },
+    {
+      "company": "AbbVie",
+      "role": "Associate Technical Operations Engineer",
+      "location": "North Chicago, IL",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-24"
+    },
+    {
+      "company": "Altera",
+      "role": "High-Level Synthesis (HLS) Engineer",
+      "location": "San Jose, Califor...",
+      "link": "HLS",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "ASIC",
       "urgent": false,
       "date_added": "2026-06-24"
     },
@@ -313,13 +357,24 @@
       "date_added": "2026-06-24"
     },
     {
-      "company": "Altera",
-      "role": "High-Level Synthesis (HLS) Engineer",
-      "location": "San Jose, Califor...",
-      "link": "HLS",
+      "company": "ABB",
+      "role": "Parts Room Associate",
+      "location": "USA, MS, Senatobia",
+      "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
-      "cat": "ASIC",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-24"
+    },
+    {
+      "company": "Nokia",
+      "role": "High-Speed Optical ASICs Department Head",
+      "location": "United States",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-06-24"
     },
@@ -390,28 +445,6 @@
       "date_added": "2026-06-24"
     },
     {
-      "company": "ABB",
-      "role": "Associate Project Manager",
-      "location": "USA, SC, Florence",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-24"
-    },
-    {
-      "company": "ABB",
-      "role": "R&D Associate Electrical Test Enginee...",
-      "location": "USA, CT, Bloomfield",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-24"
-    },
-    {
       "company": "Cisco",
       "role": "ASIC Packaging Signal/Power Integrity...",
       "location": "San Jose, Califor...",
@@ -441,6 +474,28 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
       "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-06-24"
+    },
+    {
+      "company": "ABB",
+      "role": "Associate Project Manager",
+      "location": "USA, SC, Florence",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-24"
+    },
+    {
+      "company": "ABB",
+      "role": "R&D Associate Electrical Test Enginee...",
+      "location": "USA, CT, Bloomfield",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-06-24"
     },
@@ -478,34 +533,12 @@
       "date_added": "2026-06-24"
     },
     {
-      "company": "Bosch Group",
-      "role": "Associate Vehicle Test Specialist",
-      "location": "Owatonna, MN",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-24"
-    },
-    {
       "company": "AMD",
       "role": "SoC Security and Virtualization Valid...",
       "location": "Austin, TX, Unite...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-24"
-    },
-    {
-      "company": "Johnson Controls",
-      "role": "Fire Suppression Service Associate",
-      "location": "North Carolina",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-06-24"
@@ -555,10 +588,10 @@
       "date_added": "2026-06-24"
     },
     {
-      "company": "KLA",
-      "role": "Engr, Assoc Test 2",
-      "location": "Milpitas, CA",
-      "link": "#",
+      "company": "ResMed",
+      "role": "Associate Analyst, IT Support (On-site)",
+      "location": "Indianapolis, IN,...",
+      "link": "On-site",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
@@ -566,9 +599,20 @@
       "date_added": "2026-06-24"
     },
     {
-      "company": "Jabil",
-      "role": "Associate Failure Analysis Engineer",
-      "location": "San Jose, CA",
+      "company": "Motorola Solutions",
+      "role": "Firmware Engineer II",
+      "location": "Fort Collins, CO",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-06-24"
+    },
+    {
+      "company": "Motorola Solutions",
+      "role": "Associate Research and Development (R...",
+      "location": "Los Angeles, CA, ...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -610,45 +654,34 @@
       "date_added": "2026-06-24"
     },
     {
-      "company": "Motorola Solutions",
-      "role": "Firmware Engineer II",
-      "location": "Fort Collins, CO",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-06-24"
-    },
-    {
-      "company": "Motorola Solutions",
-      "role": "Associate Research and Development (R...",
-      "location": "Los Angeles, CA, ...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-24"
-    },
-    {
-      "company": "ResMed",
-      "role": "Associate Analyst, IT Support (On-site)",
-      "location": "Indianapolis, IN,...",
-      "link": "On-site",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-24"
-    },
-    {
       "company": "Intel",
       "role": "CPU RTL Design Engineer",
       "location": "Texas Austin + 1 ...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-24"
+    },
+    {
+      "company": "Jabil",
+      "role": "Associate Failure Analysis Engineer",
+      "location": "San Jose, CA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-06-24"
+    },
+    {
+      "company": "KLA",
+      "role": "Engr, Assoc Test 2",
+      "location": "Milpitas, CA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-06-24"
@@ -720,28 +753,6 @@
       "date_added": "2026-06-24"
     },
     {
-      "company": "HPE",
-      "role": "Firmware Developer (Sunnyvale, CA)",
-      "location": "Sunnyvale, Califo...",
-      "link": "Sunnyvale, CA",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-06-24"
-    },
-    {
-      "company": "HP Inc",
-      "role": "Firmware Developer",
-      "location": "2 Locations",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-06-24"
-    },
-    {
       "company": "HPE (University)",
       "role": "Firmware Developer (Sunnyvale, CA)",
       "location": "Sunnyvale, Califo...",
@@ -753,10 +764,10 @@
       "date_added": "2026-06-24"
     },
     {
-      "company": "Caterpillar",
-      "role": "Embedded Product Analytics Engineerin...",
-      "location": "Mossville Illinoi...",
-      "link": "#",
+      "company": "HPE",
+      "role": "Firmware Developer (Sunnyvale, CA)",
+      "location": "Sunnyvale, Califo...",
+      "link": "Sunnyvale, CA",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "FPGA",
@@ -778,6 +789,17 @@
       "company": "Robert Bosch Venture Capital",
       "role": "Hardware & Embedded Research Intern",
       "location": "Sunnyvale, CA",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-06-24"
+    },
+    {
+      "company": "Caterpillar",
+      "role": "Embedded Product Analytics Engineerin...",
+      "location": "Mossville Illinoi...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
@@ -819,23 +841,23 @@
       "date_added": "2026-06-24"
     },
     {
-      "company": "NVIDIA",
-      "role": "Manager, Firmware",
-      "location": "US, CA, Santa Clara",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-06-24"
-    },
-    {
       "company": "RTX",
       "role": "Embedded Developer LynxOS",
       "location": "Tewksbury, MA",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-06-24"
+    },
+    {
+      "company": "NVIDIA",
+      "role": "Manager, Firmware",
+      "location": "US, CA, Santa Clara",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
       "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-06-24"
@@ -907,17 +929,6 @@
       "date_added": "2026-06-24"
     },
     {
-      "company": "DoorDash",
-      "role": "Firmware Validation & Integration Eng...",
-      "location": "San Francisco, CA...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-06-24"
-    },
-    {
       "company": "Bosch Group",
       "role": "Hardware & Embedded Research Intern (...",
       "location": "Sunnyvale, CA",
@@ -973,13 +984,13 @@
       "date_added": "2026-06-24"
     },
     {
-      "company": "Arrow Electronics",
-      "role": "Post-Silicon Systems Software Validat...",
-      "location": "California, CA",
+      "company": "Analog Devices",
+      "role": "Analog / Mixed Signal Layout Engineer",
+      "location": "US, MA, Wilmington",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
-      "sponsor": "open",
-      "cat": "SW",
+      "sponsor": "yes",
+      "cat": "Analog",
       "urgent": false,
       "date_added": "2026-06-24"
     },
@@ -991,17 +1002,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-06-24"
-    },
-    {
-      "company": "Analog Devices",
-      "role": "Analog / Mixed Signal Layout Engineer",
-      "location": "US, MA, Wilmington",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "Analog",
       "urgent": false,
       "date_added": "2026-06-24"
     },
@@ -2801,8 +2801,8 @@
     {
       "company": "Jane Street",
       "role": "Cybersecurity Analyst",
-      "location": "Hong Kong, Hong Kong",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8441121002",
+      "location": "London, England, United Kingdom",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8072596002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2814,17 +2814,6 @@
       "role": "Cybersecurity Engineer - Vulnerability Management",
       "location": "New York, New York, United States",
       "link": "https://job-boards.greenhouse.io/janestreet/jobs/8596433002",
-      "source": "Greenhouse",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-24"
-    },
-    {
-      "company": "Jane Street",
-      "role": "Cybersecurity Governance and Risk Specialist",
-      "location": "London, England, United Kingdom",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/7847258002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2944,12 +2933,12 @@
     {
       "company": "Jane Street",
       "role": "Linux Engineer",
-      "location": "Hong Kong, Hong Kong",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8104305002",
+      "location": "London, England, United Kingdom",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8061111002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
-      "urgent": false,
+      "urgent": true,
       "date_added": "2026-06-24"
     },
     {
@@ -2966,8 +2955,8 @@
     {
       "company": "Jane Street",
       "role": "Machine Learning Performance Engineer",
-      "location": "New York, New York, United States",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/7449077002",
+      "location": "London, England, United Kingdom",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/7449252002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -2977,8 +2966,8 @@
     {
       "company": "Jane Street",
       "role": "Machine Learning Researcher",
-      "location": "Hong Kong, Hong Kong",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8576934002",
+      "location": "New York, New York, United States",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8576928002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -3010,8 +2999,8 @@
     {
       "company": "Jane Street",
       "role": "Production Engineer",
-      "location": "New York, New York, United States",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/5108180002",
+      "location": "Hong Kong, Hong Kong",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/5807402002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -3021,8 +3010,8 @@
     {
       "company": "Jane Street",
       "role": "Programming Language Engineer",
-      "location": "New York, New York, United States",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/4275921002",
+      "location": "London, England, United Kingdom",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/7700474002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -3043,8 +3032,8 @@
     {
       "company": "Jane Street",
       "role": "Quantitative Trader",
-      "location": "Hong Kong, Hong Kong",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/7982986002",
+      "location": "London, England, United Kingdom",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8092062002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -3054,8 +3043,8 @@
     {
       "company": "Jane Street",
       "role": "Senior Weather Analyst/ML Researcher",
-      "location": "London, England, United Kingdom",
-      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8445154002",
+      "location": "New York, New York, United States",
+      "link": "https://job-boards.greenhouse.io/janestreet/jobs/8440974002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -4407,8 +4396,8 @@
     {
       "company": "Samsara",
       "role": "AI Engineer",
-      "location": "Remote - Canada",
-      "link": "https://www.samsara.com/company/careers/roles/7589442?gh_jid=7589442",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7491153?gh_jid=7491153",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -4418,8 +4407,8 @@
     {
       "company": "Samsara",
       "role": "Business Operations Manager, Technical Support Ops",
-      "location": "Remote - Toronto",
-      "link": "https://www.samsara.com/company/careers/roles/7852547?gh_jid=7852547",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7761103?gh_jid=7761103",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -4429,8 +4418,8 @@
     {
       "company": "Samsara",
       "role": "CX Strategy Solutions Lead",
-      "location": "Remote - CA",
-      "link": "https://www.samsara.com/company/careers/roles/7891607?gh_jid=7891607",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7992190?gh_jid=7992190",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -4616,8 +4605,8 @@
     {
       "company": "Samsara",
       "role": "Manager, WW Planning",
-      "location": "Remote - Canada",
-      "link": "https://www.samsara.com/company/careers/roles/7680056?gh_jid=7680056",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7662771?gh_jid=7662771",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -4649,8 +4638,8 @@
     {
       "company": "Samsara",
       "role": "Product Support Engineer",
-      "location": "Remote - US",
-      "link": "https://www.samsara.com/company/careers/roles/8016952?gh_jid=8016952",
+      "location": "Bengaluru - BLR1",
+      "link": "https://www.samsara.com/company/careers/roles/7782002?gh_jid=7782002",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -4924,8 +4913,8 @@
     {
       "company": "Samsara",
       "role": "Senior Performance Marketing Manager - Paid Social",
-      "location": "Remote - CA",
-      "link": "https://www.samsara.com/company/careers/roles/7941390?gh_jid=7941390",
+      "location": "Remote - Canada",
+      "link": "https://www.samsara.com/company/careers/roles/7992926?gh_jid=7992926",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -5034,8 +5023,8 @@
     {
       "company": "Samsara",
       "role": "Senior Staff Software Engineer - STCE",
-      "location": "Remote - Canada",
-      "link": "https://www.samsara.com/company/careers/roles/7367675?gh_jid=7367675",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7266162?gh_jid=7266162",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -5133,8 +5122,8 @@
     {
       "company": "Samsara",
       "role": "Sr. Software Engineer II",
-      "location": "Remote - SF Bay Area",
-      "link": "https://www.samsara.com/company/careers/roles/7892022?gh_jid=7892022",
+      "location": "Remote - Canada",
+      "link": "https://www.samsara.com/company/careers/roles/7997916?gh_jid=7997916",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -5155,8 +5144,8 @@
     {
       "company": "Samsara",
       "role": "Staff Machine Learning Engineer - Edge AI",
-      "location": "Remote - Canada",
-      "link": "https://www.samsara.com/company/careers/roles/7431070?gh_jid=7431070",
+      "location": "Remote - US",
+      "link": "https://www.samsara.com/company/careers/roles/7266357?gh_jid=7266357",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -5166,8 +5155,8 @@
     {
       "company": "Samsara",
       "role": "Staff ML Engineer - ML Infrastructure",
-      "location": "Remote - US",
-      "link": "https://www.samsara.com/company/careers/roles/7721193?gh_jid=7721193",
+      "location": "Remote - Canada",
+      "link": "https://www.samsara.com/company/careers/roles/7746586?gh_jid=7746586",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -5177,8 +5166,8 @@
     {
       "company": "Samsara",
       "role": "Staff Mobile Engineer - Mobile Platform",
-      "location": "Remote - US",
-      "link": "https://www.samsara.com/company/careers/roles/7266713?gh_jid=7266713",
+      "location": "Remote - Canada",
+      "link": "https://www.samsara.com/company/careers/roles/7304881?gh_jid=7304881",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -5901,72 +5890,6 @@
       "date_added": "2026-06-24"
     },
     {
-      "company": "Buchanan PE Consulting INC",
-      "role": "Electrical Engineer / CAD Designer - Residential & Commercial",
-      "location": "Margate, FL 33063",
-      "link": "https://www.indeed.com/viewjob?jk=077a45f83c160f1b",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-24"
-    },
-    {
-      "company": "Getman Corporation.",
-      "role": "Electrical Engineer",
-      "location": "Bangor, MI 49013",
-      "link": "https://www.indeed.com/viewjob?jk=6c39218616120eed",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-24"
-    },
-    {
-      "company": "Carolina Poly",
-      "role": "Electrical Engineer",
-      "location": "Chester, SC 29706",
-      "link": "https://www.indeed.com/viewjob?jk=7076db740b300400",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-24"
-    },
-    {
-      "company": "Metropolitan Industries",
-      "role": "Entry Level Electrical Controls Estimator-Engineer",
-      "location": "Romeoville, IL",
-      "link": "https://www.indeed.com/viewjob?jk=b61bb28c407c6867",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-24"
-    },
-    {
-      "company": "DiCon Fiberoptics, Inc.",
-      "role": "Photonics Engineer",
-      "location": "Richmond, CA 94804",
-      "link": "https://www.indeed.com/viewjob?jk=660f67fba3626ae3",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-24"
-    },
-    {
-      "company": "Vertilite Inc.",
-      "role": "Research scientist InP laser designer",
-      "location": "San Jose, CA 95131",
-      "link": "https://www.indeed.com/viewjob?jk=fcf6e5dc64d966bb",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-06-24"
-    },
-    {
       "company": "Black & Veatch Family of Companies",
       "role": "Associate Instrumentation & Controls Engineer - Hydropower",
       "location": "Overland Park, KS",
@@ -5986,5 +5909,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-06-24T09:44:21.737682+00:00"
+  "last_tailored": "2026-06-24T14:48:01.874126+00:00"
 }
