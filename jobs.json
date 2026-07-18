@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-18T02:55:46.665743+00:00",
-  "total": 568,
+  "updated": "2026-07-18T08:01:25.411694+00:00",
+  "total": 558,
   "urgent_count": 15,
   "blocked_count": 2,
   "jobs": [
@@ -39,45 +39,12 @@
     },
     {
       "company": "Google",
-      "role": "Silicon Design Verification Engineer,...",
+      "role": "CAD/PCB Design Engineer, Pixel Phones",
       "location": "United States",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
-      "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-07-18"
-    },
-    {
-      "company": "Google",
-      "role": "Design Verification Engineer, TPU Clo...",
-      "location": "United States",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-07-18"
-    },
-    {
-      "company": "Google",
-      "role": "Physical Design Engineer, Cloud",
-      "location": "United States",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-07-18"
-    },
-    {
-      "company": "Apple",
-      "role": "GPU Physical Design Engineer, STA/Timing",
-      "location": "Austin",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "ASIC",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-07-18"
     },
@@ -215,7 +182,18 @@
     },
     {
       "company": "Google",
-      "role": "RTL Design Engineer, TPU",
+      "role": "Firmware Engineer III",
+      "location": "United States",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-07-18"
+    },
+    {
+      "company": "Google",
+      "role": "RTL Design Engineer, Machine Learning...",
       "location": "United States",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
@@ -226,23 +204,12 @@
     },
     {
       "company": "Google",
-      "role": "RTL Design Engineer, TPU Compute",
+      "role": "Firmware Engineer, Modem Access Strat...",
       "location": "United States",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-07-18"
-    },
-    {
-      "company": "Google",
-      "role": "TPU PCIe RTL Design Engineer",
-      "location": "United States",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
+      "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-07-18"
     },
@@ -261,28 +228,6 @@
       "company": "Microsoft",
       "role": "Firmware Engineer II",
       "location": "Redmond, Washingt...",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-07-18"
-    },
-    {
-      "company": "Apple",
-      "role": "SoC Physical Design Engineer, PnR",
-      "location": "Austin",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "ASIC",
-      "urgent": false,
-      "date_added": "2026-07-18"
-    },
-    {
-      "company": "Apple",
-      "role": "FPGA Design Engineer - Instrument Eng...",
-      "location": "San Diego",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
@@ -441,17 +386,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-07-18"
-    },
-    {
-      "company": "Apple",
-      "role": "Firmware Engineer",
-      "location": "Cupertino",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-07-18"
     },
@@ -896,34 +830,12 @@
       "date_added": "2026-07-18"
     },
     {
-      "company": "Apple",
-      "role": "Firmware Security Researcher, SEAR",
-      "location": "Cupertino",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-07-18"
-    },
-    {
       "company": "Snap",
       "role": "Embedded Systems Security Engineer",
       "location": "San Diego, Califo...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-07-18"
-    },
-    {
-      "company": "Apple",
-      "role": "Wi-Fi Firmware Development Engineer, ...",
-      "location": "Cupertino",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
       "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-07-18"
@@ -995,13 +907,13 @@
       "date_added": "2026-07-18"
     },
     {
-      "company": "Apple",
-      "role": "iPhone Analog System EE",
-      "location": "Cupertino",
+      "company": "Google",
+      "role": "Silicon Validation Engineer, Google C...",
+      "location": "United States",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
-      "cat": "Analog",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-07-18"
     },
@@ -1017,32 +929,10 @@
       "date_added": "2026-07-18"
     },
     {
-      "company": "Apple",
-      "role": "Silicon Validation Engineering Progra...",
-      "location": "Cupertino",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-07-18"
-    },
-    {
       "company": "Cadence",
       "role": "Product Engineer (Analog Circuit Design)",
       "location": "SAN JOSE",
       "link": "Analog Circuit Design",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "Analog",
-      "urgent": false,
-      "date_added": "2026-07-18"
-    },
-    {
-      "company": "Apple",
-      "role": "DDR Mixed-Signal Circuit Design Engineer",
-      "location": "San Diego",
-      "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
       "cat": "Analog",
@@ -6261,5 +6151,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-07-18T02:55:53.621604+00:00"
+  "last_tailored": "2026-07-18T08:01:35.510454+00:00"
 }
