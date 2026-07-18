@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-18T08:01:25.411694+00:00",
-  "total": 558,
+  "updated": "2026-07-18T13:34:49.786059+00:00",
+  "total": 560,
   "urgent_count": 15,
   "blocked_count": 2,
   "jobs": [
@@ -39,7 +39,29 @@
     },
     {
       "company": "Google",
-      "role": "CAD/PCB Design Engineer, Pixel Phones",
+      "role": "Silicon Physical Design Engineer",
+      "location": "United States",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "ASIC",
+      "urgent": false,
+      "date_added": "2026-07-18"
+    },
+    {
+      "company": "Google",
+      "role": "Silicon Product and Failure Analysis ...",
+      "location": "United States",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-07-18"
+    },
+    {
+      "company": "Google",
+      "role": "Hardware Engineer",
       "location": "United States",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
@@ -182,18 +204,7 @@
     },
     {
       "company": "Google",
-      "role": "Firmware Engineer III",
-      "location": "United States",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-07-18"
-    },
-    {
-      "company": "Google",
-      "role": "RTL Design Engineer, Machine Learning...",
+      "role": "RTL Design Engineer, TPU and ML",
       "location": "United States",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
@@ -204,12 +215,23 @@
     },
     {
       "company": "Google",
-      "role": "Firmware Engineer, Modem Access Strat...",
+      "role": "RTL Design Engineer, TPU Integration ...",
       "location": "United States",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
-      "cat": "FPGA",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-07-18"
+    },
+    {
+      "company": "Google",
+      "role": "ASIC Formal Verification Engineer, TP...",
+      "location": "United States",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "DV",
       "urgent": false,
       "date_added": "2026-07-18"
     },
@@ -6151,5 +6173,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-07-18T08:01:35.510454+00:00"
+  "last_tailored": "2026-07-18T13:34:58.588684+00:00"
 }
