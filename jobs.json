@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-26T13:43:10.850502+00:00",
-  "total": 572,
+  "updated": "2026-07-26T19:19:55.301692+00:00",
+  "total": 560,
   "urgent_count": 14,
   "blocked_count": 0,
   "jobs": [
@@ -34,28 +34,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-07-26"
-    },
-    {
-      "company": "Google",
-      "role": "Design Verification Engineer, TPU Clo...",
-      "location": "United States",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-07-26"
-    },
-    {
-      "company": "Google",
-      "role": "DFT Engineer, Google Cloud",
-      "location": "United States",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "ASIC",
       "urgent": false,
       "date_added": "2026-07-26"
     },
@@ -270,23 +248,34 @@
     },
     {
       "company": "Google",
-      "role": "ASIC Design Verification Engineer, Go...",
+      "role": "Firmware Engineer, Modem Access Strat...",
       "location": "United States",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
-      "cat": "DV",
+      "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-07-26"
     },
     {
       "company": "Google",
-      "role": "ASIC Design Verification Engineer, TP...",
+      "role": "Embedded Firmware Engineering Manager...",
       "location": "United States",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
-      "cat": "DV",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-07-26"
+    },
+    {
+      "company": "Google",
+      "role": "Modem Power Firmware Engineer, Pixel",
+      "location": "United States",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-07-26"
     },
@@ -6174,127 +6163,6 @@
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-07-26"
-    },
-    {
-      "company": "DMC Engineering",
-      "role": "Entry Level Embedded Engineer",
-      "location": "Chicago, IL",
-      "link": "https://www.indeed.com/viewjob?jk=44f413438fa73ed0",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-07-26"
-    },
-    {
-      "company": "CADERA SYSTEMS LLC",
-      "role": "Hardware Design Verification/Test Engineer",
-      "location": "San Jose, CA 95134",
-      "link": "https://www.indeed.com/viewjob?jk=d9d71710f3e99b21",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-07-26"
-    },
-    {
-      "company": "GMEP Engineers",
-      "role": "Entry Level Electrical Engineer",
-      "location": "Lake Forest, CA 92630",
-      "link": "https://www.indeed.com/viewjob?jk=90869c37f4ac91d5",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-07-26"
-    },
-    {
-      "company": "Enviromatic Systems, Inc. - D/FW",
-      "role": "Applications Engineer",
-      "location": "Buford, GA 30518",
-      "link": "https://www.indeed.com/viewjob?jk=dbe1d6865dc57adb",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-07-26"
-    },
-    {
-      "company": "AXN Engineering",
-      "role": "ELECTRICAL COMMISSIONING ENGINEER / LEAD",
-      "location": "Youngstown, OH",
-      "link": "https://www.indeed.com/viewjob?jk=307d497cd0ba9129",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-07-26"
-    },
-    {
-      "company": "Luxima Technology",
-      "role": "Staff Analog Design Engineer",
-      "location": "Arcadia, CA 91006",
-      "link": "https://www.indeed.com/viewjob?jk=b5af1547ae352c17",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "Analog",
-      "urgent": false,
-      "date_added": "2026-07-26"
-    },
-    {
-      "company": "Cyient",
-      "role": "Analog Design Engineer \u2013 Onsite",
-      "location": "Endicott, NY 13763",
-      "link": "https://www.indeed.com/viewjob?jk=a0a29d995059f29d",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "Analog",
-      "urgent": false,
-      "date_added": "2026-07-26"
-    },
-    {
-      "company": "Apollo Professional Solutions, Inc.",
-      "role": "Electrical Engineer I",
-      "location": "Florence, SC 29501",
-      "link": "https://www.indeed.com/viewjob?jk=432739a60524de71",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-07-26"
-    },
-    {
-      "company": "Carolina Poly",
-      "role": "Electrical Engineer",
-      "location": "Chester, SC 29706",
-      "link": "https://www.indeed.com/viewjob?jk=faab6dcb5b388a57",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-07-26"
-    },
-    {
-      "company": "TechServ Consulting & Training",
-      "role": "Engineer",
-      "location": "Tyler, TX",
-      "link": "https://www.indeed.com/viewjob?jk=e89ec7485614468b",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-07-26"
-    },
-    {
-      "company": "OSCO Controls",
-      "role": "Controls Design Engineer",
-      "location": "Oklahoma City, OK 73179",
-      "link": "https://www.indeed.com/viewjob?jk=7c2d8e4894596134",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-07-26"
     }
   ],
   "sources": [
@@ -6305,5 +6173,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-07-26T13:43:19.757585+00:00"
+  "last_tailored": "2026-07-26T19:20:05.231518+00:00"
 }
