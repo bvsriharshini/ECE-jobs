@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-26T03:36:52.245671+00:00",
-  "total": 574,
+  "updated": "2026-07-26T08:36:45.261973+00:00",
+  "total": 579,
   "urgent_count": 14,
   "blocked_count": 0,
   "jobs": [
@@ -34,17 +34,6 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "DV",
-      "urgent": false,
-      "date_added": "2026-07-26"
-    },
-    {
-      "company": "Google",
-      "role": "Silicon Hardware Emulation Engineer, ...",
-      "location": "United States",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
       "urgent": false,
       "date_added": "2026-07-26"
     },
@@ -236,17 +225,6 @@
       "date_added": "2026-07-26"
     },
     {
-      "company": "Amazon Kuiper Manufacturing Enterprises LLC",
-      "role": "Hardware Engineer, Customer Terminals...",
-      "location": "Redmond, WA",
-      "link": "#",
-      "source": "zapplyjobs Hardware 2026",
-      "sponsor": "yes",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-07-26"
-    },
-    {
       "company": "ByteDance",
       "role": "ASIC Design Engineer Graduate (Video ...",
       "location": "San Jose, California",
@@ -379,12 +357,45 @@
       "date_added": "2026-07-26"
     },
     {
+      "company": "Apple",
+      "role": "FPGA Design Engineer - Instrument Eng...",
+      "location": "San Diego",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-07-26"
+    },
+    {
       "company": "Emerson Electric",
       "role": "Associate Field Service Engineer",
       "location": "Charlotte, NC, Un...",
       "link": "#",
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-07-26"
+    },
+    {
+      "company": "Apple",
+      "role": "Firmware Engineer",
+      "location": "San Diego",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-07-26"
+    },
+    {
+      "company": "Apple",
+      "role": "Wireless SoC Silicon Validation Engin...",
+      "location": "San Diego",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
       "cat": "HW",
       "urgent": false,
       "date_added": "2026-07-26"
@@ -852,6 +863,17 @@
       "date_added": "2026-07-26"
     },
     {
+      "company": "Apple",
+      "role": "Firmware Security Researcher, SEAR",
+      "location": "Cupertino",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-07-26"
+    },
+    {
       "company": "Snap",
       "role": "Embedded Systems Security Engineer",
       "location": "San Diego, Califo...",
@@ -870,6 +892,17 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "yes",
       "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-07-26"
+    },
+    {
+      "company": "Apple",
+      "role": "Wi-Fi Firmware Development Engineer, ...",
+      "location": "Cupertino",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "FPGA",
       "urgent": false,
       "date_added": "2026-07-26"
     },
@@ -925,6 +958,17 @@
       "source": "zapplyjobs Hardware 2026",
       "sponsor": "open",
       "cat": "DV",
+      "urgent": false,
+      "date_added": "2026-07-26"
+    },
+    {
+      "company": "Apple",
+      "role": "Silicon Validation Engineer",
+      "location": "Waltham",
+      "link": "#",
+      "source": "zapplyjobs Hardware 2026",
+      "sponsor": "yes",
+      "cat": "HW",
       "urgent": false,
       "date_added": "2026-07-26"
     },
@@ -3273,31 +3317,9 @@
     },
     {
       "company": "IMC Trading",
-      "role": "2027 - FPGA Intern - IIT Bombay",
-      "location": "Amsterdam, Netherlands; Mumbai, India",
-      "link": "https://job-boards.eu.greenhouse.io/imc/jobs/4860306101",
-      "source": "Greenhouse",
-      "sponsor": "open",
-      "cat": "FPGA",
-      "urgent": false,
-      "date_added": "2026-07-26"
-    },
-    {
-      "company": "IMC Trading",
       "role": "2027 - Software Engineering Intern - BITS Pilani",
       "location": "Mumbai, India",
       "link": "https://job-boards.eu.greenhouse.io/imc/jobs/4917549101",
-      "source": "Greenhouse",
-      "sponsor": "open",
-      "cat": "SW",
-      "urgent": false,
-      "date_added": "2026-07-26"
-    },
-    {
-      "company": "IMC Trading",
-      "role": "2027 - Software Engineering Intern - IIT Bombay",
-      "location": "Mumbai, India",
-      "link": "https://job-boards.eu.greenhouse.io/imc/jobs/4860319101",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "SW",
@@ -3362,8 +3384,8 @@
     {
       "company": "IMC Trading",
       "role": "Data Center Engineer",
-      "location": "Mumbai, India",
-      "link": "https://job-boards.eu.greenhouse.io/imc/jobs/4912548101",
+      "location": "United States",
+      "link": "https://job-boards.eu.greenhouse.io/imc/jobs/4869766101",
       "source": "Greenhouse",
       "sponsor": "open",
       "cat": "HW",
@@ -6198,6 +6220,83 @@
       "date_added": "2026-07-26"
     },
     {
+      "company": "Fidus Systems",
+      "role": "Embedded Software Designer",
+      "location": "Minneapolis, MN",
+      "link": "https://www.indeed.com/viewjob?jk=7e1c85d4af6bcce7",
+      "source": "Indeed",
+      "sponsor": "open",
+      "cat": "FPGA",
+      "urgent": false,
+      "date_added": "2026-07-26"
+    },
+    {
+      "company": "GoHypersonic Incorporated",
+      "role": "Senior Software Engineer (10+ yrs exp)",
+      "location": "Dayton, OH 45402",
+      "link": "https://www.indeed.com/viewjob?jk=b991a5c6a6cd1403",
+      "source": "Indeed",
+      "sponsor": "open",
+      "cat": "SW",
+      "urgent": false,
+      "date_added": "2026-07-26"
+    },
+    {
+      "company": "Hanna Cylinders LLC",
+      "role": "Product Engineer - Hydraulic Snubbers and Nuclear Actuation",
+      "location": "Pleasant Prairie, WI 53158",
+      "link": "https://www.indeed.com/viewjob?jk=b68412a60b253092",
+      "source": "Indeed",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-07-26"
+    },
+    {
+      "company": "ARASAN CHIP SYSTEMS INC",
+      "role": "ASIC Architect",
+      "location": "Remote",
+      "link": "https://www.indeed.com/viewjob?jk=decd0fd8a1ab8a12",
+      "source": "Indeed",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-07-26"
+    },
+    {
+      "company": "Meridian Infotech LLC",
+      "role": "Design Verification Engineer",
+      "location": "San Jose, CA 95139",
+      "link": "https://www.indeed.com/viewjob?jk=3a7cf666403178b3",
+      "source": "Indeed",
+      "sponsor": "open",
+      "cat": "DV",
+      "urgent": false,
+      "date_added": "2026-07-26"
+    },
+    {
+      "company": "Med Device QA",
+      "role": "Principal Electrical Engineer, ASIC Lead (Extensive ASIC Experience Required)",
+      "location": "San Diego, CA 92121",
+      "link": "https://www.indeed.com/viewjob?jk=41ce1d91c35649f8",
+      "source": "Indeed",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-07-26"
+    },
+    {
+      "company": "CADERA SYSTEMS LLC",
+      "role": "Hardware Design Verification/Test Engineer",
+      "location": "San Jose, CA 95134",
+      "link": "https://www.indeed.com/viewjob?jk=d9d71710f3e99b21",
+      "source": "Indeed",
+      "sponsor": "open",
+      "cat": "DV",
+      "urgent": false,
+      "date_added": "2026-07-26"
+    },
+    {
       "company": "Cushing Terrell",
       "role": "Alternative Energy Engineer in Training",
       "location": "Missoula, MT 59802",
@@ -6220,10 +6319,10 @@
       "date_added": "2026-07-26"
     },
     {
-      "company": "Enviromatic Systems, Inc. - D/FW",
-      "role": "Applications Engineer",
-      "location": "Buford, GA 30518",
-      "link": "https://www.indeed.com/viewjob?jk=dbe1d6865dc57adb",
+      "company": "AXN Engineering",
+      "role": "ELECTRICAL COMMISSIONING ENGINEER / LEAD",
+      "location": "Youngstown, OH",
+      "link": "https://www.indeed.com/viewjob?jk=307d497cd0ba9129",
       "source": "Indeed",
       "sponsor": "open",
       "cat": "HW",
@@ -6242,72 +6341,6 @@
       "date_added": "2026-07-26"
     },
     {
-      "company": "Pinnacle Staffing",
-      "role": "Electrical Engineer \u2013 Data Center Design (EPC)",
-      "location": "Houston, TX 77072",
-      "link": "https://www.indeed.com/viewjob?jk=277ee894484778fd",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-07-26"
-    },
-    {
-      "company": "OSCO Controls",
-      "role": "Controls Design Engineer",
-      "location": "Oklahoma City, OK 73179",
-      "link": "https://www.indeed.com/viewjob?jk=7c2d8e4894596134",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-07-26"
-    },
-    {
-      "company": "4 Corner Resources",
-      "role": "Controls Design Engineer",
-      "location": "Appleton, WI 54911",
-      "link": "https://www.indeed.com/viewjob?jk=49ffebe273d051b1",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-07-26"
-    },
-    {
-      "company": "Glint Tech Solutions LLC",
-      "role": "Facilities Electrical Engineer",
-      "location": "Phoenix, AZ",
-      "link": "https://www.indeed.com/viewjob?jk=de3fa59717db86e1",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-07-26"
-    },
-    {
-      "company": "Carolina Poly",
-      "role": "Electrical Engineer",
-      "location": "Chester, SC 29706",
-      "link": "https://www.indeed.com/viewjob?jk=faab6dcb5b388a57",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-07-26"
-    },
-    {
-      "company": "Asiacom Americas",
-      "role": "Electrical Power Engineer",
-      "location": "Sterling, VA 20166",
-      "link": "https://www.indeed.com/viewjob?jk=68a39890aa04b84f",
-      "source": "Indeed",
-      "sponsor": "open",
-      "cat": "HW",
-      "urgent": false,
-      "date_added": "2026-07-26"
-    },
-    {
       "company": "TechServ Consulting & Training",
       "role": "Engineer",
       "location": "Tyler, TX",
@@ -6315,6 +6348,28 @@
       "source": "Indeed",
       "sponsor": "open",
       "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-07-26"
+    },
+    {
+      "company": "Applied Vision Corp.",
+      "role": "Electrical Engineer",
+      "location": "Cuyahoga Falls, OH 44223",
+      "link": "https://www.indeed.com/viewjob?jk=14f9f240fd6103fc",
+      "source": "Indeed",
+      "sponsor": "open",
+      "cat": "HW",
+      "urgent": false,
+      "date_added": "2026-07-26"
+    },
+    {
+      "company": "Cyient",
+      "role": "Analog Design Engineer \u2013 Onsite",
+      "location": "Endicott, NY 13763",
+      "link": "https://www.indeed.com/viewjob?jk=a0a29d995059f29d",
+      "source": "Indeed",
+      "sponsor": "open",
+      "cat": "Analog",
       "urgent": false,
       "date_added": "2026-07-26"
     }
@@ -6327,5 +6382,5 @@
     "LinkedIn",
     "Indeed"
   ],
-  "last_tailored": "2026-07-26T03:37:05.472635+00:00"
+  "last_tailored": "2026-07-26T08:36:55.198811+00:00"
 }
